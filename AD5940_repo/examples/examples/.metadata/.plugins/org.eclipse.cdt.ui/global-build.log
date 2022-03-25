@@ -1,0 +1,947 @@
+22:46:33 **** Updating project AD5940_SPI: project created
+Project updated successfully
+
+22:46:33 **** Updating project AD5940_SPI: project refresh
+Error loading RTE configuration file 'AD5940_SPI':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_SPI':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:33 **** Updating project AD5940_Reset: project created
+Project updated successfully
+
+22:46:33 **** Updating project AD5940_Reset: project refresh
+Error loading RTE configuration file 'AD5940_Reset':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Reset':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:33 **** Updating project AD5940_Sequencer: project created
+Project updated successfully
+
+22:46:33 **** Updating project AD5940_Sequencer: project refresh
+Error loading RTE configuration file 'AD5940_Sequencer':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Sequencer':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:33 **** Updating project AD5940_ADC: project created
+Project updated successfully
+
+22:46:33 **** Updating project AD5940_ADC: project refresh
+Error loading RTE configuration file 'AD5940_ADC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ADC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_Temperature: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_Temperature: project refresh
+Error loading RTE configuration file 'AD5940_Temperature':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Temperature':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_DFT: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_DFT: project refresh
+Error loading RTE configuration file 'AD5940_DFT':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_DFT':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_LPDAC: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_LPDAC: project refresh
+Error loading RTE configuration file 'AD5940_LPDAC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_LPDAC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_LPLoop: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_LPLoop: project refresh
+Error loading RTE configuration file 'AD5940_LPLoop':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_LPLoop':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_WG: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_WG: project refresh
+Error loading RTE configuration file 'AD5940_WG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_WG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_HSDACCal: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_HSDACCal: project refresh
+Error loading RTE configuration file 'AD5940_HSDACCal':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_HSDACCal':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_BATImpedance: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_BATImpedance: project refresh
+Error loading RTE configuration file 'AD5940_BATImpedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BATImpedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_EDA: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_EDA: project refresh
+Error loading RTE configuration file 'AD5940_EDA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_EDA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_ECG: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_ECG: project refresh
+Error loading RTE configuration file 'AD5940_ECG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ECG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_BIA: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_BIA: project refresh
+Error loading RTE configuration file 'AD5940_BIA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BIA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_BioElec: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_BioElec: project refresh
+Error loading RTE configuration file 'AD5940_BioElec':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BioElec':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_BIOZ-2Wire: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_BIOZ-2Wire: project refresh
+Error loading RTE configuration file 'AD5940_BIOZ-2Wire':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BIOZ-2Wire':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_Impedance: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_Impedance: project refresh
+Error loading RTE configuration file 'AD5940_Impedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Impedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_ECSensEIS: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_ECSensEIS: project refresh
+Error loading RTE configuration file 'AD5940_ECSensEIS':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ECSensEIS':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_Amperometric: project created
+Project updated successfully
+
+22:46:34 **** Updating project AD5940_Amperometric: project refresh
+Error loading RTE configuration file 'AD5940_Amperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Amperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:34 **** Updating project AD5940_ChronoAmperometric: project created
+Project updated successfully
+
+22:46:35 **** Updating project AD5940_ChronoAmperometric: project refresh
+Error loading RTE configuration file 'AD5940_ChronoAmperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ChronoAmperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:35 **** Updating project AD5940_Ramp: project created
+Project updated successfully
+
+22:46:35 **** Updating project AD5940_Ramp: project refresh
+Error loading RTE configuration file 'AD5940_Ramp':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Ramp':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:46:35 **** Updating project AD5940_SqrWaveVoltmmetry: project created
+Project updated successfully
+
+22:46:35 **** Updating project AD5940_SqrWaveVoltmmetry: project refresh
+Error loading RTE configuration file 'AD5940_SqrWaveVoltmmetry':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_SqrWaveVoltmmetry':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_ADC: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ADC/ADICUP3029/AD5940_ADC.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ADC/ADICUP3029/AD5940_ADC.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Amperometric: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Amperometric/ADICUP3029/AD5940_Amperometric.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Amperometric/ADICUP3029/AD5940_Amperometric.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_BATImpedance: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BATImpedance/ADICUP3029/AD5940_BATImpedance.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BATImpedance/ADICUP3029/AD5940_BATImpedance.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_BIA: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BIA/ADICUP3029/AD5940_BIA.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BIA/ADICUP3029/AD5940_BIA.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_BIOZ-2Wire: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BIOZ-2Wire/ADICUP3029/AD5940_BIOZ-2Wire.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BIOZ-2Wire/ADICUP3029/AD5940_BIOZ-2Wire.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_BioElec: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BioElec/ADICUP3029/AD5940_BioElec.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_BioElec/ADICUP3029/AD5940_BioElec.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_ChronoAmperometric: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ChronoAmperometric/ADICUP3029/AD5940_ChronoAmperometric.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ChronoAmperometric/ADICUP3029/AD5940_ChronoAmperometric.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_DFT: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_DFT/ADICUP3029/AD5940_DFT.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_DFT/ADICUP3029/AD5940_DFT.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_ECG: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ECG/ADICUP3029/AD5940_ECG.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ECG/ADICUP3029/AD5940_ECG.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_ECSensEIS: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ECSns_EIS/ADICUP3029/AD5940_ECSensEIS.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_ECSns_EIS/ADICUP3029/AD5940_ECSensEIS.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_EDA: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_EDA/ADICUP3029/AD5940_EDA.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_EDA/ADICUP3029/AD5940_EDA.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_HSDACCal: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_HSDACCal/ADICUP3029/AD5940_HSDACCal.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_HSDACCal/ADICUP3029/AD5940_HSDACCal.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Impedance: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/AD5940_Impedance.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/AD5940_Impedance.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_LPDAC: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_LPDAC/ADICUP3029/AD5940_LPDAC.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_LPDAC/ADICUP3029/AD5940_LPDAC.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_LPLoop: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_LPLoop/ADICUP3029/AD5940_LPLoop.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_LPLoop/ADICUP3029/AD5940_LPLoop.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Ramp: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Ramp/ADICUP3029/AD5940_Ramp.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Ramp/ADICUP3029/AD5940_Ramp.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Reset: initial project load
+Error loading RTE configuration file 'AD5940_Reset':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Reset':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_SPI: initial project load
+Error loading RTE configuration file 'AD5940_SPI':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_SPI':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Sequencer: initial project load
+Error loading RTE configuration file 'AD5940_Sequencer':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Sequencer':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Temperature: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Temperature/ADICUP3029/AD5940_Temperature.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Temperature/ADICUP3029/AD5940_Temperature.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_WG: initial project load
+Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_WG/ADICUP3029/AD5940_WG.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_WG/ADICUP3029/AD5940_WG.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_SPI: project created
+Project updated successfully
+
+22:47:18 **** Updating project AD5940_SPI: project refresh
+Error loading RTE configuration file 'AD5940_SPI.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_SPI.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Reset: project created
+Project updated successfully
+
+22:47:18 **** Updating project AD5940_Reset: project refresh
+Error loading RTE configuration file 'AD5940_Reset.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Reset.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Sequencer: project created
+Project updated successfully
+
+22:47:18 **** Updating project AD5940_Sequencer: project refresh
+Error loading RTE configuration file 'AD5940_Sequencer.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Sequencer.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_ADC: project created
+Project updated successfully
+
+22:47:18 **** Updating project AD5940_ADC: project refresh
+Error loading RTE configuration file 'AD5940_ADC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ADC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_Temperature: project created
+Project updated successfully
+
+22:47:18 **** Updating project AD5940_Temperature: project refresh
+Error loading RTE configuration file 'AD5940_Temperature':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Temperature':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:18 **** Updating project AD5940_SPI: Configuration file [AD5940_SPI.rteconfig] is saved
+Error loading RTE configuration file 'AD5940_SPI.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_SPI.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_DFT: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_DFT: project refresh
+Error loading RTE configuration file 'AD5940_DFT':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_DFT':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_Reset: Configuration file [AD5940_Reset.rteconfig] is saved
+Error loading RTE configuration file 'AD5940_Reset.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Reset.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_Sequencer: Configuration file [AD5940_Sequencer.rteconfig] is saved
+Error loading RTE configuration file 'AD5940_Sequencer.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Sequencer.rteconfig':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_LPDAC: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_LPDAC: project refresh
+Error loading RTE configuration file 'AD5940_LPDAC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_LPDAC':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_LPLoop: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_LPLoop: project refresh
+Error loading RTE configuration file 'AD5940_LPLoop':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_LPLoop':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_WG: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_WG: project refresh
+Error loading RTE configuration file 'AD5940_WG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_WG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_HSDACCal: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_HSDACCal: project refresh
+Error loading RTE configuration file 'AD5940_HSDACCal':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_HSDACCal':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_BATImpedance: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_BATImpedance: project refresh
+Error loading RTE configuration file 'AD5940_BATImpedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BATImpedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_EDA: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_EDA: project refresh
+Error loading RTE configuration file 'AD5940_EDA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_EDA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_ECG: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_ECG: project refresh
+Error loading RTE configuration file 'AD5940_ECG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ECG':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_BIA: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_BIA: project refresh
+Error loading RTE configuration file 'AD5940_BIA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BIA':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_BioElec: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_BioElec: project refresh
+Error loading RTE configuration file 'AD5940_BioElec':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BioElec':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_BIOZ-2Wire: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_BIOZ-2Wire: project refresh
+Error loading RTE configuration file 'AD5940_BIOZ-2Wire':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_BIOZ-2Wire':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_Impedance: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_Impedance: project refresh
+Error loading RTE configuration file 'AD5940_Impedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Impedance':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_ECSensEIS: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_ECSensEIS: project refresh
+Error loading RTE configuration file 'AD5940_ECSensEIS':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ECSensEIS':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_Amperometric: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_Amperometric: project refresh
+Error loading RTE configuration file 'AD5940_Amperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Amperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_ChronoAmperometric: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_ChronoAmperometric: project refresh
+Error loading RTE configuration file 'AD5940_ChronoAmperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_ChronoAmperometric':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_Ramp: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_Ramp: project refresh
+Error loading RTE configuration file 'AD5940_Ramp':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_Ramp':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:47:19 **** Updating project AD5940_SqrWaveVoltmmetry: project created
+Project updated successfully
+
+22:47:19 **** Updating project AD5940_SqrWaveVoltmmetry: project refresh
+Error loading RTE configuration file 'AD5940_SqrWaveVoltmmetry':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+Project update failed
+Error updating RTE project: Error loading RTE configuration file 'AD5940_SqrWaveVoltmmetry':
+ADuCM3029 - Device is missing. Pack is not installed: AnalogDevices.ADuCM302x_DFP
+
+22:48:12 **** Updating project AD5940_Amperometric: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_Ramp: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_LPDAC: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_SqrWaveVoltmmetry: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_Sequencer: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_ADC: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_EDA: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_ECG: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_HSDACCal: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_BATImpedance: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_Temperature: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_ChronoAmperometric: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_Reset: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_SPI: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_BioElec: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_BIOZ-2Wire: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_LPLoop: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_DFT: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:12 **** Updating project AD5940_Impedance: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:13 **** Updating project AD5940_ECSensEIS: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:13 **** Updating project AD5940_WG: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:48:13 **** Updating project AD5940_BIA: CMSIS-Pack(s) are installed or removed
+Project updated successfully
+
+22:50:06 **** Updating project AD5940_ADC: initial project load
+Project updated successfully
+
+22:50:06 **** Updating project AD5940_Amperometric: initial project load
+Project updated successfully
+
+22:50:06 **** Updating project AD5940_BATImpedance: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_BIA: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_BIOZ-2Wire: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_BioElec: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_ChronoAmperometric: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_DFT: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_ECG: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_ECSensEIS: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_EDA: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_HSDACCal: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_Impedance: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_LPDAC: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_LPLoop: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_Ramp: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_Reset: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_SPI: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_Sequencer: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_SqrWaveVoltmmetry: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_Temperature: initial project load
+Project updated successfully
+
+22:50:07 **** Updating project AD5940_WG: initial project load
+Project updated successfully
+
+22:55:44 **** Updating project AD5940_ADC: initial project load
+Project updated successfully
+
+22:55:44 **** Updating project AD5940_Amperometric: initial project load
+Project updated successfully
+
+22:55:44 **** Updating project AD5940_BATImpedance: initial project load
+Project updated successfully
+
+22:55:44 **** Updating project AD5940_BIA: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_BIOZ-2Wire: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_BioElec: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_ChronoAmperometric: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_DFT: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_ECG: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_ECSensEIS: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_EDA: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_HSDACCal: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_Impedance: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_LPDAC: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_LPLoop: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_Ramp: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_Reset: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_SPI: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_Sequencer: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_SqrWaveVoltmmetry: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_Temperature: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_WG: initial project load
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_SPI: project created
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_SPI: project refresh
+Project updated successfully
+
+22:55:45 **** Updating project AD5940_Reset: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Reset: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Reset: Configuration file [AD5940_Reset.rteconfig] is saved
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Sequencer: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Sequencer: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_SPI: Configuration file [AD5940_SPI.rteconfig] is saved
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Sequencer: Configuration file [AD5940_Sequencer.rteconfig] is saved
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_ADC: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_ADC: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Temperature: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Temperature: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_DFT: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_DFT: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_LPDAC: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_LPDAC: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_LPLoop: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_LPLoop: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_WG: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_WG: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_HSDACCal: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_HSDACCal: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BATImpedance: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BATImpedance: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_EDA: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_EDA: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_ECG: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_ECG: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BIA: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BIA: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BioElec: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BioElec: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BIOZ-2Wire: project created
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_BIOZ-2Wire: project refresh
+Project updated successfully
+
+22:55:46 **** Updating project AD5940_Impedance: project created
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_Impedance: project refresh
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_ECSensEIS: project created
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_ECSensEIS: project refresh
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_Amperometric: project created
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_Amperometric: project refresh
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_ChronoAmperometric: project created
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_ChronoAmperometric: project refresh
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_Ramp: project created
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_Ramp: project refresh
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_SqrWaveVoltmmetry: project created
+Project updated successfully
+
+22:55:47 **** Updating project AD5940_SqrWaveVoltmmetry: project refresh
+Project updated successfully
+

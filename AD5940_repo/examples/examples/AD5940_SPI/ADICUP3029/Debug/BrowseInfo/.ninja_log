@@ -1,0 +1,11 @@
+# ninja log v5
+38	536	6695160050000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/application/main.xcl	a1b77558ae22ab03
+1	567	6695160050000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/application/AD5940_SPI.xcl	219c877eb98d81f
+29	606	6695160050000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ad5940.xcl	ed083260c88784d5
+35	646	6695160050000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ADICUP3029Port.xcl	5da97be9595594e5
+655	795	6695160060350983	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ADICUP3029Port.pbi	2d943c6040d8eae0
+545	803	6695160060507201	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/application/main.pbi	bbd5b449f4266b59
+575	824	6695160060663385	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/application/AD5940_SPI.pbi	263d278e8a8c348a
+613	880	6695160061252176	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ad5940.pbi	8b35684bef2180cc
+885	1007	6695160062574621	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/AD5940_SPI.pbd	5d1c4187c866d9ef
+1016	3459	6695160086718863	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_SPI/ADICUP3029/Debug/BrowseInfo/AD5940_SPI.pbw	85bb237b6fe596e

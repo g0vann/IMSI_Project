@@ -1,0 +1,71 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\ad5940lib\ad5940.c" -xcl_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.xcl" -macro_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\ad5940lib\ad5940.c" -D CHIPSEL_594X -D _RTE_ -o "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\Obj\AD5940Lib" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\\" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\..\..\ad5940lib\\" --cpu_mode thumb -Ol -I "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\CMSIS\Core\Include\\" --predef_macros "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.tmp"
+  rspfile_name = C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.xcl.rsp
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\ADICUP3029Port.c" -xcl_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.xcl" -macro_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\ADICUP3029Port.c" -D CHIPSEL_594X -D _RTE_ -o "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\Obj\AD5940Lib" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\\" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\..\..\ad5940lib\\" --cpu_mode thumb -Ol -I "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\CMSIS\Core\Include\\" --predef_macros "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.tmp"
+  rspfile_name = C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.xcl.rsp
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\AD5940_SPI.c" -xcl_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.xcl" -macro_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\AD5940_SPI.c" -D CHIPSEL_594X -D _RTE_ -o "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\Obj\application" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\\" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\..\..\ad5940lib\\" --cpu_mode thumb -Ol -I "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\CMSIS\Core\Include\\" --predef_macros "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.tmp"
+  rspfile_name = C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.xcl.rsp
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\main.c" -xcl_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.xcl" -macro_file "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\main.c" -D CHIPSEL_594X -D _RTE_ -o "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\Obj\application" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\\" -I "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\..\..\ad5940lib\\" --cpu_mode thumb -Ol -I "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\CMSIS\Core\Include\\" --predef_macros "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.tmp"
+  rspfile_name = C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.xcl.rsp
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.pbi : INDEXER C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.xcl |  $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\ad5940lib\ad5940.c
+  flags = "-out=C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.pbi" -f "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.xcl"
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.pbi : INDEXER C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.xcl |  $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\ADICUP3029Port.c
+  flags = "-out=C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.pbi" -f "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.xcl"
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi : INDEXER C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.xcl |  $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\AD5940_SPI.c
+  flags = "-out=C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi" -f "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.xcl"
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.pbi : INDEXER C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.xcl |  $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\main.c
+  flags = "-out=C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.pbi" -f "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.xcl"
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940_SPI.pbw : MAKEBROWSE C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940_SPI.pbd
+  flags = "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940_SPI.pbd" -output "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940_SPI.pbw"
+
+build C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940_SPI.pbd : PDBLINK C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.pbi |  $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.pbi $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi $
+C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.pbi
+  flags = -M "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940_SPI.pbd" "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ad5940.pbi" "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\AD5940Lib\ADICUP3029Port.pbi" "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi" "C$:\Users\giann\Desktop\AD5940$ Repository\ad5940-examples\examples\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\main.pbi"
+

@@ -1,0 +1,18 @@
+# ninja log v5
+7	204	6695162120000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ad5940.xcl	77f38405b253b71c
+11	224	6695162120000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/application/AD5940Main.xcl	a5318e5dfe550a05
+1	239	6695162120000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ADICUP3029Port.xcl	1e28636d77b2cba0
+22	259	6695162120000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/application/main.xcl	2912b720bb8945e2
+27	278	6695162120000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/application/Impedance.xcl	fffb119115d4b460
+15	295	6695162120000000	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	4874c8ea9a43b817
+237	366	6695162125355373	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/application/AD5940Main.pbi	ba10542d2eba432d
+222	407	6695162125824013	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ad5940.pbi	764e8879710d8a72
+292	433	6695162126136432	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/application/Impedance.pbi	96729e47ac46032
+439	488	6695162126605099	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940_Impedance_part1.pbi	bb3ae692e268bb88
+311	580	6695162127542345	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	3ee951b28b6f4216
+254	596	6695162127698575	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940Lib/ADICUP3029Port.pbi	5ef028d619c6da64
+274	711	6695162128792063	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/application/main.pbi	2504b0b7b0ca76ae
+600	731	6695162129104480	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940_Impedance_part0.pbi	3b77444e948046b
+717	842	6695162130198313	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940_Impedance_part2.pbi	36309179d5b11bae
+848	1019	6695162131916311	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940_Impedance.pbd	9a33c61d13926c63
+1027	3187	6695162153161632	C:/Users/giann/Desktop/AD5940 Repository/ad5940-examples/examples/AD5940_Impedance/ADICUP3029/Debug/BrowseInfo/AD5940_Impedance.pbw	f070a75948278f90
