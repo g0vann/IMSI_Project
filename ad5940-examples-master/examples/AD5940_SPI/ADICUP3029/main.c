@@ -17,11 +17,13 @@ uint32_t MCUPlatformInit(void *pCfg);
 
 int main(void)
 {
-  void AD5940_Main(void);
+  void Cicciobello(void);
   MCUPlatformInit(0);
   AD5940_MCUResourceInit(0);
   printf("Hello AD5940-Build Time:%s\n",__TIME__);
-  AD5940_Main();
+  Cicciobello();
+  printf("Secondo giro");
+  Cicciobello();
 }
 
 /* Below functions are used to initialize MCU Platform */
