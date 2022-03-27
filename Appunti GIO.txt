@@ -1,0 +1,5 @@
+Aree di Memoria ADuCM3029: (Rif pag. 22)
+
+-Code Region da 0x0000 0000 a 0x0003 FFFF (256Kb di memoria Flash)
+-SRAM Region da 0x2000 0000 a 0x2004 7FFF qui possiamo scrivere e leggere i dati noi	
+-System Region da 0xE000 0000 a 0xF7FF FFFF
