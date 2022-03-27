@@ -29,11 +29,10 @@
     </project>
     <project>
         <path>$WS_DIR$\AD5940_HSDACCal\ADICUP3029\AD5940_HSDACCal.ewp</path>
-    </project>    
+    </project>
     <project>
         <path>$WS_DIR$\AD5940_BATImpedance\ADICUP3029\AD5940_BATImpedance.ewp</path>
     </project>
-    
     <project>
         <path>$WS_DIR$\AD5940_EDA\ADICUP3029\AD5940_EDA.ewp</path>
     </project>
@@ -66,6 +65,9 @@
     </project>
     <project>
         <path>$WS_DIR$\AD5940_SqrWaveVoltammetry\ADICUP3029\AD5940_SqrWaveVoltmmetry.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Prova\Prova.ewp</path>
     </project>
     <batchBuild>
         <batchDefinition>
