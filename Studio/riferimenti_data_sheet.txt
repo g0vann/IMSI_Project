@@ -1,0 +1,217 @@
+SPI timing specification pag 17 
+
+Pin configuration pag 19
+
+Configurazione registri pag 25
+	AFECON 0X00002000
+	PMBW   0X000022F0
+
+SILICON IDENTIFICATION
+ci sono 2 registri che danno la possibilità di determinare 
+lo stato attuale del "circuito"
+0x00000400	ADIID è sempre 0x4144
+0x00000404	CHIPID cambia con la versione corrente
+
+SYSTEM INIZIALIZATION 
+Direttive da fare ogni volta che il dispositivo viene resettato
+
+   REGISTER ADDRESS      Data
+1.	0x0908		0x02C9
+2.	0x0C08		0x206C
+3.	0x21F0		0x0010
+4.	0x0410		0x02C9
+5.	0x0A28		0x0009
+6.	0x238C		0x0104
+7.	0x0A04		0x4859
+8.	0x0A04		0xF27B
+9.	0x0A00		0x8009
+10.	0x22F0		0x0000
+
+TIA = AMPLIFICATORE DI TRANSIMPEDENZA
+
+LPD = LOW POWER DAC pag 30
+
+Registri LPD pag 32 (molto importante per il nostro caso studio)
+0x00002128 LPDACCON0
+0x00002124 LPDACSW0
+0x00002050 LPREFBUFCON
+0x0000235C SWMUX
+0x00002120 LPDACDAT0
+
+LPTIA = LOW POWER TIA REGISTRI pag 39
+0x000020E4 LPTIASW0
+0x000020EC LPTIACON0
+
+HSDAC = HIGH SPEED DAC pag 42
+
+HSDAC to LPDAC molto importante pag 43
+
+Registri HSDAC pag 45
+0x00002010  HSDACCON
+0x00002048  HSDACDAT
+Calibrazione
+0x00002230 CALDATLOCK
+0x00002260 DACGAIN
+0x00002264 DACOFFSETATTEN
+0x00002268 DACOFFSET
+0x000022B8 DACOFFSETATTENHS
+0x000022BC DACOFFSETHS
+
+HSTIA pag 48
+0x000020F0 HSRTIACON
+0x000020F8 DE0RESCON
+0x000020FC HSTIACON
+
+ADC CIRCUIT pag 52
+SELECTING INPUTS TO ADC MUX
+• Voltage measurement
+	• Positive mux select = CE0, RE0, SE0, DE0, and AINx
+	• Negative mux select = VBIAS_CAP pin
+• DC current measurement on low power TIA
+	• Positive mux select = low-pass filter of low power TIA
+	• Negative mux select =LPTIA_N node
+• AC or higher bandwidth current measurements on the low
+power TIA
+	• Positive mux select = LPTIA_P node
+	• MUXSEL_N = LPTIA_N node
+• Current and impedance measurement on the high speed TIA
+	• MUXSEL_P = positive high speed TIA output
+	• MUXSEL_N = negative high speed TIA input
+
+ADC CIRCUIT REGISTERS pag 56
+0x00002044 ADCFILTERCON
+0x00002074 ADCDAT
+0x00002078 DFTREAL
+0x0000207C DFTIMAG 
+0x00002080 SINC2DAT
+0x00002084 TEMPSENSDAT
+0x000020D0 DFTCON
+0x00002174 TEMPSENS
+0x000021A8 ADCCON
+0x000021F0 REPEATADCCNV
+0x0000238C ADCBUFCON
+
+ADC CALIBRAZIONE pag 62
+
+PROGRAMMABLE SWITCH MATRIX pag 70
+
+PROGRAMMABLE SWITCHES REGISTERS pag 73
+
+PRECISION VOLTAGE REFERENCES pag 83
+
+SEQUENCER pag 85 (vedere molto bene non ho capito se è ciò che ci fa comunicare)
+
+WAVEFORM GENERATOR pag 94
+
+SPI INTERFACE pag 98
+WRITING TO AND READING FROM REGISTERS
+Scrivere o leggere su un registro richiede 2 transazioni SPI.
+La prima transazione setta il registro indirizzo SPICMD_SETADDR
+La seconda transazione è l'effettiva lettura o scrittura nel
+registro richiesto. Questi sono gli step per scrivere in un registro:
+
+1. Write the command byte and configure the register
+address.
+	a. Drive CS low.
+	b. Send 8-bit command byte: SPICMD_SETADDR.
+	c. Send 16-bit address of register to read to or write
+	from.
+	d. Pull CS high.
+2. Write the data to the register.
+	a. Drive CS low.
+	b. Send 8-bit command byte: SPICMD_WRITEREG.
+	c. Write either 16-bit or 32-bit data to the register.
+	d. Bring CS high.
+3. Read the data from the register.
+	a. Drive CS low.
+	b. Send 8-bit command byte: SPICMD_READREG.
+	c. Transmit a dummy byte on the SPI bus to initiate a
+	read.
+	d. Read returning 16-bit or 32-bit data.
+	e. Bring CS high.
+
+SLEEP AND WAKE-UP TIMER REGISTERS pag 100-101
+
+INTERRUPTS pag 105
+
+DIGITAL INPUTS/OUTPUTS pag 115
+
+GPIOx pin hanno resistori di pull-up che sono abilitati o disabilitati
+dal GP0PE register. I GPIO inutilizzati devono avere i rispettivi 
+resistori di pull-up disabilitati per ridurre il consumo energetico.
+
+Quando i GPIO sono configurati come input usando  il registro GP0EN
+i livelli di GPIO input sono disponibili nel registro GP0IN.
+
+Quando i GPIO sono configurati come output, i valori del registro GP0OUT
+sono riflessi nei pin GPIO.
+
+Il porto GP0 ha il bit set register, GP0SET. Con questo registro è possibile
+settare ciascun pin senza avere effetti sugli altri.
+
+Il porto GP0 ha il bit clear, GP0CLR.
+
+Il porto GP0 ha un bit di commutazione corrispondente, GP0TGL.
+Utilizzando il bit toggle è possibile invertire uno o più
+Output GPIO pin senza influire su altri output all'interno di
+porta. Solo il pin GPIOx che corrisponde al bit di dati di scrittura
+uguale a 1 viene commutato. I restanti GPIO non sono interessati.
+
+La porta GP0 ha un registro di abilitazione dell'uscita dati, GP0OEN,
+mediante il quale viene abilitato il percorso di uscita dati. 
+Quando i bit del registro di abilitazione dell'uscita dati sono impostati, 
+i valori in GP0OUT vengono riflessi sui pin GPIOx corrispondenti.
+
+Ciascun pin GPIOx può essere configurato per reagire a eventi esterni.
+Questi eventi possono essere rilevati e utilizzati per riattivare il 
+dispositivo o per attivare sequenze specifiche. Questi eventi sono 
+configurati nel registro EIxCON. La scrittura nel bit corrispondente nel 
+registro EICLR cancella il flag di interruzione. Per ulteriori informazioni,
+vedere la sezione Interruzioni.
+
+L'AD5940/AD5941 ha due interrupt esterni che possono essere mappati su 
+determinati pin GPIOx (vedere il registro GP0CON). Quando si verifica 
+un'interruzione, AD5940/AD5941 imposta il pin GPIOx alto. Quando l'interrupt
+viene cancellato, AD5940/AD5941 porta il pin GPIOx basso. Questi interrupt 
+sono configurati nel registro del controller di interrupt (vedere la sezione Interrupt).
+
+
+Il blocco multiplex della porta digitale fornisce il controllo sulla 
+funzionalità GPIO dei pin specificati. Queste opzioni sono configurate
+nel registro GP0CON.
+
+Ciascun GPIOx sull'AD5940/AD5941 può essere controllato tramite il sequencer.
+Questo controllo consente la sincronizzazione di dispositivi esterni durante
+la temporizzazione di applicazioni critiche utilizzando un registro dedicato, 
+SYNCEXTDEVICE. Per controllare i GPIO tramite questo registro, il GPIOx deve 
+essere prima configurato come uscita nel registro GP0OEN e la sincronizzazione
+deve essere selezionata nel registro GP0CON.
+
+SYSTEM RESETS pag 119
+
+POWER MODES pag 120 ci sono 4 possibili modalità di accensione.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

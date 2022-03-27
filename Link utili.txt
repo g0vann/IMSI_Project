@@ -1,1 +1,15 @@
 https://wiki.analog.com/resources/eval/user-guides/ad5940
+
+https://www.analog.com/en/app-notes/an-1557.html?doc=AD5940-5941.pdf
+
+https://www.analog.com/en/products/aducm3029.html
+
+https://github.com/analogdevicesinc/EVAL-ADICUP3029/tree/master/projects/ADuCM3029_demo_ad7124_8PMDZ
+
+https://en.wikipedia.org/wiki/Transimpedance_amplifier
+
+https://github.com/analogdevicesinc/ad5940-examples
+
+https://github.com/analogdevicesinc/ad5940lib/tree/197653193c9639defc294fdaab492d917a65f034
+
+https://wiki.analog.com/resources/eval/user-guides/eval-ad5940/tools/iar_setup_guide
