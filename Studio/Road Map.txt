@@ -1,0 +1,4 @@
+1. Trovare il ADuCM3029.h e capire le aree di memoria e registri
+2. Studiare meglio la configurazione della UART
+3. Creare un progetto funzionante da zero [Hardware_Reset e Initialize]
+4. Cercare di interrogare tramite matlab la scheda
