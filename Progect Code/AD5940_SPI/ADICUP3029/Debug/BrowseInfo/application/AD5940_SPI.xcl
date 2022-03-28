@@ -1,35 +1,35 @@
-"C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\AD5940_SPI.c"
+"C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\AD5940_SPI.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi.dep
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi.dep
 -o
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\Debug\BrowseInfo\application\AD5940_SPI.pbi
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\..\..\ad5940lib\
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\..\..\ad5940lib\
 -I
-C:/Users/giann/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE\
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE\
 -I
-C:/Users/giann/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE/Device/ADuCM3029\
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE/Device/ADuCM3029\
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE/Device/ADuCM3029\
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE/Device/ADuCM3029\
 -I
-C:/Users/giann/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include
+C:/Users/papuz/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include
 -I
-C:/Users/giann/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include
+C:/Users/papuz/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include
 -I
-C:/Users/giann/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
@@ -39,25 +39,25 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\ad5940lib
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\ad5940lib
 -I
-C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE
 -I
-C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE\Device\ADuCM3029
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE\Device\ADuCM3029
 -I
-C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE\Device\ADuCM3029
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\RTE\Device\ADuCM3029
 -I
-C:\Users\giann\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
 -I
-C:\Users\giann\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
 -I
-C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -D__CHAR_BITS__=8
