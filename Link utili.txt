@@ -13,3 +13,5 @@ https://github.com/analogdevicesinc/ad5940-examples
 https://github.com/analogdevicesinc/ad5940lib/tree/197653193c9639defc294fdaab492d917a65f034
 
 https://wiki.analog.com/resources/eval/user-guides/eval-ad5940/tools/iar_setup_guide
+
+https://wiki.analog.com/resources/eval/user-guides/eval-adicup3029/reference_designs/demo_cli
