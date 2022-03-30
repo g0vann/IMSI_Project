@@ -18,3 +18,6 @@ https://wiki.analog.com/resources/eval/user-guides/eval-adicup3029/reference_des
 
 --Plot real time date from a sensor:
 https://www.youtube.com/watch?v=Ercd-Ip5PfQ
+
+--Uart callback
+https://github.com/analogdevicesinc/EVAL-ADICUP3029/blob/master/projects/ADuCM3029_demo_cn0414/src/platform_drivers.c
