@@ -787,11 +787,11 @@
                 </option>
                 <option>
                     <name>IlinkUseExtraOptions</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state>-keep__checksum</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -2146,16 +2146,6 @@
             <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
         </file>
         <group>
-            <name>Device Global Configuration</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
-            </file>
-        </group>
-        <group>
             <name>Device Startup</name>
             <tag>CMSISPack.Component</tag>
             <file>
@@ -2163,6 +2153,16 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
+            </file>
+        </group>
+        <group>
+            <name>Device Global Configuration</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
             </file>
         </group>
     </group>

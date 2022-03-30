@@ -25,10 +25,9 @@ Analog Devices Software License Agreement.
 #include "string.h"
 #include <stdlib.h>
 
-#define REG_PROVA 0x20000000
 void AD5940_Main(void)
 {
-  unsigned long temp;
+  unsigned long temp,i;
   /**
    * Hardware reset can always put AD5940 to default state. 
    * We recommend to use hardware reset rather than software reset
@@ -47,40 +46,38 @@ void AD5940_Main(void)
   /**
    * Read register test.
   */
-  //temp = AD5940_ReadReg(REG_AFECON_ADIID);
-  //printf("Read ADIID register, got: 0x%04lx\n", temp);
-  //if(temp != AD5940_ADIID)
-  // printf("Read register test failed.\n" );
-  //else
-   // printf("Read register test pass\n");
+  temp = AD5940_ReadReg(REG_AFECON_ADIID);
+  printf("Read ADIID register, got: 0x%04lx\n", temp);
+  if(temp != AD5940_ADIID)
+  printf("Read register test failed.\n" );
+  else
+  printf("Read register test pass\n");
   /**
    * Write register test.
    * */
-  //srand(0x1234);
-  //i =10000;
-  //while(i--)
-  //{
-    //static unsigned long count;
+  srand(0x1234);
+  i =10000;
+  while(i--)
+  {
+    static unsigned long count;
     static unsigned long data;
     /* Generate a 32bit random data */
     data = rand()&0xffff;
     data <<= 16;
     data |= rand()&0xffff;
-    //count ++;	/* Read write count */
+    count ++;	/* Read write count */
     /**
      * Register CALDATLOCK is 32-bit width, it's readable and writable.
      * We use it to test SPI register access.
     */
-    //AD5940_WriteReg(REG_AFE_CALDATLOCK, data);
-    #define CHIPSEL_M355
-    AD5940_WriteReg(REG_PROVA, data);
-    temp = AD5940_ReadReg(REG_PROVA);
-    //if(temp != data)
-      //printf("Write register test failed @0x%08lx\n", data);
-    //if(!(count%1000))
+    AD5940_WriteReg(REG_AFE_CALDATLOCK, data);
+    temp = AD5940_ReadReg(REG_AFE_CALDATLOCK);
+    if(temp != data)
+      printf("Write register test failed @0x%08lx\n", data);
+    if(!(count%1000))
       printf("latest data is 0x%08lx\n", temp);
-  //}
-  //printf("SPI read/write test completed");
-  //while(1);
+  }
+  printf("SPI read/write test completed");
+  while(1);
 }
 

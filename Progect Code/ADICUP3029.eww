@@ -4,6 +4,9 @@
         <path>$WS_DIR$\AD5940_SPI\ADICUP3029\AD5940_SPI.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\Demo-CLI\Demo-CLI.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\First\First.ewp</path>
     </project>
     <batchBuild>

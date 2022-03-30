@@ -42,3 +42,35 @@
 1076	1167	6701194648065041	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/ad5940-examples-master/examples/AD5940_SPI/ADICUP3029/Debug/Exe/c.out_nochecksum	eb35851ac75fe583
 1182	1191	6701194648334337	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/ad5940-examples-master/examples/AD5940_SPI/ADICUP3029/Debug/Exe/c.out	6840b9710191c1d3
 1196	1209	6701194648513848	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/ad5940-examples-master/examples/AD5940_SPI/ADICUP3029/Debug/Exe/AD5940_SPI.hex	ef7559ef0b99120b
+1	50	6703368379812108	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	749034bcdc96829
+6	260	6703368381817873	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/AD5940_SPI.o	8ed5812804c6a4e8
+10	432	6703368383513669	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ADICUP3029Port.o	6ca4c24635e24d7b
+24	473	6703368383952188	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	20029079974a2ac7
+20	501	6703368384101761	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/main.o	78174d1f74874212
+16	1140	6703368390499359	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ad5940.o	62aedb1b45cfdc4f
+1	34	6703370267330399	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	749034bcdc96829
+9	153	6703370268427460	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/AD5940_SPI.o	8ed5812804c6a4e8
+23	253	6703370269444768	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	20029079974a2ac7
+6	284	6703370269644236	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ADICUP3029Port.o	6ca4c24635e24d7b
+20	312	6703370269893564	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/main.o	78174d1f74874212
+13	930	6703370276148567	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ad5940.o	62aedb1b45cfdc4f
+2	41	6703370422264400	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	749034bcdc96829
+9	153	6703370423361455	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/AD5940_SPI.o	8ed5812804c6a4e8
+32	260	6703370424398678	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	20029079974a2ac7
+27	292	6703370424717826	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/main.o	78174d1f74874212
+19	318	6703370424937243	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ADICUP3029Port.o	6ca4c24635e24d7b
+14	993	6703370431679603	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ad5940.o	62aedb1b45cfdc4f
+1	38	6703372773366961	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	749034bcdc96829
+14	429	6703372777246583	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ADICUP3029Port.o	6ca4c24635e24d7b
+31	457	6703372777446061	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	20029079974a2ac7
+26	555	6703372778533151	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/main.o	78174d1f74874212
+8	1053	6703372783457606	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ad5940.o	62aedb1b45cfdc4f
+2	31	6703372963941263	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	749034bcdc96829
+11	158	6703372965138042	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/AD5940_SPI.o	8ed5812804c6a4e8
+23	256	6703372966115775	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	20029079974a2ac7
+8	283	6703372966195235	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ADICUP3029Port.o	6ca4c24635e24d7b
+17	300	6703372966284995	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/application/main.o	78174d1f74874212
+14	915	6703372972618374	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Obj/AD5940Lib/ad5940.o	62aedb1b45cfdc4f
+931	1021	6703372973827448	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Exe/c.out_nochecksum	b1e0fffdd05e137a
+1036	1122	6703372974875707	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Exe/c.out	a9d6ee57671fb749
+1128	1140	6703372975045193	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/AD5940_SPI/ADICUP3029/Debug/Exe/AD5940_SPI.hex	661a4118a247f866

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.general.xcl" --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.general.xcl" --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Progect Code\AD5940_SPI\ADICUP3029\settings\AD5940_SPI.Debug.driver.xcl" 
 }

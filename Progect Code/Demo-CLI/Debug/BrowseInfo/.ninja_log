@@ -1,0 +1,41 @@
+# ninja log v5
+7	123	6703378920000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	c88d1321ffd164b6
+1	139	6703378920000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	c80ed5bef29de379
+136	369	6703378924149470	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	d8aa13e4d74c2bae
+153	400	6703378924458641	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	d774ea33af41f1f2
+405	513	6703378925595601	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI.pbd	d43599a7786053a8
+518	2038	6703378940538688	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI.pbw	dac43b8a6692af70
+3	170	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	92c0d7ed72e05faf
+13	194	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	ef9f86da67fb6a71
+8	222	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Examples Support/common.xcl	611889450610b34
+25	248	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/Timer.xcl	da5dbb7c71be0642
+17	282	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/Cli.xcl	4280687df213a82a
+21	310	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/Communication.xcl	69d1ea3e77ebb56a
+190	381	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.xcl	b69042df74670bfd
+213	470	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.xcl	a75ce5eb120eaf13
+242	495	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	c545358e43de3347
+304	523	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	4dfb38b2a054cb2c
+270	548	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	ccd43e2204798b5a
+330	573	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/AD5940Lib/ad5940.xcl	b3bcf23b46928d4e
+401	594	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/AD5940Lib/ADICUP3029Port.xcl	3ec8a79c3ded6c7c
+543	620	6703383257778582	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Examples Support/common.pbi	ebf1e099fe6a5dbb
+488	699	6703383250000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/ADuCM3029_demo_cli.xcl	b26c450b5b020820
+592	820	6703383259804851	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/AD5940Lib/ad5940.pbi	1905a69565842076
+567	920	6703383260802193	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/Communication.pbi	6d614f80d06355d
+514	929	6703383260822119	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/Cli.pbi	a0a4a5af51b81cf8
+625	937	6703383260832119	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	8608b11a0134ddc8
+717	1000	6703383261600060	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/Timer.pbi	e257ae10b43ffa65
+615	1025	6703383261859340	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/AD5940Lib/ADICUP3029Port.pbi	4005feb65ed1bb9a
+824	1156	6703383263165865	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/ADuCM3029_demo_cli.pbi	3b39f6195d55ebf0
+925	1205	6703383263664528	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	d8aa13e4d74c2bae
+934	1259	6703383264193106	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	7a951eec65e74977
+942	1274	6703383264342696	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	12793639024d7fb0
+1004	1308	6703383264681817	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.pbi	17fcb78d054400e9
+1030	1340	6703383265001272	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	7377717082ada324
+1210	1391	6703383265519545	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI_part1.pbi	ab1264d9f45c542f
+1160	1442	6703383266028528	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	d774ea33af41f1f2
+1263	1501	6703383266626929	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI_part0.pbi	3385606d4045b29c
+1345	1545	6703383267075724	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI_part2.pbi	901e45d533a84f8b
+1447	1555	6703383267165139	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI_part3.pbi	24fff308a51e7eda
+4	266	6703383321976082	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/application/ADuCM3029_demo_cli.pbi	3b39f6195d55ebf0
+271	513	6703383324459783	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Progect Code/Demo-CLI/Debug/BrowseInfo/Demo-CLI_part0.pbi	3385606d4045b29c
