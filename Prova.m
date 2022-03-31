@@ -21,12 +21,22 @@ close all; clear all; clc;
 % c=double(caratteri)
 
 % char * temp;
-stringa="ciao";
-len=strlength(stringa);
-len=len+len;
 
-% for i=0 to len
-%     if i==0
-%         temp=stringa();
-%     end
+
+space=' ';
+mess="allora";
+mess1=convertStringsToChars(mess); %%Provare semplicemente a convertire prima dell'invio
+len=strlength(mess1);
+
+ for i=1:len
+    if i == 1
+        temp = mess1(1);
+    elseif i == len
+        temp = [temp ' ' mess1(i) ' '];
+    else
+        temp = [temp ' ' mess1(i)];
+    end
+end
+string=convertCharsToStrings(temp);
+
 
