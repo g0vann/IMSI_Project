@@ -1,1 +1,0 @@
-This is a demo project for the EVAL-CN0567-ARDZ Shield.
