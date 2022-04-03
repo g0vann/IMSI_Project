@@ -1,0 +1,50 @@
+# ninja log v5
+15	369	6706811242134278	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/pinmux/adi_initialize.o	bb74352e8d0c39f9
+391	538	6706811243859679	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/pinmux/pinmux_config.o	fba5a82a2e47c40
+19	641	6706811244837075	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Cli.o	b8e5fbbd66ab2b44
+6	680	6706811245146218	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/AD5940/ADICUP3029Port.o	b79b907116b665a5
+23	706	6706811245086390	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Communication.o	3c6048ff1ea2b8e5
+496	788	6706811246303138	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Timer.o	d4db09324889dbe8
+430	829	6706811246532513	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	b1d602d2aa8884d7
+559	1138	6706811247878913	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	30484c44103268e4
+848	1164	6706811250191022	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	7c6510620df7b243
+702	1250	6706811250948973	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	d709da7f38898b94
+725	1288	6706811251327964	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	22c2c655260f03a0
+661	1320	6706811251527460	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	edff63e6a8c2b74f
+810	1379	6706811252265481	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers Interrupt/adi_xint.o	47425805f504f9d1
+1184	1444	6706811252913741	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers WDT/adi_wdt.o	25671d848b6e2ef7
+1159	1596	6706811254406255	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers UART/adi_uart.o	10c499ef9bf60da6
+16	249	6706811894976304	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Timer.o	d4db09324889dbe8
+19	277	6706811895076028	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Communication.o	3c6048ff1ea2b8e5
+9	320	6706811895295454	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/AD5940/ADICUP3029Port.o	b79b907116b665a5
+3	345	6706811895584666	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/ADuCM3029_demo_cli.o	41a5b21d739436ad
+24	386	6706811896183063	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Cli.o	b8e5fbbd66ab2b44
+298	454	6706811897110584	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/pinmux/adi_initialize.o	bb74352e8d0c39f9
+340	518	6706811897728932	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/pinmux/pinmux_config.o	fba5a82a2e47c40
+406	708	6706811899573997	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	22c2c655260f03a0
+473	758	6706811899972930	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	d709da7f38898b94
+271	790	6706811900122540	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	b1d602d2aa8884d7
+785	822	6706811900843738	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	7c6510620df7b243
+366	865	6706811900549427	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	30484c44103268e4
+536	884	6706811900963419	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers Interrupt/adi_xint.o	47425805f504f9d1
+815	1051	6706811903077773	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers WDT/adi_wdt.o	25671d848b6e2ef7
+732	1084	6706811903327102	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	edff63e6a8c2b74f
+13	1103	6706811903187494	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/AD5940/ad5940.o	feed1a0b8d187156
+847	1255	6706811905092707	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers UART/adi_uart.o	10c499ef9bf60da6
+8	54	6706812537664549	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	19e56178332d8c97
+27	185	6706812538881302	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/pinmux/pinmux_config.o	23d12a8d3dcd7b19
+77	315	6706812540127952	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Timer.o	f1ff43d0c032665e
+19	355	6706812540487006	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/ADuCM3029_demo_cli.o	2df7e22f1fa23894
+22	392	6706812540656537	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/AD5940/ADICUP3029Port.o	dd2ac7714b3099c1
+31	429	6706812541264925	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Cli.o	b6c4b7e8a045d7e6
+377	533	6706812542352018	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/pinmux/adi_initialize.o	662fea48a9bf409a
+203	588	6706812542810780	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	6e04e66a573d6e63
+336	721	6706812544197068	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/application/Communication.o	b55cc8b036d508a5
+411	886	6706812545832693	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	197ee813e9999870
+560	918	6706812545902520	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	56d6a1ad5a7084f3
+609	959	6706812546431093	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	4671deeb49411152
+446	1067	6706812547677770	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers UART/adi_uart.o	56a6bb611c34c6e9
+747	1142	6706812548425764	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	8b8b5772c5a47b0a
+912	1229	6706812549253544	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/CMSIS-Pack/Device.Drivers WDT/adi_wdt.o	2e10c54419278722
+14	1251	6706812549163786	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Obj/AD5940/ad5940.o	4f7d6bc14d705323
+1275	1423	6706812551208677	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/Exe/Terminal.out	1ce6ef27f4ac308a

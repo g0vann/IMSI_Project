@@ -1,0 +1,685 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  03/Apr/2022  11:27:35
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Exe\Terminal.out
+#    Map file     =
+#        C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\List\Terminal.map
+#    Command line =
+#        -f
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Exe\Terminal.out.rsp"
+#        ("C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\AD5940\ad5940.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device Cycle
+#        Count\adi_cyclecount.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers DMA\adi_dma.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\pinmux\adi_initialize.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers Power\adi_pwr.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers TMR\adi_tmr.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers UART\adi_uart.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers WDT\adi_wdt.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\AD5940\ADICUP3029Port.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\application\ADuCM3029_demo_cli.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\application\Cli.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\application\Communication.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\pinmux\pinmux_config.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device
+#        Startup\startup_ADuCM3029.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\CMSIS-Pack\Device Startup\system_ADuCM3029.o"
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Obj\application\Timer.o" --no_out_extension -o
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\Exe\Terminal.out" --map
+#        "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto
+#        Prova\Terminal\Debug\List\Terminal.map" --config
+#        C:/Users/giann/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\linker\AnalogDevices\ADuCM3029.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A3":  place at address 0x180 { ro section .security_options };
+define block CHECKSUM with size = 4, alignment = 4 { ro section .checksum };
+"A4":  place at address 0x7fc { block CHECKSUM };
+"A5":  place at start of [from 0x0 to 0x17f] { ro section .intvec };
+"P2":  place in [from 0x800 to 0x3'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+"A6":  place at end of [from 0x2000'0000 to 0x2000'1fff] { block CSTACK };
+define block HEAP with size = 512, alignment = 8 { };
+"P3":  place in [from 0x2000'0000 to 0x2000'1fff] { rw, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .checksum                 in block CHECKSUM
+  ro section CRC_ReadProtectedKeyHash  in "A1"
+  ro section NumCRCPages               in "A2"
+  ro section Page0_region              in "P1"
+  ro section ReadProtectedKeyHash      in "A0"
+  rw section bank1_retained_ram        in "P5"
+  rw section never_retained_ram        in "P6"
+  section ISRAM_REGION                 in "P4"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A5":                                       0x140
+  .intvec            ro code          0x0   0x140  startup_ADuCM3029.o [3]
+                                  - 0x140   0x140
+
+"A3":                                        0x20
+  .security_options  const          0x180    0x20  system_ADuCM3029.o [3]
+                                  - 0x1a0    0x20
+
+"A4":                                         0x4
+  CHECKSUM                          0x7fc     0x4  <Block>
+    CHECKSUM         uninit         0x7fc     0x4  <Block tail>
+                                  - 0x800     0x4
+
+"P2":                                      0x3acc
+  .text              ro code        0x800   0xf12  xprintffull_nomb.o [11]
+  .text              ro code       0x1712    0x2a  copy_init3.o [13]
+  .text              ro code       0x173c    0x16  strchr.o [13]
+  .text              ro code       0x1752     0xa  xsprout.o [11]
+  .text              ro code       0x175c    0x40  xfail_s.o [11]
+  .text              ro code       0x179c    0x36  strlen.o [13]
+  .rodata            const         0x17d2     0x1  Cli.o [9]
+  .text              ro code       0x17d4    0x58  memchr.o [13]
+  .text              ro code       0x182c    0xa6  ABImemcpy.o [13]
+  .text              ro code       0x18d4    0x70  frexp.o [12]
+  .text              ro code       0x1944    0x34  DblCmpLe.o [12]
+  .text              ro code       0x1978    0x34  DblCmpGe.o [12]
+  .text              ro code       0x19ac   0x13a  ldexp.o [12]
+  .text              ro code       0x1ae8    0x36  DblToS32.o [12]
+  .text              ro code       0x1b20    0x22  S32ToDbl.o [12]
+  .text              ro code       0x1b44   0x24e  DblAddSub.o [12]
+  .text              ro code       0x1d94   0x246  DblDiv.o [12]
+  .text              ro code       0x1fdc    0x22  DblToU32.o [12]
+  .text              ro code       0x2000    0x1c  U32ToDbl.o [12]
+  .text              ro code       0x201c   0x1aa  DblMul.o [12]
+  .text              ro code       0x21c8   0x230  I64DivMod.o [13]
+  .text              ro code       0x23f8     0x6  abort.o [11]
+  .text              ro code       0x2400     0x2  I64DivZer.o [13]
+  .text              ro code       0x2404    0x14  exit.o [14]
+  .text              ro code       0x2418   0x9a4  adi_uart.o [7]
+  .text              ro code       0x2dbc    0x66  ABImemset.o [13]
+  .text              ro code       0x2e24   0x168  adi_dma.o [4]
+  .text              ro code       0x2f8c   0x35c  adi_pwr.o [5]
+  .text              ro code       0x32e8    0xf8  system_ADuCM3029.o [3]
+  .text              ro code       0x33e0   0x478  Cli.o [9]
+  .text              ro code       0x3858   0x16c  Communication.o [9]
+  .text              ro code       0x39c4    0x96  iar_Stolx.o [11]
+  .text              ro code       0x3a5a    0x28  strncmp.o [11]
+  .text              ro code       0x3a84    0x34  vsprintf.o [11]
+  .text              ro code       0x3ab8   0x144  iar_Stoulx.o [11]
+  .text              ro code       0x3bfc    0x9c  Timer.o [9]
+  .text              ro code       0x3c98    0x8e  adi_tmr.o [6]
+  Initializer bytes  const         0x3d28    0x54  <for P3-1>
+  .rodata            const         0x3d7c    0x50  iar_Stoulx.o [11]
+  .rodata            const         0x3dcc    0x44  Cli.o [9]
+  .rodata            const         0x3e10    0x3c  Cli.o [9]
+  .rodata            const         0x3e4c    0x3c  Cli.o [9]
+  .rodata            const         0x3e88    0x38  Cli.o [9]
+  .rodata            const         0x3ec0    0x38  Cli.o [9]
+  .text              ro code       0x3ef8    0x38  zero_init3.o [13]
+  .rodata            const         0x3f30    0x34  Cli.o [9]
+  .rodata            const         0x3f64    0x30  Cli.o [9]
+  .rodata            const         0x3f94    0x2c  Cli.o [9]
+  .text              ro code       0x3fc0    0x2c  pinmux_config.o [10]
+  .text              ro code       0x3fec    0x28  data_init.o [13]
+  .iar.init_table    const         0x4014    0x24  - Linker created -
+  .text              ro code       0x4038    0x20  ADuCM3029_demo_cli.o [9]
+  .text              ro code       0x4058     0xe  adi_initialize.o [10]
+  .text              ro code       0x4068    0x20  startup_ADuCM3029.o [3]
+  .text              ro code       0x4088    0x1e  cmain.o [13]
+  .text              ro code       0x40a6     0x4  low_level_init.o [11]
+  .text              ro code       0x40aa     0x4  exit.o [11]
+  .text              ro code       0x40b0     0xa  cexit.o [13]
+  .rodata            const         0x40bc    0x1c  Cli.o [9]
+  .text              ro code       0x40d8    0x1c  cstartup_M.o [13]
+  .rodata            const         0x40f4    0x18  Cli.o [9]
+  .rodata            const         0x410c    0x18  Cli.o [9]
+  .text              ro code       0x4124    0x18  ADICUP3029Port.o [1]
+  .rodata            const         0x413c    0x14  Cli.o [9]
+  .rodata            const         0x4150    0x14  Communication.o [9]
+  .rodata            const         0x4164    0x14  Communication.o [9]
+  .rodata            const         0x4178    0x10  adi_uart.o [7]
+  .rodata            const         0x4188    0x10  Cli.o [9]
+  .rodata            const         0x4198     0xc  Communication.o [9]
+  .rodata            const         0x41a4     0xc  Communication.o [9]
+  .rodata            const         0x41b0     0x8  Cli.o [9]
+  .rodata            const         0x41b8     0x8  Cli.o [9]
+  .rodata            const         0x41c0     0x8  Cli.o [9]
+  .rodata            const         0x41c8     0x8  Cli.o [9]
+  .rodata            const         0x41d0     0x8  Cli.o [9]
+  .rodata            const         0x41d8     0x8  Cli.o [9]
+  .rodata            const         0x41e0     0x8  Cli.o [9]
+  .rodata            const         0x41e8     0x8  Cli.o [9]
+  .rodata            const         0x41f0     0x4  adi_dma.o [4]
+  .rodata            const         0x41f4     0x4  adi_dma.o [4]
+  .rodata            const         0x41f8     0x4  adi_uart.o [7]
+  .text              ro code       0x41fc     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4200     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4204     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4208     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x420c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4210     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4214     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4218     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x421c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4220     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4224     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4228     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x422c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4230     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4234     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4238     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x423c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4240     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4244     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4248     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x424c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4250     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4254     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4258     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x425c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4260     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4264     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4268     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x426c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4270     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4274     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4278     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x427c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4280     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4284     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4288     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x428c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4290     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4294     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x4298     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x429c     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42a0     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42a4     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42a8     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42ac     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42b0     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42b4     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42b8     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42bc     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42c0     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42c4     0x4  startup_ADuCM3029.o [3]
+  .text              ro code       0x42c8     0x4  startup_ADuCM3029.o [3]
+  .rodata            const         0x42cc     0x0  zero_init3.o [13]
+  .rodata            const         0x42cc     0x0  copy_init3.o [13]
+                                 - 0x42cc  0x3acc
+
+"P3", part 1 of 2:                           0x54
+  P3-1                        0x2000'0000    0x54  <Init block>
+    .data            inited   0x2000'0000     0xc  adi_tmr.o [6]
+    .data            inited   0x2000'000c    0x10  adi_uart.o [7]
+    .data            inited   0x2000'001c    0x18  Cli.o [9]
+    .data            inited   0x2000'0034    0x18  Cli.o [9]
+    .data            inited   0x2000'004c     0x4  Cli.o [9]
+    .data            inited   0x2000'0050     0x4  Cli.o [9]
+                            - 0x2000'0054    0x54
+
+"P3", part 2 of 2:                          0xea8
+  .bss               zero     0x2000'0400   0x400  adi_dma.o [4]
+  .bss               zero     0x2000'0800   0x400  Communication.o [9]
+  .bss               zero     0x2000'0c00   0x100  Communication.o [9]
+  .bss               zero     0x2000'0d00    0xe0  adi_dma.o [4]
+  .bss               zero     0x2000'0de0    0xb0  Communication.o [9]
+  .bss               zero     0x2000'0e90     0xc  adi_tmr.o [6]
+  .bss               zero     0x2000'0e9c     0xc  adi_tmr.o [6]
+  .bss               zero     0x2000'0ea8     0x4  adi_pwr.o [5]
+  .bss               zero     0x2000'0eac     0x4  adi_pwr.o [5]
+  .bss               zero     0x2000'0eb0     0x4  adi_pwr.o [5]
+  .bss               zero     0x2000'0eb4     0x4  ADICUP3029Port.o [1]
+  .bss               zero     0x2000'0eb8     0x4  Cli.o [9]
+  .bss               zero     0x2000'0ebc     0x4  Cli.o [9]
+  .bss               zero     0x2000'0ec0     0x4  Cli.o [9]
+  .bss               zero     0x2000'0ec4     0x4  Cli.o [9]
+  .bss               zero     0x2000'0ec8     0x4  Cli.o [9]
+  .bss               zero     0x2000'0ecc     0x4  Communication.o [9]
+  .bss               zero     0x2000'0ed0     0x4  Communication.o [9]
+  .bss               zero     0x2000'0ed4     0x4  Communication.o [9]
+  .bss               zero     0x2000'0ed8     0x4  Communication.o [9]
+  .bss               zero     0x2000'0edc     0x4  Communication.o [9]
+  .bss               zero     0x2000'0ee0     0x4  Communication.o [9]
+  .bss               zero     0x2000'0ee4     0x4  Communication.o [9]
+  .bss               zero     0x2000'0ee8     0x4  system_ADuCM3029.o [3]
+  .bss               zero     0x2000'0eec     0x4  system_ADuCM3029.o [3]
+  .bss               zero     0x2000'0ef0     0x4  system_ADuCM3029.o [3]
+  .bss               zero     0x2000'0ef4     0x4  Timer.o [9]
+  .bss               zero     0x2000'0ef8     0x4  xfail_s.o [11]
+                            - 0x2000'0efc   0xea8
+
+"A6":                                       0x400
+  CSTACK                      0x2000'1c00   0x400  <Block>
+    CSTACK           uninit   0x2000'1c00   0x400  <Block tail>
+                            - 0x2000'2000   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x42cc     0x3'ffff  0x3'bd34
+  0x2000'0efc  0x2000'1bff     0xd04
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xafc:
+          0x2000'0400  0xafc
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x54:
+               0x3d28   0x54
+    1 destination range, total size 0x54:
+          0x2000'0000   0x54
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data
+    ------                -------  -------  -------
+command line/config:
+    -----------------------------------------------
+    Total:
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\AD5940: [1]
+    ADICUP3029Port.o           24                 4
+    -----------------------------------------------
+    Total:                     24                 4
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device Cycle Count: [2]
+    -----------------------------------------------
+    Total:
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device Startup: [3]
+    startup_ADuCM3029.o       560
+    system_ADuCM3029.o        248       32       12
+    -----------------------------------------------
+    Total:                    808       32       12
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers DMA: [4]
+    adi_dma.o                 360        8    1'248
+    -----------------------------------------------
+    Total:                    360        8    1'248
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers Power: [5]
+    adi_pwr.o                 860                12
+    -----------------------------------------------
+    Total:                    860                12
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers TMR: [6]
+    adi_tmr.o                 142       12       36
+    -----------------------------------------------
+    Total:                    142       12       36
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers UART: [7]
+    adi_uart.o              2'468       36       16
+    -----------------------------------------------
+    Total:                  2'468       36       16
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers WDT: [8]
+    -----------------------------------------------
+    Total:
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\application: [9]
+    ADuCM3029_demo_cli.o       32
+    Cli.o                   1'144      677       76
+    Communication.o           364       64    1'484
+    Timer.o                   156                 4
+    -----------------------------------------------
+    Total:                  1'696      741    1'564
+
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\pinmux: [10]
+    adi_initialize.o           14
+    pinmux_config.o            44
+    -----------------------------------------------
+    Total:                     58
+
+dl7M_tln.a: [11]
+    abort.o                     6
+    exit.o                      4
+    iar_Stolx.o               150
+    iar_Stoulx.o              324       80
+    low_level_init.o            4
+    strncmp.o                  40
+    vsprintf.o                 52
+    xfail_s.o                  64                 4
+    xprintffull_nomb.o      3'858
+    xsprout.o                  10
+    -----------------------------------------------
+    Total:                  4'512       80        4
+
+m7M_tl.a: [12]
+    DblAddSub.o               590
+    DblCmpGe.o                 52
+    DblCmpLe.o                 52
+    DblDiv.o                  582
+    DblMul.o                  426
+    DblToS32.o                 54
+    DblToU32.o                 34
+    S32ToDbl.o                 34
+    U32ToDbl.o                 28
+    frexp.o                   112
+    ldexp.o                   314
+    -----------------------------------------------
+    Total:                  2'278
+
+rt7M_tl.a: [13]
+    ABImemcpy.o               166
+    ABImemset.o               102
+    I64DivMod.o               560
+    I64DivZer.o                 2
+    cexit.o                    10
+    cmain.o                    30
+    copy_init3.o               42
+    cstartup_M.o               28
+    data_init.o                40
+    memchr.o                   88
+    strchr.o                   22
+    strlen.o                   54
+    zero_init3.o               56
+    -----------------------------------------------
+    Total:                  1'200
+
+shb_l.a: [14]
+    exit.o                     20
+    -----------------------------------------------
+    Total:                     20
+
+    Gaps                       29        2      940
+    Linker created                      38    1'028
+---------------------------------------------------
+    Grand Total:           14'455      949    4'864
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x4014          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x4038          --   Gb  - Linker created -
+?main                        0x4089         Code  Gb  cmain.o [13]
+Battery_Voltage_Int_Handler
+                             0x3161   0x26  Code  Gb  adi_pwr.o [5]
+CHECKSUM$$Base                0x7fc          --   Gb  - Linker created -
+CHECKSUM$$Limit               0x800          --   Gb  - Linker created -
+CSTACK$$Base            0x2000'1c00          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2000          --   Gb  - Linker created -
+Cli_CmdDump                  0x3459   0xc4  Code  Gb  Cli.o [9]
+Cli_CmdDump::begaddr    0x2000'0eb8    0x4  Data  Lc  Cli.o [9]
+Cli_CmdDump::count      0x2000'004c    0x4  Data  Lc  Cli.o [9]
+Cli_CmdDump::ix         0x2000'0ebc    0x4  Data  Lc  Cli.o [9]
+Cli_CmdHelp                  0x341d   0x3c  Code  Gb  Cli.o [9]
+Cli_CmdPush                  0x351d   0x80  Code  Gb  Cli.o [9]
+Cli_CmdPush::begaddr    0x2000'0050    0x4  Data  Lc  Cli.o [9]
+Cli_CmdPush::data       0x2000'0ec0    0x4  Data  Lc  Cli.o [9]
+Cli_CmdPush::ix         0x2000'0ec4    0x4  Data  Lc  Cli.o [9]
+Cli_CmdReset                 0x3413    0xa  Code  Gb  Cli.o [9]
+Cli_CmdVersion               0x33ff   0x14  Code  Gb  Cli.o [9]
+Cli_FindCommandFunction
+                             0x3699   0x30  Code  Gb  Cli.o [9]
+Cli_FindNextArgv             0x359d   0x20  Code  Gb  Cli.o [9]
+Cli_GetArgv                  0x35bd   0x28  Code  Gb  Cli.o [9]
+Cli_Int_Handler              0x36e9   0xe2  Code  Gb  Cli.o [9]
+Cli_IsSeparator              0x35e5   0x1e  Code  Gb  Cli.o [9]
+Cli_Printf                   0x36cd   0x1c  Code  Gb  Cli.o [9]
+Cli_Process                  0x3655   0x44  Code  Gb  Cli.o [9]
+Cli_Prompt                   0x3603   0x4e  Code  Gb  Cli.o [9]
+Cli_Prompt::count       0x2000'0ec8    0x4  Data  Lc  Cli.o [9]
+CommonIntHandler             0x3c99   0x62  Code  Lc  adi_tmr.o [6]
+Common_Uart_Interrupt_Handler
+                             0x29a7  0x1d6  Code  Lc  adi_uart.o [7]
+Crystal_osc_Int_Handler
+                             0x310d   0x54  Code  Gb  adi_pwr.o [5]
+DMA_DevData             0x2000'0d00   0xe0  Data  Lc  adi_dma.o [4]
+DMA_Err_Int_Handler          0x2ee1   0x7c  Code  Gb  adi_dma.o [4]
+DMA_UART_RX_Int_Handler
+                             0x2b8d   0x10  Code  Gb  adi_uart.o [7]
+DMA_UART_TX_Int_Handler
+                             0x2b7d   0x10  Code  Gb  adi_uart.o [7]
+Ext_Int0_Handler             0x4125    0xe  Code  Gb  ADICUP3029Port.o [1]
+GP_Tmr0_Int_Handler          0x3d09    0xa  Code  Gb  adi_tmr.o [6]
+GP_Tmr1_Int_Handler          0x3d13    0xa  Code  Gb  adi_tmr.o [6]
+GP_Tmr2_Int_Handler          0x3d1d    0xa  Code  Gb  adi_tmr.o [6]
+PLL_Int_Handler              0x30d5   0x38  Code  Gb  adi_pwr.o [5]
+Region$$Table$$Base          0x4014          --   Gb  - Linker created -
+Region$$Table$$Limit         0x4038          --   Gb  - Linker created -
+RxDmaErrorCallback           0x247b   0x58  Code  Lc  adi_uart.o [7]
+SysTick_Config               0x3c21   0x2e  Code  Lc  Timer.o [9]
+SysTick_Handler              0x3c91    0x8  Code  Gb  Timer.o [9]
+SystemCoreClock         0x2000'0ef0    0x4  Data  Gb  system_ADuCM3029.o [3]
+SystemCoreClockUpdate        0x32e9   0x76  Code  Gb  system_ADuCM3029.o [3]
+SystemInit                   0x335f   0x2c  Code  Gb  system_ADuCM3029.o [3]
+TxDmaErrorCallback           0x24d3   0x58  Code  Lc  adi_uart.o [7]
+UART_Init                    0x3859   0xc8  Code  Gb  Communication.o [9]
+UART_Int_Handler             0x2999    0xe  Code  Gb  adi_uart.o [7]
+UART_ReadChar                0x3995   0x18  Code  Gb  Communication.o [9]
+UART_WriteChar               0x3921   0x52  Code  Gb  Communication.o [9]
+UART_WriteString             0x3973   0x22  Code  Gb  Communication.o [9]
+Vreg_over_Int_Handler        0x3187   0x3a  Code  Gb  adi_pwr.o [5]
+_LitobFullNoMb               0x1519  0x10c  Code  Lc  xprintffull_nomb.o [11]
+_PrintfFullNoMb               0x801  0xce8  Code  Gb  xprintffull_nomb.o [11]
+_PutcharFullNoMb             0x167d   0x20  Code  Lc  xprintffull_nomb.o [11]
+_PutcharsFullNoMb            0x169d   0x2e  Code  Lc  xprintffull_nomb.o [11]
+_SProut                      0x1753    0xa  Code  Gb  xsprout.o [11]
+__NVIC_ClearPendingIRQ       0x245d   0x1e  Code  Lc  adi_uart.o [7]
+__NVIC_DisableIRQ            0x2437   0x26  Code  Lc  adi_uart.o [7]
+__NVIC_EnableIRQ             0x2e25   0x1c  Code  Lc  adi_dma.o [4]
+__NVIC_EnableIRQ             0x2f8d   0x1e  Code  Lc  adi_pwr.o [5]
+__NVIC_EnableIRQ             0x2419   0x1e  Code  Lc  adi_uart.o [7]
+__NVIC_SetPriority           0x3bfd   0x24  Code  Lc  Timer.o [9]
+__NVIC_SystemReset           0x33e1   0x1e  Code  Lc  Cli.o [9]
+__Vectors                       0x0          --   Gb  startup_ADuCM3029.o [3]
+__Vectors_End                 0x140         Data  Gb  startup_ADuCM3029.o [3]
+__Vectors_Size {Abs}          0x140          --   Gb  startup_ADuCM3029.o [3]
+__aeabi_cdcmple              0x1945         Code  Gb  DblCmpLe.o [12]
+__aeabi_cdrcmple             0x1979         Code  Gb  DblCmpGe.o [12]
+__aeabi_d2iz                 0x1ae9         Code  Gb  DblToS32.o [12]
+__aeabi_d2uiz                0x1fdd         Code  Gb  DblToU32.o [12]
+__aeabi_ddiv                 0x1d95         Code  Gb  DblDiv.o [12]
+__aeabi_dmul                 0x201d         Code  Gb  DblMul.o [12]
+__aeabi_dsub                 0x1cb1         Code  Gb  DblAddSub.o [12]
+__aeabi_i2d                  0x1b21         Code  Gb  S32ToDbl.o [12]
+__aeabi_ldiv0                0x2401         Code  Gb  I64DivZer.o [13]
+__aeabi_memcpy               0x182d         Code  Gb  ABImemcpy.o [13]
+__aeabi_memcpy4              0x184d         Code  Gb  ABImemcpy.o [13]
+__aeabi_memcpy8              0x184d         Code  Gb  ABImemcpy.o [13]
+__aeabi_memset               0x2dbd         Code  Gb  ABImemset.o [13]
+__aeabi_ui2d                 0x2001         Code  Gb  U32ToDbl.o [12]
+__aeabi_uldivmod             0x21c9         Code  Gb  I64DivMod.o [13]
+__cmain                      0x4089         Code  Gb  cmain.o [13]
+__exit                       0x2405   0x14  Code  Gb  exit.o [14]
+__iar_Fail_s                 0x175d   0x1c  Code  Gb  xfail_s.o [11]
+__iar_Memchr                 0x17d5         Code  Gb  memchr.o [13]
+__iar_Memset                 0x2dbd         Code  Gb  ABImemset.o [13]
+__iar_Memset_word            0x2dc5         Code  Gb  ABImemset.o [13]
+__iar_Stolx                  0x39c5   0x92  Code  Gb  iar_Stolx.o [11]
+__iar_Stoulx                 0x3ab9  0x13e  Code  Gb  iar_Stoulx.o [11]
+__iar_Strchr                 0x173d         Code  Gb  strchr.o [13]
+__iar_copy_init3             0x1713   0x2a  Code  Gb  copy_init3.o [13]
+__iar_data_init3             0x3fed   0x28  Code  Gb  data_init.o [13]
+__iar_frexp                  0x18e1         Code  Gb  frexp.o [12]
+__iar_frexp64                0x18d5         Code  Gb  frexp.o [12]
+__iar_frexpl                 0x18e1         Code  Gb  frexp.o [12]
+__iar_ldexp64                0x19ad         Code  Gb  ldexp.o [12]
+__iar_program_start          0x40d9         Code  Gb  cstartup_M.o [13]
+__iar_scalbln64              0x19ad         Code  Gb  ldexp.o [12]
+__iar_scalbn64               0x19ad         Code  Gb  ldexp.o [12]
+__iar_zero_init3             0x3ef9   0x38  Code  Gb  zero_init3.o [13]
+__low_level_init             0x40a7    0x4  Code  Gb  low_level_init.o [11]
+__vector_table                  0x0         Data  Gb  startup_ADuCM3029.o [3]
+__vector_table_0x1c            0x1c         Data  Gb  startup_ADuCM3029.o [3]
+_call_main                   0x4095         Code  Gb  cmain.o [13]
+_exit                        0x40b1         Code  Gb  cexit.o [13]
+abort                        0x23f9    0x6  Code  Gb  abort.o [11]
+adi_dma_Init                 0x2e41   0x58  Code  Gb  adi_dma.o [4]
+adi_dma_RegisterCallback
+                             0x2e99   0x48  Code  Gb  adi_dma.o [4]
+adi_initComponents           0x4059    0xe  Code  Gb  adi_initialize.o [10]
+adi_initpinmux               0x3fc1   0x2c  Code  Gb  pinmux_config.o [10]
+adi_pwr_EnterLowPowerMode
+                             0x31c1   0xae  Code  Gb  adi_pwr.o [5]
+adi_pwr_ExitLowPowerMode
+                             0x326f   0x2a  Code  Gb  adi_pwr.o [5]
+adi_pwr_GetClockFrequency
+                             0x3045   0x44  Code  Gb  adi_pwr.o [5]
+adi_pwr_Init                 0x2fab   0x9a  Code  Gb  adi_pwr.o [5]
+adi_pwr_SetClockDivider
+                             0x3089   0x4c  Code  Gb  adi_pwr.o [5]
+adi_system_EnableRetention
+                             0x338b   0x28  Code  Gb  system_ADuCM3029.o [3]
+adi_tmr_callbacks       0x2000'0e90    0xc  Data  Lc  adi_tmr.o [6]
+adi_tmr_parameters      0x2000'0e9c    0xc  Data  Lc  adi_tmr.o [6]
+adi_tmr_registers       0x2000'0000    0xc  Data  Lc  adi_tmr.o [6]
+adi_uart_Close               0x2683   0x3a  Code  Gb  adi_uart.o [7]
+adi_uart_ConfigBaudRate
+                             0x2977   0x22  Code  Gb  adi_uart.o [7]
+adi_uart_IsTxBufferAvailable
+                             0x2935   0x20  Code  Gb  adi_uart.o [7]
+adi_uart_Open                0x252b  0x158  Code  Gb  adi_uart.o [7]
+adi_uart_Read                0x2895   0x52  Code  Gb  adi_uart.o [7]
+adi_uart_SetConfiguration
+                             0x2955   0x22  Code  Gb  adi_uart.o [7]
+adi_uart_SubmitTxBuffer
+                             0x26bd   0x4e  Code  Gb  adi_uart.o [7]
+adi_uart_Write               0x2843   0x52  Code  Gb  adi_uart.o [7]
+baudrate_divc_26mhz          0x4150   0x14  Data  Gb  Communication.o [9]
+baudrate_divm_26mhz          0x41a4    0xc  Data  Gb  Communication.o [9]
+baudrate_divn_26mhz          0x4164   0x14  Data  Gb  Communication.o [9]
+baudrate_osr_26mhz           0x4198    0xc  Data  Gb  Communication.o [9]
+digits                       0x3da4   0x28  Data  Lc  iar_Stoulx.o [11]
+exit                         0x40ab    0x4  Code  Gb  exit.o [11]
+frexp                        0x18d5         Code  Gb  frexp.o [12]
+frexpl                       0x18d5         Code  Gb  frexp.o [12]
+gChannelControlDataArray
+                        0x2000'0400  0x400  Data  Lc  adi_dma.o [4]
+gUARTCfg                     0x4178   0x10  Data  Lc  adi_uart.o [7]
+gnLowPowerIntOccFlag    0x2000'0eb0    0x4  Data  Lc  adi_pwr.o [5]
+gpPowcbParam            0x2000'0eac    0x4  Data  Lc  adi_pwr.o [5]
+gpfCallbackFunction     0x2000'0ea8    0x4  Data  Lc  adi_pwr.o [5]
+gpioClock               0x2000'0eec    0x4  Data  Gb  system_ADuCM3029.o [3]
+hfClock                 0x2000'0ee8    0x4  Data  Gb  system_ADuCM3029.o [3]
+kwnUrtMonCmd            0x2000'001c   0x18  Data  Gb  Cli.o [9]
+ldexp                        0x19ad         Code  Gb  ldexp.o [12]
+ldexpl                       0x19ad         Code  Gb  ldexp.o [12]
+main                         0x4039   0x20  Code  Gb  ADuCM3029_demo_cli.o [9]
+memchr                       0x17d5         Code  Gb  memchr.o [13]
+ndigs                        0x3d7c   0x28  Data  Lc  iar_Stoulx.o [11]
+pDMA_DevData                 0x41f4    0x4  Data  Lc  adi_dma.o [4]
+pPrimaryCCD                  0x41f0    0x4  Data  Gb  adi_dma.o [4]
+p_device_handler        0x2000'0ecc    0x4  Data  Gb  Communication.o [9]
+sFifoTriggers                0x41f8    0x4  Data  Lc  adi_uart.o [7]
+scalbln                      0x19ad         Code  Gb  ldexp.o [12]
+scalblnl                     0x19ad         Code  Gb  ldexp.o [12]
+scalbn                       0x19ad         Code  Gb  ldexp.o [12]
+scalbnl                      0x19ad         Code  Gb  ldexp.o [12]
+scale                        0x1625   0x46  Code  Lc  xprintffull_nomb.o [11]
+sec_hand                0x2000'0ef8    0x4  Data  Lc  xfail_s.o [11]
+strchr                       0x173d         Code  Gb  strchr.o [13]
+strlen                       0x179d         Code  Gb  strlen.o [13]
+strncmp                      0x3a5b   0x28  Code  Gb  strncmp.o [11]
+strtol                       0x3a57    0x4  Code  Gb  iar_Stolx.o [11]
+timer_delayCount        0x2000'0ef4    0x4  Data  Gb  Timer.o [9]
+timer_start                  0x3c4f   0x14  Code  Gb  Timer.o [9]
+timer_tick                   0x3c63   0x10  Code  Gb  Timer.o [9]
+uart_ManageProcessedBuffer
+                             0x2c63   0xe4  Code  Lc  adi_uart.o [7]
+uart_PendForBuffer           0x28e7   0x4e  Code  Lc  adi_uart.o [7]
+uart_RxDataHandler           0x2b9d   0x76  Code  Lc  adi_uart.o [7]
+uart_TxDataHandler           0x2c13   0x50  Code  Lc  adi_uart.o [7]
+uart_buffer             0x2000'0de0   0xb0  Data  Gb  Communication.o [9]
+uart_cmd                0x2000'0edc    0x4  Data  Gb  Communication.o [9]
+uart_ctrlc              0x2000'0ee0    0x4  Data  Gb  Communication.o [9]
+uart_device_info        0x2000'000c   0x10  Data  Lc  adi_uart.o [7]
+uart_init                    0x2d47   0x34  Code  Lc  adi_uart.o [7]
+uart_rcnt               0x2000'0ed0    0x4  Data  Gb  Communication.o [9]
+uart_rx_buffer          0x2000'0c00  0x100  Data  Gb  Communication.o [9]
+uart_submitrxbuffer          0x27a9   0x9a  Code  Lc  adi_uart.o [7]
+uart_submittxbuffer          0x270d   0x9a  Code  Lc  adi_uart.o [7]
+uart_tbusy              0x2000'0ee4    0x4  Data  Gb  Communication.o [9]
+uart_tcnt               0x2000'0ed8    0x4  Data  Gb  Communication.o [9]
+uart_tpos               0x2000'0ed4    0x4  Data  Gb  Communication.o [9]
+uart_tx_buffer          0x2000'0800  0x400  Data  Gb  Communication.o [9]
+ucInterrupted           0x2000'0eb4    0x4  Data  Lc  ADICUP3029Port.o [1]
+urtMonCmdFun            0x2000'0034   0x18  Data  Gb  Cli.o [9]
+vsprintf                     0x3a85   0x34  Code  Gb  vsprintf.o [11]
+
+
+[1] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\AD5940
+[2] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device Cycle Count
+[3] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device Startup
+[4] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers DMA
+[5] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers Power
+[6] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers TMR
+[7] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers UART
+[8] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\CMSIS-Pack\Device.Drivers WDT
+[9] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\application
+[10] = C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Proggetto Prova\Terminal\Debug\Obj\pinmux
+[11] = dl7M_tln.a
+[12] = m7M_tl.a
+[13] = rt7M_tl.a
+[14] = shb_l.a
+
+  14'455 bytes of readonly  code memory
+     949 bytes of readonly  data memory
+   4'864 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
