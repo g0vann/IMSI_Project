@@ -1,76 +1,41 @@
 # ninja log v5
 45	515	6706808600000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Interrupt/adi_xint.xcl	8f5bb724e1171b7e
-4	287	6707121097183399	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
+4	381	6708099048332526	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
 293	486	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	727fdabbb7fe0f33
-14	293	6707120248777202	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part2.pbi	19780a9be08faeee
-23	235	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	277365c8871789f8
 313	546	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.xcl	f6ffdf5dcb14e3b6
+252	477	6708099367368234	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part2.pbi	19780a9be08faeee
+23	235	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	277365c8871789f8
 231	465	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	26b972f317bd135e
 272	527	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.xcl	252ad8ceff68bf9a
 207	440	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	7a859423c69f1b7a
+4	247	6708099365060998	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	66b2103a055f0c7
 252	507	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	2fe317a43c64edee
-989	1285	6706812600128780	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	66b2103a055f0c7
-624	1049	6706808610218918	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Interrupt/adi_xint.pbi	bf514488a7bfce5
-17	214	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/pinmux/adi_initialize.xcl	bc0fa91282e57f78
 14	255	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Timer.xcl	591934b9ca720f5e
+17	214	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/pinmux/adi_initialize.xcl	bc0fa91282e57f78
+624	1049	6706808610218918	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Interrupt/adi_xint.pbi	bf514488a7bfce5
+4	187	6707920376482917	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ad5940.pbi	281912e7b413c8ea
 1086	1432	6706812601562724	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	742387d6c9a63f92
-721	943	6706812596687977	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ad5940.pbi	281912e7b413c8ea
-959	1427	6706812601532804	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	f92455dda4cb4de9
-946	1325	6706812600487818	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	709145f06bd717b4
-432	725	6707120253090232	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part0.pbi	5756aef79eb4a907
-978	1303	6706812600288349	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	14e893b623ee9533
-1308	1608	6706812603357938	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.pbi	96f65dcbcee36efd
-265	485	6707169365338852	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-836	3367	6707169393627312	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
+4	364	6708099505173155	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	f92455dda4cb4de9
+4	374	6708099188862724	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	709145f06bd717b4
+480	772	6708100233446961	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part0.pbi	5756aef79eb4a907
+8	266	6708099277470145	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	14e893b623ee9533
+4	257	6708099277380748	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.pbi	96f65dcbcee36efd
 482	679	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/ADuCM3029_demo_cli.xcl	2f3d78beb249103a
-493	828	6707169368768048	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-4	276	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/pinmux/pinmux_config.xcl	daf4e9170dc7783c
+4	2829	6708100073565399	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
+236	458	6708099962901219	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
+467	807	6708099966390626	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
 504	702	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ad5940.xcl	16c5c0a0af976cb4
+4	276	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/pinmux/pinmux_config.xcl	daf4e9170dc7783c
 11	190	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Communication.xcl	d4ebc9eda75071e3
 26	296	6706812580000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Cli.xcl	a31de8fbe7cf2e2f
 459	648	6706812590000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ADICUP3029Port.xcl	e5d7eaeb8634c2ee
-4	260	6707169363084037	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Communication.pbi	53ad31427d1229ce
-645	955	6706812596807663	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Timer.pbi	f6f33bd875c224b2
+5	262	6708099872430190	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Communication.pbi	53ad31427d1229ce
+4	231	6708099960612087	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Timer.pbi	f6f33bd875c224b2
 544	640	6706812593676031	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/pinmux/adi_initialize.pbi	3d73e239ab8157c5
-567	975	6706812597017093	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Cli.pbi	7c2dad2104e18a8b
+5	304	6708099783179612	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Cli.pbi	7c2dad2104e18a8b
 871	984	6706812597037049	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/pinmux/pinmux_config.pbi	80e8ef274f9ec37c
-9	389	6707120249725406	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ADICUP3029Port.pbi	2fc36acdc9adef0b
-5	427	6707120250105087	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/ADuCM3029_demo_cli.pbi	c79adf19215446ee
-17	179	6707120247637498	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part3.pbi	188484385b59776d
-4	280	6707169498370688	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
-285	504	6707169500620324	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-513	841	6707169503992973	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-849	3420	6707169529256769	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-4	280	6707169583597930	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
-286	501	6707169585814959	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-510	863	6707169589438947	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-872	3505	6707169615308596	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-4	283	6707169669698862	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
-288	508	6707169671958069	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-516	845	6707169675334128	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-854	3456	6707169700899225	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-5	292	6707170107660456	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
-298	515	6707170109908651	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-525	856	6707170113304811	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-864	3433	6707170138554835	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-4	283	6707170192983178	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
-288	506	6707170195218696	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-513	843	6707170198589477	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-852	3387	6707170223508433	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-4	279	6707170730764595	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
-284	501	6707170733005743	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-510	850	6707170736496592	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-859	3402	6707170761477234	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-4	176	6707201096714348	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ad5940.pbi	281912e7b413c8ea
-181	465	6707201099617039	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part0.pbi	5756aef79eb4a907
-473	805	6707201103013979	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-812	3365	6707201128058233	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
-4	187	6707920376482917	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ad5940.pbi	281912e7b413c8ea
-8	284	6707920377420199	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/Communication.pbi	53ad31427d1229ce
-15	317	6707920377732628	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	9511a0142f1c4e1f
 10	363	6707920378201261	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/AD5940/ADICUP3029Port.pbi	2fc36acdc9adef0b
-12	413	6707920378670215	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/ADuCM3029_demo_cli.pbi	c79adf19215446ee
-321	561	6707920380232030	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part1.pbi	c42dc97ca80f073c
-417	715	6707920381794152	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part0.pbi	5756aef79eb4a907
-722	1074	6707920385387415	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbd	ac5dce9b94cb5e96
-1081	3936	6707920413477812	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal.pbw	7f9a6219f8b609a2
+4	476	6708100230474903	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/ADuCM3029_demo_cli.pbi	c79adf19215446ee
+369	506	6708099506605724	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part3.pbi	188484385b59776d
+4	494	6708100289971053	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/application/ADuCM3029_demo_cli.pbi	c79adf19215446ee
+498	786	6708100292913150	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/Proggetto Prova/Terminal/Debug/BrowseInfo/Terminal_part0.pbi	5756aef79eb4a907
