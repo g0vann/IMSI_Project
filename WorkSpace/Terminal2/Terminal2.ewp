@@ -2146,15 +2146,15 @@
         <name>CMSIS-Pack</name>
         <tag>CMSISPack.Component</tag>
         <group>
-            <name>Device Global Configuration</name>
+            <name>Device Cycle Count</name>
             <tag>CMSISPack.Component</tag>
             <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/adi_cyclecount.c</name>
             </file>
         </group>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
         <group>
             <name>Device Startup</name>
             <tag>CMSISPack.Component</tag>
@@ -2165,14 +2165,20 @@
                 <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
             </file>
         </group>
-        <file>
-            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
-        </file>
+        <group>
+            <name>Device Global Configuration</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
+            </file>
+        </group>
     </group>
     <cmsisPackSettings>
         <rte>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;configuration xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"&gt;
-  &lt;packages/&gt;
   &lt;device Dclock="26000000" Dcore="Cortex-M3" DcoreVersion="r2p1" Dendian="Little-endian" Dfamily="ADuCM302x Series" Dfpu="NO_FPU" Dmpu="NO_MPU" Dname="ADuCM3029" Dvendor="Analog Devices:1" info="ARM , 32 KB RAM, 256 KB ROM" url="https://www.keil.com/dd2/analogdevices/aducm3029"&gt;
     &lt;package info="Analog Devices ADuCM302x Device Support. (Subject to the Software License Agreement referred to in the Release Notes.)" name="ADuCM302x_DFP" url="http://download.analog.com/tools/EZBoards/CM302x/Releases/" vendor="AnalogDevices" version="3.2.0"/&gt;
   &lt;/device&gt;
@@ -2185,6 +2191,12 @@
       &lt;file category="header" condition="TrustZone" name="CMSIS/Core/Include/tz_context.h"/&gt;
       &lt;file attr="template" category="sourceC" condition="TZ Secure" name="CMSIS/Core/Template/ARMv8-M/main_s.c" select="Secure mode 'main' module for ARMv8-M" version="1.1.1"/&gt;
       &lt;file attr="template" category="sourceC" condition="TZ Secure" name="CMSIS/Core/Template/ARMv8-M/tz_context.c" select="RTOS Context Management (TrustZone for ARMv8-M)" version="1.1.1"/&gt;
+    &lt;/component&gt;
+    &lt;component Cclass="Device" Cgroup="Cycle Count" Cvendor="AnalogDevices" Cversion="3.2.0" deviceDependent="1"&gt;
+      &lt;package name="ADuCM302x_DFP" url="http://download.analog.com/tools/EZBoards/CM302x/Releases/" vendor="AnalogDevices" version="3.2.0"/&gt;
+      &lt;file category="source" deviceDependent="1" name="Source/adi_cyclecount.c"/&gt;
+      &lt;file category="header" deviceDependent="1" name="Include/adi_cyclecount.h"/&gt;
+      &lt;file attr="config" category="header" deviceDependent="1" name="Include/config/adi_cycle_counting_config.h" version="3.2.0"/&gt;
     &lt;/component&gt;
     &lt;component Cclass="Device" Cgroup="Global Configuration" Cvendor="AnalogDevices" Cversion="3.2.0" deviceDependent="1"&gt;
       &lt;package name="ADuCM302x_DFP" url="http://download.analog.com/tools/EZBoards/CM302x/Releases/" vendor="AnalogDevices" version="3.2.0"/&gt;
@@ -2199,6 +2211,7 @@
     &lt;/component&gt;
   &lt;/components&gt;
   &lt;apis/&gt;
+  &lt;packages useAllLatestPacks="1"/&gt;
 &lt;/configuration&gt;
 </rte>
     </cmsisPackSettings>
