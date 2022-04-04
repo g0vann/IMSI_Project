@@ -7,7 +7,6 @@
 	<buildSpec>
 	</buildSpec>
 	<natures>
-		<nature>com.arm.cmsis.pack.project.RteNature</nature>
 	</natures>
 	<linkedResources>
 		<link>

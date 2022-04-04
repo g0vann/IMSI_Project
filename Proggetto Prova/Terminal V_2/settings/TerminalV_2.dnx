@@ -56,7 +56,7 @@
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <Simulator>
-        <Freq>10000000</Freq>
+        <Freq>0</Freq>
         <FreqHi>0</FreqHi>
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
