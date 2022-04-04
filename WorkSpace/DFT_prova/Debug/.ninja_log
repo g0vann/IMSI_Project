@@ -1,0 +1,17 @@
+# ninja log v5
+1	37	6708114521946538	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
+12	262	6708114524110742	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
+5	334	6708114524808875	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
+47	444	6708114525915916	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
+345	517	6708114526653949	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
+273	529	6708114526663921	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
+9	794	6708114529391677	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
+804	903	6708114530548584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	c64ef391be1d542a
+2	28	6708115741500412	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
+15	138	6708115742502788	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
+10	232	6708115743425403	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
+38	262	6708115743724604	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
+149	367	6708115744806785	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
+244	397	6708115745121033	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
+6	652	6708115747619427	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
+662	769	6708115748846145	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c

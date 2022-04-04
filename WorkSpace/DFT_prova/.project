@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>DFT_prova</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.arm.cmsis.pack.project.RteNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>RTE/Device/ADuCM3029/adi_cyclecount.c</name>
+			<type>1</type>
+			<locationURI>$%7Bcmsis_pack_root%7D/AnalogDevices/ADuCM302x_DFP/3.2.0/Source/adi_cyclecount.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

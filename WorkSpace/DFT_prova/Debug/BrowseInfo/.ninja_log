@@ -1,0 +1,24 @@
+# ninja log v5
+5	108	6708112220000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	c9660e3c8d917c31
+1	138	6708112220000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	72d8836ccc7d9361
+118	287	6708112223193150	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	291c96f8893dbb27
+148	327	6708112223597126	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	fb4d933c331a135
+331	401	6708112224345128	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	25a22ed252f39acb
+405	1438	6708112234278708	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
+19	158	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	cb1a177171db5878
+2	171	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.xcl	67f6af62146f44bb
+22	185	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	b9d7876f18e0eb8f
+26	200	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.xcl	d70a0989345a3bd4
+169	270	6708114574173796	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part2.pbi	d657ff744996e4b4
+182	290	6708114574363313	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
+196	350	6708114574966768	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	d334b3e84983a1a6
+211	454	6708114576009029	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	3c7d312f8db97ed3
+275	511	6708114576567542	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.pbi	9c78eff875dbd888
+458	559	6708114577066204	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part0.pbi	4d6d120d54d30355
+514	598	6708114577455160	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
+602	744	6708114578911274	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
+748	2367	6708114594774187	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
+2	212	6708116571294710	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.pbi	9c78eff875dbd888
+215	291	6708116572092569	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
+295	440	6708116573578601	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
+445	2069	6708116589381935	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
