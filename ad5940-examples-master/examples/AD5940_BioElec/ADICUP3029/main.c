@@ -146,19 +146,25 @@ void UART_Int_Handler(void)
 {
   void UARTCmd_Process(char);
   uint32_t flag;
-  flag = pADI_UART0->LSR;
-  flag = pADI_UART0->IIR;
+  flag = pADI_UART0->LSR; //Line Status Register 16bit register (indicates if there have been transmission errors)
+  flag = pADI_UART0->IIR; //Interrupt ID register 16bit register
+  
+  //ora flag ha 32 bit e ci da informazioni sullo stato della ricezione
+  
+  //Primo Caso: abbiamo ricevuti tutti i bytes
   if((flag & 0x0e) == 0x04)  /* Receive Byte */
   {
     uint32_t count;
-    count = pADI_UART0->RFC;  /* Receive FIFO count */
+    count = pADI_UART0->RFC;  /* RFC Register Receive FIFO data bytes (caratteri ricevuti) count */
     for(int i=0;i < count; i++)
     {
       char c;
-      c = pADI_UART0->COMRX&0xff;
-      UARTCmd_Process(c);
+      c = pADI_UART0->COMRX&0xff; //COMRX non lo trovo ma credo stiamo dando a C il valore del carattere ricevuto
+      UARTCmd_Process(c); //chiamiamo la funzione che si occupa di cosa fare con quello che abbiamo ricevuto
     }
   }
+  
+  //Secondo caso: è scaduta la trasmissione, operiamo solo su quello che abbiamo avuto
   if((flag & 0x0e) == 0xc)  /* Time-out */
   {
     uint32_t count;

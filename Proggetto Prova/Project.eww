@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\Terminal\Terminal.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\Terminal V_2\TerminalV_2.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

@@ -110,6 +110,6 @@ void AD5940_Main(void)
   // pCurrApp = &BioElecAppList[toApp];
   while(1)
   {
-    
+    //aspettiamo semplicemente le interrupt
   }
 }

@@ -102,7 +102,7 @@ uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2){
 	
 	        /* Cicle to print data*/
 	for (ix = para1; ix < (para1 + para2); ix += 4){
-		if ((ix != begaddr) && (ix % 16 == 0)) {
+		if ((ix != para1) && (ix % 16 == 0)) {
 			fl = 1;
 			printf("\r\n");
 		}
@@ -133,7 +133,7 @@ uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2){
 	NVIC_SystemReset(); // Non sono sicuro
 }
 
-uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){
+uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ //potremmo togliere il secondo parametro
 	static uint32_t ix;
 	ix=SPIReadReg(para1);
 	printf("AD5940 Register 0x%02X contains 0x%02X%!\r\n",para1,ix);
