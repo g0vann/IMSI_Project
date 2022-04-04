@@ -19,6 +19,15 @@ Analog Devices Software License Agreement.
 #include "stdio.h"
 #include <stdlib.h>
 
+#include <ctype.h>
+
+
+
+#include <stdarg.h>
+#include <math.h>
+#include "ADuCM3029.h"
+
+
 #define  VERSION  "FrancOlino v2.0"
 #define LINEBUFF_SIZE 128
 #define CMDTABLE_SIZE 8
@@ -130,8 +139,8 @@ uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2){
 }
 
 uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2){
-	//NVIC_SystemReset(); // Non sono sicuro
-       	return 0x12345678; //dobbiamo ritornare qualcosa questo è il return del cmd_version() 
+	NVIC_SystemReset(); // Non sono sicuro
+       //	return 0x12345678; //dobbiamo ritornare qualcosa questo è il return del cmd_version() 
 }
 
 uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ //potremmo togliere il secondo parametro

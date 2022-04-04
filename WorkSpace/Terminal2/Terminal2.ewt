@@ -2872,14 +2872,14 @@
     <group>
         <name>CMSIS-Pack</name>
         <group>
-            <name>Device Global Configuration</name>
+            <name>Device Cycle Count</name>
             <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/adi_cyclecount.c</name>
             </file>
         </group>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
         <group>
             <name>Device Startup</name>
             <file>
@@ -2889,8 +2889,14 @@
                 <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
             </file>
         </group>
-        <file>
-            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
-        </file>
+        <group>
+            <name>Device Global Configuration</name>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
+            </file>
+        </group>
     </group>
 </project>

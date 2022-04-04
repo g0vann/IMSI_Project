@@ -27,6 +27,8 @@ C:/Users/papuz/IAR-CMSIS-Packs/ARM/CMSIS/5.8.0/\CMSIS\Core\Include
 -I
 C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
 -I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
@@ -48,6 +50,8 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\Terminal2\RTE\Device\ADuC
 C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
 -I
 C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
 -I
 C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
 -I
