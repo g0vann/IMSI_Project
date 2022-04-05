@@ -16,6 +16,8 @@ Analog Devices Software License Agreement.
 #include "stdio.h"
 #include "math.h"
 
+static float Mag,Ph;
+
 /**
  * Note: In order to use on-chip DFT engine, WG must be set to SIN wave generator and enable it.
 */
@@ -71,12 +73,17 @@ void AD5940_Main(void)
       real = AD5940_ReadAfeResult(AFERESULT_DFTREAL);
       if(real&(1<<17))
         real |= 0xfffc0000; /* Data is 18bit in two's complement, bit17 is the sign bit */
-      printf("DFT: %d,", real);      
+      //printf("DFT: %d,", real);      
       image = AD5940_ReadAfeResult(AFERESULT_DFTIMAGE);
       if(image&(1<<17))
         image |= 0xfffc0000; /* Data is 18bit in two's complement, bit17 is the sign bit */
-      printf("%d,", image);      
-      printf("Mag:%f\n", sqrt((float)real*real + (float)image*image));
+      //printf("%d,", image);      
+      /*A noi servono modulo e fase, se vogliamo esercitarci solo su matlab conviene per ora usare solo il modulo*/
+      /*Mag sta a rappresentare il modulo, conviene metterlo in una variabile*/
+      Mag=sqrt((float)real*real + (float)image*image);
+      /*Ph sta a rappresentare la fase*/
+      Ph=atan2f((float)real,(float)image);
+      printf("%f\n",Mag);  
     }
   }
 }
