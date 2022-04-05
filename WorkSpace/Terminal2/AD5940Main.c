@@ -22,6 +22,7 @@ Analog Devices Software License Agreement.
 #include <stdarg.h>
 #include <math.h>
 
+/* The LFOSC is only used for testing purposes*/
 
 #define APPBUFF_SIZE 512
 uint32_t AppBuff[APPBUFF_SIZE];
@@ -98,18 +99,15 @@ uint8_t toApp = APP_ID_BIA;*/
 
 void AD5940_Main(void)
 {
-  //static uint32_t IntCount; dichiarate ma non usate?
-  //uint32_t temp;
+   
+  AD5940PlatformCfg(); // Board configuration
   
-  AD5940PlatformCfg();
-  
-  printf("\t\n Welcome to FrancOlino first attempt!!!!!!!\r\n");
+  printf("\n\t Welcome to FrancOlino first attempt!!!!!!!\r\n");
   printf("\r\n");
   printf(">>Type in <help> to see available commands.\r\n");
   
-  // pCurrApp = &BioElecAppList[toApp];
   while(1)
   {
-    //aspettiamo semplicemente le interrupt
+    /*Wait external Interrupt*/
   }
 }

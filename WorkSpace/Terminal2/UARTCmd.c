@@ -37,7 +37,7 @@ Analog Devices Software License Agreement.
 extern uint32_t SPIReadReg(uint16_t RegAddr);
 extern void SPIWriteReg(uint16_t RegAddr, uint32_t RegData);
 
-/*dichiarazioni variabili che serviranno per cercare i comandi*/
+/*Variables declarations that will be used to search for commands*/
 char line_buffer[LINEBUFF_SIZE];
 uint32_t line_buffer_index = 0;
 uint32_t token_count = 0;
@@ -92,7 +92,7 @@ uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2)
 	return 0x12345678;
 }
 
-/*la lascio perché se dovesse partire questa sicuro funziona credo*/
+/*Only used to check if para1-para2 are correctly stored*/
 uint32_t say_hello(uint32_t para1, uint32_t para2)
 {
   printf("para1:0x%08x, para2:0x%08x\n", para1, para2);
@@ -129,21 +129,21 @@ uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2){
 uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2){
 	static uint32_t ix;
 	printf("HEX Push 0x%02X in 0x%08X\r\n", para2, para1);
-	ix=*(volatile uint32_t *)(para1); // Volatile to read phisic memory
+	ix=*(volatile uint32_t *)(para1); // Volatile to read physic memory
     if(ix != 0x00000000){
 		printf("Occupied memory area!\r\n");
     }else {
-		*(volatile uint32_t *)(para1) = para2; // Volatile to write phisic memory
+		*(volatile uint32_t *)(para1) = para2; // Volatile to write physic memory
     }
 	return 0;
 }
 
 uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2){
-	NVIC_SystemReset(); // Non sono sicuro
-       //	return 0x12345678; //dobbiamo ritornare qualcosa questo è il return del cmd_version() 
+	NVIC_SystemReset(); // Reset System
+       //	return 0x12345678; // Commented because never get there
 }
 
-uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ //potremmo togliere il secondo parametro
+uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ 
 	static uint32_t ix;
 	ix=SPIReadReg(para1);
 	printf("AD5940 Register 0x%02X contains 0x%02X%!\r\n",para1,ix);
@@ -267,6 +267,7 @@ void UARTCmd_Process(char c)
     if(pObjFound == 0)
     {
       line_buffer_index = 0; /* Reset buffer */
+      printf("Unknow command\n");
       return;   /* Command not support */
     }
     if(token_count > 1)           /* There is parameters */
