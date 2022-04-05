@@ -58,3 +58,12 @@
 308	543	6708109049797624	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	58e3670a44ac5a1a
 8	734	6708109051662639	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ad5940.o	63cd6167dfc1e4da
 745	853	6708109052849465	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Exe/Terminal2.out	59e112f08c5b2337
+8	33	6708117659564033	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	5c3d296b3210c464
+43	156	6708117660691020	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/AD5940Main.o	5d1731b14874d62e
+12	232	6708117661439022	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/main.o	2058eeed2631c83e
+5	263	6708117661598583	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ADICUP3029Port.o	7b6a1089532a74d7
+167	421	6708117663323981	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	58e3670a44ac5a1a
+276	447	6708117663593254	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	66b7ea84597df389
+244	482	6708117663942311	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/UARTCmd.o	f5e173b7fcce785b
+2	770	6708117666794687	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ad5940.o	63cd6167dfc1e4da
+781	968	6708117668600046	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Exe/Terminal2.out	59e112f08c5b2337
