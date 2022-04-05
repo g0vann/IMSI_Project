@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  04/Apr/2022  23:42:42
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  05/Apr/2022  23:15:19
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -90,7 +90,7 @@ No sections matched the following patterns:
     CHECKSUM         uninit         0x7fc     0x4  <Block tail>
                                   - 0x800     0x4
 
-"P2":                                      0x3140
+"P2":                                      0x3388
   .text              ro code        0x800   0xf12  xprintffull_nomb.o [5]
   .text              ro code       0x1714    0x16  strchr.o [7]
   .text              ro code       0x172c    0x40  xfail_s.o [5]
@@ -124,99 +124,103 @@ No sections matched the following patterns:
   .text              ro code       0x3144    0x18  FltToU32.o [6]
   .text              ro code       0x315c   0x210  main.o [2]
   .text              ro code       0x336c    0x28  printf.o [5]
-  .text              ro code       0x3394   0x13c  AD5940_DFTPolling.o [2]
-  .text              ro code       0x34d0    0x24  S32ToFlt.o [6]
-  .text              ro code       0x34f4    0x48  FltToDbl.o [6]
-  .text              ro code       0x353c    0xf2  sqrt.o [6]
-  .rodata            const         0x3630    0x70  ad5940.o [1]
-  .text              ro code       0x36a0    0x6c  system_ADuCM3029.o [4]
-  .text              ro code       0x370c    0x38  zero_init3.o [7]
-  .text              ro code       0x3744    0x28  data_init.o [7]
-  .iar.init_table    const         0x376c    0x10  - Linker created -
-  .text              ro code       0x377c    0x20  startup_ADuCM3029.o [4]
-  .text              ro code       0x379c    0x1e  cmain.o [7]
-  .text              ro code       0x37ba     0x4  low_level_init.o [5]
-  .text              ro code       0x37be     0x4  exit.o [5]
-  .text              ro code       0x37c4     0xa  cexit.o [7]
-  .rodata            const         0x37d0    0x1c  main.o [2]
-  .text              ro code       0x37ec    0x1c  cstartup_M.o [7]
-  .text              ro code       0x3808    0x16  xprout.o [5]
-  .rodata            const         0x3820     0xc  AD5940_DFTPolling.o [2]
-  .rodata            const         0x382c     0xc  main.o [2]
-  .rodata            const         0x3838     0x8  AD5940_DFTPolling.o [2]
-  .text              ro code       0x3840     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3844     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3848     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x384c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3850     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3854     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3858     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x385c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3860     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3864     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3868     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x386c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3870     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3874     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3878     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x387c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3880     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3884     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3888     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x388c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3890     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3894     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3898     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x389c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38a0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38a4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38a8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38ac     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38b0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38b4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38b8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38bc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38c0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38c4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38c8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38cc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38d0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38d4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38d8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38dc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38e0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38e4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38e8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38ec     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38f0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38f4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38f8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x38fc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3900     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3904     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3908     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x390c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3910     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3914     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3918     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x391c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3920     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3924     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3928     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x392c     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3930     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3934     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x3938     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x393c     0x4  startup_ADuCM3029.o [4]
-  .rodata            const         0x3940     0x0  zero_init3.o [7]
-                                 - 0x3940  0x3140
+  .text              ro code       0x3394   0x154  AD5940_DFTPolling.o [2]
+  .text              ro code       0x34e8    0x24  S32ToFlt.o [6]
+  .text              ro code       0x350c    0x48  FltToDbl.o [6]
+  .text              ro code       0x3554    0xf2  sqrt.o [6]
+  .text              ro code       0x3648    0x68  DblToFlt.o [6]
+  .text              ro code       0x36b0    0xbc  atan2_32.o [6]
+  .text              ro code       0x376c   0x118  iar_Atan32.o [6]
+  .rodata            const         0x3884    0x70  ad5940.o [1]
+  .text              ro code       0x38f4    0x6c  system_ADuCM3029.o [4]
+  .text              ro code       0x3960    0x38  zero_init3.o [7]
+  .text              ro code       0x3998    0x28  data_init.o [7]
+  .iar.init_table    const         0x39c0    0x10  - Linker created -
+  .text              ro code       0x39d0    0x20  startup_ADuCM3029.o [4]
+  .text              ro code       0x39f0    0x1e  cmain.o [7]
+  .text              ro code       0x3a0e     0x4  low_level_init.o [5]
+  .text              ro code       0x3a12     0x4  exit.o [5]
+  .text              ro code       0x3a18     0xa  cexit.o [7]
+  .rodata            const         0x3a24    0x1c  main.o [2]
+  .text              ro code       0x3a40    0x1c  cstartup_M.o [7]
+  .text              ro code       0x3a5c    0x16  xprout.o [5]
+  .rodata            const         0x3a74     0xc  main.o [2]
+  .rodata            const         0x3a80     0x8  AD5940_DFTPolling.o [2]
+  .text              ro code       0x3a88     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3a8c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3a90     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3a94     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3a98     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3a9c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3aa0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3aa4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3aa8     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3aac     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ab0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ab4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ab8     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3abc     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ac0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ac4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ac8     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3acc     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ad0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ad4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ad8     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3adc     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ae0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ae4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3ae8     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3aec     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3af0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3af4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3af8     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3afc     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b00     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b04     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b08     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b0c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b10     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b14     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b18     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b1c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b20     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b24     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b28     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b2c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b30     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b34     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b38     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b3c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b40     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b44     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b48     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b4c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b50     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b54     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b58     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b5c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b60     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b64     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b68     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b6c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b70     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b74     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b78     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b7c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b80     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x3b84     0x4  startup_ADuCM3029.o [4]
+  .rodata            const         0x3b88     0x0  zero_init3.o [7]
+                                 - 0x3b88  0x3388
 
-"P3":                                        0x28
+"P3":                                        0x30
   .bss               zero     0x2000'0000    0x1c  ad5940.o [1]
-  .bss               zero     0x2000'001c     0x4  ADICUP3029Port.o [1]
-  .bss               zero     0x2000'0020     0x4  xfail_s.o [5]
-  .bss               zero     0x2000'0024     0x1  ad5940.o [1]
-                            - 0x2000'0025    0x25
+  .bss               zero     0x2000'001c     0x4  AD5940_DFTPolling.o [2]
+  .bss               zero     0x2000'0020     0x4  AD5940_DFTPolling.o [2]
+  .bss               zero     0x2000'0024     0x4  ADICUP3029Port.o [1]
+  .bss               zero     0x2000'0028     0x4  xfail_s.o [5]
+  .bss               zero     0x2000'002c     0x1  ad5940.o [1]
+                            - 0x2000'002d    0x2d
 
 "A6":                                       0x400
   CSTACK                      0x2000'1c00   0x400  <Block>
@@ -227,8 +231,8 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x3940     0x3'ffff  0x3'c6c0
-  0x2000'0028  0x2000'1bff    0x1bd8
+       0x3b88     0x3'ffff  0x3'c478
+  0x2000'0030  0x2000'1bff    0x1bd0
 
 
 *******************************************************************************
@@ -238,8 +242,8 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x25:
-          0x2000'0000  0x25
+    1 destination range, total size 0x2d:
+          0x2000'0000  0x2d
 
 
 
@@ -260,10 +264,10 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_prova\Debug\Obj\AD594
     Total:                 2'314      112       33
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_prova\Debug\Obj\Application: [2]
-    AD5940_DFTPolling.o      316       20
+    AD5940_DFTPolling.o      340        8        8
     main.o                   528       40
     ----------------------------------------------
-    Total:                   844       60
+    Total:                   868       48        8
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_prova\Debug\Obj\CMSIS-Pack\Device Cycle Count: [3]
     ----------------------------------------------
@@ -292,6 +296,7 @@ m7M_tl.a: [6]
     DblCmpLe.o                52
     DblDiv.o                 582
     DblMul.o                 426
+    DblToFlt.o               104
     DblToS32.o                54
     DblToU32.o                34
     FltAddSub.o              354
@@ -304,11 +309,13 @@ m7M_tl.a: [6]
     S32ToFlt.o                36
     S64ToFlt.o                90
     U32ToDbl.o                28
+    atan2_32.o               188
     frexp.o                  112
+    iar_Atan32.o             280
     ldexp.o                  314
     sqrt.o                   242
     ----------------------------------------------
-    Total:                 3'620
+    Total:                 4'192
 
 rt7M_tl.a: [7]
     ABImemcpy.o              166
@@ -328,10 +335,10 @@ rt7M_tl.a: [7]
     ----------------------------------------------
     Total:                 1'204
 
-    Gaps                      38        6
+    Gaps                      40        4
     Linker created                     16    1'028
 --------------------------------------------------
-    Grand Total:          12'734      226    1'065
+    Grand Total:          13'332      212    1'073
 
 
 *******************************************************************************
@@ -340,9 +347,9 @@ rt7M_tl.a: [7]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x376c          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x377c          --   Gb  - Linker created -
-?main                        0x379d         Code  Gb  cmain.o [7]
+.iar.init_table$$Base        0x39c0          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x39d0          --   Gb  - Linker created -
+?main                        0x39f1         Code  Gb  cmain.o [7]
 AD5940_ADCBaseCfgS           0x2955   0x1c  Code  Gb  ad5940.o [1]
 AD5940_ADCConvtCtrlS         0x29c7   0x28  Code  Gb  ad5940.o [1]
 AD5940_ADCDigCompCfgS        0x29fd   0x2e  Code  Gb  ad5940.o [1]
@@ -360,7 +367,7 @@ AD5940_INTCClrFlag           0x2ad3    0xe  Code  Gb  ad5940.o [1]
 AD5940_INTCTestFlag          0x2ae1   0x24  Code  Gb  ad5940.o [1]
 AD5940_Initialize            0x26b5   0x82  Code  Gb  ad5940.o [1]
 AD5940_MCUResourceInit       0x2c63   0x7e  Code  Gb  ADICUP3029Port.o [1]
-AD5940_Main                  0x3395  0x13c  Code  Gb  AD5940_DFTPolling.o [2]
+AD5940_Main                  0x3395  0x154  Code  Gb  AD5940_DFTPolling.o [2]
 AD5940_ReadAfeResult         0x28e3   0x72  Code  Gb  ad5940.o [1]
 AD5940_ReadReg               0x2699   0x1c  Code  Gb  ad5940.o [1]
 AD5940_ReadWrite16B          0x2575   0x2c  Code  Lc  ad5940.o [1]
@@ -390,14 +397,16 @@ CSTACK$$Base            0x2000'1c00          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'2000          --   Gb  - Linker created -
 Ext_Int0_Handler             0x2ce1    0xe  Code  Gb  ADICUP3029Port.o [1]
 MCUPlatformInit              0x3197   0x3e  Code  Gb  main.o [2]
-Region$$Table$$Base          0x376c          --   Gb  - Linker created -
-Region$$Table$$Limit         0x377c          --   Gb  - Linker created -
+Mag                     0x2000'001c    0x4  Data  Lc  AD5940_DFTPolling.o [2]
+Ph                      0x2000'0020    0x4  Data  Lc  AD5940_DFTPolling.o [2]
+Region$$Table$$Base          0x39c0          --   Gb  - Linker created -
+Region$$Table$$Limit         0x39d0          --   Gb  - Linker created -
 SeqGenDB                0x2000'0000   0x1c  Data  Gb  ad5940.o [1]
-SystemInit                   0x36a1   0x2c  Code  Gb  system_ADuCM3029.o [4]
+SystemInit                   0x38f5   0x2c  Code  Gb  system_ADuCM3029.o [4]
 UrtCfg                       0x31d5  0x130  Code  Gb  main.o [2]
 _LitobFullNoMb               0x1519  0x10c  Code  Lc  xprintffull_nomb.o [5]
 _PrintfFullNoMb               0x801  0xce8  Code  Gb  xprintffull_nomb.o [5]
-_Prout                       0x3809   0x16  Code  Gb  xprout.o [5]
+_Prout                       0x3a5d   0x16  Code  Gb  xprout.o [5]
 _PutcharFullNoMb             0x167d   0x20  Code  Lc  xprintffull_nomb.o [5]
 _PutcharsFullNoMb            0x169d   0x2e  Code  Lc  xprintffull_nomb.o [5]
 __NVIC_EnableIRQ             0x2b8d   0x1c  Code  Lc  ADICUP3029Port.o [1]
@@ -408,18 +417,19 @@ __Vectors_Size {Abs}          0x140          --   Gb  startup_ADuCM3029.o [4]
 __aeabi_cdcmple              0x1915         Code  Gb  DblCmpLe.o [6]
 __aeabi_cdrcmple             0x1949         Code  Gb  DblCmpGe.o [6]
 __aeabi_cfcmpeq              0x2d55         Code  Gb  FltCmpEq.o [6]
+__aeabi_d2f                  0x3649         Code  Gb  DblToFlt.o [6]
 __aeabi_d2iz                 0x1ab9         Code  Gb  DblToS32.o [6]
 __aeabi_d2uiz                0x1fad         Code  Gb  DblToU32.o [6]
 __aeabi_ddiv                 0x1d65         Code  Gb  DblDiv.o [6]
 __aeabi_dmul                 0x1fed         Code  Gb  DblMul.o [6]
 __aeabi_dsub                 0x1c81         Code  Gb  DblAddSub.o [6]
-__aeabi_f2d                  0x34f5         Code  Gb  FltToDbl.o [6]
+__aeabi_f2d                  0x350d         Code  Gb  FltToDbl.o [6]
 __aeabi_f2uiz                0x3145         Code  Gb  FltToU32.o [6]
 __aeabi_fadd                 0x2fe1         Code  Gb  FltAddSub.o [6]
 __aeabi_fdiv                 0x2ec9         Code  Gb  FltDiv.o [6]
 __aeabi_fmul                 0x2df1         Code  Gb  FltMul.o [6]
 __aeabi_i2d                  0x1af1         Code  Gb  S32ToDbl.o [6]
-__aeabi_i2f                  0x34d1         Code  Gb  S32ToFlt.o [6]
+__aeabi_i2f                  0x34e9         Code  Gb  S32ToFlt.o [6]
 __aeabi_l2f                  0x2d95         Code  Gb  S64ToFlt.o [6]
 __aeabi_ldiv0                0x23d1         Code  Gb  I64DivZer.o [7]
 __aeabi_llsl                 0x2d71         Code  Gb  I64Shl.o [7]
@@ -429,33 +439,37 @@ __aeabi_memcpy8              0x181d         Code  Gb  ABImemcpy.o [7]
 __aeabi_memset               0x2b25         Code  Gb  ABImemset.o [7]
 __aeabi_ui2d                 0x1fd1         Code  Gb  U32ToDbl.o [6]
 __aeabi_uldivmod             0x2199         Code  Gb  I64DivMod.o [7]
-__cmain                      0x379d         Code  Gb  cmain.o [7]
+__cmain                      0x39f1         Code  Gb  cmain.o [7]
 __exit                       0x23d5         Code  Gb  XXexit.o [7]
+__iar_Atan32                 0x376d   0xda  Code  Gb  iar_Atan32.o [6]
 __iar_Fail_s                 0x172d   0x1c  Code  Gb  xfail_s.o [5]
 __iar_Memchr                 0x17a5         Code  Gb  memchr.o [7]
 __iar_Memset                 0x2b25         Code  Gb  ABImemset.o [7]
 __iar_Memset_word            0x2b2d         Code  Gb  ABImemset.o [7]
 __iar_Strchr                 0x1715         Code  Gb  strchr.o [7]
-__iar_data_init3             0x3745   0x28  Code  Gb  data_init.o [7]
+__iar_atan2_32               0x36b1   0xbc  Code  Gb  atan2_32.o [6]
+__iar_data_init3             0x3999   0x28  Code  Gb  data_init.o [7]
 __iar_frexp                  0x18b1         Code  Gb  frexp.o [6]
 __iar_frexp64                0x18a5         Code  Gb  frexp.o [6]
 __iar_frexpl                 0x18b1         Code  Gb  frexp.o [6]
 __iar_ldexp64                0x197d         Code  Gb  ldexp.o [6]
-__iar_program_start          0x37ed         Code  Gb  cstartup_M.o [7]
+__iar_program_start          0x3a41         Code  Gb  cstartup_M.o [7]
 __iar_scalbln64              0x197d         Code  Gb  ldexp.o [6]
 __iar_scalbn64               0x197d         Code  Gb  ldexp.o [6]
-__iar_sqrt64                 0x353d         Code  Gb  sqrt.o [6]
-__iar_zero_init3             0x370d   0x38  Code  Gb  zero_init3.o [7]
-__low_level_init             0x37bb    0x4  Code  Gb  low_level_init.o [5]
+__iar_sqrt64                 0x3555         Code  Gb  sqrt.o [6]
+__iar_zero_init3             0x3961   0x38  Code  Gb  zero_init3.o [7]
+__low_level_init             0x3a0f    0x4  Code  Gb  low_level_init.o [5]
 __vector_table                  0x0         Data  Gb  startup_ADuCM3029.o [4]
 __vector_table_0x1c            0x1c         Data  Gb  startup_ADuCM3029.o [4]
-_call_main                   0x37a9         Code  Gb  cmain.o [7]
-_exit                        0x37c5         Code  Gb  cexit.o [7]
+_call_main                   0x39fd         Code  Gb  cmain.o [7]
+_exit                        0x3a19         Code  Gb  cexit.o [7]
+a                            0x3864   0x20  Data  Lc  iar_Atan32.o [6]
 abort                        0x23c9    0x6  Code  Gb  abort.o [5]
 adi_system_EnableRetention
-                             0x36cd   0x28  Code  Gb  system_ADuCM3029.o [4]
-bIsS2silicon            0x2000'0024    0x1  Data  Lc  ad5940.o [1]
-exit                         0x37bf    0x4  Code  Gb  exit.o [5]
+                             0x3921   0x28  Code  Gb  system_ADuCM3029.o [4]
+atan2f                       0x36b1   0xbc  Code  Gb  atan2_32.o [6]
+bIsS2silicon            0x2000'002c    0x1  Data  Lc  ad5940.o [1]
+exit                         0x3a13    0x4  Code  Gb  exit.o [5]
 frexp                        0x18a5         Code  Gb  frexp.o [6]
 frexpl                       0x18a5         Code  Gb  frexp.o [6]
 ldexp                        0x197d         Code  Gb  ldexp.o [6]
@@ -469,12 +483,12 @@ scalblnl                     0x197d         Code  Gb  ldexp.o [6]
 scalbn                       0x197d         Code  Gb  ldexp.o [6]
 scalbnl                      0x197d         Code  Gb  ldexp.o [6]
 scale                        0x1625   0x46  Code  Lc  xprintffull_nomb.o [5]
-sec_hand                0x2000'0020    0x4  Data  Lc  xfail_s.o [5]
-sqrt                         0x353d         Code  Gb  sqrt.o [6]
-sqrtl                        0x353d         Code  Gb  sqrt.o [6]
+sec_hand                0x2000'0028    0x4  Data  Lc  xfail_s.o [5]
+sqrt                         0x3555         Code  Gb  sqrt.o [6]
+sqrtl                        0x3555         Code  Gb  sqrt.o [6]
 strchr                       0x1715         Code  Gb  strchr.o [7]
 strlen                       0x176d         Code  Gb  strlen.o [7]
-ucInterrupted           0x2000'001c    0x4  Data  Lc  ADICUP3029Port.o [1]
+ucInterrupted           0x2000'0024    0x4  Data  Lc  ADICUP3029Port.o [1]
 
 
 [1] = C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_prova\Debug\Obj\AD5940lib
@@ -485,9 +499,9 @@ ucInterrupted           0x2000'001c    0x4  Data  Lc  ADICUP3029Port.o [1]
 [6] = m7M_tl.a
 [7] = rt7M_tl.a
 
-  12'734 bytes of readonly  code memory
-     226 bytes of readonly  data memory
-   1'065 bytes of readwrite data memory
+  13'332 bytes of readonly  code memory
+     212 bytes of readonly  data memory
+   1'073 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

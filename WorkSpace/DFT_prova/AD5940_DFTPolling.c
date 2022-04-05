@@ -83,7 +83,7 @@ void AD5940_Main(void)
       Mag=sqrt((float)real*real + (float)image*image);
       /*Ph sta a rappresentare la fase*/
       Ph=atan2f((float)real,(float)image);
-      printf("%f\n",Mag);  
+      printf("%f\r\n",Mag);  
     }
   }
 }
