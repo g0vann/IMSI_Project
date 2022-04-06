@@ -1,51 +1,22 @@
 # ninja log v5
-5	108	6708112220000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	c9660e3c8d917c31
-1	138	6708112220000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	72d8836ccc7d9361
-118	287	6708112223193150	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	291c96f8893dbb27
-148	327	6708112223597126	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	fb4d933c331a135
-331	401	6708112224345128	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	25a22ed252f39acb
-405	1438	6708112234278708	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-19	158	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	cb1a177171db5878
-2	171	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.xcl	67f6af62146f44bb
-22	185	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	b9d7876f18e0eb8f
-26	200	6708114570000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.xcl	d70a0989345a3bd4
-169	270	6708114574173796	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part2.pbi	d657ff744996e4b4
-182	290	6708114574363313	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-196	350	6708114574966768	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	d334b3e84983a1a6
-211	454	6708114576009029	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	3c7d312f8db97ed3
-275	511	6708114576567542	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.pbi	9c78eff875dbd888
-458	559	6708114577066204	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part0.pbi	4d6d120d54d30355
-514	598	6708114577455160	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-602	744	6708114578911274	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-748	2367	6708114594774187	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-2	212	6708116571294710	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.pbi	9c78eff875dbd888
-215	291	6708116572092569	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-295	440	6708116573578601	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-445	2069	6708116589381935	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-2	94	6708117665468233	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part2.pbi	7c38760897374aec
-98	258	6708117667093896	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-262	1887	6708117683026910	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-2	97	6708782814776365	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-100	193	6708782815753749	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-197	336	6708782817179934	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-340	2531	6708782838768149	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-1	178	6708790724177161	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-181	254	6708790724945103	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-257	397	6708790726381263	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-401	1961	6708790741675641	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-2	67	6708793673817936	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-70	142	6708793674575913	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-146	281	6708793675962202	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-285	1821	6708793690967341	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-1	66	6708794147241669	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-69	142	6708794148004683	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-145	282	6708794149405991	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-286	1833	6708794164550738	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-1	149	6708824081080389	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-153	246	6708824082067744	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-250	401	6708824083613621	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-405	2711	6708824106338796	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
-2	75	6708965175429013	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	f9c750f00bd57911
-79	158	6708965176266774	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	c75a3aebeb555401
-162	315	6708965177837661	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	373f4256c12806e7
-1	1829	6708965308055142	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	5e13f01d2ae060c4
+271	636	6709404237984835	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	287b4f7c2833fb89
+643	4756	6709404278375499	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	3bf3fc0686d4c577
+20	609	6709391890000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	d4ecc29373653e02
+45	527	6709391890000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	c70e20fec34f504
+2	98	6709404232582869	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	8cc3caf8de533ffe
+57	562	6709391890000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	2181b869c5591bff
+1001	1187	6709391902792145	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part2.pbi	51c9a6b89117af29
+576	995	6709391900855584	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	4054dac6870d7935
+60	578	6709391890000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.xcl	9973eeb3d423a284
+50	593	6709391890000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.xcl	722e17fa24af9f86
+54	625	6709391890000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	6c13fd2d8c24c42d
+622	826	6709391899140171	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	c90d6d9f2b830317
+640	984	6709391900745872	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	8c67becfc316580f
+542	1041	6709391901324664	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	4a9f4106cc2d97d
+591	1051	6709391901374194	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/main.pbi	ed26479d4693eb0a
+1048	1272	6709391903632455	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part0.pbi	994e875c7f9178ff
+103	266	6709404234302838	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	7537a613095931e6
+2	102	6709404331951128	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	8cc3caf8de533ffe
+109	277	6709404333670763	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova_part1.pbi	7537a613095931e6
+284	668	6709404337591104	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbd	287b4f7c2833fb89
+676	4823	6709404378379422	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/DFT_prova/Debug/BrowseInfo/DFT_prova.pbw	3bf3fc0686d4c577

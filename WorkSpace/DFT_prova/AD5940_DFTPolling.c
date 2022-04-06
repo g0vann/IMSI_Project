@@ -17,6 +17,7 @@ Analog Devices Software License Agreement.
 #include "math.h"
 
 static float Mag,Ph;
+static int count;
 
 /**
  * Note: In order to use on-chip DFT engine, WG must be set to SIN wave generator and enable it.
@@ -64,6 +65,7 @@ void AD5940_Main(void)
   AD5940_AFECtrlS(AFECTRL_DFT, bTRUE);
   AD5940_ADCConvtCtrlS(bTRUE);
   
+  count = 0; //inizilizzo il contatore
   while(1)
   {
     int32_t real, image;
@@ -80,10 +82,15 @@ void AD5940_Main(void)
       //printf("%d,", image);      
       /*A noi servono modulo e fase, se vogliamo esercitarci solo su matlab conviene per ora usare solo il modulo*/
       /*Mag sta a rappresentare il modulo, conviene metterlo in una variabile*/
+      if((count % 100) == 0 ){ //ogni 100 campioni voglio alteraere il modulo
+        Mag=(sqrt((float)real*real + (float)image*image))+60;  //provo ad iniettare dei valori sballati ogni 100 stampe per vedere come reagisce il plotting
+      }
       Mag=sqrt((float)real*real + (float)image*image);
       /*Ph sta a rappresentare la fase*/
       Ph=atan2f((float)real,(float)image);
-      printf("%f\r\n",Mag);  
+      
+      printf("%f %f\r\n",Mag,Ph);  
+      count = count+1; //incremento il contatore
     }
   }
 }
