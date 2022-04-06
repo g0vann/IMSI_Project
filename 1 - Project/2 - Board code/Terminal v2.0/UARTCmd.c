@@ -19,15 +19,25 @@ Analog Devices Software License Agreement.
 #include "stdio.h"
 #include <stdlib.h>
 
+#include <ctype.h>
+
+
+
+#include <stdarg.h>
+#include <math.h>
+#include "ADuCM3029.h"
+
+
 #define  VERSION  "FrancOlino v2.0"
 #define LINEBUFF_SIZE 128
-#define CMDTABLE_SIZE 9
+#define CMDTABLE_SIZE 8
+
 
 /* Functions to Read/Write AD5940 Register*/
 extern uint32_t SPIReadReg(uint16_t RegAddr);
 extern void SPIWriteReg(uint16_t RegAddr, uint32_t RegData);
 
-/*dichiarazioni variabili che serviranno per cercare i comandi*/
+/*Variables declarations that will be used to search for commands*/
 char line_buffer[LINEBUFF_SIZE];
 uint32_t line_buffer_index = 0;
 uint32_t token_count = 0;
@@ -35,7 +45,7 @@ void *pObjFound = 0;
 uint32_t parameter1, parameter2;
 
 uint32_t help(uint32_t para1, uint32_t para2);
-uint32_t say_hello(uint32_t para1, uint32_t para2);
+uint32_t say_hello(uint32_t para1, uint32_t para2); //Used onlyto check if Para1 and Para2 are correctly stored
 uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2);
 uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2);
 uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2);
@@ -51,7 +61,6 @@ struct __uartcmd_table
 }uart_cmd_table[CMDTABLE_SIZE]=
 {
   {(void*)help, "help", "Display available commands"},
-  {(void*)help, "?", "Display available commands"},
   {(void*)say_hello, "hello", "Print parameteres and say hello"},
   {(void*)Cli_CmdVersion, "version", "SW version"},
   {(void*)Cli_CmdDump, "dump", "[begaddr][,count] - Dumps the memory"},
@@ -66,14 +75,14 @@ struct __uartcmd_table
 uint32_t help(uint32_t para1, uint32_t para2)
 {
   int i = 0;
-  printf("*****help menu*****\nbelow are supported commands:\n");
+  printf("               *****help menu*****\nbelow are supported commands:\n\n");
   for(;i<CMDTABLE_SIZE;i++)
   {
     if(uart_cmd_table[i].pObj)
       printf("%-8s --\t%s\n", uart_cmd_table[i].cmd_name, uart_cmd_table[i].pDesc);
   }
-  printf("***table end***\n");
-  return 0x87654321;
+  printf("               ***table     end***\n");
+  return 0x32165498;
 }
 
 uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2)
@@ -83,7 +92,7 @@ uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2)
 	return 0x12345678;
 }
 
-/*la lascio perché se dovesse partire questa sicuro funziona credo*/
+/*Only used to check if para1-para2 are correctly stored*/
 uint32_t say_hello(uint32_t para1, uint32_t para2)
 {
   printf("para1:0x%08x, para2:0x%08x\n", para1, para2);
@@ -120,20 +129,21 @@ uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2){
 uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2){
 	static uint32_t ix;
 	printf("HEX Push 0x%02X in 0x%08X\r\n", para2, para1);
-	ix=*(volatile uint32_t *)(para1); // Volatile to read phisic memory
+	ix=*(volatile uint32_t *)(para1); // Volatile to read physic memory
     if(ix != 0x00000000){
 		printf("Occupied memory area!\r\n");
     }else {
-		*(volatile uint32_t *)(para1) = para2; // Volatile to write phisic memory
+		*(volatile uint32_t *)(para1) = para2; // Volatile to write physic memory
     }
 	return 0;
 }
 
 uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2){
-	NVIC_SystemReset(); // Non sono sicuro
+	NVIC_SystemReset(); // Reset System
+       //	return 0x12345678; // Commented because never get there
 }
 
-uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ //potremmo togliere il secondo parametro
+uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ 
 	static uint32_t ix;
 	ix=SPIReadReg(para1);
 	printf("AD5940 Register 0x%02X contains 0x%02X%!\r\n",para1,ix);
@@ -142,11 +152,11 @@ uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ //potremmo togliere i
 
 uint32_t Cli_CmdPushAD5940(uint32_t para1,uint32_t para2){
 	static uint32_t ix;
-	Cli_Printf("HEX Push 0x%02X in %s\r\n", para2, para1);
+	printf("HEX Push 0x%02X in 0x%02X\r\n", para2, para1);
 	/* in this case SPIReadReg & SPIWriteReg is used to Read/write on AD5940 Register*/
     ix=SPIReadReg(para1);
     if(ix != 0x00000000){
-		printf("AD5940 Register occupied!\r\n");
+	printf("AD5940 Register occupied!\r\n");
     }else {
         SPIWriteReg(para1, para2);
     }
@@ -210,10 +220,8 @@ void UARTCmd_MatchCommand(void)
 /* Translate string 'p' to number, store results in 'Res', return error code */
 static uint32_t Str2Num(char *s, uint32_t *Res)
 {
-  char *p;
-  unsigned int base=10;
    
-  *Res = strtoul( s, &p, base );
+  *Res = strtol((const char*)s, NULL, 16);
 
   return 0;
 }
@@ -259,6 +267,7 @@ void UARTCmd_Process(char c)
     if(pObjFound == 0)
     {
       line_buffer_index = 0; /* Reset buffer */
+      printf("Unknow command\n");
       return;   /* Command not support */
     }
     if(token_count > 1)           /* There is parameters */
@@ -267,7 +276,7 @@ void UARTCmd_Process(char c)
     }
     /* Step3, call function */
     res = ((uint32_t (*)(uint32_t, uint32_t))(pObjFound))(parameter1, parameter2);
-    printf("res:0x%08x\n", res);
+    //printf("res:0x%08x\n", res);
     line_buffer_index = 0;  /* Reset buffer */
   }
   else
