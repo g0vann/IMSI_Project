@@ -1,8 +1,0 @@
-# !SESSION 2022-03-28 21:41:04.326
-# version: 1.1
-# verbose: true
-# The following option strings are specified for this debug session:
-# 	null
-| main | 2022-03-28 21:41:04.326 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
-| Worker-4 | 2022-03-28 22:10:07.512 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Performing pack conversion... |
-| Worker-4 | 2022-03-28 22:10:11.449 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Pack has been converted. |

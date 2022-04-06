@@ -15,7 +15,7 @@ Analog Devices Software License Agreement.
 #include "ad5940.h"
 #include "stdio.h"
 #include "math.h"
-
+#define PI 3.141592654
 static float Mag,Ph;
 static int count;
 
@@ -82,13 +82,14 @@ void AD5940_Main(void)
       //printf("%d,", image);      
       /*A noi servono modulo e fase, se vogliamo esercitarci solo su matlab conviene per ora usare solo il modulo*/
       /*Mag sta a rappresentare il modulo, conviene metterlo in una variabile*/
-      if((count % 100) == 0 ){ //ogni 100 campioni voglio alteraere il modulo
-        Mag=(sqrt((float)real*real + (float)image*image))+60;  //provo ad iniettare dei valori sballati ogni 100 stampe per vedere come reagisce il plotting
-      }
+
       Mag=sqrt((float)real*real + (float)image*image);
+      if((count % 100) == 0 ){ //ogni 100 campioni voglio alteraere il modulo
+        Mag=Mag+60;  //provo ad iniettare dei valori sballati ogni 100 stampe per vedere come reagisce il plotting
+      }
       /*Ph sta a rappresentare la fase*/
       Ph=atan2f((float)real,(float)image);
-      
+      Ph=Ph * 180.0/PI;
       printf("%f %f\r\n",Mag,Ph);  
       count = count+1; //incremento il contatore
     }
