@@ -1,0 +1,46 @@
+# ninja log v5
+20	138	6710454280000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.xcl	6f28338bfa38401e
+22	156	6710454280000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	2b8d6f1a61105884
+25	187	6710454280000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	ddec7dde59ee238c
+2	204	6710454280000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	c03c0c0155ee2ed2
+153	295	6710454280000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.xcl	112ed2d88ba99fa3
+172	405	6710454287575319	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device Cycle Count/adi_cyclecount.pbi	79705ae879930d32
+202	412	6710454287585299	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	4f9da25d1ef1520
+313	417	6710454280000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.xcl	c5aab1375be9adaf
+220	435	6710454287655106	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	bb084c2d67981334
+439	553	6710454289071314	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part0.pbi	4842c1131c979b00
+433	630	6710454289829289	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers WDT/adi_wdt.pbi	7f52897059ff573b
+409	637	6710454289899106	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	be8a64c59d6f0968
+415	643	6710454289929029	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers UART/adi_uart.pbi	b607bec1941f4ef5
+641	724	6710454290776752	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part1.pbi	8cf9279f15503f0a
+647	732	6710454290856542	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part2.pbi	59aa61e6371d4e25
+736	835	6710454291883791	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1.pbd	12ff4a4161372300
+839	2555	6710454308823787	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1.pbw	dccb3e1618bc82ca
+3	127	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/ADuCM3029_demo_cli.xcl	ec614c9975a2f162
+7	145	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/AD5940lib/ad5940.xcl	d23c6ada468897f5
+10	165	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/Cli.xcl	b4124fff915ec4c5
+13	183	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/Timer.xcl	df1ea7555026067e
+142	269	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	da42a09f70844df9
+159	290	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	adaca4868a379fee
+180	307	6710456010000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/Communication.xcl	afbdcdbaf0c4c491
+199	360	6710456015260962	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/AD5940lib/ad5940.pbi	b507e6f02864facb
+306	484	6710456016492723	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/Timer.pbi	633f757b58b1098f
+324	527	6710456016921579	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/Communication.pbi	ec37e90b4d8e2436
+364	539	6710456017031284	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	f7c9be4c012427de
+286	585	6710456017505115	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/ADuCM3029_demo_cli.pbi	e86189cec3505aed
+542	597	6710456017634772	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part3.pbi	c10968c5948c9abf
+531	604	6710456017694611	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	a2e14fca090f125c
+607	699	6710456018662017	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part1.pbi	a5146ebce3abfa1e
+589	734	6710456019001113	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part2.pbi	8c46c4d7bda4404b
+487	769	6710456019350177	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Application/Cli.pbi	ab11fe4e8a9fb14f
+772	925	6710456020915992	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part0.pbi	895ef3e2296aa47a
+930	1102	6710456022681269	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1.pbd	54d61bcae49dd4f5
+1106	2710	6710456038404372	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1.pbw	dccb3e1618bc82ca
+3	109	6710456930000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	dec0e880d85515d4
+12	128	6710456930647652	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part3.pbi	45b2a48f5ecc6222
+8	131	6710456930767332	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part1.pbi	7bf5c3acb47e113f
+5	132	6710456983295323	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part2.pbi	368f3883491503dd
+3	215	6710456984113136	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	27e745e7930d2fb9
+218	382	6710456985798738	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1_part0.pbi	f6f7a4892e9577f2
+387	553	6710456987509217	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1.pbd	54d61bcae49dd4f5
+557	2180	6710457003401891	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal1/Debug/BrowseInfo/Terminal1.pbw	dccb3e1618bc82ca
