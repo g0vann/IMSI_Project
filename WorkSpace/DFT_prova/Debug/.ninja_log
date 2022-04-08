@@ -1,73 +1,9 @@
 # ninja log v5
-1	37	6708114521946538	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-12	262	6708114524110742	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-5	334	6708114524808875	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-47	444	6708114525915916	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-345	517	6708114526653949	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-273	529	6708114526663921	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-9	794	6708114529391677	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-804	903	6708114530548584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	c64ef391be1d542a
-2	28	6708115741500412	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-15	138	6708115742502788	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-10	232	6708115743425403	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-38	262	6708115743724604	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-149	367	6708115744806785	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-244	397	6708115745121033	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-6	652	6708115747619427	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-662	769	6708115748846145	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-1	29	6708117614592818	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-17	281	6708117617016505	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-12	348	6708117617684721	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-38	376	6708117617954002	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-291	531	6708117619529781	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-359	552	6708117619659435	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-7	754	6708117621703959	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-764	858	6708117622811004	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-2	343	6708934293855513	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-337	885	6708934300353371	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-335	901	6708934300353371	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-352	940	6708934300931826	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-912	1027	6708934301859345	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-897	1119	6708934302746968	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-180	1302	6708934304532187	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-1312	1685	6708934308437007	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-1	29	6708965186719564	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-11	263	6708965188953595	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-4	405	6708965190349856	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-38	466	6708965190968192	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-276	516	6708965191481897	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-416	597	6708965192309676	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-8	849	6708965194783063	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-860	974	6708965196099547	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-2	197	6709507312283950	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-174	474	6709507314946836	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-166	525	6709507315445493	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-206	552	6709507315634988	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-536	641	6709507316652272	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-485	713	6709507317380321	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-170	894	6709507319115677	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-904	1244	6709507322686125	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-2	25	6709512983380562	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-10	299	6709512986003548	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-12	341	6709512986422425	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-35	371	6709512986651815	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-354	447	6709512987529469	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-310	482	6709512987878532	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-5	735	6709512990351911	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-744	833	6709512991389139	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-1	29	6709519645993871	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-11	314	6709519648756476	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-8	379	6709519649374823	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-37	420	6709519649803687	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-326	582	6709519651439306	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-390	595	6709519651459249	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-5	830	6709519653877837	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-840	937	6709519655034870	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
-2	37	6710445169340830	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
-47	326	6710445172133372	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
-6	354	6710445172302910	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
-12	421	6710445173070860	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
-366	546	6710445174352500	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
-338	569	6710445174432293	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
-9	764	6710445176466942	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab
-773	867	6710445177579017	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
+3	27	6711359131053328	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	319d1ffbfaaa6291
+701	795	6711359138668023	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Exe/DFT_prova.out	b3f130f63eda410c
+231	361	6711359134324575	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/AD5940_DFTPolling.o	2b2db143b220b242
+261	462	6711359135316990	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/Application/main.o	9535cadaf0112813
+10	249	6711359133067933	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	76eedfe942174678
+37	218	6711359132868472	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	1d560263d63804db
+13	296	6711359133646397	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	8fce054e50d0e541
+7	690	6711359137560985	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_prova/Debug/Obj/AD5940lib/ad5940.o	fb68e367ff1c48ab

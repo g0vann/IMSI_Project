@@ -1,0 +1,6 @@
+idee:
+-bloccare m1 e m2 per tot samples dopo il picco (fatto)
+-fare interfaccia con funzioni start e stop come pulsanti
+-aggiungere pulsante marker e spazio per rinominarlo
+-area visualizza marker
+- BLE

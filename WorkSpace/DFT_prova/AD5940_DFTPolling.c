@@ -56,7 +56,7 @@ void AD5940_Main(void)
 
   AD5940_StructInit(&wg_cfg, sizeof(wg_cfg));
   wg_cfg.WgType = WGTYPE_SIN;
-  wg_cfg.SinCfg.SinFreqWord = AD5940_WGFreqWordCal(1000.0, 16000000.0);  /* 10kHz */
+  wg_cfg.SinCfg.SinFreqWord = AD5940_WGFreqWordCal(500.0, 16000000.0);  /* 10kHz */
   AD5940_WGCfgS(&wg_cfg);
 
   /* Enable all interrupt at Interrupt Controller 1. So we can check the interrupt flag */
