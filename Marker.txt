@@ -1,0 +1,2 @@
+N	Lable	Mag	Phase	Sample
+1	Peak	221.474457	-117.675911	0.0116
