@@ -86,11 +86,12 @@ static int32_t AD5940PlatformCfg(void)
 	
   AD5940_SleepKeyCtrlS(SLPKEY_UNLOCK);  /* Enable AFE to enter sleep mode. */
 
+  //Questo non ci serve
   /* Measure LFOSC frequency */
-  LfoscMeasure.CalDuration = 1000.0;  /* 1000ms used for calibration. */
-  LfoscMeasure.CalSeqAddr = 0;
-  LfoscMeasure.SystemClkFreq = 16000000.0f; /* 16MHz in this firmware. */
-  AD5940_LFOSCMeasure(&LfoscMeasure, &LFOSCFreq);
+//  LfoscMeasure.CalDuration = 1000.0;  /* 1000ms used for calibration. */
+//  LfoscMeasure.CalSeqAddr = 0;
+//  LfoscMeasure.SystemClkFreq = 16000000.0f; /* 16MHz in this firmware. */
+//  AD5940_LFOSCMeasure(&LfoscMeasure, &LFOSCFreq);
   //printf("Freq:%f\n", LFOSCFreq); inutile attualmente, era solo una prova
   
   /*funzione per la DFT*/
@@ -143,6 +144,8 @@ void AD5940_Main(void)
 {
    
   AD5940PlatformCfg(); // Board configuration
+  
+  //OTTIMOOOOOOOO!
   
 /*  printf("\n\t Welcome to FrancOlino first attempt!!!!!!!\r\n");
   printf("\r\n");

@@ -30,7 +30,7 @@ Analog Devices Software License Agreement.
 
 #define  VERSION  "FrancOlino v2.0"
 #define LINEBUFF_SIZE 128
-#define CMDTABLE_SIZE 10
+#define CMDTABLE_SIZE 2
 #define PI 3.141592654
 static float Mag,Ph;
 static int count;
@@ -46,7 +46,7 @@ uint32_t line_buffer_index = 0;
 uint32_t token_count = 0;
 void *pObjFound = 0;
 uint32_t parameter1, parameter2;
-
+/*
 uint32_t help(uint32_t para1, uint32_t para2);
 uint32_t say_hello(uint32_t para1, uint32_t para2); //Used onlyto check if Para1 and Para2 are correctly stored
 uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2);
@@ -55,6 +55,7 @@ uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2);
 uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2);
 uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2);
 uint32_t Cli_CmdPushAD5940(uint32_t para1,uint32_t para2);
+*/
 uint32_t Cli_start(uint32_t para1,uint32_t para2);
 uint32_t Cli_stop(uint32_t para1,uint32_t para2);
 
@@ -66,6 +67,7 @@ struct __uartcmd_table
   const char *pDesc;
 }uart_cmd_table[CMDTABLE_SIZE]=
 {
+  /*
   {(void*)help, "help", "Display available commands"},
   {(void*)say_hello, "hello", "Print parameteres and say hello"},
   {(void*)Cli_CmdVersion, "version", "SW version"},
@@ -74,13 +76,14 @@ struct __uartcmd_table
   {(void*)Cli_CmdDumpAD5940, "dumpAD5940", "[address] - Dumps AD5940 Registers"},
   {(void*)Cli_CmdPushAD5940, "pushAD5940", "[address] [,data] - Push data in AD5940 Registers"},
   {(void*)Cli_CmdReset, "reset", "Reset application"},
-  {(void*)Cli_start, "start", "Start Appòication"},
+  */
+  {(void*)Cli_start, "start", "Start Application"},
   {(void*)Cli_stop, "stop", "Stop Application"},
   
   
 };
 
-
+/*
 uint32_t help(uint32_t para1, uint32_t para2)
 {
   int i = 0;
@@ -100,8 +103,10 @@ uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2)
 	printf("\n");
 	return 0x12345678;
 }
+*/
 
 /*Only used to check if para1-para2 are correctly stored*/
+/*
 uint32_t say_hello(uint32_t para1, uint32_t para2)
 {
   printf("para1:0x%08x, para2:0x%08x\n", para1, para2);
@@ -118,7 +123,7 @@ uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2){
 	printf("HEX dump of the memory (0x%02X bytes from 0x%08X):\r\n", para1, para2);
 	fl = 1;
 	
-	        /* Cicle to print data*/
+	        // Cicle to print data
 	for (ix = para1; ix < (para1 + para2); ix += 4){
 		if ((ix != para1) && (ix % 16 == 0)) {
 			fl = 1;
@@ -162,7 +167,7 @@ uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){
 uint32_t Cli_CmdPushAD5940(uint32_t para1,uint32_t para2){
 	static uint32_t ix;
 	printf("HEX Push 0x%02X in 0x%02X\r\n", para2, para1);
-	/* in this case SPIReadReg & SPIWriteReg is used to Read/write on AD5940 Register*/
+	// in this case SPIReadReg & SPIWriteReg is used to Read/write on AD5940 Register
     ix=SPIReadReg(para1);
     if(ix != 0x00000000){
 	printf("AD5940 Register occupied!\r\n");
@@ -172,6 +177,7 @@ uint32_t Cli_CmdPushAD5940(uint32_t para1,uint32_t para2){
 	return 0;
 }
 
+*/
 uint32_t Cli_start(uint32_t para1,uint32_t para2){
         Function_DFT();
 	return 0;

@@ -4,7 +4,13 @@
 
 "--fpu=None" 
 
+"-p" 
+
+"C:/Users/giann/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\debugger\AnalogDevices\ADuCM3029.ddf" 
+
 "--semihosting" 
+
+"--device=ADUCM3029" 
 
 "--multicore_nr_of_cores=1" 
 
