@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.general.xcl" --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.general.xcl" --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_Start_Stop\settings\DFT_Start_Stop.Debug.driver.xcl" 
 
 @echo off 
 :end

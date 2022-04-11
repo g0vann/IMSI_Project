@@ -23,12 +23,12 @@ Analog Devices Software License Agreement.
 #include <math.h>
 
 void DFT_config(void);
+extern void Function_DFT(void);
+extern int b;
 
-/* The LFOSC is only used for testing purposes*/
 
 #define APPBUFF_SIZE 512
 uint32_t AppBuff[APPBUFF_SIZE];
-float LFOSCFreq;    /* Measured LFOSC frequency */
 
 
 /* Initialize AD5940 basic blocks like clock */
@@ -38,7 +38,6 @@ static int32_t AD5940PlatformCfg(void)
   FIFOCfg_Type fifo_cfg;
   SEQCfg_Type seq_cfg;
   AGPIOCfg_Type gpio_cfg;
-  LFOSCMeasure_Type LfoscMeasure;
 
   /* Use hardware reset */
   AD5940_HWReset();
@@ -86,17 +85,9 @@ static int32_t AD5940PlatformCfg(void)
 	
   AD5940_SleepKeyCtrlS(SLPKEY_UNLOCK);  /* Enable AFE to enter sleep mode. */
 
-  //Questo non ci serve
-  /* Measure LFOSC frequency */
-//  LfoscMeasure.CalDuration = 1000.0;  /* 1000ms used for calibration. */
-//  LfoscMeasure.CalSeqAddr = 0;
-//  LfoscMeasure.SystemClkFreq = 16000000.0f; /* 16MHz in this firmware. */
-//  AD5940_LFOSCMeasure(&LfoscMeasure, &LFOSCFreq);
-  //printf("Freq:%f\n", LFOSCFreq); inutile attualmente, era solo una prova
-  
   /*funzione per la DFT*/
   
-  DFT_config();
+  //DFT_config();
   
   return 0;
 }
@@ -135,10 +126,6 @@ void DFT_config(void){
   AD5940_AFECtrlS(AFECTRL_DFT, bTRUE);
   AD5940_ADCConvtCtrlS(bTRUE);
 }
-/*
-BioElecApp_Type *pCurrApp;
-uint8_t bSwitchingApp = 1;
-uint8_t toApp = APP_ID_BIA;*/
 
 void AD5940_Main(void)
 {
@@ -147,19 +134,13 @@ void AD5940_Main(void)
   
   //OTTIMOOOOOOOO!
   
-/*  printf("\n\t Welcome to FrancOlino first attempt!!!!!!!\r\n");
-  printf("\r\n");
-  printf(">>Type in <help> to see available commands.\r\n");*/
-  
   while(1)
   {
-    /*Wait external Interrupt*/
+      if (b==1){
+          Function_DFT();
+      }
   }
 }
-
-
-
-
 
 
 

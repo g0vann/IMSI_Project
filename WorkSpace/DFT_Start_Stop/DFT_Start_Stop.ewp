@@ -36,11 +36,11 @@
                 </option>
                 <option>
                     <name>Input description</name>
-                    <state></state>
+                    <state>Full formatting, without multibyte support.</state>
                 </option>
                 <option>
                     <name>Output description</name>
-                    <state></state>
+                    <state>Full formatting, without multibyte support.</state>
                 </option>
                 <option>
                     <name>GOutputBinary</name>
@@ -62,7 +62,7 @@
                 </option>
                 <option>
                     <name>RTDescription</name>
-                    <state></state>
+                    <state>Use the normal configuration of the C/C++ runtime library. No locale interface, C locale, no file descriptor support, no multibytes in printf and scanf, and no hex floats in strtod.</state>
                 </option>
                 <option>
                     <name>OGProductVersion</name>
@@ -78,7 +78,7 @@
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>GEndianModeBE</name>
@@ -155,7 +155,7 @@
                 <option>
                     <name>OGPrintfVariant</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OGPrintfMultibyteSupport</name>
@@ -164,7 +164,7 @@
                 <option>
                     <name>OGScanfVariant</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OGScanfMultibyteSupport</name>
@@ -2145,16 +2145,9 @@
     <group>
         <name>CMSIS-Pack</name>
         <tag>CMSISPack.Component</tag>
-        <group>
-            <name>Device Global Configuration</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
-            </file>
-        </group>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
         <group>
             <name>Device Startup</name>
             <tag>CMSISPack.Component</tag>
@@ -2165,9 +2158,16 @@
                 <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
             </file>
         </group>
-        <file>
-            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
-        </file>
+        <group>
+            <name>Device Global Configuration</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
+            </file>
+        </group>
     </group>
     <cmsisPackSettings>
         <rte>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;

@@ -34,8 +34,10 @@ Analog Devices Software License Agreement.
 #define PI 3.141592654
 static float Mag,Ph;
 static int count;
+int b = 0;
 
 void Function_DFT(void);
+extern void DFT_config(void);
 /* Functions to Read/Write AD5940 Register*/
 extern uint32_t SPIReadReg(uint16_t RegAddr);
 extern void SPIWriteReg(uint16_t RegAddr, uint32_t RegData);
@@ -46,16 +48,7 @@ uint32_t line_buffer_index = 0;
 uint32_t token_count = 0;
 void *pObjFound = 0;
 uint32_t parameter1, parameter2;
-/*
-uint32_t help(uint32_t para1, uint32_t para2);
-uint32_t say_hello(uint32_t para1, uint32_t para2); //Used onlyto check if Para1 and Para2 are correctly stored
-uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2);
-uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2);
-uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2);
-uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2);
-uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2);
-uint32_t Cli_CmdPushAD5940(uint32_t para1,uint32_t para2);
-*/
+
 uint32_t Cli_start(uint32_t para1,uint32_t para2);
 uint32_t Cli_stop(uint32_t para1,uint32_t para2);
 
@@ -67,125 +60,23 @@ struct __uartcmd_table
   const char *pDesc;
 }uart_cmd_table[CMDTABLE_SIZE]=
 {
-  /*
-  {(void*)help, "help", "Display available commands"},
-  {(void*)say_hello, "hello", "Print parameteres and say hello"},
-  {(void*)Cli_CmdVersion, "version", "SW version"},
-  {(void*)Cli_CmdDump, "dump", "[begaddr][,count] - Dumps the memory"},
-  {(void*)Cli_CmdPush, "push", "[addr][,data] - Push data in memory"},
-  {(void*)Cli_CmdDumpAD5940, "dumpAD5940", "[address] - Dumps AD5940 Registers"},
-  {(void*)Cli_CmdPushAD5940, "pushAD5940", "[address] [,data] - Push data in AD5940 Registers"},
-  {(void*)Cli_CmdReset, "reset", "Reset application"},
-  */
   {(void*)Cli_start, "start", "Start Application"},
-  {(void*)Cli_stop, "stop", "Stop Application"},
-  
-  
+  {(void*)Cli_stop, "stop", "Stop Application"}, 
 };
 
-/*
-uint32_t help(uint32_t para1, uint32_t para2)
-{
-  int i = 0;
-  printf("               *****help menu*****\nbelow are supported commands:\n\n");
-  for(;i<CMDTABLE_SIZE;i++)
-  {
-    if(uart_cmd_table[i].pObj)
-      printf("%-8s --\t%s\n", uart_cmd_table[i].cmd_name, uart_cmd_table[i].pDesc);
-  }
-  printf("               ***table     end***\n");
-  return 0x32165498;
-}
 
-uint32_t Cli_CmdVersion(uint32_t para1,uint32_t para2)
-{
-	printf(VERSION);
-	printf("\n");
-	return 0x12345678;
-}
-*/
-
-/*Only used to check if para1-para2 are correctly stored*/
-/*
-uint32_t say_hello(uint32_t para1, uint32_t para2)
-{
-  printf("para1:0x%08x, para2:0x%08x\n", para1, para2);
-  printf("Hello\n");
-  return 0x12345678;
-}
-
-uint32_t Cli_CmdDump(uint32_t para1,uint32_t para2){
-	int32_t			fl = 0;
-	static uint32_t ix;
-	if (para2 > 0x40) {   // Max offset
-		para2 = 0x40;
-	}
-	printf("HEX dump of the memory (0x%02X bytes from 0x%08X):\r\n", para1, para2);
-	fl = 1;
-	
-	        // Cicle to print data
-	for (ix = para1; ix < (para1 + para2); ix += 4){
-		if ((ix != para1) && (ix % 16 == 0)) {
-			fl = 1;
-			printf("\r\n");
-		}
-
-		if (fl) {
-			printf(" %08X: ", ix);
-			fl = 0;
-		}
-
-		printf("%08X ", *((uint32_t *)ix));
-	}
-	return 0;
-}
-
-uint32_t Cli_CmdPush(uint32_t para1,uint32_t para2){
-	static uint32_t ix;
-	printf("HEX Push 0x%02X in 0x%08X\r\n", para2, para1);
-	ix=*(volatile uint32_t *)(para1); // Volatile to read physic memory
-    if(ix != 0x00000000){
-		printf("Occupied memory area!\r\n");
-    }else {
-		*(volatile uint32_t *)(para1) = para2; // Volatile to write physic memory
-    }
-	return 0;
-}
-
-uint32_t Cli_CmdReset(uint32_t para1,uint32_t para2){
-	NVIC_SystemReset(); // Reset System
-       //	return 0x12345678; // Commented because never get there
-}
-
-uint32_t Cli_CmdDumpAD5940(uint32_t para1,uint32_t para2){ 
-	static uint32_t ix;
-	ix=SPIReadReg(para1);
-	printf("AD5940 Register 0x%02X contains 0x%02X%!\r\n",para1,ix);
-	return 0;
-}
-
-uint32_t Cli_CmdPushAD5940(uint32_t para1,uint32_t para2){
-	static uint32_t ix;
-	printf("HEX Push 0x%02X in 0x%02X\r\n", para2, para1);
-	// in this case SPIReadReg & SPIWriteReg is used to Read/write on AD5940 Register
-    ix=SPIReadReg(para1);
-    if(ix != 0x00000000){
-	printf("AD5940 Register occupied!\r\n");
-    }else {
-        SPIWriteReg(para1, para2);
-    }
-	return 0;
-}
-
-*/
 uint32_t Cli_start(uint32_t para1,uint32_t para2){
-        Function_DFT();
+        DFT_config();
+        b=1;
 	return 0;
 }
 
 uint32_t Cli_stop(uint32_t para1,uint32_t para2){
-        NVIC_SystemReset();
-	//return 0;
+       //printf("aoooooooooooooooooooooooooooooooooooooooooooooo\r\n");
+       b=0;
+      // AD5940_WriteReg(REG_AFE_ADCCON, REG_AFE_ADCCON_RESET);
+       NVIC_SystemReset();
+       //return 0;
 }
 
 void UARTCmd_RemoveSpaces(void)

@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>MemFile</name>
-                    <state></state>
+                    <state>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\ARM\config\debugger\AnalogDevices\ADuCM3029.ddf</state>
                 </option>
                 <option>
                     <name>RunToEnable</name>
@@ -76,7 +76,7 @@
                 </option>
                 <option>
                     <name>OCDownloadVerifyAll</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OCProductVersion</name>
@@ -84,11 +84,11 @@
                 </option>
                 <option>
                     <name>OCDynDriverList</name>
-                    <state>ARMSIM_ID</state>
+                    <state>CMSISDAP_ID</state>
                 </option>
                 <option>
                     <name>OCLastSavedByProductVersion</name>
-                    <state></state>
+                    <state>9.20.4.46976</state>
                 </option>
                 <option>
                     <name>UseFlashLoader</name>
@@ -112,7 +112,7 @@
                 </option>
                 <option>
                     <name>FlashLoadersV3</name>
-                    <state></state>
+                    <state>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\ARM\config\flashloader\AnalogDevices\FlashADUCM3029.board</state>
                 </option>
                 <option>
                     <name>OCImagesSuppressCheck1</name>
@@ -180,7 +180,7 @@
                 </option>
                 <option>
                     <name>OCMulticoreNrOfCores</name>
-                    <state></state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OCMulticoreWorkspace</name>
@@ -296,15 +296,15 @@
                 <option>
                     <name>CMSISDAPResetList</name>
                     <version>1</version>
-                    <state>10</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CMSISDAPHWResetDuration</name>
-                    <state>300</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>CMSISDAPHWResetDelay</name>
-                    <state>200</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CMSISDAPDoLogfile</name>
