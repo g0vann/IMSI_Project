@@ -4,6 +4,9 @@
         <path>$WS_DIR$\DFT_prova\DFT_prova.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\DFT_Start_Stop\DFT_Start_Stop.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\Terminal1\Terminal1.ewp</path>
     </project>
     <project>

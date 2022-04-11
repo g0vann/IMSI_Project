@@ -1,0 +1,62 @@
+# ninja log v5
+1	206	6713869901274455	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+171	551	6713869904615524	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+413	580	6713869904854889	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+215	598	6713869904785066	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+563	686	6713869905981870	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940_DFTPolling.o	a5234343e1a168b0
+594	790	6713869907024161	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main (2).o	f9c48238d85cc75
+610	815	6713869907273494	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/UARTCmd.o	ffb1902a26a2e6ef
+176	963	6713869908709647	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+1	26	6713870295542261	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+16	135	6713870296539594	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+5	200	6713870297187859	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+35	234	6713870297516980	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main (2).o	f9c48238d85cc75
+146	262	6713870297776287	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940_DFTPolling.o	a5234343e1a168b0
+212	420	6713870299381992	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+273	441	6713870299471758	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+247	462	6713870299701134	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/UARTCmd.o	ffb1902a26a2e6ef
+11	646	6713870301606041	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+2	26	6713872249661216	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+34	134	6713872250678491	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+8	213	6713872251436462	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+10	233	6713872251526221	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+143	301	6713872252344031	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+223	419	6713872253510908	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/UARTCmd.o	ffb1902a26a2e6ef
+5	610	6713872255395870	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+620	722	6713872256552773	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Exe/DFT_Start_Stop.out	c91254e28026506b
+2	29	6713876838149755	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+14	275	6713876840533371	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+6	304	6713876840762761	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+38	369	6713876841460896	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+315	504	6713876842827235	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+11	739	6713876845131183	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+1	23	6713877693141294	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+11	187	6713877694667373	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+7	232	6713877695126150	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+32	263	6713877695265767	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+199	350	6713877696347951	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+5	651	6713877699325058	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+1	24	6713878302981806	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+33	153	6713878304198549	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+8	232	6713878304966494	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+11	259	6713878305146013	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+164	341	6713878306063557	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+243	450	6713878307160621	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/UARTCmd.o	ffb1902a26a2e6ef
+5	637	6713878309005796	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+647	755	6713878310217610	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Exe/DFT_Start_Stop.out	c91254e28026506b
+1	26	6713878987140991	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+34	155	6713878988332871	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+9	234	6713878989115846	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+12	298	6713878989749241	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/UARTCmd.o	ffb1902a26a2e6ef
+165	359	6713878990397500	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+246	441	6713878991220370	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+6	661	6713878993384584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+670	778	6713878994591352	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Exe/DFT_Start_Stop.out	c91254e28026506b
+2	27	6713879563877785	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	e22cb20b552b2590
+36	142	6713879564944924	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/AD5940Main.o	9d970b49f7603ef4
+6	208	6713879565593197	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ADICUP3029Port.o	807222bda97e7ee
+12	237	6713879565802641	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/main.o	967cd3a532a7763b
+220	371	6713879567248765	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	cc6726446e28fc02
+152	382	6713879567228821	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/Application/UARTCmd.o	ffb1902a26a2e6ef
+9	605	6713879569557769	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Obj/AD5940lib/ad5940.o	9eb497448bc151cd
+615	723	6713879570769582	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_Start_Stop/Debug/Exe/DFT_Start_Stop.out	c91254e28026506b

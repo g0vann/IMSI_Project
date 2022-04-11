@@ -208,3 +208,130 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneD
 
 !ENTRY com.iar.cmsismanager.product 1 0 2022-04-08 16:34:43.511
 !MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-5880fe04-e47c-434a-a732-cf2ca658483b-1, port:0, protocol:Binary, transport:Pipe)
+!SESSION 2022-04-11 14:49:23.365 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-11 14:49:25.846
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 14:49:33.927
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-92d691e9-19e3-4a78-bd5f-7e995ab6a77f-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 4 0 2022-04-11 15:04:04.992
+!MESSAGE Failed to load project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.iar.cdt.arm.toolchain.cmsis.adapter.IarRteProjectGenerator.createProject(IarRteProjectGenerator.java:148)
+	at com.iar.cdt.arm.toolchain.cmsis.adapter.IarRteProjectGenerator.createRteProject(IarRteProjectGenerator.java:255)
+	at com.iar.cmsismanager.product.CMSISAgentServiceHandler.loadProject(CMSISAgentServiceHandler.java:284)
+	at com.iar.cmsismanager.product.CMSISAgentServiceHandler.lambda$0(CMSISAgentServiceHandler.java:244)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Contains: OK
+Contains: C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_start_stop overlaps the location of another project: 'DFT_start_stop'
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-04-11 15:04:04.993
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2022-04-11 15:04:04.993
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-04-11 15:04:04.993
+!MESSAGE C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_start_stop overlaps the location of another project: 'DFT_start_stop'
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:05:42.565
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-92d691e9-19e3-4a78-bd5f-7e995ab6a77f-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:05:42.566
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-04-11 15:05:46.539 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-11 15:05:47.423
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-11 15:05:47.524
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:05:52.163
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-d32ab064-3450-485a-afbb-14d8329ad9a7-1, port:0, protocol:Binary, transport:Pipe)
+!SESSION 2022-04-11 15:06:51.211 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-11 15:06:52.182
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:06:56.837
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-0da35ee5-8bd4-422c-b3cc-125de7fa8d52-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:07:24.506
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-0da35ee5-8bd4-422c-b3cc-125de7fa8d52-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:07:24.507
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-04-11 15:07:27.735 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-11 15:07:28.713
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:07:33.386
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-0ed400bb-e078-4dea-ae9d-7624ed2308cf-1, port:0, protocol:Binary, transport:Pipe)
+!SESSION 2022-04-11 15:07:53.964 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-11 15:07:54.924
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:07:59.558
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-8f44dc68-5fc8-4b5f-87ec-c3542510066c-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:46:01.487
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-8f44dc68-5fc8-4b5f-87ec-c3542510066c-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 15:46:01.487
+!MESSAGE Exiting workbench is response to shutdown() command.
