@@ -11,15 +11,20 @@ marker_2.Mag = 120;
 marker_2.Phase = 5;
 marker_2.Sample = 0.2;
 
-marker_saved = [marker_saved marker_temp];
-marker_saved = [marker_saved marker_2];
-
 N = marker_saved.N;
 Lable = marker_saved.Lable;
 Magnitude = marker_saved.Mag;
 Phase = marker_saved.Phase;
 Sample = marker_saved.Sample;
 
-T = struct2table(marker_saved);
+%marker_saved(1) = [];
+marker_saved = [marker_saved marker_temp]
+T = struct2table(marker_saved)
+%%marker_saved = [marker_saved marker_2];
+if((marker_saved(end).N) == 0 )
+   marker_saved(1) = []; 
+end
 
-% app.marker_table=table(N,Lable,Magnitude,Phase,Sample);
+T = struct2table(marker_saved)
+    
+
