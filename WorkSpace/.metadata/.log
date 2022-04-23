@@ -356,3 +356,62 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneD
 
 !ENTRY com.iar.cmsismanager.product 1 0 2022-04-11 23:33:29.717
 !MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-04-22 15:38:57.100 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-22 15:38:59.204
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-22 15:38:59.578
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-22 15:39:08.144
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-664cf61b-df76-4a03-b435-ac669c0613a9-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-22 18:18:48.867
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-664cf61b-df76-4a03-b435-ac669c0613a9-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-22 18:18:48.868
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-04-22 18:28:15.906 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-22 18:28:16.797
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-22 18:28:16.897
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-22 18:28:21.387
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-9b21acbe-20d0-45a0-a56e-9a4a3404dbc4-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-04-22 18:31:54.307
+!MESSAGE An internal error occurred during: "Refresh packs from web".
+!STACK 0
+java.lang.NullPointerException
+	at com.arm.cmsis.pack.preferences.CpPreferenceInitializer.writeUpdateFile(CpPreferenceInitializer.java:335)
+	at com.arm.cmsis.pack.preferences.CpPreferenceInitializer.updateLastUpdateTime(CpPreferenceInitializer.java:285)
+	at com.arm.cmsis.pack.installer.CpPackInstaller.updatePacks(CpPackInstaller.java:609)
+	at com.arm.cmsis.pack.installer.CpPackInstaller.updatePacks(CpPackInstaller.java:446)
+	at com.arm.cmsis.pack.installer.jobs.CpUpdatePacksJob.run(CpUpdatePacksJob.java:33)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2022-04-22 18:42:14.425 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-04-22 18:42:15.391
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-04-22 18:42:20.153
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-37b04026-684b-4d1b-a91a-32a5e56daf3a-1, port:0, protocol:Binary, transport:Pipe)

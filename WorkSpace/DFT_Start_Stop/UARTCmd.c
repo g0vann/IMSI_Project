@@ -205,6 +205,8 @@ void Function_DFT(void){
  while(1)
   {
     int32_t real, image;
+    Mag=0;
+    Ph=0;
     if(AD5940_INTCTestFlag(AFEINTC_1,AFEINTSRC_DFTRDY))
     {
       AD5940_INTCClrFlag(AFEINTSRC_DFTRDY);
@@ -226,7 +228,9 @@ void Function_DFT(void){
       /*Ph sta a rappresentare la fase*/
       Ph=atan2f((float)real,(float)image);
       Ph=Ph * 180.0/PI;
-      printf("%f %f\r\n",Mag,Ph);  
+      if(Mag<400){
+        printf("%f %f\r\n",Mag,Ph);
+      }
       count = count+1; //incremento il contatore
     }
   }
