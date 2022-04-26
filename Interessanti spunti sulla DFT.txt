@@ -1,0 +1,14 @@
+Nei settaggi del post processing dell'ADC possiamo settare:
+- dobbiamo settare l'ADC ad une frequenza almeno 2 volte superiore alla banda del segnale misurato (f >= 2fc) che è proprio la banda del segnale che
+applichiamo con gli elettrodi
+-SINC3 come filtro da utilizzare, più performante che arriva fino a 800KHz e permette di attenuare il rumore
+tramite un oversampling settando opportunamente SINC3 OSR (4 è il migliore che permette di avere 200kSPS) 
+e che gestisce anche i gain
+- I 16 bit in uscita dall'ADC entrano nel filtro SINC3
+- I 16 bit in uscita dal filtro passabanda entrano nel blocco della DFT
+- Possiamo settare vari parametri per la dft tramite il registro CON come ad esempio il Sample Number che varia 
+da 256 a 16384 e rappresenta il numero di sample utilizzati per il calcolo della DFT. -> maggiore il numero di 
+sample usati, più coefficienti abbiamo per approssimare il segnale,
+ minore è il rumore ma la latenza aumeta (calcolabile come (SINCxOSRnumber x DFT.number)/SINCx.frequency )
+- Dalla DFT escono 18bit di parte reale e 18 bit di parte immaginaria che vanno nella FIFO di 6Kb.
+- Ongni volta che la fifo si riepie vengono mandati al 3029 tramite il Sequencer
