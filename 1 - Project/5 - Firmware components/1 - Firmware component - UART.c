@@ -19,6 +19,12 @@ to write the code.
 *****************************************************************************
 */
 
+
+
+
+
+
+
 /*
 *****************************************************************************
 
@@ -51,7 +57,7 @@ uint32_t MCUPlatformInit(void *pCfg)
   /* Clock Configure */
   pADI_CLKG0_OSC->KEY = 0xCB14;               /* Select HFOSC as system clock. */
   pADI_CLKG0_OSC->CTL = 					  /* Int 32khz LFOSC selected in LFMUX */
-	BITM_CLKG_OSC_CTL_HFOSCEN|BITM_CLKG_OSC_CTL_HFXTALEN; 
+  BITM_CLKG_OSC_CTL_HFOSCEN|BITM_CLKG_OSC_CTL_HFXTALEN; 
 
   while((pADI_CLKG0_OSC->CTL&BITM_CLKG_OSC_CTL_HFXTALOK) == 0);
 
@@ -67,15 +73,15 @@ uint32_t MCUPlatformInit(void *pCfg)
 /**
 	@brief int UrtCfg(int iBaud, int iBits, int iFormat)
 			==========Configure the UART.
-	@param iBaud :{B1200,B2200,B2400,B4800,B9600,B19200,B38400,B57600,B115200,B230400,B430800}	\n
+	@param iBaud :{B1200,B2200,B2400,B4800,B9600,B19200,B38400,B57600,B115200,B230400,B430800}	
 		Set iBaud to the baudrate required:
 		Values usually: 1200, 2200 (for HART), 2400, 4800, 9600,
 		        19200, 38400, 57600, 115200, 230400, 430800, or type in baud-rate directly
 	@note
 		- Powers up UART if not powered up.
-		- Standard baudrates are accurate to better than 0.1% plus clock error.\n
+		- Standard baudrates are accurate to better than 0.1% plus clock error.
 		- Non standard baudrates are accurate to better than 1% plus clock error.
-   @warning - If an external clock is used for the system the ullRtClk must be modified with \n
+   @warning - If an external clock is used for the system the ullRtClk must be modified with 
          the speed of the clock used.
 **/
 int UrtCfg(int iBaud)
@@ -125,11 +131,10 @@ int UrtCfg(int iBaud)
   default:
     break;
   }
-  //   iOSR = (pADI_UART0->COMLCR2 & 0x3);
-  //   iOSR = 2^(2+iOSR);
+
   pADI_UART0->COMLCR2 = 0x3;
   iOSR = 32;
-  //i1 = (ullRtClk/(iOSR*iDiv))/iBaud;	              			   /* UART baud rate clock source is PCLK divided by OSR */
+																   /* UART baud rate clock source is PCLK divided by OSR */
   i1 = (ullRtClk/(iOSR*iDiv))/iBaud-1;   						   /* for bigger M and N value */
   pADI_UART0->COMDIV = i1;
 
@@ -159,7 +164,9 @@ int fputc(int c, FILE *f)
 }
 
 /**
-   @brief CLI interrupt handler
+   @brief External interrupt handler of the UART
+	
+   @note for each character calls UARTCmd_Process()
 **/
 void UART_Int_Handler(void)
 {
@@ -183,7 +190,7 @@ void UART_Int_Handler(void)
     }
   }
   
-  // Second case: trasmission timeout, processing only what we have had
+  /* Second case: trasmission timeout, processing only what we have had */
   if((flag & 0x0e) == 0xc)  /* Time-out */
   {
     uint32_t count;
@@ -196,6 +203,10 @@ void UART_Int_Handler(void)
     }
   }
 }
+
+
+
+
 
 /*
 *****************************************************************************
@@ -217,16 +228,13 @@ void UART_Int_Handler(void)
 #include <stdlib.h>
 #include "ad5940.h"
 #include <ctype.h>
-
-
-
 #include <stdarg.h>
 #include <math.h>
 #include "ADuCM3029.h"
 
 /************************* Variable Definitions ****************************/
 
-#define  VERSION  "FrancOlino v2.0"
+#define  VERSION  "FrancOlino v1.0"
 #define LINEBUFF_SIZE 128
 #define CMDTABLE_SIZE 2
 
@@ -243,7 +251,7 @@ uint32_t Cli_stop(uint32_t para1,uint32_t para2);
 
 
 /** 
-	@brief	The struct has descriptions of functions that can be followed 
+	@brief	Struct which describes functions that can be called 
 		    by external commands.
 	@var	pObj - pointer to the function prototype
 			cmd_name - function name
@@ -269,8 +277,7 @@ struct __uartcmd_table
    @return 0 if correct.
 **/
 uint32_t Cli_start(uint32_t para1,uint32_t para2){
-        DFT_config();
-        b=1;
+        DFT_config();	/* This function is used only to test purposes */
 	return 0;
 }
 
@@ -280,21 +287,19 @@ uint32_t Cli_start(uint32_t para1,uint32_t para2){
    
    @param para1 & para2 - arguments on the command line.
 
-   @return // because the system will be reset ('return 0' is never executed)
+   @return 'return 0' is never executed because  system is resetted
 **/
 uint32_t Cli_stop(uint32_t para1,uint32_t para2){
-       b=0;
-      // AD5940_WriteReg(REG_AFE_ADCCON, REG_AFE_ADCCON_RESET);
        NVIC_SystemReset();
        //return 0;
 }
 
 /**
-   @brief Remove Spaces from command receved
+   @brief Remove Spaces from command received
    
    @param it is a procedure without parameters, it manipulates  line_buffer
 
-   @return // 
+   @return  
 **/
 void UARTCmd_RemoveSpaces(void)
 {
@@ -360,12 +365,12 @@ void UARTCmd_MatchCommand(void)
 
 
 /**
-   @brief Translate string 'p' to number, store results in 'Res', return error code
+   @brief Translate string 'p' to number, store results in 'Res' 
    
    @param s - string in input 
 		  Res - pointer to number in output
 
-   @return 0 if correct
+   @return return error code or 0 if correct
 **/
 static uint32_t Str2Num(char *s, uint32_t *Res)
 {
@@ -399,7 +404,7 @@ void UARTCmd_TranslateParas(void)
 }
 
 /**
-   @brief Command line interpreter process function
+   @brief Command line interpreter process function called by UART external interrupt handler
    
    @param c - byte from UART
 **/
@@ -438,7 +443,6 @@ void UARTCmd_Process(char c)
     }
     /* Step3, call function */
     res = ((uint32_t (*)(uint32_t, uint32_t))(pObjFound))(parameter1, parameter2);
-    //printf("res:0x%08x\n", res);
     line_buffer_index = 0;  /* Reset buffer */
   }
   else
