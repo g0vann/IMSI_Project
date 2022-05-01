@@ -1,0 +1,24 @@
+4 Wire BIA
+
+- Dopo le varie inizializzazioni quello che si esegue è il Maind di AD4940Main.c che in un ciclo while richiama AppBIAISR\
+- AppBIAISR riceve in ingresso il buffer pBuff contente i valori in parte Reale e Immaginaria di Corrente e Tensione
+- in pratica i risultati della DFT vengono messi nell cada FIFO che tramite la programmazione del Sequncer la svuota ogni 4 valori
+  in questo modo ogni volta che esegue la ISR della BIA ho già i 4 valori che mi servono a calcolare L'Impedenza
+- AppBIAISR chima la funzione di libreria AD5940_FIFOrd che legge l'area di memoria della coda FIFO dove sono stati messi i dati e li
+  salva nella variabile pBuff che verrà dato alla funzione successiva
+- AppBIAISR chiama la funzione AppBIADataProcess() che rivetu in ingresso il buffer citato sopra ed un contatore prende le ultime
+  due coppie di valori e calola prima Modulo e Fase di Tensione e Corrente e poi Modulo e Fase dell'IMPEDENZA
+
+	-- ma come viene riempita la coda FIFO?? --
+
+- La funzione AppBIAInit si occupa di far partire il tutto
+- dopo aver fatto i vari controllo richiama la prima volta (pBufferSize = 0) la funzione AD5940_SeqGenInit() che avvia il Sequencer
+- viene chiamata la funzione AppBIASeqCfgGen() dove sono presenti le configurazione di tutti i blocchi che utilizziamo (DAC. ADC, DFT etc)
+- viene chiamata la funzione AppBIASeqMeasureGen() che accende e spegne i vari blocchi per effettuare la misure:
+  -> ad un primo sguardo mi sembra che misuri prima la tensione e poi la corrente, le due misure diverse le ottiene semplicemente
+  -> dando in ingresso all'ADC dei valori diversi tramite il MUX 
+(le 6 righe di codice che generano le misuere si ripetono identiche cambiando semplicemnte i parametri dell'AD5940_ADCMuxCfgS) 
+  -> la prima volta dovrebbe mandare all'ADC la misura di Tensione del corpo, mentre la seconda volta quella della Corrente 
+  -> Tali valori vengono conservati direttamente dal Sequencer che gestisce la coda FIFO
+
+
