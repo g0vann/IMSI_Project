@@ -1,0 +1,13 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armJET.dll" 
+
+"C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\Bia_1\Debug\Exe\Bia_1.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--flash_loader="C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\flashloader\AnalogDevices\FlashADUCM3029.board" 
+
+
+
+

@@ -1,0 +1,53 @@
+# ninja log v5
+287	513	6732277160482230	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/main.o	3f967ee63e8d6b9b
+2	41	6732277155824493	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	8ac3fe463913b384
+19	248	6732277157799404	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ADICUP3029Port.o	ebce2b7bbe796883
+49	211	6732277157440370	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	2a768a0cbaac6afa
+222	385	6732277159205646	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+259	477	6732277160123191	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/BodyImpedance.o	41c90a2853d3ffe0
+23	698	6732277162287405	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ad5940.o	fb26318e2747fa82
+26	277	6732277158078661	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+708	817	6732277163514131	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
+1	27	6732280623981377	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	8ac3fe463913b384
+14	277	6732280626374980	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+10	362	6732280627217807	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ADICUP3029Port.o	ebce2b7bbe796883
+35	432	6732280627915948	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/BodyImpedance.o	41c90a2853d3ffe0
+288	547	6732280629082822	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/main.o	3f967ee63e8d6b9b
+443	635	6732280629970469	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	2a768a0cbaac6afa
+373	647	6732280629970469	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+7	854	6732280632124685	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ad5940.o	fb26318e2747fa82
+864	979	6732280633396365	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
+2	27	6732287619612808	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	8ac3fe463913b384
+10	322	6732287622465181	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ADICUP3029Port.o	ebce2b7bbe796883
+36	388	6732287623113447	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/main.o	3f967ee63e8d6b9b
+13	405	6732287623183260	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+333	530	6732287624554676	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	2a768a0cbaac6afa
+400	552	6732287624664380	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+416	617	6732287625447363	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/BodyImpedance.o	41c90a2853d3ffe0
+6	781	6732287627028194	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ad5940.o	fb26318e2747fa82
+790	900	6732287628260003	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
+9	254	6732299766727315	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+6	292	6732299767076372	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/BodyImpedance.o	41c90a2853d3ffe0
+2	317	6732299767340750	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+327	442	6732299768587411	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
+2	27	6732299961222779	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	8ac3fe463913b384
+36	197	6732299962833545	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	2a768a0cbaac6afa
+6	223	6732299962983160	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ADICUP3029Port.o	ebce2b7bbe796883
+12	253	6732299963352160	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+264	392	6732299964788321	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+208	467	6732299965526353	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/BodyImpedance.o	41c90a2853d3ffe0
+236	490	6732299965646042	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/main.o	3f967ee63e8d6b9b
+8	731	6732299968139512	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ad5940.o	fb26318e2747fa82
+741	848	6732299969341357	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
+1	38	6732302019533052	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	8ac3fe463913b384
+26	213	6732302021193732	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	2a768a0cbaac6afa
+23	258	6732302021612608	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ADICUP3029Port.o	ebce2b7bbe796883
+47	301	6732302022071391	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/BodyImpedance.o	41c90a2853d3ffe0
+224	372	6732302022799432	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+269	495	6732302024011278	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/main.o	3f967ee63e8d6b9b
+312	540	6732302024460076	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+19	734	6732302026384928	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/AD5940lib/ad5940.o	fb26318e2747fa82
+744	857	6732302027611648	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
+1	174	6732303072619691	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/AD5940Main.o	7f6ee4073e2be69f
+5	287	6732303073711835	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Obj/Application/UARTCmd.o	8d7015b40374c491
+297	406	6732303074883784	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Bia_1/Debug/Exe/Bia_1.out	f23558acc4311a0f
