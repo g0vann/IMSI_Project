@@ -26,23 +26,25 @@
 % end
 % 
 % T = struct2table(marker_saved)
+%     
+% 
+% t = linspace(350, 750);                                             % Create Data
+% y = sin(2*pi*t/200 + 2) .* cos(2*pi*t/300)*0.2 + 0.2;               % Create Data
+% ptchidx = (t >= 500) & (t <= 650);                                  % Area To Shade
+% temp = (t >= 675) & (t <=725);
+% ptchidx = [ptchidx; temp];
+% figure(1)
+% plot(t, y)
+% hold on
+% %patch([500 650 650 500], [ 0 0 [1 1]*max(ylim)], [0.6 0.4 0.9], 'FaceAlpha',0.3, 'EdgeColor','none')
+% patch([t(ptchidx(0)) fliplr(t(ptchidx(1)))], [y(ptchidx(1)) zeros(size(y(ptchidx(1))))], [0.6 0.4 0.9], 'FaceAlpha',0.3, 'EdgeColor','none')
+% hold off
+% grid
+
+
     
-
-t = linspace(350, 750);                                             % Create Data
-y = sin(2*pi*t/200 + 2) .* cos(2*pi*t/300)*0.2 + 0.2;               % Create Data
-ptchidx = (t >= 500) & (t <= 650);                                  % Area To Shade
-temp = (t >= 675) & (t <=725);
-ptchidx = [ptchidx; temp];
-figure(1)
-plot(t, y)
-hold on
-%patch([500 650 650 500], [ 0 0 [1 1]*max(ylim)], [0.6 0.4 0.9], 'FaceAlpha',0.3, 'EdgeColor','none')
-patch([t(ptchidx(0)) fliplr(t(ptchidx(1)))], [y(ptchidx(1)) zeros(size(y(ptchidx(1))))], [0.6 0.4 0.9], 'FaceAlpha',0.3, 'EdgeColor','none')
-hold off
-grid
-
-
-    
-
+string="ciao ";
+strin2="ciao1";
+c=string+strin2; 
 
 

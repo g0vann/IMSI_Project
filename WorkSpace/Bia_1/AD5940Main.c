@@ -136,6 +136,7 @@ void AD5940_Main(void)
  
   while(1)
   {
+        
 	if (b==1){
 		Function_BIA();
 	}

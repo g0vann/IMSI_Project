@@ -258,6 +258,7 @@ void Function_BIA(void){
 //	 
 	
   while(1){
+     AD5940_Delay10us(10000);
     /* Check if interrupt flag which will be set when interrupt occurred. */
     if(AD5940_GetMCUIntFlag())
     {

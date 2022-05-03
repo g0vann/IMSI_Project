@@ -48,7 +48,7 @@ AppBIACfg_Type AppBIACfg =
   .ADCSinc3Osr = ADCSINC3OSR_2,
   .ADCSinc2Osr = ADCSINC2OSR_22,
 
-  .DftNum = DFTNUM_8192,
+  .DftNum = DFTNUM_16384,
   .DftSrc = DFTSRC_SINC3,
   .HanWinEn = bTRUE,
 
@@ -325,6 +325,8 @@ static AD5940Err AppBIASeqMeasureGen(void)
   AD5940_AFECtrlS(AFECTRL_ADCCNV|AFECTRL_DFT, bTRUE);  /* Start ADC convert and DFT */
   AD5940_SEQGenInsert(SEQ_WAIT(WaitClks));  /* wait for first data ready */
   AD5940_AFECtrlS(AFECTRL_ADCCNV|AFECTRL_DFT|AFECTRL_WG|AFECTRL_ADCPWR, bFALSE);  /* Stop ADC convert and DFT */
+  
+  //AD5940_Delay10us(10000);
   
   sw_cfg.Dswitch = SWD_OPEN;
   sw_cfg.Pswitch = SWP_PL|SWP_PL2;
