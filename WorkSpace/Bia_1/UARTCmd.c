@@ -108,10 +108,11 @@ uint32_t Cli_stop(float para1,float para2){
        //printf("aoooooooooooooooooooooooooooooooooooooooooooooo\r\n");
        b=0;
       // AD5940_WriteReg(REG_AFE_ADCCON, REG_AFE_ADCCON_RESET);
-      // NVIC_SystemReset();
+      
        //return 0;
-	   AppBIACtrl(BIACTRL_SHUTDOWN, 0);
-	   return 0;
+      AppBIACtrl(BIACTRL_SHUTDOWN, 0);
+      NVIC_SystemReset();
+      //return 0;
 }
 
 uint32_t Cli_frequence(float para1,float para2){
