@@ -36,7 +36,7 @@ BoolFlag SweepON;
 /* It's your choice here how to do with the data. Here is just an example to print them to UART */
 int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
 {
-  float freq;
+  //float freq;
 
   fImpPol_Type *pImp = (fImpPol_Type*)pData;
   //AppBIACtrl(BIACTRL_GETFREQ, &freq);
