@@ -82,8 +82,8 @@ struct __uartcmd_table
 uint32_t Cli_start2(float para1,float para2){
         if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
         SweepON = bTRUE;
-        //Freq1 = para1;
-        //Freq2 = para2;          
+        Freq1 = para1;
+        Freq2 = para2;          
         }
         b=1;
 	AD5940BIAStructInit(); /* Configure your parameters in this function */
@@ -95,7 +95,7 @@ uint32_t Cli_start2(float para1,float para2){
 uint32_t Cli_start(float para1,float para2){
         if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
           SweepON = bFALSE;
-         // scelta  = para1;
+          scelta  = para1;
         }
         b=1;
 	AD5940BIAStructInit(); /* Configure your parameters in this function */

@@ -40,13 +40,15 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
 
   fImpPol_Type *pImp = (fImpPol_Type*)pData;
   AppBIACtrl(BIACTRL_GETFREQ, &freq);
-
-  printf("Freq:%.2f ", freq);
+  if (DataCount>0){
+  printf("%.2f ", freq);
+  }
   /*Process data*/
   for(int i=0;i<DataCount;i++)
   {
-    printf("RzMag: %f Ohm , RzPhase: %f \n",pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
+    printf("%f %f \r\n",pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
   }
+  //AD5940_Delay10us(10000);
   return 0;
 }
 
@@ -114,15 +116,15 @@ void AD5940BIAStructInit(void)
   pBIACfg->BiaODR = 20;         /* ODR(Sample Rate) 20Hz */
   pBIACfg->FifoThresh = 4;      /* 4 */
   pBIACfg->ADCSinc3Osr = ADCSINC3OSR_2;
-  //pBIACfg->SinFreq = scelta;
+  pBIACfg->SinFreq = scelta;
   pBIACfg->SweepCfg.SweepEn = SweepON;
-  /*if(SweepON == bFALSE){
+  if(SweepON == bFALSE){
     pBIACfg->SweepCfg.SweepStart = 10000;
     pBIACfg->SweepCfg.SweepStop = 150000.0;
   }else{
     pBIACfg->SweepCfg.SweepStart = Freq1;
     pBIACfg->SweepCfg.SweepStop = Freq2;
-  }*/
+  }
 }
 
 void AD5940_Main(void)
