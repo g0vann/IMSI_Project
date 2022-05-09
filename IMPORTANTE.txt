@@ -1,0 +1,7 @@
+Vogliamo settare Sequenza di Start, Stop e numero di frequenze da analizzare nel mentre ma equispaziate in scala logaritmica
+Il numero di volte da ripetere il frequency sweep
+Sfrequenza di base da cui vorremo partire anche 100 Hz
+
+Caricare ad5940.c e .h
+
+Pulire i plot ogni volta che arriviamo alla frequenza di Stop.

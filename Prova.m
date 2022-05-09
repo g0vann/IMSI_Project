@@ -43,8 +43,7 @@
 
 
     
-string="ciao ";
-strin2="ciao1";
-c=string+strin2; 
+string="12223.0 13131.133";
+
 
 
