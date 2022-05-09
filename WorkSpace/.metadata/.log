@@ -2622,3 +2622,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneD
 
 !ENTRY com.iar.cmsismanager.product 1 0 2022-05-09 22:25:23.444
 !MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-43311094-ec81-4352-87d0-4035aaf40b19-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-10 00:12:57.996
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-43311094-ec81-4352-87d0-4035aaf40b19-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-10 00:12:57.996
+!MESSAGE Exiting workbench is response to shutdown() command.
