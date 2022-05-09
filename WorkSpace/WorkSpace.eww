@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
     <project>
+        <path>$WS_DIR$\BIA_0\BIA_0.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\Bia_1\Bia_1.ewp</path>
     </project>
     <project>

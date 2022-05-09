@@ -4718,6 +4718,7 @@ typedef struct
 {
   float Magnitude;         /**< The magnitude in polar coordinate */
   float Phase;             /**< The phase in polar coordinate */
+  float Franco;
 }fImpPol_Type; //Polar
 
 /**

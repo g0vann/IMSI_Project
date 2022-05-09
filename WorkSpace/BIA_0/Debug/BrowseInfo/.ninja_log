@@ -1,0 +1,44 @@
+# ninja log v5
+0	301	6734740100000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	84673665ee8984ce
+1	144	6734742300000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/AD5940Main.xcl	719e8801af2f28ea
+310	488	6734740110262224	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	5178b85757a5036c
+181	328	6734861468880556	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+74	177	6734861467374585	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part0.pbi	c5d7c8b54ab7dd34
+331	1942	6734861484648549	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc
+14	169	6734742300000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/UARTCmd.xcl	49b3afd416cf10be
+10	157	6734742300000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/AD5940lib/ad5940.xcl	d2b299c32e3bfd8a
+5	132	6734742300000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	b63d96919607ac6e
+2	71	6734861466307441	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/AD5940Main.pbi	ce60ea2b3ca91359
+167	312	6734742302718887	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/AD5940lib/ad5940.pbi	c9ced79f78949526
+179	289	6734742300000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/BodyImpedance.xcl	3639d662a0467a11
+248	353	6734742300000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/main.xcl	80e7a03dec392a95
+1	80	6734860221562306	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/BodyImpedance.pbi	b016b4664ca909da
+142	422	6734742303815943	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	d1b1d6f3e59a319f
+411	471	6734742304314607	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part2.pbi	6c126dd226c4a00f
+1	218	6734850340998440	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/UARTCmd.pbi	3d76313a6f6d1093
+363	611	6734742305710875	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/main.pbi	c81460edfbbf4782
+83	200	6734860222774141	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part1.pbi	a41c6862edc0fc54
+2	73	6734861536770093	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/AD5940Main.pbi	ce60ea2b3ca91359
+75	174	6734861537787376	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part0.pbi	c5d7c8b54ab7dd34
+178	325	6734861539298391	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+1	1578	6734861613925751	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc
+2	73	6734863334106701	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/AD5940Main.pbi	ce60ea2b3ca91359
+76	176	6734863335153903	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part0.pbi	c5d7c8b54ab7dd34
+180	325	6734863336644970	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+329	1981	6734863352692484	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc
+2	189	6734865124789491	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/AD5940Main.pbi	ce60ea2b3ca91359
+192	298	6734865125876584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part0.pbi	c5d7c8b54ab7dd34
+303	457	6734865127472317	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+461	2090	6734865143425070	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc
+2	219	6734882675188413	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/UARTCmd.pbi	3d76313a6f6d1093
+222	339	6734882676395187	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part1.pbi	a41c6862edc0fc54
+343	488	6734882677891195	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+493	2160	6734882694173043	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc
+1	217	6734882747751092	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/UARTCmd.pbi	3d76313a6f6d1093
+220	342	6734882749007740	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part1.pbi	a41c6862edc0fc54
+346	497	6734882750553607	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+501	2138	6734882766600873	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc
+1	72	6734882869278980	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/Application/AD5940Main.pbi	ce60ea2b3ca91359
+75	176	6734882870326180	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0_part0.pbi	c5d7c8b54ab7dd34
+180	325	6734882871812223	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbd	40eb06d03e019e8
+329	2011	6734882888269995	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_0/Debug/BrowseInfo/BIA_0.pbw	265a930ff7bb08bc

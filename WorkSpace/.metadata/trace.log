@@ -276,3 +276,45 @@
 # The following option strings are specified for this debug session:
 # 	null
 | main | 2022-05-03 19:12:45.304 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-04 14:33:51.207
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-04 14:33:51.207 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-04 15:44:53.586
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-04 15:44:53.586 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-04 17:13:22.865
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-04 17:13:22.865 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-04 19:57:34.877
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-04 19:57:34.877 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-05 19:11:46.258
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-05 19:11:46.258 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-05 22:10:42.833
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-05 22:10:42.833 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
+# !SESSION 2022-05-05 23:08:53.809
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2022-05-05 23:08:53.809 | com.iar.ide.common | /debug | com.iar.ide.common.PlatformLoggerDelegate | traceFile | 74 | com.iar.cdt.arm.toolchain.cmsis.adapter INFO Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/ |
