@@ -11,7 +11,7 @@ Analog Devices Software License Agreement.
  
 *****************************************************************************/
 #include "BodyImpedance.h"
-
+extern int b;
 /* 
   Application configuration structure. Specified by user from template.
   The variables are usable in this whole application.
@@ -29,7 +29,7 @@ AppBIACfg_Type AppBIACfg =
   .ReDoRtiaCal = bFALSE,
   .SysClkFreq = 16000000.0,
   .WuptClkFreq = 32000.0,
-  .AdcClkFreq = 16000000.0,
+  .AdcClkFreq = 8000000.0,
   .BiaODR = 20.0, /* 20.0 Hz*/
   .NumOfData = -1,
   .RcalVal = 10000.0, /* 10kOhm */
@@ -499,6 +499,7 @@ static AD5940Err AppBIARegModify(int32_t * const pData, uint32_t *pDataCount)
     if(AppBIACfg.FifoDataCount >= AppBIACfg.NumOfData)
     {
       AD5940_WUPTCtrl(bFALSE);
+      b=0;
       return AD5940ERR_OK;
     }
   }
@@ -556,7 +557,7 @@ static AD5940Err AppBIADataProcess(int32_t * const pData, uint32_t *pDataCount)
     
     pOut[i].Magnitude = VoltMag; /* Commentando stampo direttamente i valori senza salvarli*/
     pOut[i].Phase = VoltPhase;
-    AppBIACtrl(BIACTRL_GETFREQ, &pOut[i].Franco);
+   
     
     /*float freq;
     AppBIACtrl(BIACTRL_GETFREQ, &freq);

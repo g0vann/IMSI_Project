@@ -31,23 +31,25 @@ uint32_t AppBuff[APPBUFF_SIZE];*/
 extern void Function_BIA(void);
 extern int b;
 float scelta,Freq1,Freq2;
+uint32_t Npunti=0, Ncicli=0;
 BoolFlag SweepON; 
 
 /* It's your choice here how to do with the data. Here is just an example to print them to UART */
 int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
 {
-  //float freq;
+  float freq;
 
   fImpPol_Type *pImp = (fImpPol_Type*)pData;
-  //AppBIACtrl(BIACTRL_GETFREQ, &freq);
-
-  //printf("%.2f ", freq);
+  AppBIACtrl(BIACTRL_GETFREQ, &freq);
+  if (DataCount>0){
+  printf("%.2f ", freq);
+  }
   /*Process data*/
   for(int i=0;i<DataCount;i++)
   {
-    AD5940_Delay10us(10000);
-    printf("%.2f %f %f\r\n",pImp[i].Franco,pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
+    printf("%f %f \r\n",pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
   }
+  //AD5940_Delay10us(10000);
   return 0;
 }
 
@@ -111,18 +113,23 @@ void AD5940BIAStructInit(void)
   
   pBIACfg->RcalVal = 10000.0;
   pBIACfg->DftNum = DFTNUM_8192;
-  pBIACfg->NumOfData = -1;      /* Never stop until you stop it manually by AppBIACtrl() function */
+  //pBIACfg->NumOfData = -1;      /* Never stop until you stop it manually by AppBIACtrl() function */
   pBIACfg->BiaODR = 20;         /* ODR(Sample Rate) 20Hz */
   pBIACfg->FifoThresh = 4;      /* 4 */
   pBIACfg->ADCSinc3Osr = ADCSINC3OSR_2;
   pBIACfg->SinFreq = scelta;
+  pBIACfg->SweepCfg.SweepLog = bTRUE;
   pBIACfg->SweepCfg.SweepEn = SweepON;
   if(SweepON == bFALSE){
     pBIACfg->SweepCfg.SweepStart = 10000;
     pBIACfg->SweepCfg.SweepStop = 150000.0;
+    pBIACfg->SweepCfg.SweepPoints = 100;
+    pBIACfg->NumOfData = -1;
   }else{
     pBIACfg->SweepCfg.SweepStart = Freq1;
     pBIACfg->SweepCfg.SweepStop = Freq2;
+    pBIACfg->SweepCfg.SweepPoints = Npunti;
+    pBIACfg->NumOfData = (int32_t) Ncicli*Npunti;
   }
 }
 

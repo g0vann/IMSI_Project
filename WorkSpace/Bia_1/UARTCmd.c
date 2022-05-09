@@ -38,7 +38,8 @@ uint32_t AppBuff[APPBUFF_SIZE];
 #define PI 3.141592654
 
 int b = 0;
-extern float scelta,Freq1,Freq2;
+extern float scelta, Freq1, Freq2;
+extern uint32_t Npunti, Ncicli;
 
 void Function_BIA(void);
 
@@ -60,11 +61,12 @@ uint32_t line_buffer_index = 0;
 uint32_t token_count = 0;
 void *pObjFound = 0;
 float parameter1, parameter2;
+float parameter3,parameter4;
 
-uint32_t Cli_start(float para1,float para2);
-uint32_t Cli_stop(float para1,float para2);
-uint32_t Cli_frequence(float para1,float para2);
-uint32_t Cli_start2(float para1,float para2);
+uint32_t Cli_start(float para1,float para2, float para3, float para4);
+uint32_t Cli_stop(float para1,float para2, float para3, float para4);
+//uint32_t Cli_frequence(float para1,float para2);
+uint32_t Cli_start2(float para1,float para2, float para3, float para4);
 
 struct __uartcmd_table
 {
@@ -79,11 +81,14 @@ struct __uartcmd_table
 
 };
 
-uint32_t Cli_start2(float para1,float para2){
+uint32_t Cli_start2(float para1,float para2, float para3, float para4){
         if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
         SweepON = bTRUE;
         Freq1 = para1;
-        Freq2 = para2;          
+        Freq2 = para2;
+        Npunti = (uint32_t)para3;
+        Ncicli = (uint32_t)para4;
+        //printf("%d %f %d \n",Npunti,para3, Ncicli);
         }
         b=1;
 	AD5940BIAStructInit(); /* Configure your parameters in this function */
@@ -92,7 +97,7 @@ uint32_t Cli_start2(float para1,float para2){
 	return 0;
 }
 
-uint32_t Cli_start(float para1,float para2){
+uint32_t Cli_start(float para1,float para2, float para3, float para4){
         if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
           SweepON = bFALSE;
           scelta  = para1;
@@ -104,7 +109,7 @@ uint32_t Cli_start(float para1,float para2){
 	return 0;
 }
 
-uint32_t Cli_stop(float para1,float para2){
+uint32_t Cli_stop(float para1,float para2, float para3, float para4){
        //printf("aoooooooooooooooooooooooooooooooooooooooooooooo\r\n");
        b=0;
       // AD5940_WriteReg(REG_AFE_ADCCON, REG_AFE_ADCCON_RESET);
@@ -115,12 +120,12 @@ uint32_t Cli_stop(float para1,float para2){
       //return 0;
 }
 
-uint32_t Cli_frequence(float para1,float para2){
+/*uint32_t Cli_frequence(float para1,float para2){
        if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
             scelta= para1;
     }
 	   return 1;
-}
+}*/
 
 void UARTCmd_RemoveSpaces(void)
 {
@@ -193,11 +198,22 @@ static uint32_t Str2Num(char *s, float *Res)
   return 0;
 }
 
+/* Translate string 'p' to number, store results in 'Res', return error code */
+/*static uint32_t Str2Int(char *s, uint32_t *Res)
+{
+   
+  *Res = strtol((const char*)s, NULL, 16);
+
+  return 0;
+}*/
+
 void UARTCmd_TranslateParas(void)
 {
   char *p = line_buffer;
   parameter1 = 0;
   parameter2 = 0;
+  parameter3 = 0;
+  parameter4 = 0;
   while(*p == '\0') p++;    /* goto command */
   while(*p != '\0') p++;    /* skip command. */
   while(*p == '\0') p++;    /* goto first parameter */
@@ -205,7 +221,15 @@ void UARTCmd_TranslateParas(void)
   if(token_count == 2) return;           /* Only one parameter */
   while(*p != '\0') p++;    /* skip first command. */
   while(*p == '\0') p++;    /* goto second parameter */
-  Str2Num(p, &parameter2);
+  if(Str2Num(p, &parameter2) != 0) return; 
+  if(token_count == 3) return; 	/* Non c'è il terzo parameter */
+  while(*p != '\0') p++;    /* skip first command. */
+  while(*p == '\0') p++;	/* goto third parameter */
+  if(Str2Num(p, &parameter3) != 0) return; /* Terzo parametro sicuro è un intero */
+  if(token_count == 4) return; 	/* Non c'è il terzo parameter */
+  while(*p != '\0') p++;    /* skip first command. */
+  while(*p == '\0') p++;	/* goto third parameter */
+  Str2Num(p, &parameter4); /* Terzo parametro sicuro è un intero */
 }
 
 void UARTCmd_Process(char c)
@@ -243,7 +267,7 @@ void UARTCmd_Process(char c)
     }
     /* Step3, call function */
     //res = ((uint32_t (*)(uint32_t, uint32_t))(pObjFound))(parameter1, parameter2);
-    res = ((uint32_t (*)(float, float))(pObjFound))(parameter1, parameter2);
+    res = ((uint32_t (*)(float, float,float,float))(pObjFound))(parameter1, parameter2,parameter3,parameter4);
     //printf("res:0x%08x\n", res);
     line_buffer_index = 0;  /* Reset buffer */
   }
@@ -259,7 +283,6 @@ void Function_BIA(void){
 //	 
 	
   while(1){
-     AD5940_Delay10us(10000);
     /* Check if interrupt flag which will be set when interrupt occurred. */
     if(AD5940_GetMCUIntFlag())
     {
