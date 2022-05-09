@@ -58,3 +58,23 @@
 996	1233	6729196988179289	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	b6b4141e51d75d57
 960	1278	6729196988628088	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers UART/adi_uart.o	b9137566ef4734e
 1297	1420	6729196990044303	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Exe/HelloBLE.out	ad5f131a265d19cc
+3	40	6735562941025862	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	77b36e89ee817e94
+10	355	6735562944057911	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers WDT/adi_wdt.o	e8c0e3c642f0438b
+13	395	6735562944272419	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	8dac9cfac7a0146a
+6	468	6735562945175088	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	3ba989b01abcc760
+419	537	6735562945883191	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device Examples Support/common.o	1db5a860d3bb1c2d
+62	560	6735562945873219	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers UART/adi_uart.o	b9137566ef4734e
+377	712	6735562947628528	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/Application/hello_world.o	3e2db7589d8d3357
+488	749	6735562947768156	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	696a85b288732a02
+582	824	6735562948765486	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	d5c6eb8610f5a64c
+557	862	6735562948935029	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	b6b4141e51d75d57
+884	942	6735562949992209	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	937256e383584a46
+733	975	6735562950002187	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	7a1b7be07f3aa26b
+769	1048	6735562951009488	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/AD5940lib/ADICUP3029Port.o	1cf18850f5304b0
+997	1121	6735562951757499	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/Inizialize/adi_initialize.o	b957b8ce587ab812
+963	1215	6735562952685013	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	233c0e5f4cc03518
+1236	1329	6735562953821982	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/Inizialize/pinmux.o	544df7064a4987fe
+1140	1359	6735562953891790	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4947c9adef3c8cef
+846	1507	6735562955584166	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/AD5940lib/ad5940.o	5f4f8aacf1e55e74
+1068	1538	6735562955833499	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	bfbeaeb99ec5e63a
+1558	1693	6735562957459155	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/HelloBLE/Debug/Exe/HelloBLE.out	ad5f131a265d19cc
