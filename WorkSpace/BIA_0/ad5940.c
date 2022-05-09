@@ -566,7 +566,7 @@ void AD5940_ClksCalculate(ClksCalInfo_Type *pFilterInfo, uint32_t *pClocks)
           For sweep function, calculate next frequency point according to pSweepCfg info.
    @return Return next frequency point in Hz.
 */
-void AD5940_SweepNext(SoftSweepCfg_Type *pSweepCfg, float *pNextFreq)
+void AD5940_SweepNext(SoftSweepCfg_Type *pSweepCfg, float *pNextFreq, uint32_t *contatore) //passato così il contatore lo modifico davvero??
 {
    float frequency;
 
@@ -574,8 +574,11 @@ void AD5940_SweepNext(SoftSweepCfg_Type *pSweepCfg, float *pNextFreq)
    {
       if(pSweepCfg->SweepStart<pSweepCfg->SweepStop) /* Normal */
       {
-         if(++pSweepCfg->SweepIndex == pSweepCfg->SweepPoints)
+         if(++pSweepCfg->SweepIndex == pSweepCfg->SweepPoints){
             pSweepCfg->SweepIndex = 0;
+			contatore = contatore + 1; //incremento il contatore ogni volta che ho passato tutti i punti
+		 }
+	
          frequency = pSweepCfg->SweepStart*pow(10,pSweepCfg->SweepIndex*log10(pSweepCfg->SweepStop/pSweepCfg->SweepStart)/(pSweepCfg->SweepPoints-1));
       }
       else
@@ -605,6 +608,7 @@ void AD5940_SweepNext(SoftSweepCfg_Type *pSweepCfg, float *pNextFreq)
    }
    
    *pNextFreq = frequency;
+   
 }
 
 /**

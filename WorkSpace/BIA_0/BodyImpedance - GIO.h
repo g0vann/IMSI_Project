@@ -65,6 +65,7 @@ typedef struct
   /* Sweep Function Control */
   SoftSweepCfg_Type SweepCfg;
 /* Private variables for internal usage */
+
   float SweepCurrFreq;
   float SweepNextFreq;
   float RtiaCurrValue[2];                    /* Calibrated Rtia value of current frequency */

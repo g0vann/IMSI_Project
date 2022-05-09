@@ -31,7 +31,7 @@ uint32_t AppBuff[APPBUFF_SIZE];*/
 extern void Function_BIA(void);
 extern int b;
 float scelta,Freq1,Freq2;
-uint32_t NFreq;
+uint32_t NFreq, nCicli;
 BoolFlag SweepON; 
 
 /* It's your choice here how to do with the data. Here is just an example to print them to UART */

@@ -12,6 +12,8 @@ Analog Devices Software License Agreement.
 *****************************************************************************/
 #include "BodyImpedance.h"
 
+extern uint32_t nCicli; //numero di cicli di misurazioni da fare 
+uint32_t temp; //variabile temporanea per confrontare in BIAProcess() a che punto siamo arrivati -> devo fare in modo di incrementare nella funzione AD5940_SweepNext()
 /* 
   Application configuration structure. Specified by user from template.
   The variables are usable in this whole application.
@@ -58,6 +60,7 @@ AppBIACfg_Type AppBIACfg =
   .SweepCfg.SweepPoints = 100,
   .SweepCfg.SweepLog = bFALSE,
   .SweepCfg.SweepIndex = 0,
+  
 
   .FifoThresh = 4,
   .BIAInited = bFALSE,
@@ -197,7 +200,7 @@ static AD5940Err AppBIASeqCfgGen(void)
   hs_loop.WgCfg.OffsetCalEn = bFALSE;
   if(AppBIACfg.SweepCfg.SweepEn == bTRUE)
   {
-		AppBIACfg.SweepCfg.SweepIndex = 0;
+	AppBIACfg.SweepCfg.SweepIndex = 0;
     AppBIACfg.FreqofData = AppBIACfg.SweepCfg.SweepStart;
     AppBIACfg.SweepCurrFreq = AppBIACfg.SweepCfg.SweepStart;
     AD5940_SweepNext(&AppBIACfg.SweepCfg, &AppBIACfg.SweepNextFreq);
@@ -566,11 +569,18 @@ static AD5940Err AppBIADataProcess(int32_t * const pData, uint32_t *pDataCount)
   /* Calculate next frequency point */
   if(AppBIACfg.SweepCfg.SweepEn == bTRUE)
   {
-    AppBIACfg.FreqofData = AppBIACfg.SweepCurrFreq;
-    AppBIACfg.SweepCurrFreq = AppBIACfg.SweepNextFreq;
+	if(temp < nCicli){  
+		AppBIACfg.FreqofData = AppBIACfg.SweepCurrFreq;
+		AppBIACfg.SweepCurrFreq = AppBIACfg.SweepNextFreq;
 		AppBIACfg.RtiaCurrValue[0] = AppBIACfg.RtiaCalTable[AppBIACfg.SweepCfg.SweepIndex][0];
-    AppBIACfg.RtiaCurrValue[1] = AppBIACfg.RtiaCalTable[AppBIACfg.SweepCfg.SweepIndex][1];
-    AD5940_SweepNext(&AppBIACfg.SweepCfg, &AppBIACfg.SweepNextFreq);
+		AppBIACfg.RtiaCurrValue[1] = AppBIACfg.RtiaCalTable[AppBIACfg.SweepCfg.SweepIndex][1];
+		AD5940_SweepNext(&AppBIACfg.SweepCfg, &AppBIACfg.SweepNextFreq, &temp); //ci provo 
+	}
+	else{
+	    AppBIACtrl(BIACTRL_SHUTDOWN, 0);
+        NVIC_SystemReset();					//come faccio con lo Stop
+	}
+	
   }
   return AD5940ERR_OK;
 }

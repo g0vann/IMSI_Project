@@ -38,7 +38,8 @@ uint32_t AppBuff[APPBUFF_SIZE];
 #define PI 3.141592654
 
 int b = 0;
-extern float scelta,Freq1,Freq2, NFreq;
+extern float scelta,Freq1,Freq2
+extern uint32_t NFreq, nCicli;
 
 void Function_BIA(void);
 
@@ -59,7 +60,7 @@ char line_buffer[LINEBUFF_SIZE];
 uint32_t line_buffer_index = 0;
 uint32_t token_count = 0;
 void *pObjFound = 0;
-float parameter1, parameter2, parameter3;
+float parameter1, parameter2, parameter3, parameter4;
 
 uint32_t Cli_start(float para1,float para2);
 uint32_t Cli_stop(float para1,float para2);
@@ -79,12 +80,13 @@ struct __uartcmd_table
 
 };
 
-uint32_t Cli_start2(float para1,float para2, float para3){
+uint32_t Cli_start2(float para1,float para2, uint32_t para3, uint32_t para4){
         if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
         SweepON = bTRUE;
         Freq1 = para1;
         Freq2 = para2;
 		NFreq = para3;
+		nCicli = para4;
         }
         b=1;
 	AD5940BIAStructInit(); /* Configure your parameters in this function */
@@ -217,10 +219,14 @@ void UARTCmd_TranslateParas(void)
   while(*p != '\0') p++;    /* skip first command. */
   while(*p == '\0') p++;    /* goto second parameter */
   if(Str2Num(p, &parameter2) != 0) return; 
-  if(token_count == 3) return 	/* Non c'è il terzo parameter */
+  if(token_count == 3) return; 	/* Non c'è il terzo parameter */
   while(*p != '\0') p++;    /* skip first command. */
   while(*p == '\0') p++;	/* goto third parameter */
-  Str2Int(p, &parameter3)	/* Terzo parametro sicuro è un intero */
+  if(Str2Int(p, &parameter3) != 0) return;	/* Terzo parametro sicuro è un intero */
+  if(token_count == 4) return;
+  while(*p != '\0') p++; 
+  while(*p == '\0') p++;
+  Str2Int(p, &parameter4) 
 }
 
 void UARTCmd_Process(char c)
