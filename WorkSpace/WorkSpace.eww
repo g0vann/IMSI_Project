@@ -7,6 +7,12 @@
         <path>$WS_DIR$\Bia_1\Bia_1.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\BLE_Prova\BLE_Prova.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\DFT_BLE\DFT_BLE.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\DFT_prova\DFT_prova.ewp</path>
     </project>
     <project>

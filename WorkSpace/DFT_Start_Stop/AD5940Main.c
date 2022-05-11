@@ -138,7 +138,7 @@ void AD5940_Main(void)
   {
       if (b==1){
           
-		  ();
+	Function_DFT();
       }
   }
 }

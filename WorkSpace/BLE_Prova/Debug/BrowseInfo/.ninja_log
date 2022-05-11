@@ -1,0 +1,116 @@
+# ninja log v5
+28	295	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	78fc94626c837c19
+21	318	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	f81923de318da4b0
+24	341	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	98dcf0abdb81b3bc
+1	363	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	20280f756cc52cb8
+338	488	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	5c6b6c6f04e33333
+361	511	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	9d6b0c21a5364967
+315	546	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	753f49fc7cc7de2c
+382	567	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	4b9ee82e4bb886eb
+586	629	6739206589277591	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	ecd94b29edc5bccc
+508	677	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	26cc20bfbb1c0d2c
+696	810	6739206590000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	3a14141e7ab01e61
+530	831	6739206591232358	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	1d901d5814d62d62
+633	895	6739206591930498	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	563197d6dc9544cf
+564	916	6739206592139940	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	2a5431cae147f10e
+835	1065	6739206593640995	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	cdb4e53ce2b1859a
+829	1138	6739206594369050	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	18afd3f2ca1dc503
+920	1148	6739206594463877	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	3c043456b0c97ef8
+899	1177	6739206594633423	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	367dfbe424ca42c4
+1180	1305	6739206596044770	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	fe89149a2c840d79
+1152	1322	6739206596214305	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	db67b052a3f6333f
+1070	1340	6739206596379005	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	ef2c362e73dda79c
+1142	1401	6739206597007250	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	218732480608d6a9
+1405	1463	6739206597625595	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	2d5a6c333a028a73
+1344	1478	6739206597775212	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	51a9dcb74c002ee7
+1483	1642	6739206599411013	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	dc468182308cf3af
+1647	3626	6739206618959155	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	160	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.xcl	2f76ab117917a7a7
+11	187	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	c453003831547422
+8	210	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	cf42a807e6afbad5
+14	232	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.xcl	92a508cafc0801b0
+206	355	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.xcl	4da40ea623b0f84
+179	380	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.xcl	84a0a067d921b18d
+229	401	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	6efe729c66b79215
+251	424	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	7625d8b0b7b89106
+376	503	6739208250227901	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
+399	513	6739208250317680	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	23b3a5cbf0a5fc10
+507	589	6739208251075640	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	13f0b38fba22ff6
+443	615	6739208251344916	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	fd99741f8fcc7c2f
+618	730	6739208252491860	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	afc6923978b93208
+421	738	6739208252561667	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	ea45e35c972140fb
+516	836	6739208253558996	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
+591	881	6739208254007805	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+741	887	6739208254027754	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
+734	895	6739208254077628	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	7c4219fe822b62f7
+892	988	6739208255080028	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	73987e2bdd42644
+840	1003	6739208255234702	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	ea5c4ec2be943bae
+884	1030	6739208255503973	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+1035	1254	6739208257748099	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+1260	3092	6739208275595709	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+3	212	6739209541534029	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+215	339	6739209542800655	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+345	578	6739209545194250	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+584	2480	6739209563680327	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	218	6739210223350248	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+221	339	6739210224572035	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+344	587	6739210227045426	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+4	1824	6739210306619686	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	338	6739210360980444	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+341	461	6739210362227111	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+466	693	6739210364551059	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+3	1810	6739210447874892	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	214	6739210602260301	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+217	335	6739210603477051	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+341	561	6739210605740997	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+567	2341	6739210623124651	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+3	211	6739210930295738	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+214	332	6739210931502517	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+337	558	6739210933766461	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+563	2375	6739210951504227	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	69	6739213428672849	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	13f0b38fba22ff6
+73	199	6739213429969384	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+205	446	6739213432442774	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+451	2298	6739213450420165	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	241	6739217497217304	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+244	382	6739217498633526	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+388	630	6739217501116882	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+636	2615	6739217520470825	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+3	214	6739222170797967	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+217	346	6739222172114455	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+351	574	6739222174398342	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+580	2466	6739222192884456	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+3	331	6739224116778676	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+334	457	6739224118055262	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+463	687	6739224120354172	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+693	2518	6739224138142078	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	237	6739224798075545	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+241	370	6739224799407051	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+375	605	6739224801765933	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+611	2521	6739224820496331	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+3	244	6739225343210830	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+247	373	6739225344502436	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+378	610	6739225346876229	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+615	2424	6739225364598977	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	348	6739225675120302	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+351	484	6739225676481753	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+489	729	6739225678935318	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+735	2598	6739225697137045	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	236	6739225813323380	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+239	361	6739225814585076	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+366	591	6739225816883997	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+597	2460	6739225835160482	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+4	240	6739226949300525	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+243	366	6739226950572203	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+371	602	6739226952935883	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+608	2481	6739226971287244	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+3	236	6739227734642912	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
+239	361	6739227735894629	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c27c57795c6f240c
+366	591	6739227738188625	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+596	2421	6739227756086133	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
+80	122	6739727488194363	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ef942ff3ca56e8e0
+77	215	6739727489126923	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	f0e7d0046ecea2d4
+58	230	6739727489286494	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	fcbb3906aad9c47f
+75	277	6739727489755246	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
+282	499	6739727491969319	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
+504	2945	6739727516035326	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c

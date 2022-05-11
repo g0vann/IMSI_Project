@@ -17,3 +17,17 @@
 397	629	6711326706710486	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/UARTCmd.o	f5e173b7fcce785b
 10	750	6711326707877362	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ad5940.o	63cd6167dfc1e4da
 761	865	6711326709074161	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Exe/Terminal2.out	59e112f08c5b2337
+12	131	6739819918457814	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/AD5940Main.o	5d1731b14874d62e
+1	206	6739819919195835	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ADICUP3029Port.o	7b6a1089532a74d7
+9	228	6739819919295568	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/main.o	2058eeed2631c83e
+5	583	6739819922935820	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ad5940.o	63cd6167dfc1e4da
+592	704	6739819924182485	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Exe/Terminal2.out	59e112f08c5b2337
+9	63	6739821847303833	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	5c3d296b3210c464
+16	388	6739821850385593	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/AD5940Main.o	5d1731b14874d62e
+2	446	6739821850974022	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ADICUP3029Port.o	7b6a1089532a74d7
+74	529	6739821851841693	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	66b7ea84597df389
+399	708	6739821853653739	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/CMSIS-Pack/Device Cycle Count/adi_cyclecount.o	58e3670a44ac5a1a
+456	744	6739821854038034	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/UARTCmd.o	f5e173b7fcce785b
+541	766	6739821854177668	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/Application/main.o	2058eeed2631c83e
+6	987	6739821856431622	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Obj/AD5940lib/ad5940.o	63cd6167dfc1e4da
+996	1096	6739821857568584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/Terminal2/Debug/Exe/Terminal2.out	59e112f08c5b2337

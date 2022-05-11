@@ -5,158 +5,99 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_processor.h</file>
-            <file>$PROJ_DIR$\ADICUP3029Port.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\adi_cyclecount.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o.rsp</file>
-            <file>$PROJ_DIR$\Debug\Obj\Application\main.o</file>
-            <file>$PROJ_DIR$\..\AD5940lib\ad5940.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\..\AD5940lib\ad5940.h</file>
-            <file>$PROJ_DIR$\UARTCmd.c</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map_noos.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ad5940.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_def.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\ARM\config\linker\AnalogDevices\ADuCM3029.icf</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\AD5940Main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_cdef.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\common.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_typedefs.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_cyclecount.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\List\Terminal2.map</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_device.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\pwr\adi_pwr.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Application\AD5940Main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ADICUP3029Port.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Cycle Count\adi_cyclecount.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ad5940.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\adi_cio_macros.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Terminal2.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\system_ADuCM3029.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\system_ADuCM3029.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_cdef.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_device.h</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_callback.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Application\UARTCmd.o</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\AD5940Main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_cdef.h</file>
+            <file>$PROJ_DIR$\UARTCmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\adi_cyclecount.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</file>
+            <file>$PROJ_DIR$\..\AD5940lib\ad5940.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ADICUP3029Port.o</file>
+            <file>$PROJ_DIR$\..\AD5940lib\ad5940.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\ADICUP3029Port.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_cdef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_typedefs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_device.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Debug\List\Terminal2.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ad5940.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_callback.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\ARM\config\linker\AnalogDevices\ADuCM3029.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\system_ADuCM3029.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\system_ADuCM3029.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Application\UARTCmd.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Application\AD5940Main.o</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map_noos.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ad5940.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Application\main.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_processor.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_cyclecount.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\pwr\adi_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\adi_cio_macros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Terminal2.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_typedefs.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Cycle Count\adi_cyclecount.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_device.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o.rsp</file>
+            <file>$PROJ_DIR$\..\DFT_Start_Stop\AD5940Main.c</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 38 54</file>
+                    <file> 62 29</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
+            <name>$PROJ_DIR$\AD5940Main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 57</file>
+                    <file> 43</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 32 37 69 48 0 55 56 24 40 19 6 50 30 22 34 52 59 42 68 33 60 39 36 25 63 17 1 62 41 5 18 43 35 16</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 37 69 48 0 55 40 50 30 22 34 32 52 59 42 68 33 60 39 36 25 63 17 1 56 24 19 6 51 58 2 66 29</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ADICUP3029Port.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51 58 37 69 48 0 55 2 66 40 29 12 32 50 30 22 34 52 59 42 68 33 60 39 36 25 63 17 1 56 24 19 6</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\adi_cyclecount.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 35 19 32 37 69 48 0 55 16 31 12 40 23 67 24 66 29 6 50 30 22 34 52 59 42 68 33 60 39 36 25 63 17 1 56 41 5 18 43 62 46</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\AD5940lib\ad5940.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 21</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 13 58 37 69 48 0 55 2 66 40 29 12 32</file>
+                    <file> 48 46 45 44 22 42 1 67 14 56 33 13 34 7 27 63 66</file>
                 </tool>
             </inputs>
         </file>
@@ -165,13 +106,73 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 64</file>
+                    <file> 41</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 32 37 69 48 0 55 66 40 29 12 23 67 20 53 58 2 50 30 22 34 52 59 42 68 33 60 39 36 25 63 17 1 56 24 19 6</file>
+                    <file> 34 45 44 22 42 1 14 56 33 13 27 63 7 66 46 67 57 3 36 51 59 21 25 23 64 68 17 53 38 24 61 28 37 52 30 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\adi_cyclecount.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 30 34 45 44 22 42 1 11 26 13 56 27 63 52 14 33 54 57 3 36 51 59 21 25 23 64 68 17 53 38 24 61 28 37 49 12 47 58 32 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 45 44 22 42 1 37 52 56 30 54 57 3 36 51 59 21 25 23 64 68 17 53 38 24 61 28 32 49 12 47 58 55 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13 45 44 22 42 1 56 57 3 36 51 34 59 21 25 23 64 68 17 53 38 24 61 28 37 52 30 54 48 46 67 14 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\AD5940lib\ad5940.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 46 45 44 22 42 1 67 14 56 33 13 34</file>
                 </tool>
             </inputs>
         </file>
@@ -180,28 +181,28 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 49</file>
+                    <file> 60</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 9 41 5 18</file>
+                    <file> 69 49 12 47</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\AD5940Main.c</name>
+            <name>$PROJ_DIR$\ADICUP3029Port.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51 58 37 69 48 0 55 2 66 40 29 12 32 20 23 67 53</file>
+                    <file> 48 46 45 44 22 42 1 67 14 56 33 13 34 57 3 36 51 59 21 25 23 64 68 17 53 38 24 61 28 37 52 30 54</file>
                 </tool>
             </inputs>
         </file>
@@ -210,13 +211,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 38</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 26 21 44 47 45 10 49 57 64 65 61 27</file>
+                    <file> 35 31 43 65 15 50 60 40 41 39 0 6</file>
                 </tool>
             </inputs>
         </file>
