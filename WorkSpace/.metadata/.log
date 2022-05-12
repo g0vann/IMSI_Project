@@ -2703,3 +2703,18 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneD
 
 !ENTRY com.iar.cmsismanager.product 1 0 2022-05-11 17:00:43.296
 !MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-05-12 16:56:39.561 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-12 16:56:41.564
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-12 16:56:41.902
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-12 16:56:49.384
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-d99526e3-170f-4fbc-8313-1757d6fed458-1, port:0, protocol:Binary, transport:Pipe)

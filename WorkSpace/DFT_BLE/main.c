@@ -32,34 +32,35 @@ extern int32_t adi_initComponents(void);
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
 /* Global Data */
-static bool               gbConnected;
-static ADI_BLE_GAP_MODE   geMode;
+bool gbConnected;
+ADI_BLE_GAP_MODE   geMode;
 
 
 /* Local Functions used when Bluetooth is enabled */
 static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg);
-static void InitBluetoothLowEnergy(void);
-static void SetAdvertisingMode(void);
+void InitBluetoothLowEnergy(void);
+void SetAdvertisingMode(void);
 
 
 
 /* Local Functions */
-static void InitSystem(void);
 static void Trap(void);
 /**********************************************************
 **********************************************************/
 
 int main(void)
 {
-  void AD5940_Main(void);
+  //void AD5940_Main(void);
+  void AD5940_MainBLE(void);
   MCUPlatformInit(0);
   adi_initComponents();
   AD5940_MCUResourceInit(0);
   
-  InitSystem();
+  //InitBluetoothLowEnergy();
   
   //printf("Hello AD5940-Build Time:%s\n",__TIME__);
-  AD5940_Main();
+  //AD5940_Main();
+  AD5940_MainBLE();
 }
 
 /* Below functions are used to initialize MCU Platform */
@@ -220,25 +221,6 @@ void UART_Int_Handler(void)
 /**********************************************************************
 ***********************************************************************/
 
-static void InitSystem(void)
-{
-   // ADI_PWR_RESULT  ePwr;
-
-
-   // *pREG_WDT0_CTL = 0x0u;
-
-
-    /* Initialize clocks */
-  //  ePwr = adi_pwr_Init();
-
-
- //   ePwr = adi_pwr_SetClockDivider(ADI_CLOCK_HCLK, 1u);
-
-
-   // ePwr = adi_pwr_SetClockDivider(ADI_CLOCK_PCLK, 1u);
-    InitBluetoothLowEnergy();
-}
-
 /*!
  * @brief      Trap function
  *
@@ -256,18 +238,30 @@ static void Trap()
  * @details    Helper function to avoid repeated code in main.
  *
  */
-static void SetAdvertisingMode(void)
+void SetAdvertisingMode(void)
 {
     ADI_BLER_RESULT eResult;
 
     eResult = adi_radio_SetMode(PERIPHERAL_ADV_MODE, 0u, 0u);
-    printf("Error setting the mode.\r\n");
-
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Mode set successfully\r\n");
+    }else{
+      printf("Error setting the mode.\r\n");
+    }
+    
     eResult = adi_ble_WaitForEventWithTimeout(GAP_EVENT_MODE_CHANGE, 5000u);
-    printf("Error waiting for GAP_EVENT_MODE_CHANGE.\r\n");
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Waiting an event\r\n");
+    }else{
+      printf("Error waiting for GAP_EVENT_MODE_CHANGE.\r\n");
+    }   
 
     eResult = adi_radio_GetMode(&geMode);
-    printf("Error getting the mode.\r\n");
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Mode obtained\r\n");
+    }else{
+      printf("Error getting the mode.\r\n");
+    }       
 
     if(geMode != PERIPHERAL_ADV_MODE) {
        printf("Error in SetAdvertisingMode.\r\n");
@@ -280,27 +274,42 @@ static void SetAdvertisingMode(void)
  * @details    Data Exchange profile is initialized to send
  *             data to the connected central device.
  */
-static void InitBluetoothLowEnergy(void)
+void InitBluetoothLowEnergy(void)
 {
     ADI_BLER_RESULT eResult;
-    uint8_t *       aDataExchangeName = (unsigned char *) "ADT7420 Demo";
+    uint8_t *       aDataExchangeName = (unsigned char *) "DFT_BLE";
 
     /* Initialize radio and framework layer */
     eResult = adi_ble_Init(ApplicationCallback, NULL);
-    printf("Error initializing the radio.\r\n");
-
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Initialization successful\r\n");
+    }else{
+      printf("Error initializing the radio.\r\n");
+    }
     /* Configure radio */
     eResult = adi_radio_RegisterDevice(ADI_BLE_ROLE_PERIPHERAL);
-    printf("Error registering the radio.\r\n");
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Registered radio\r\n");
+    }else{
+      printf("Error registering the radio.\r\n");
+    }
 
     eResult = adi_radio_SetLocalBluetoothDevName(aDataExchangeName, strlen((const char *) aDataExchangeName), 0u, 0u);
-    printf("Error setting local device name.\r\n");
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Local device name set successfull\r\n");
+    }else{
+      printf("Error setting local device name.\r\n");
+    }
 
     SetAdvertisingMode();
 
     /* Initialize data exchange profile */
     eResult = adi_radio_Register_DataExchangeServer();
-    printf("Error registering data exchange server.\r\n");
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Data exchange server registrated\r\n");
+    }else{
+      printf("Error registering data exchange server.\r\n");
+    }    
 
     /* Now enter infinite loop waiting for connection and then data exchange events */
     printf("Waiting for connection. Initiate connection on central device please.\r\n");
@@ -360,3 +369,4 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             break;
     }
 }
+

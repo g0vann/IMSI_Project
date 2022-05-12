@@ -1,89 +1,90 @@
 # ninja log v5
+366	663	6739730755438012	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	8ca23f6876b8e687
 2	140	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	c138fb2581d6ecc4
-22	163	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	7c505ceaa8295dc8
 24	185	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	939953be4163f8c6
+22	163	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	7c505ceaa8295dc8
+355	622	6739732057209578	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	c397b9bbea12416a
+13	191	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/pinmux_config.xcl	85947747b470b8cb
 30	206	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	64d7d812ae58f7da
 183	325	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	726d1a2ea16ae172
 203	347	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	b380374107d8df53
-224	381	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	a284507da5ba9d60
+169	298	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.xcl	76047cfd5a310e4a
 159	404	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	ece0761c173afac5
-344	471	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	fb514ba090c2aaa6
-401	517	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	4b96b5308d3aa4ea
 424	648	6739730755288411	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	b07ed98720c7e6c4
-366	663	6739730755438012	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	8ca23f6876b8e687
+224	381	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	a284507da5ba9d60
+344	471	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	fb514ba090c2aaa6
 667	698	6739730755787076	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	92ead543ce92247e
+401	517	6739730750000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	4b96b5308d3aa4ea
 491	706	6739730755836956	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	8173aade58b012ef
 536	849	6739730757283071	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	9ac9e73d1ec126c0
+3	72	6740714129522698	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/pinmux_config.pbi	49143739100ed9bd
 709	911	6739730757921361	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	421668261e1d8787
 653	958	6739730758380133	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	fe92511045a4d54a
 702	1021	6739730759013499	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	424e7ee362637d0a
-962	1062	6739730759432379	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	975f7367b636ad08
-1026	1085	6739730759656855	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part3.pbi	f8fe48705268a9c1
+247	420	6740806406414925	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+51	213	6740706169727828	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part3.pbi	9c064176d6e1efe6
 853	1103	6739730759836369	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	c5b6b54a1537ab46
-915	1137	6739730760185434	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	83f145db78a031a7
-1068	1178	6739730760584370	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	f38884d1fc0271c4
-1141	1250	6739730761317462	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part2.pbi	630eefca1cabdbd2
-1254	1396	6739730762768635	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	57fd6db18f1d7033
-1400	2563	6739730774043528	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-3	131	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940_DFTPolling.xcl	5836498628748041
-11	151	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ad5940.xcl	8999643b37c56c0a
-6	171	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	2aaa65faec26e77c
-13	191	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/pinmux_config.xcl	85947747b470b8cb
-169	298	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.xcl	76047cfd5a310e4a
-188	318	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/UARTCmd.xcl	9c45f952be4d291f
+4	367	6740799424341782	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
 148	338	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.xcl	1dccef0ef8372bf2
-208	357	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/adi_initialize.xcl	9c433d70dd4b9727
+11	151	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ad5940.xcl	8999643b37c56c0a
+915	1137	6739730760185434	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	83f145db78a031a7
+6	171	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	2aaa65faec26e77c
+66	244	6740706170046969	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	9fd18acd746f245c
+70	197	6740706169568252	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part2.pbi	b143fc8c6e481cfa
+425	623	6740806408449484	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+625	1006	6739732061064340	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main_BIABLE.pbi	ab6e01b199e1c307
+628	2774	6740806429463705	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
 316	440	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main_BIABLE.xcl	b21274ed0e6369da
+3	131	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940_DFTPolling.xcl	5836498628748041
+473	545	6739732056441635	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/adi_initialize.pbi	b685ff410fb53e8e
+188	318	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/UARTCmd.xcl	9c45f952be4d291f
+4	244	6740806404639676	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+208	357	6739732050000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/adi_initialize.xcl	9c433d70dd4b9727
 376	469	6739732055683666	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940_DFTPolling.pbi	de6aec796797b728
 336	481	6739732055793370	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ad5940.pbi	99b27b97ef3def1b
-473	545	6739732056441635	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/adi_initialize.pbi	b685ff410fb53e8e
-461	570	6739732056700945	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
-355	622	6739732057209578	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	c397b9bbea12416a
-549	718	6739732058167016	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Initialize/pinmux_config.pbi	49143739100ed9bd
 484	738	6739732058376453	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/UARTCmd.pbi	8e607644126d5761
-574	809	6739732059084562	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
-721	853	6739732059528456	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	620b120c5e3ad316
-741	891	6739732059907435	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part3.pbi	6789a085202ce55c
-813	936	6739732060356234	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part4.pbi	a4ad011abfff345a
-859	964	6739732060635484	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part2.pbi	9cd4ce6ecd387d4
-625	1006	6739732061064340	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main_BIABLE.pbi	ab6e01b199e1c307
-1009	1152	6739732062530415	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	a7ea166ab4a08995
-1157	1369	6739732064699669	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-1374	3102	6739732081639693	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-3	227	6739811790678587	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
-230	376	6739811792169646	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	a7ea166ab4a08995
-380	593	6739811794348877	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-598	2340	6739811811413590	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-3	231	6739811915548139	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
-234	380	6739811917044134	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	a7ea166ab4a08995
-384	596	6739811919208343	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-601	2303	6739811935899077	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-3	229	6739813455470017	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
-232	375	6739813456931172	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	a7ea166ab4a08995
-380	591	6739813459095383	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-596	2322	6739813476025384	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-4	80	6739814488171623	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
-83	191	6739814489298801	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	620b120c5e3ad316
-196	414	6739814491527842	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-419	2130	6739814508313043	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-10	95	6739815345091030	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part4.pbi	fe41fb8b3af9b7c6
-8	139	6739815345534928	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part2.pbi	30bb69b03de93555
-6	156	6739815345704468	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	d0d625e675956e52
-3	162	6739815345764311	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part3.pbi	ee99e922337bd293
-168	384	6739815347993409	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-389	2097	6739815364718973	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-6	67	6739816530453134	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part4.pbi	f7cf25e9d19f2cca
-10	102	6739816530792225	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part1.pbi	9f235547be982fbf
-3	172	6739816531500329	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part3.pbi	d9ff9e6b7dc35d13
-8	179	6739816531550204	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part2.pbi	4c807c052a9ae37e
-71	222	6739816532008972	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
-227	437	6739816534153231	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-442	2195	6739816551207825	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-3	225	6739829709575153	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
-228	362	6739829710951471	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
-366	569	6739829713015948	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-3	1700	6739829788944668	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
-3	227	6739831768232813	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
-230	365	6739831769614171	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
-369	573	6739831771698716	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
-4	1710	6739831907239174	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+75	94	6740714129742105	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part4.pbi	66902f9f8e217e42
+3	379	6740807394904761	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+382	564	6740807396759789	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+569	779	6740807398914027	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+784	2589	6740807416532254	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+4	244	6740807475844852	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+247	418	6740807477585256	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+423	621	6740807479604915	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+626	2388	6740807496883996	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+4	246	6740811140435715	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+249	429	6740811142280775	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+434	661	6740811144599788	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+666	2558	6740811163006107	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+4	234	6740812126761279	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
+237	417	6740812128596366	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+422	632	6740812130740638	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+637	2373	6740812147740496	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+4	256	6740812909614950	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+259	440	6740812911469987	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+446	653	6740812913594436	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+658	2488	6740812931541772	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+3	240	6740813187423382	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+243	413	6740813189163781	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+418	621	6740813191248205	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+627	2426	6740813208861558	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+3	235	6740813262573564	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
+238	414	6740813264373853	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+419	617	6740813266413450	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+4	1745	6740813341768611	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+3	229	6740813502107635	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/main.pbi	2d9ca32429a921e3
+232	404	6740813503863071	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+409	607	6740813505897736	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+612	2434	6740813523695476	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+4	266	6740818282270757	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+269	462	6740818284225664	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+467	674	6740818286359952	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+680	2460	6740818303793428	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+4	242	6740818560074353	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+245	420	6740818561849603	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+424	623	6740818563874192	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+627	2439	6740818581577277	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
+3	351	6740818636586552	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	e2e8f20ddeb02352
+354	528	6740818638361810	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE_part0.pbi	c6d921d0bf01b670
+533	734	6740818640426276	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbd	9dc539ad87e99364
+739	2538	6740818658049557	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/DFT_BLE/Debug/BrowseInfo/DFT_BLE.pbw	ae5b63f78bf655dc
