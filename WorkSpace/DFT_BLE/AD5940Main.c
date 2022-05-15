@@ -137,7 +137,7 @@ void DFT_config(void){
   AD5940_ADCConvtCtrlS(bTRUE);
 }
 
-/*void AD5940_Main(void)
+void AD5940_Main(void)
 {
    
   AD5940PlatformCfg(); // Board configuration
@@ -151,9 +151,9 @@ void DFT_config(void){
         Function_DFT();
       }
   }
-}*/
+}
 
-
+/*
 void AD5940_MainBLE(){
   
   AD5940PlatformCfg(); // Board configuration
@@ -161,15 +161,15 @@ void AD5940_MainBLE(){
   ADI_BLER_RESULT eResult;  
   uint32_t nTime = 0ul;
   ADI_BLER_CONN_INFO sConnInfo;
-  /*float nTempCel, nTempFar;
-  uint16_t   nTemp;*/
+  //float nTempCel, nTempFar;
+  //uint16_t   nTemp;
   
   InitBluetoothLowEnergy();
   
-  /* Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID */
+  // Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID 
   eDataPacket.nPacketHeader = ADI_SET_HEADER(ADI_SENSOR_PACKET, DFT_ID);
 
-  /* Set Sensor Type */
+   //Set Sensor Type 
   eDataPacket.eSensorType = ADI_PRINTSTRING_TYPE;
 
   printf("OTTIMOOOOOOOO!\r\n");
@@ -183,18 +183,18 @@ void AD5940_MainBLE(){
     }
     
 
-    /* If connected, send data */
+    // If connected, send data 
     if(gbConnected == true) {
       adi_ble_GetConnectionInfo(&sConnInfo);
 
-        /* Get timestamp */
+         //Get timestamp 
         nTime = (unsigned)time(NULL);
         memcpy(&eDataPacket.aTimestamp, &nTime, 4u);
         
         ASSERT(strlen(sHelloWorld) <= ADI_MAX_STRING_SIZE);
-                        /* Set the size of the string */
+                        // Set the size of the string 
         eDataPacket.eStringData.nStringSize = strlen(sHelloWorld);
-        /* Set the string */
+        //Set the string 
         memcpy(eDataPacket.eStringData.aStringData, sHelloWorld, strlen(sHelloWorld));
 
         
@@ -206,7 +206,7 @@ void AD5940_MainBLE(){
           printf("inviato correttamente\r\n");
         }
         }
-      /* If disconnected switch to advertising mode */
+     // If disconnected switch to advertising mode 
         else {
             if(geMode != PERIPHERAL_ADV_MODE) {
                 SetAdvertisingMode();
@@ -215,7 +215,7 @@ void AD5940_MainBLE(){
     
   }  
 }
-
+*/
 
 
 
