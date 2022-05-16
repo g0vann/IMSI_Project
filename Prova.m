@@ -34,7 +34,8 @@ for i = 1:(length(a)/k)
     end
     x = mean(h);
     z = std(h);
-    b = [b x]; %vettore delle medie
-    c = [c z];
+    b = [b x]; %vettore delle medie per ogni punto
+    c = [c z]; %vettore della deviazione standard punto per punto
+    v = -c;
     
 end
