@@ -41,9 +41,20 @@
 % hold off
 % grid
 
+a = [1 2 4 8 6 2 4 5 2 2 4 11]; %12 numeri
 
+k = 3;      %numero cicli
+n = 4;      %numero punti per cliclo
+m = [];
+%mi aspetto il vettore media m =[3 2 4 8]
+for i = 1:(length(a)/k)
+    h = 0;
+    for j = 0 : (k-1)
+        h = h + a(i+(n*j));
+    end
+    h = h/k;
+    m = [m h];
     
-string="12223.0 13131.133";
-
+end
 
 

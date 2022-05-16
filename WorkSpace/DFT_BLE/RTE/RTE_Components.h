@@ -3,7 +3,7 @@
  *      *** Do not modify ! ***
  *
  * Project: DFT_BLE
- * RTE configuration: DFT_BLE.rteconfig
+ * RTE configuration: DFT_BLE
 */
 #ifndef RTE_COMPONENTS_H
 #define RTE_COMPONENTS_H

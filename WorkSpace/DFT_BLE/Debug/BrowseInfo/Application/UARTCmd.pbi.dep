@@ -1,5 +1,5 @@
-C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\Debug\BrowseInfo\Application\UARTCmd.pbi: \
-  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\UARTCmd.c \
+C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_BLE\Debug\BrowseInfo\Application\UARTCmd.pbi: \
+  C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_BLE\UARTCmd.c \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
@@ -12,28 +12,28 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\Debug\BrowseInfo\
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdio.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_stdlib.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ad5940.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ad5940.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\math.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_float_setup.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ctype.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdarg.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_cdef.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_def.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\adi_cio_macros.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_cdef.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_device.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_typedefs.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_typedefs.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_device.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\\CMSIS\Core\Include\core_cm3.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\\CMSIS\Core\Include\cmsis_version.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\\CMSIS\Core\Include\cmsis_compiler.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_cdef.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_def.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\adi_cio_macros.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_cdef.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_device.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_typedefs.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_typedefs.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_device.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\core_cm3.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_version.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_compiler.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_iccarm.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\\CMSIS\Core\Include\mpu_armv7.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\system_ADuCM3029.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\mpu_armv7.h \
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\system_ADuCM3029.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stddef.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\adi_processor.h
+  C:\Users\giann\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\adi_processor.h

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.general.xcl" --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.general.xcl" --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\DFT_BLE\settings\DFT_BLE.Debug.driver.xcl" 
 }
