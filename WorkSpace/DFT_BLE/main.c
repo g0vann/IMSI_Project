@@ -50,8 +50,8 @@ static void Trap(void);
 
 int main(void)
 {
-  void AD5940_Main(void);
-  //void AD5940_MainBLE(void);
+  //void AD5940_Main(void);
+  void AD5940_MainBLE(void);
   MCUPlatformInit(0);
   adi_initComponents();
   AD5940_MCUResourceInit(0);
@@ -59,8 +59,8 @@ int main(void)
   InitBluetoothLowEnergy();
   
   //printf("Hello AD5940-Build Time:%s\n",__TIME__);
-  AD5940_Main();
-  //AD5940_MainBLE();
+  //AD5940_Main();
+  AD5940_MainBLE();
 }
 
 /* Below functions are used to initialize MCU Platform */

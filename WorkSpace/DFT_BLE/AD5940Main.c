@@ -136,7 +136,7 @@ void DFT_config(void){
   AD5940_AFECtrlS(AFECTRL_DFT, bTRUE);
   AD5940_ADCConvtCtrlS(bTRUE);
 }
-
+/*
 void AD5940_Main(void)
 {
    
@@ -152,8 +152,8 @@ void AD5940_Main(void)
       }
   }
 }
+*/
 
-/*
 void AD5940_MainBLE(){
   
   AD5940PlatformCfg(); // Board configuration
@@ -164,7 +164,7 @@ void AD5940_MainBLE(){
   //float nTempCel, nTempFar;
   //uint16_t   nTemp;
   
-  InitBluetoothLowEnergy();
+  //InitBluetoothLowEnergy();
   
   // Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID 
   eDataPacket.nPacketHeader = ADI_SET_HEADER(ADI_SENSOR_PACKET, DFT_ID);
@@ -176,7 +176,7 @@ void AD5940_MainBLE(){
   
   while(1)
   {
-    printf("ciaoooo!\r\n");
+    //printf("ciaoooo!\r\n");
     eResult = adi_ble_DispatchEvents(ADI_APP_DISPATCH_TIMEOUT);
     if(eResult==ADI_BLER_FAILURE){
       printf("Error dispatching events to the callback.\r\n");
@@ -215,7 +215,7 @@ void AD5940_MainBLE(){
     
   }  
 }
-*/
+
 
 
 

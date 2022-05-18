@@ -44,8 +44,9 @@
 %% Prova utilizzo ricezione/invio tramite bluetooth
 b = ble("FrancOlino_BLE");
 car = characteristic(b,"00005301-0000-0041-4C50-574953450000","00005303-0000-0041-4C50-574953450000");
+car2 = characteristic(b,"00005301-0000-0041-4C50-574953450000","00005302-0000-0041-4C50-574953450000"); 
 subscribe(car,"notification");
-car.DataAvailableFunctionn = @prova;
+car.DataAvailableFcn = @ciao;
 
 
 
