@@ -1,0 +1,123 @@
+!SESSION 2022-05-13 20:20:10.508 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI Nostri\WorkspaceBLE
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-13 20:20:13.129
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-13 20:20:16.008
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-6149cec9-a1c1-4797-b839-c9aa11e7038a-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-13 20:32:51.238
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-6149cec9-a1c1-4797-b839-c9aa11e7038a-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-13 20:32:51.238
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-05-15 11:45:55.638 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI Nostri\WorkspaceBLE
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-15 11:45:58.774
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-15 11:45:59.321
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-15 11:46:09.683
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-42ae2306-ecc3-4745-ab07-bb40185875b2-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-15 12:15:59.755
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-42ae2306-ecc3-4745-ab07-bb40185875b2-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-15 12:15:59.756
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-05-16 15:45:45.819 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI Nostri\WorkspaceBLE
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-16 15:45:48.300
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-16 15:45:48.686
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-16 15:45:56.774
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-b28d3c1a-66d2-416c-a07b-ce21d03d4ecb-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-16 15:48:19.355
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-b28d3c1a-66d2-416c-a07b-ce21d03d4ecb-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-16 15:48:19.356
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-05-16 22:18:45.632 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI Nostri\WorkspaceBLE
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-16 22:18:46.950
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-16 22:18:47.083
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-16 22:18:52.836
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-b182d2b0-adbd-4a37-b28a-30d5b63904e2-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-16 22:18:57.049
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-b182d2b0-adbd-4a37-b28a-30d5b63904e2-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-16 22:18:57.049
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-05-18 18:31:39.101 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI Nostri\WorkspaceBLE
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-18 18:31:40.309
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-18 18:31:40.452
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-18 18:31:45.813
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-789caae4-e416-47c4-b28b-7137832557d0-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-19 00:19:47.335
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-789caae4-e416-47c4-b28b-7137832557d0-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-19 00:19:47.335
+!MESSAGE Exiting workbench is response to shutdown() command.
+!SESSION 2022-05-19 15:14:17.470 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\papuz\OneDrive\Desktop\IMSI Nostri\WorkspaceBLE
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-19 15:14:19.789
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.iar.cdt.arm.toolchain.cmsis.adapter 1 0 2022-05-19 15:14:20.179
+!MESSAGE Using CMSIS pack repositories: http://links.iar.com/cmsis/pack/
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-19 15:14:28.142
+!MESSAGE CMSIS Agent interface registered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-fc9e7567-ccbe-4032-a2d7-f17ef6744c67-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-19 17:19:57.719
+!MESSAGE CMSIS Agent interface deregistered with service registry at ServiceLocation(host:\\.\pipe\iar-cspy-cpp-binary-com.iar.thrift.service.registry-fc9e7567-ccbe-4032-a2d7-f17ef6744c67-1, port:0, protocol:Binary, transport:Pipe)
+
+!ENTRY com.iar.cmsismanager.product 1 0 2022-05-19 17:19:57.719
+!MESSAGE Exiting workbench is response to shutdown() command.

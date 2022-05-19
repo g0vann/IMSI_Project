@@ -1,0 +1,48 @@
+# ninja log v5
+422	544	6741694837673965	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/AD5940_DFTPolling.o	389a2d22e63f3086
+3	33	6746748420535061	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	199821799d1186b6
+12	262	6746748422715075	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/AD5940lib/ADICUP3029Port.o	aabddd6074e23128
+292	542	6746748425515065	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/AD5940Main.o	61bd59598e8c3cd2
+15	327	6746748423365057	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/UARTCmd.o	1c25a20f2506c765
+348	638	6746748426255075	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/main.o	bd8628515401f346
+59	109	6746748421255071	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	9027b9df0c8ba332
+244	385	6746748423985073	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Initialize/adi_initialize.o	ddcf57ba08154f25
+1386	1521	6746748435305047	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Exe/DFT_BLE.out	a7dd7d461bff8af
+131	221	6746748422345083	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Initialize/pinmux_config.o	564dc876671a4803
+662	886	6746748428325085	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	fd258126d46b61c9
+7	787	6746748427905060	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/AD5940lib/ad5940.o	a94810d929a532c0
+572	859	6746748428455068	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	95939cbf5a33184d
+409	590	6746748425885062	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	e23d55aaf2ccfa57
+1118	1363	6746748433695044	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	42dfa7a828853c0c
+816	1330	6746748433365049	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	9cf597d9519130fb
+883	1172	6746748431825055	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	7a0a8f10ce1e2e83
+909	1195	6746748431855075	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	2e5b2c26ef53dedb
+856	1093	6746748431025070	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	a684c5ef6700b27c
+621	833	6746748428175086	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	60ca72d6b680426d
+3	302	6746749668572993	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/UARTCmd.o	1c25a20f2506c765
+324	459	6746749670122985	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Exe/DFT_BLE.out	a7dd7d461bff8af
+3	223	6746750780819788	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/UARTCmd.o	1c25a20f2506c765
+246	388	6746750782439808	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Exe/DFT_BLE.out	a7dd7d461bff8af
+2	290	6746754832643081	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/UARTCmd.o	1c25a20f2506c765
+312	454	6746754834274776	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Exe/DFT_BLE.out	a7dd7d461bff8af
+2	219	6746756498599857	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/UARTCmd.o	1c25a20f2506c765
+241	376	6746756500139855	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Exe/DFT_BLE.out	a7dd7d461bff8af
+3	36	6746767906207743	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	199821799d1186b6
+60	235	6746767908147738	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	9027b9df0c8ba332
+11	360	6746767909357737	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/AD5940lib/ADICUP3029Port.o	aabddd6074e23128
+14	401	6746767909647727	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/AD5940Main.o	61bd59598e8c3cd2
+423	508	6746767910857758	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Initialize/pinmux_config.o	564dc876671a4803
+256	554	6746767911257748	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/UARTCmd.o	1c25a20f2506c765
+531	642	6746767912207730	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Initialize/adi_initialize.o	ddcf57ba08154f25
+383	685	6746767912567749	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/Application/main.o	bd8628515401f346
+577	787	6746767913627737	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	fd258126d46b61c9
+7	844	6746767914117739	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/AD5940lib/ad5940.o	a94810d929a532c0
+666	898	6746767914737741	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	95939cbf5a33184d
+710	990	6746767915647737	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	e23d55aaf2ccfa57
+867	1089	6746767916647724	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	60ca72d6b680426d
+921	1146	6746767917227750	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	a684c5ef6700b27c
+1012	1326	6746767918997782	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	2e5b2c26ef53dedb
+810	1352	6746767918977766	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	9cf597d9519130fb
+1114	1386	6746767919207727	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	42dfa7a828853c0c
+1169	1444	6746767920207725	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	7a0a8f10ce1e2e83
+1465	1602	6746767921776044	C:/Users/papuz/OneDrive/Desktop/IMSI Nostri/WorkspaceBLE/DFT_BLE/Debug/Exe/DFT_BLE.out	a7dd7d461bff8af
