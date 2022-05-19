@@ -24,18 +24,21 @@ Analog Devices Software License Agreement.
 #include "ConfigurationBLE.h"
 #include <time.h>
 
+
 void DFT_config(void);
 extern void Function_DFT(void);
 extern void SetAdvertisingMode(void);
 extern void InitBluetoothLowEnergy(void);
 extern int b;
 
-static ADI_DATA_PACKET eDataPacket;
+MY_ADI_DATA_PACKET eDataPacket;
 extern bool gbConnected;
 extern ADI_BLE_GAP_MODE geMode;
 
-static const char         sHelloWorld[]   = "Hello World";
-static const char         sGoodbyeWorld[] = "Bye World";
+//static const char         sHelloWorld[]   = "Hello World";
+//static const char         sGoodbyeWorld[] = "Bye World";
+
+
 
 #define APPBUFF_SIZE 512
 uint32_t AppBuff[APPBUFF_SIZE];
@@ -136,6 +139,8 @@ void DFT_config(void){
   AD5940_AFECtrlS(AFECTRL_DFT, bTRUE);
   AD5940_ADCConvtCtrlS(bTRUE);
 }
+
+/*Con la funzione AD5940_Main Accendiamo il bluetooth e la scheda di sopra che da la DFT con la UART*/
 /*
 void AD5940_Main(void)
 {
@@ -154,23 +159,26 @@ void AD5940_Main(void)
 }
 */
 
+/*Se invece commentiamo la funzione di sopra e decommentiamo questa (void AD5940_MainBLE()) proviamo a fare una send ma senza successo*/
+
+
+
 void AD5940_MainBLE(){
   
   AD5940PlatformCfg(); // Board configuration
 
   ADI_BLER_RESULT eResult;  
-  uint32_t nTime = 0ul;
+  //uint32_t nTime = 0ul;
   ADI_BLER_CONN_INFO sConnInfo;
   //float nTempCel, nTempFar;
   //uint16_t   nTemp;
   
-  //InitBluetoothLowEnergy();
   
   // Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID 
   eDataPacket.nPacketHeader = ADI_SET_HEADER(ADI_SENSOR_PACKET, DFT_ID);
 
    //Set Sensor Type 
-  eDataPacket.eSensorType = ADI_PRINTSTRING_TYPE;
+  /*eDataPacket.eSensorType = ADI_PRINTSTRING_TYPE;*/
 
   printf("OTTIMOOOOOOOO!\r\n");
   
@@ -182,39 +190,14 @@ void AD5940_MainBLE(){
       printf("Error dispatching events to the callback.\r\n");
     }
     
+          if (b==1){
 
-    // If connected, send data 
-    if(gbConnected == true) {
-      adi_ble_GetConnectionInfo(&sConnInfo);
-
-         //Get timestamp 
-        nTime = (unsigned)time(NULL);
-        memcpy(&eDataPacket.aTimestamp, &nTime, 4u);
-        
-        ASSERT(strlen(sHelloWorld) <= ADI_MAX_STRING_SIZE);
-                        // Set the size of the string 
-        eDataPacket.eStringData.nStringSize = strlen(sHelloWorld);
-        //Set the string 
-        memcpy(eDataPacket.eStringData.aStringData, sHelloWorld, strlen(sHelloWorld));
-
-        
-
-        eResult = adi_radio_DE_SendData(sConnInfo.nConnHandle, DATAEXCHANGE_PACKET_SIZE, (uint8_t*)&eDataPacket);
-        if (eResult != ADI_BLER_SUCCESS) {
-          printf("Error sending the data.\r\n");
-        }else {
-          printf("inviato correttamente\r\n");
-        }
-        }
-     // If disconnected switch to advertising mode 
-        else {
-            if(geMode != PERIPHERAL_ADV_MODE) {
-                SetAdvertisingMode();
-            }
+          Function_DFT();
         }
     
-  }  
+  } 
 }
+
 
 
 

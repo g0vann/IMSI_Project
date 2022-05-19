@@ -29,7 +29,7 @@
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
 /* Maximum string size that the data packet can handle  */
-#define ADI_MAX_STRING_SIZE         (13u)
+#define ADI_MAX_STRING_SIZE         (20u)
 
 /* ID of the sensor sending "data". In this case data is a string */
 #define DFT_ID                   (0x01u)
@@ -97,10 +97,43 @@ typedef struct
   uint8_t                     nPacketHeader;      /*< Packet header has the first bit set to 0x1u to indicated this is a
                                                       data packet. The rest of the 7 bits are used for the sensor id.
                                                       This should be a unique identifier of the sensor instance.    */
-  ADI_SENSOR_TYPE             eSensorType;        /*< Sensor type                                                   */
-  uint8_t                     aTimestamp[4];      /*< Timestamp value                                               */
+ /* ADI_SENSOR_TYPE             eSensorType;    */    /*< Sensor type                                                   */
+  /*uint8_t                     aTimestamp[4];   */   /*< Timestamp value                                               */
   ADI_STRING_DATA             eStringData;        /*< String data                                                   */
 } ADI_DATA_PACKET;
+#pragma pack(pop)
+
+/*
+ *  @struct ADI_STRING_DATA
+ *
+ *  @brief  data structure for the #ADI_PRINTSTRING_TYPE
+ *
+ */
+#pragma pack(push)
+#pragma pack(1)
+typedef struct
+{
+  uint8_t           nStringSize;      /*< Size of the string to send. Must not be larger than 13 bytes. */
+  uint8_t           aStringData[18];  /*< String to send.                                               */
+
+}MY_ADI_STRING_DATA;
+#pragma pack(pop)
+
+/*
+ *  @struct ADI_DATA_PACKET
+ *
+ *  @brief  packet structure to send data to the Android application
+ *
+ */
+#pragma pack(push)
+#pragma pack(1)
+typedef struct
+{
+  uint8_t                     nPacketHeader;      /*< Packet header has the first bit set to 0x1u to indicated this is a
+                                                      data packet. The rest of the 7 bits are used for the sensor id.
+                                                      This should be a unique identifier of the sensor instance.    */
+  MY_ADI_STRING_DATA             eStringData;     /*< String data                                                   */
+} MY_ADI_DATA_PACKET;
 #pragma pack(pop)
 
 /********************************************************************

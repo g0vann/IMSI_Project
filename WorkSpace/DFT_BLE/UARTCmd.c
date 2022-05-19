@@ -20,8 +20,9 @@ Analog Devices Software License Agreement.
 #include <stdlib.h>
 #include "ad5940.h"
 #include <ctype.h>
+#include <string.h>
 
-
+#include "ConfigurationBLE.h"
 
 #include <stdarg.h>
 #include <math.h>
@@ -35,6 +36,10 @@ Analog Devices Software License Agreement.
 static float Mag,Ph;
 static int count;
 int b = 0;
+
+/**********BLE*********************/
+extern bool gbConnected;
+extern MY_ADI_DATA_PACKET eDataPacket;
 
 void Function_DFT(void);
 extern void DFT_config(void);
@@ -201,12 +206,57 @@ void UARTCmd_Process(char c)
   }
 }
 
-void Function_DFT(void){
- while(1)
+void BLECmd_Process(char c[20]){
+  
+  uint32_t res;
+  line_buffer_index=20;
+  for(int i = 0;i<20;i++){
+    line_buffer[i] = c[i];
+  }
+  UARTCmd_RemoveSpaces();
+  if(token_count == 0)
   {
+    line_buffer_index = 0; /* Reset buffer */
+    return; /* No valid input */
+  }
+  UARTCmd_MatchCommand();
+  if(pObjFound == 0)
+  {
+      line_buffer_index = 0; /* Reset buffer */
+      printf("Unknow command\n");
+      return;   /* Command not support */
+  }
+  if(token_count > 1)           /* There is parameters */
+  {
+    UARTCmd_TranslateParas();
+  }
+  /* Step3, call function */
+  res = ((uint32_t (*)(uint32_t, uint32_t))(pObjFound))(parameter1, parameter2);
+  //printf("res:0x%08x\n", res);
+  line_buffer_index = 0;  /* Reset buffer */
+  
+}
+
+
+void Function_DFT(void){
+  ADI_BLER_RESULT eResult;
+  ADI_BLER_CONN_INFO sConnInfo;
+  char MagLen[50];
+  char PhLen[50];
+  while(1)
+  {
+    eResult = adi_ble_DispatchEvents(500);
+    if(eResult==ADI_BLER_FAILURE){
+      printf("Error dispatching events to the callback.\r\n");
+    }
+        
     int32_t real, image;
     Mag=0;
+    char Mag1[50];
+    
     Ph=0;
+    char Ph1[50];
+
     if(AD5940_INTCTestFlag(AFEINTC_1,AFEINTSRC_DFTRDY))
     {
       AD5940_INTCClrFlag(AFEINTSRC_DFTRDY);
@@ -229,7 +279,48 @@ void Function_DFT(void){
       Ph=atan2f((float)real,(float)image);
       Ph=Ph * 180.0/PI;
       if(Mag<400){
-        printf("%f %f\r\n",Mag,Ph);
+        if(gbConnected == true) {
+          adi_ble_GetConnectionInfo(&sConnInfo);
+
+          sprintf(Mag1,"%g",Mag);
+          sprintf(Ph1,"%g",Ph);
+          strcat(Mag1," ");
+          strcat(Mag1,Ph1);
+;
+
+          
+          eDataPacket.eStringData.nStringSize = strlen(Mag1);
+          
+          memcpy(eDataPacket.eStringData.aStringData, Mag1,strlen(Mag1));
+
+  
+          eResult = adi_radio_DE_SendData(sConnInfo.nConnHandle, DATAEXCHANGE_PACKET_SIZE, (uint8_t*)&eDataPacket);
+          if (eResult != ADI_BLER_SUCCESS) 
+            printf("Error sending the data.\r\n");
+          
+          printf("%s\r\n",Mag1);
+          
+          /*eDataPacket.eStringData.nStringSize = 13;
+          
+          memcpy(eDataPacket.eStringData.aStringData, MagLen,13);
+
+  
+          eResult = adi_radio_DE_SendData(sConnInfo.nConnHandle, DATAEXCHANGE_PACKET_SIZE, (uint8_t*)&eDataPacket);
+          if (eResult != ADI_BLER_SUCCESS) 
+            printf("Error sending the data.\r\n");
+        
+          eDataPacket.eStringData.nStringSize = 13;
+          memcpy(eDataPacket.eStringData.aStringData, PhLen,13 );
+          
+          eResult = adi_radio_DE_SendData(sConnInfo.nConnHandle, DATAEXCHANGE_PACKET_SIZE, (uint8_t*)&eDataPacket);
+          if (eResult != ADI_BLER_SUCCESS) 
+            printf("Error sending the data.\r\n");*/
+          /*strcat(MagLen," ");
+          strcat(MagLen,PhLen);
+          printf("%s\r\n",MagLen);*/
+        }else {
+          printf("%f %f\r\n",Mag,Ph);        
+        }
       }
       count = count+1; //incremento il contatore
     }

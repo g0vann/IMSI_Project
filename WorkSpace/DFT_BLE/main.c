@@ -13,10 +13,16 @@ Analog Devices Software License Agreement.
 #include "AD5940.h"
 #include "adi_initialize.h"
 #include "ConfigurationBLE.h"
+#include <radio/adi_ble_radio.h>
+#include "adi_ble_radio_internal.h"
+
+
+extern ADI_BLE_RADIO_Device *pBLERadio;
 
 /* Functions that used to initialize MCU platform */
 uint32_t MCUPlatformInit(void *pCfg);
 extern int32_t adi_initComponents(void);
+void Received_Data(void);
 
 /**********************************************************
 
@@ -50,8 +56,8 @@ static void Trap(void);
 
 int main(void)
 {
-  //void AD5940_Main(void);
-  void AD5940_MainBLE(void);
+ // void AD5940_Main(void); //con questa abbiamo accensione bluetooth e DFT sull'uart
+  void AD5940_MainBLE(void); // con questa proviamo a fare una send con il bluetooth
   MCUPlatformInit(0);
   adi_initComponents();
   AD5940_MCUResourceInit(0);
@@ -59,8 +65,8 @@ int main(void)
   InitBluetoothLowEnergy();
   
   //printf("Hello AD5940-Build Time:%s\n",__TIME__);
-  //AD5940_Main();
-  AD5940_MainBLE();
+  //AD5940_Main();// questa viene richiamata quando usiamo anche la DFt
+  AD5940_MainBLE(); //Questa quando proviamo la send
 }
 
 /* Below functions are used to initialize MCU Platform */
@@ -332,10 +338,11 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
 
         case DATA_EXCHANGE_RX_EVENT:
             printf("Data received!\r\n");
+            Received_Data();
             break;
 
         case DATA_EXCHANGE_TX_COMPLETE:
-            printf("Data sent!\r\n");
+            //printf("Data sent!\r\n");
             break;
 
         case GAP_EVENT_MODE_CHANGE:
@@ -365,8 +372,70 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             break;
 
         default:
-            printf("Unexpected event received.\r\n");
+           // printf("Unexpected event received.\r\n");
             break;
     }
 }
+
+void Received_Data(void){
+  void BLECmd_Process(char []);
+  char aStringReceive[20];
+  char aTemp[20];
+  
+  for(int i = 0;i<20;i++){
+    aTemp[i] = pBLERadio->rxDataPkt.rxPkt[i];
+  }
+  
+  for (int i = 0;i<20;i++){
+    aStringReceive[i] = aTemp [19-i];  
+  }
+  
+  for(int i = 0;i<20;i++){  
+  printf("%c ",aStringReceive[i]);
+  if(i==19)
+    printf("\r\n");
+  }
+  BLECmd_Process(aStringReceive);
+
+  
+}
+
+/*
+void UART_Int_Handler(void)
+{
+  void UARTCmd_Process(char);
+  uint32_t flag;
+  flag = pADI_UART0->LSR; //Line Status Register 16bit register (it indicates if there have been transmission errors)
+  flag = pADI_UART0->IIR; //Interrupt ID register 16bit register
+  
+  // Now flag has 32 bit and give information about rx
+  
+  // First case: all bytes are recieved
+  if((flag & 0x0e) == 0x04)  //Receive Byte 
+  {
+    uint32_t count;
+    count = pADI_UART0->RFC;  // RFC Register Receive FIFO data bytes (received characters) count 
+    for(int i=0;i < count; i++)
+    {
+      char c;
+      c = pADI_UART0->COMRX&0xff; //COMRX contains the received character
+      UARTCmd_Process(c); // this function recognizes received data
+    }
+  }
+  
+  // Second case: trasmission timeout, processing only what we have had
+  if((flag & 0x0e) == 0xc)  //Time-out 
+  {
+    uint32_t count;
+    count = pADI_UART0->RFC;  // Receive FIFO count 
+    for(int i=0;i < count; i++)
+    {
+      char c;
+      c = pADI_UART0->COMRX&0xff;
+      UARTCmd_Process(c);
+    }
+  }
+}
+*/
+
 
