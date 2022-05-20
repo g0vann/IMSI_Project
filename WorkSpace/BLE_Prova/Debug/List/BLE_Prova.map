@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  11/May/2022  13:45:55
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  20/May/2022  19:11:27
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -52,16 +52,6 @@
 ###############################################################################
 
 *******************************************************************************
-*** MESSAGES
-***
-
-Error[Li016]: size limit exceeded. The application needs 0x8c82 (35'970) bytes,
-          which is greater than the limit of 0x8000 (32'768) bytes.
-            The limit is due to license "ARM.EW.LINKER" from "ad5940.o" (and 17
-                      other modules).
-
-
-*******************************************************************************
 *** RUNTIME MODEL ATTRIBUTES
 ***
 
@@ -75,9 +65,10 @@ __dlib_version  = 6
 *** HEAP SELECTION
 ***
 
-The basic heap was selected because some modules are built with
-size limitations (and not runtime checking), and --advanced_heap
-was not specified.
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
 
 
 *******************************************************************************
@@ -903,7 +894,7 @@ exit                         0x97cb    0x4  Code  Gb  exit.o [11]
 frexp                        0x3e59         Code  Gb  frexp.o [12]
 frexpf                       0x8cfd         Code  Gb  frexpf.o [12]
 frexpl                       0x3e59         Code  Gb  frexp.o [12]
-gBLERadio               0x2000'1400  0x114  Data  Lc  adi_ble_radio.o [3]
+gBLERadio               0x2000'1400  0x114  Data  Gb  adi_ble_radio.o [3]
 gChannelControlDataArray
                         0x2000'1000  0x400  Data  Lc  adi_dma.o [5]
 gSPICfg                      0x98a0    0xc  Data  Lc  adi_spi.o [8]
@@ -929,7 +920,7 @@ main                         0x92b9   0x1e  Code  Gb  main.o [2]
 memchr                       0x5539         Code  Gb  memchr.o [13]
 pApplicationCallback    0x2000'1740    0x4  Data  Lc  adi_ble_noos.o [3]
 pApplicationParameter   0x2000'1744    0x4  Data  Lc  adi_ble_noos.o [3]
-pBLERadio               0x2000'000c    0x4  Data  Lc  adi_ble_radio.o [3]
+pBLERadio               0x2000'000c    0x4  Data  Gb  adi_ble_radio.o [3]
 pDMA_DevData                 0x9908    0x4  Data  Lc  adi_dma.o [5]
 pObjFound               0x2000'177c    0x4  Data  Gb  UARTCmd.o [2]
 pPrimaryCCD                  0x9904    0x4  Data  Gb  adi_dma.o [5]
@@ -985,5 +976,5 @@ ucInterrupted           0x2000'1754    0x4  Data  Lc  ADICUP3029Port.o [1]
    1'903 bytes of readonly  data memory
    7'070 bytes of readwrite data memory
 
-Errors: 1
+Errors: none
 Warnings: none
