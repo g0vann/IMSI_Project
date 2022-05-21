@@ -8,9 +8,11 @@ function [ciao1,timestamp] = ciao(src,evt)
 % data = char (data);
 ciao2 = uint8(ciao1(2:5));
 ciao3 = uint8(ciao1(6:9));
+ciao4 = uint8(ciao1(10:13));
 Afloat = typecast( ciao2, 'single');
 Bfloat = typecast( ciao3, 'single');
-disp([Afloat Bfloat])
+Cfloat = typecast( ciao4, 'single');
+disp([fix(Afloat) fix(Bfloat) fix(Cfloat)])
 
 end
 

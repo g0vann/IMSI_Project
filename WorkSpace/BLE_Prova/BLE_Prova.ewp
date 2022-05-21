@@ -2146,23 +2146,75 @@
         </file>
     </group>
     <group>
-        <name>Inizialize</name>
-        <file>
-            <name>$PROJ_DIR$\adi_initialize.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\adi_initialize.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ConfigurationBLE.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\pinmux_config.c</name>
-        </file>
-    </group>
-    <group>
         <name>CMSIS-Pack</name>
         <tag>CMSISPack.Component</tag>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
+        <group>
+            <name>Device.Drivers TMR</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/tmr/adi_tmr.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_tmr_config.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Device.Drivers SPI</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/spi/adi_spi.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_spi_config.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Device.Drivers Power</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/pwr/adi_pwr.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_pwr_config.h</name>
+            </file>
+        </group>
+        <group>
+            <name>Device.Drivers GPIO</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/gpio/adi_gpio.c</name>
+            </file>
+        </group>
+        <group>
+            <name>Device.Drivers DMA</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/dma/adi_dma.c</name>
+            </file>
+        </group>
+        <group>
+            <name>Device Startup</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
+            </file>
+        </group>
+        <group>
+            <name>Device Global Configuration</name>
+            <tag>CMSISPack.Component</tag>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
+            </file>
+        </group>
         <group>
             <name>BLE Bluetooth low energy</name>
             <tag>CMSISPack.Component</tag>
@@ -2182,72 +2234,20 @@
                 <name>${CMSIS_PACK_PATH_AnalogDevices#ADI-BleSoftware#1.0.1}$\Source/communication/ble/transport/adi_ble_transport.c</name>
             </file>
         </group>
-        <group>
-            <name>Device Global Configuration</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</name>
-            </file>
-        </group>
-        <group>
-            <name>Device Startup</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
-            </file>
-        </group>
-        <group>
-            <name>Device.Drivers DMA</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/dma/adi_dma.c</name>
-            </file>
-        </group>
-        <group>
-            <name>Device.Drivers GPIO</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/gpio/adi_gpio.c</name>
-            </file>
-        </group>
-        <group>
-            <name>Device.Drivers Power</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/pwr/adi_pwr.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_pwr_config.h</name>
-            </file>
-        </group>
-        <group>
-            <name>Device.Drivers SPI</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/spi/adi_spi.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_spi_config.h</name>
-            </file>
-        </group>
-        <group>
-            <name>Device.Drivers TMR</name>
-            <tag>CMSISPack.Component</tag>
-            <file>
-                <name>${CMSIS_PACK_PATH_AnalogDevices#ADuCM302x_DFP#3.2.0}$\Source/drivers/tmr/adi_tmr.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_tmr_config.h</name>
-            </file>
-        </group>
+    </group>
+    <group>
+        <name>Inizialize</name>
         <file>
-            <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+            <name>$PROJ_DIR$\adi_initialize.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\adi_initialize.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ConfigurationBLE.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\pinmux_config.c</name>
         </file>
     </group>
     <cmsisPackSettings>

@@ -13,10 +13,15 @@ Analog Devices Software License Agreement.
 #include "AD5940.h"
 #include "adi_initialize.h"
 #include "ConfigurationBLE.h"
+#include <radio/adi_ble_radio.h>
+#include "adi_ble_radio_internal.h"
+
+extern ADI_BLE_RADIO_Device *pBLERadio;
 
 /* Functions that used to initialize MCU platform */
 uint32_t MCUPlatformInit(void *pCfg);
 extern int32_t adi_initComponents(void);
+void Received_Data(void);
 
 /**********************************************************
 
@@ -32,8 +37,9 @@ extern int32_t adi_initComponents(void);
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
 /* Global Data */
-static bool               gbConnected;
-static ADI_BLE_GAP_MODE   geMode;
+bool               gbConnected;
+ADI_BLE_GAP_MODE   geMode;
+static char start2[50]="start2 ";
 
 
 /* Local Functions used when Bluetooth is enabled */
@@ -44,22 +50,23 @@ static void SetAdvertisingMode(void);
 
 
 /* Local Functions */
-static void InitSystem(void);
 static void Trap(void);
 /**********************************************************
 **********************************************************/
 
 int main(void)
 {
-  void AD5940_Main(void);
+  //void AD5940_Main(void);
+  void AD5940_MainBLE(void);
   MCUPlatformInit(0);
   adi_initComponents();
   AD5940_MCUResourceInit(0);
   
-  InitSystem();
+  InitBluetoothLowEnergy();
   
-  //printf("Hello AD5940-Build Time:%s\n",__TIME__);
-  AD5940_Main();
+  
+  //AD5940_Main();
+  AD5940_MainBLE();
 }
 
 /* Below functions are used to initialize MCU Platform */
@@ -223,33 +230,6 @@ void UART_Int_Handler(void)
 /**********************************************************************
 ***********************************************************************/
 
-
-/*!
- * @brief      Initializes the system
- *
- * @details    This function is responsible for initializing the pinmuxing, power service
- *             and bluetooth subsystem. It also initializes the realtime clock for to timestamp
- *             the outgoing sensor data packets.
- */
-static void InitSystem(void)
-{
-    ADI_PWR_RESULT  ePwr;
-
-
-    *pREG_WDT0_CTL = 0x0u;
-
-
-    /* Initialize clocks */
-    ePwr = adi_pwr_Init();
-
-
-    ePwr = adi_pwr_SetClockDivider(ADI_CLOCK_HCLK, 1u);
-
-
-    ePwr = adi_pwr_SetClockDivider(ADI_CLOCK_PCLK, 1u);
-    InitBluetoothLowEnergy();
-}
-
 /*!
  * @brief      Trap function
  *
@@ -260,10 +240,6 @@ static void Trap()
 {
     while(1);
 }
-
-
-
-
 
 /*!
  * @brief      Set Advertising Mode
@@ -276,17 +252,29 @@ static void SetAdvertisingMode(void)
     ADI_BLER_RESULT eResult;
 
     eResult = adi_radio_SetMode(PERIPHERAL_ADV_MODE, 0u, 0u);
-   // DEBUG_RESULT("Error setting the mode.\r\n", eResult, ADI_BLER_SUCCESS);
-
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Mode set successfully\r\n");
+    }else{
+      printf("Error setting the mode.\r\n");
+    }
+    
     eResult = adi_ble_WaitForEventWithTimeout(GAP_EVENT_MODE_CHANGE, 5000u);
- //   DEBUG_RESULT("Error waiting for GAP_EVENT_MODE_CHANGE.\r\n", eResult, ADI_BLER_SUCCESS);
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Waiting an event\r\n");
+    }else{
+      printf("Error waiting for GAP_EVENT_MODE_CHANGE.\r\n");
+    }   
 
     eResult = adi_radio_GetMode(&geMode);
-  //  DEBUG_RESULT("Error getting the mode.\r\n", eResult, ADI_BLER_SUCCESS);
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Mode obtained\r\n");
+    }else{
+      printf("Error getting the mode.\r\n");
+    }       
 
     if(geMode != PERIPHERAL_ADV_MODE) {
-       // DEBUG_MESSAGE("Error in SetAdvertisingMode.\r\n");
-    }
+       printf("Error in SetAdvertisingMode.\r\n");
+    }    
 }
 
 /*!
@@ -298,27 +286,42 @@ static void SetAdvertisingMode(void)
 static void InitBluetoothLowEnergy(void)
 {
     ADI_BLER_RESULT eResult;
-    uint8_t *       aDataExchangeName = (unsigned char *) "ADT7420 Demo";
+    uint8_t *       aDataExchangeName = (unsigned char *) "FrancOlino_BLE";
 
     /* Initialize radio and framework layer */
     eResult = adi_ble_Init(ApplicationCallback, NULL);
-  //  DEBUG_RESULT("Error initializing the radio.\r\n", eResult, ADI_BLER_SUCCESS);
-
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Initialization successful\r\n");
+    }else{
+      printf("Error initializing the radio.\r\n");
+    }
     /* Configure radio */
     eResult = adi_radio_RegisterDevice(ADI_BLE_ROLE_PERIPHERAL);
- //   DEBUG_RESULT("Error registering the radio.\r\n", eResult, ADI_BLER_SUCCESS);
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Registered radio\r\n");
+    }else{
+      printf("Error registering the radio.\r\n");
+    }
 
     eResult = adi_radio_SetLocalBluetoothDevName(aDataExchangeName, strlen((const char *) aDataExchangeName), 0u, 0u);
-   // DEBUG_RESULT("Error setting local device name.\r\n", eResult, ADI_BLER_SUCCESS);
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Local device name set successfull\r\n");
+    }else{
+      printf("Error setting local device name.\r\n");
+    }
 
     SetAdvertisingMode();
 
     /* Initialize data exchange profile */
     eResult = adi_radio_Register_DataExchangeServer();
-  //  DEBUG_RESULT("Error registering data exchange server.\r\n", eResult, ADI_BLER_SUCCESS);
+    if(eResult==ADI_BLER_SUCCESS){
+      printf("Data exchange server registrated\r\n");
+    }else{
+      printf("Error registering data exchange server.\r\n");
+    }    
 
     /* Now enter infinite loop waiting for connection and then data exchange events */
-   // DEBUG_MESSAGE("Waiting for connection. Initiate connection on central device please.\r\n");
+    printf("Waiting for connection. Initiate connection on central device please.\r\n");
 }
 
 /*!
@@ -342,30 +345,31 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
 {
     switch(Event) {
         case GAP_EVENT_CONNECTED:
-      //      DEBUG_MESSAGE("Connected!\r\n");
+            printf("Connected!\r\n");
             gbConnected = true;
             break;
 
         case GAP_EVENT_DISCONNECTED:
-          //  DEBUG_MESSAGE("Disconnected!\r\n");
+            printf("Disconnected!\r\n");
             geMode      = ADI_BLE_GAP_MODE_NOTCONNECTABLE;
             gbConnected = false;
             break;
 
         case DATA_EXCHANGE_RX_EVENT:
-        //    DEBUG_MESSAGE("Data received!\r\n");
+            printf("Data received!\r\n");
+            Received_Data();
             break;
 
         case DATA_EXCHANGE_TX_COMPLETE:
-         //   DEBUG_MESSAGE("Data sent!\r\n");
+            //printf("Data sent!\r\n");
             break;
 
         case GAP_EVENT_MODE_CHANGE:
-        //    DEBUG_MESSAGE("GAP mode changed.\r\n");
+            printf("GAP mode changed.\r\n");
             break;
 
         case GAP_EVENT_CONNECTION_UPDATED:
-        //    DEBUG_MESSAGE("Connection interval updated.\r\n");
+            printf("Connection interval updated.\r\n");
             break;
 
         case BLE_RADIO_ERROR_READING:
@@ -379,15 +383,57 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             break;
 
         case BLE_RADIO_ERROR_PARSING:
-      //      DEBUG_MESSAGE("Failed to parse a packet from the radio.\r\n");
+            printf("Failed to parse a packet from the radio.\r\n");
             break;
 
         case BLE_RADIO_ERROR_PROCESSING:
-       //     DEBUG_MESSAGE("Failed to process a packet from the radio.\r\n");
+            printf("Failed to process a packet from the radio.\r\n");
             break;
 
         default:
-        //    DEBUG_MESSAGE("Unexpected event received.\r\n");
+           // printf("Unexpected event received.\r\n");
             break;
     }
 }
+
+void Received_Data(void){
+  void BLECmd_Process(char [],int);
+  char aStringReceive[20];
+  char aTemp[20];
+  
+  for(int i = 0;i<20;i++){
+    aTemp[i] = pBLERadio->rxDataPkt.rxPkt[i];
+  }
+  
+  for (int i = 0;i<20;i++){
+    aStringReceive[i] = aTemp [19-i];  
+  }
+  
+  for(int i = 0;i<20;i++){  
+  printf("%c ",aStringReceive[i]);
+  if(i==19)
+    printf("\r\n");
+  }
+  
+  if(aStringReceive[0]!= 's'){
+    
+    for(int i = 7;i<26;i++){
+      start2[i] = aStringReceive[i-7];
+    }
+    
+    printf("%s \n",start2);
+    BLECmd_Process(start2,27);
+  }
+  else
+  BLECmd_Process(aStringReceive,20);
+}
+
+
+
+
+
+
+
+
+
+

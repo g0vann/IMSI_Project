@@ -24,9 +24,20 @@ Analog Devices Software License Agreement.
 #include "string.h"
 #include "math.h"
 #include "BodyImpedance.h"
-/*
-#define APPBUFF_SIZE 512
-uint32_t AppBuff[APPBUFF_SIZE];*/
+#include "ConfigurationBLE.h"
+
+/*****************************************************************************
+---------------------------BLE Function--------------------------------------
+*****************************************************************************/
+extern void SetAdvertisingMode(void);
+extern void InitBluetoothLowEnergy(void);
+ADI_DATA_PACKET eDataPacket;
+extern bool gbConnected;
+extern ADI_BLE_GAP_MODE geMode;
+extern void Function_BIA_BLE(void);
+/****************************************************************************
+****************************************************************************/
+
 
 extern void Function_BIA(void);
 extern int b;
@@ -37,21 +48,39 @@ BoolFlag SweepON;
 /* It's your choice here how to do with the data. Here is just an example to print them to UART */
 int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
 {
-  float freq;
+  ADI_BLER_RESULT eResult;
+  ADI_BLER_CONN_INFO sConnInfo; 
+  float freq,ph;;
 
   fImpPol_Type *pImp = (fImpPol_Type*)pData;
   AppBIACtrl(BIACTRL_GETFREQ, &freq);
-  if (DataCount>0){
-  printf("%.2f ", freq);
+  
+  if(gbConnected == true) {
+    adi_ble_GetConnectionInfo(&sConnInfo);
+      if (DataCount>0){
+      ph = pImp[0].Phase*180/MATH_PI;  
+      memcpy((uint8_t*)&eDataPacket.aPayload[0],(uint8_t*)&freq,4);
+      memcpy((uint8_t*)&eDataPacket.aPayload[4],(uint8_t*)&pImp[0].Magnitude,4);
+      memcpy((uint8_t*)&eDataPacket.aPayload[8],(uint8_t*)&ph,4);
+      }
+      eResult = adi_radio_DE_SendData(sConnInfo.nConnHandle, DATAEXCHANGE_PACKET_SIZE, (uint8_t*)&eDataPacket);
+      if (eResult != ADI_BLER_SUCCESS) 
+        printf("Error sending the data.\r\n");
+  
+  }else{
+    if (DataCount>0){
+    printf("%.2f ", freq);
+    }
+    /*Process data*/
+    for(int i=0;i<DataCount;i++)
+    {
+      printf("%f %f \r\n",pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
+    }
   }
-  /*Process data*/
-  for(int i=0;i<DataCount;i++)
-  {
-    printf("%f %f \r\n",pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
-  }
-  //AD5940_Delay10us(10000);
+
   return 0;
 }
+
 
 /* Initialize AD5940 basic blocks like clock */
 static int32_t AD5940PlatformCfg(void)
@@ -133,14 +162,10 @@ void AD5940BIAStructInit(void)
   }
 }
 
-void AD5940_Main(void)
+/*void AD5940_Main(void)
 {
 	
   AD5940PlatformCfg();
-  /* Le due istruzioni le inserisco dentro start così si ha la possibilità di settare le impostazioni ogni volta prima di partire*/
-  //AD5940BIAStructInit(); /* Configure your parameters in this function */
-  
- //AppBIAInit(AppBuff, APPBUFF_SIZE);    /* Initialize BIA application. Provide a buffer, which is used to store sequencer commands */
  
   while(1)
   {
@@ -149,6 +174,33 @@ void AD5940_Main(void)
 		Function_BIA();
 	}
   }
+}*/
+
+/****************************************************************************
+----------------------------------BLE---------------------------------------
+****************************************************************************/
+void AD5940_MainBLE(){
+  
+  AD5940PlatformCfg(); // Board configuration
+
+  ADI_BLER_RESULT eResult;  
+
+  // Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID 
+  eDataPacket.nPacketHeader = ADI_SET_HEADER(ADI_SENSOR_PACKET, BIA_ID);
+
+  printf("OTTIMOOOOOOOO!\r\n");
+  
+  while(1)
+  {
+    eResult = adi_ble_DispatchEvents(100);
+    if(eResult==ADI_BLER_FAILURE){
+      printf("Error dispatching events to the callback.\r\n");
+    }
+    
+     if (b==1){
+        Function_BIA();
+     }
+  } 
 }
 
 /**

@@ -25,9 +25,6 @@
 #define SPI2_SCLK_PORTP1_MUX  ((uint16_t) ((uint16_t) 1<<4))
 #define SPI2_MISO_PORTP1_MUX  ((uint16_t) ((uint16_t) 1<<6))
 #define SPI2_MOSI_PORTP1_MUX  ((uint16_t) ((uint16_t) 1<<8))
-#define SPI2_CS_0_PORTP1_MUX  ((uint16_t) ((uint16_t) 1<<10))
-#define SPI2_RDY_PORTP0_MUX  ((uint16_t) ((uint16_t) 3<<6))
-#define ADC0_IN_ADC0_IN6_PORTP2_MUX  ((uint32_t) ((uint32_t) 1<<18))
 
 int32_t adi_initpinmux(void);
 
@@ -36,10 +33,8 @@ int32_t adi_initpinmux(void);
  */
 int32_t adi_initpinmux(void) {
     /* PORTx_MUX registers */
-    /**((volatile uint32_t *)REG_GPIO0_CFG) = SPI2_RDY_PORTP0_MUX;*/
     *((volatile uint32_t *)REG_GPIO1_CFG) = SPI2_SCLK_PORTP1_MUX | SPI2_MISO_PORTP1_MUX
-     | SPI2_MOSI_PORTP1_MUX | SPI2_CS_0_PORTP1_MUX;
-    *((volatile uint32_t *)REG_GPIO2_CFG) = ADC0_IN_ADC0_IN6_PORTP2_MUX;
+     | SPI2_MOSI_PORTP1_MUX;
 
     return 0;
 }

@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\DFT_BLE\DFT_BLE.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\..\IMSI Nostri\WorkspaceBLE\DFT_BLE\DFT_BLE.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

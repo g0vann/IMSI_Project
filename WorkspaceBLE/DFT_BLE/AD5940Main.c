@@ -15,14 +15,14 @@ Analog Devices Software License Agreement.
 #include "ad5940.h"
 #include "AD5940.h"
 
-#include <ctype.h>
+//#include <ctype.h>
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdarg.h>
+//#include <string.h>
+//#include <stdlib.h>
+//#include <stdarg.h>
 #include <math.h>
 #include "ConfigurationBLE.h"
-#include <time.h>
+
 
 
 void DFT_config(void);

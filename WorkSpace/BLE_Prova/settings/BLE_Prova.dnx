@@ -55,7 +55,7 @@
         <MemConfigValue>C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\debugger\AnalogDevices\ADuCM3029.ddf</MemConfigValue>
     </PlDriver>
     <DebugChecksum>
-        <Checksum>4096583241</Checksum>
+        <Checksum>254731793</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>

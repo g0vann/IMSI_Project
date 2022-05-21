@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  20/May/2022  16:26:13
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  21/May/2022  10:58:48
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -45,9 +45,10 @@ __dlib_version  = 6
 *** HEAP SELECTION
 ***
 
-The basic heap was selected because some modules are built with
-size limitations (and not runtime checking), and --advanced_heap
-was not specified.
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
 
 
 *******************************************************************************

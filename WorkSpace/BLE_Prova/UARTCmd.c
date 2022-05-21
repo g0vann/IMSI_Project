@@ -21,7 +21,7 @@ Analog Devices Software License Agreement.
 #include "ad5940.h"
 #include <ctype.h>
 
-
+#include "ConfigurationBLE.h"
 
 #include <stdarg.h>
 #include <math.h>
@@ -41,11 +41,14 @@ int b = 0;
 extern float scelta, Freq1, Freq2;
 extern uint32_t Npunti, Ncicli;
 
+/**********BLE*********************/
+extern bool gbConnected;
+extern ADI_DATA_PACKET eDataPacket;
+ 
+
 void Function_BIA(void);
 
 /*Variables for Function_BIA*/
-	static uint32_t IntCount;
-	static uint32_t count;
 	uint32_t temp;
         extern BoolFlag SweepON; 
 
@@ -65,7 +68,6 @@ float parameter3,parameter4;
 
 uint32_t Cli_start(float para1,float para2, float para3, float para4);
 uint32_t Cli_stop(float para1,float para2, float para3, float para4);
-//uint32_t Cli_frequence(float para1,float para2);
 uint32_t Cli_start2(float para1,float para2, float para3, float para4);
 
 struct __uartcmd_table
@@ -88,9 +90,9 @@ uint32_t Cli_start2(float para1,float para2, float para3, float para4){
         Freq2 = para2;
         Npunti = (uint32_t)para3;
         Ncicli = (uint32_t)para4;
-        //printf("%d %f %d \n",Npunti,para3, Ncicli);
         }
         b=1;
+        printf("Eccomi amici\n");
 	AD5940BIAStructInit(); /* Configure your parameters in this function */
 	AppBIAInit(AppBuff, APPBUFF_SIZE); /* Initialize BIA application. Provide a buffer, which is used to store sequencer commands */
 	AppBIACtrl(BIACTRL_START, 0);		
@@ -110,22 +112,14 @@ uint32_t Cli_start(float para1,float para2, float para3, float para4){
 }
 
 uint32_t Cli_stop(float para1,float para2, float para3, float para4){
-       //printf("aoooooooooooooooooooooooooooooooooooooooooooooo\r\n");
-       b=0;
+      b=0;
       // AD5940_WriteReg(REG_AFE_ADCCON, REG_AFE_ADCCON_RESET);
       
-       //return 0;
       AppBIACtrl(BIACTRL_SHUTDOWN, 0);
-      NVIC_SystemReset();
-      //return 0;
+      //NVIC_SystemReset();
+      return 0;
 }
 
-/*uint32_t Cli_frequence(float para1,float para2){
-       if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
-            scelta= para1;
-    }
-	   return 1;
-}*/
 
 void UARTCmd_RemoveSpaces(void)
 {
@@ -138,7 +132,9 @@ void UARTCmd_RemoveSpaces(void)
     else break;
     i++;
   }
-  if(i == line_buffer_index) return;  /* All spaces... */
+  if(i == line_buffer_index) {
+    return;  /* All spaces... */
+  }
   while(i<line_buffer_index)
   {
     if(line_buffer[i] == ' ')
@@ -277,33 +273,50 @@ void UARTCmd_Process(char c)
   }
 }
 
+/****************************************************************************
+------------------------------------BLE--------------------------------------
+****************************************************************************/
+void BLECmd_Process(char c[],int a){
+  
+  uint32_t res;
+  line_buffer_index=a;
+  
+   for(int i = 0;i<line_buffer_index;i++){
+      line_buffer[i] = c[i];
+    }
+
+  //printf("%s \n",line_buffer);
+  UARTCmd_RemoveSpaces();
+  if(token_count == 0)
+  {
+    line_buffer_index = 0; /* Reset buffer */
+    return; /* No valid input */
+  }
+  UARTCmd_MatchCommand();
+  if(pObjFound == 0)
+  {
+      line_buffer_index = 0; /* Reset buffer */
+      printf("Unknow command\n");
+      return;   /* Command not support */
+  }
+  if(token_count > 1)           /* There is parameters */
+  {
+    UARTCmd_TranslateParas();
+  }
+  /* Step3, call function */
+  res = ((uint32_t (*)(float, float,float,float))(pObjFound))(parameter1, parameter2,parameter3,parameter4);
+  //printf("res:0x%08x\n", res);
+  line_buffer_index = 0;  /* Reset buffer */
+  
+}
+
 void Function_BIA(void){
-
-
-//	 
-	
-  while(1){
     /* Check if interrupt flag which will be set when interrupt occurred. */
     if(AD5940_GetMCUIntFlag())
     {
-      IntCount++;
       AD5940_ClrMCUIntFlag(); /* Clear this flag */
       temp = APPBUFF_SIZE;
       AppBIAISR(AppBuff, &temp); /* Deal with it and provide a buffer to store data we got */
       BIAShowResult(AppBuff, temp); /* Show the results to UART */
-
-      if(IntCount == 240)
-      {
-	IntCount = 0;
-	//AppBIACtrl(BIACTRL_SHUTDOWN, 0);
-      }
-    }
-    count++;
-    if(count > 1000000)
-    {
-       count = 0;
-      //AppBIAInit(0, 0);    /* Re-initialize BIA application. Because sequences are ready, no need to provide a buffer, which is used to store sequencer commands */
-      //AppBIACtrl(BIACTRL_START, 0);          /* Control BIA measurement to start. Second parameter has no meaning with this command. */
-    }
-  }		
+    } 
 }
