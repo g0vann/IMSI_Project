@@ -5,264 +5,151 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_cdef.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi_data.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_typedefs.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ad5940.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\tmr\adi_tmr_data.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_typedefs.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\gpio\adi_gpio_def.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\platform.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi_def.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\gpio\adi_gpio.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\spi\adi_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ad5940.h</file>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_device.h</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\system_ADuCM3029.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\common\adi_error_handling.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ad5940.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Application\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\time64.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\general\adi_drivers_general.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\ARM\config\linker\AnalogDevices\ADuCM3029.icf</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\radio\adi_ble_radio.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_radio_internal.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\DFT_BLE.out</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\transport\adi_ble_transport.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers SPI\adi_spi.o</file>
-            <file>$PROJ_DIR$\adi_ble_radio_internal.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Application\UARTCmd.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_logevent.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\pwr\adi_pwr_def.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\dma\adi_dma.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\system_ADuCM3029.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_def.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Application\AD5940Main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_radio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_noos.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\framework\noos\adi_ble_noos.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o.rsp</file>
-            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_callback.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_device.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers DMA\adi_dma.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_transport.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\adi_cio_macros.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\radio\adi_ble_logevent.h</file>
-            <file>$PROJ_DIR$\Debug\List\DFT_BLE.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_processor.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers Power\adi_pwr.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_cdef.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Initialize\adi_initialize.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers GPIO\adi_gpio.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ADICUP3029Port.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\pwr\adi_pwr.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_cyclecount.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers TMR\adi_tmr.o</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\tmr\adi_tmr.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map_noos.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Initialize\pinmux_config.o</file>
-            <file>$PROJ_DIR$\ADICUP3029Port.c</file>
-            <file>$PROJ_DIR$\ConfigurationBLE.h</file>
-            <file>$PROJ_DIR$\RTE\RTE_Components.h</file>
-            <file>$PROJ_DIR$\adi_initialize.h</file>
-            <file>$PROJ_DIR$\pinmux_config.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\AD5940Main.c</file>
-            <file>$PROJ_DIR$\..\AD5940lib\ad5940.c</file>
-            <file>$PROJ_DIR$\..\AD5940lib\ad5940.h</file>
-            <file>$PROJ_DIR$\adi_initialize.c</file>
-            <file>$PROJ_DIR$\UARTCmd.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_radio.c</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_pwr_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\pwr\adi_pwr.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\transport\adi_ble_transport.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\dma\adi_dma.c</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\gpio\adi_gpio.c</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_tmr_config.h</file>
+            <file>$PROJ_DIR$\RTE\BLE\adi_ble_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\spi\adi_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi_data.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi_def.h</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_cycle_counting_config.h</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_pwr_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_radio.c</file>
             <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\tmr\adi_tmr.c</file>
+            <file>$PROJ_DIR$\adi_initialize.c</file>
+            <file>$PROJ_DIR$\adi_initialize.h</file>
             <file>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</file>
             <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\framework\noos\adi_ble_noos.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\gpio\adi_gpio.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi.c</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\pwr\adi_pwr.c</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</file>
-            <file>$PROJ_DIR$\RTE\BLE\adi_ble_config.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_logevent.c</file>
-            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_tmr_config.h</file>
             <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_spi_config.h</file>
-            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\dma\adi_dma.c</file>
+            <file>$PROJ_DIR$\pinmux_config.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ad5940.o</file>
+            <file>$PROJ_DIR$\RTE\Device\ADuCM3029\adi_global_config.h</file>
+            <file>$PROJ_DIR$\RTE\RTE_Components.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_typedefs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\tmr\adi_tmr_data.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_logevent.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_typedefs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\gpio\adi_gpio_def.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\gpio\adi_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_cdef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\platform.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Application\main.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x_device.h</file>
+            <file>$PROJ_DIR$\Debug\List\DFT_BLE.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Application\AD5940Main.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\general\adi_drivers_general.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\dma\adi_dma.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Application\UARTCmd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\system_ADuCM3029.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_def.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_noos.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\ARM\config\linker\AnalogDevices\ADuCM3029.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_radio_internal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_logevent.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o.rsp</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers DMA\adi_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device Startup\startup_ADuCM3029.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers SPI\adi_spi.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\pwr\adi_pwr_def.h</file>
+            <file>$PROJ_DIR$\adi_ble_radio_internal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\framework\noos\adi_ble_noos.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_callback.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\DFT_BLE.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_transport.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\adi_cio_macros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy\adi_ble_radio.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\time64.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\radio\adi_ble_radio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\transport\adi_ble_transport.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble\radio\adi_ble_logevent.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\pwr\adi_pwr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\tmr\adi_tmr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\AD5940lib\ADICUP3029Port.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map_noos.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\Initialize\pinmux_config.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029_cdef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Initialize\adi_initialize.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers Power\adi_pwr.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers TMR\adi_tmr.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_processor.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\adi_cyclecount.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\sys\ADuCM302x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CMSIS-Pack\Device.Drivers GPIO\adi_gpio.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\ADuCM3029.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\IMSI Nostri\WorkspaceBLE\DFT_BLE\UARTCmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\rtos_map\adi_rtos_map.h</file>
+            <file>$PROJ_DIR$\AD5940Main.c</file>
+            <file>$PROJ_DIR$\ConfigurationBLE.h</file>
+            <file>$PROJ_DIR$\UARTCmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\system_ADuCM3029.h</file>
+            <file>$PROJ_DIR$\ADICUP3029Port.c</file>
+            <file>$PROJ_DIR$\..\AD5940lib\ad5940.c</file>
+            <file>$PROJ_DIR$\..\AD5940lib\ad5940.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\common\adi_error_handling.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\DFT_BLE.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 60</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 21 3 45 38 47 46 57 54 69 66 63 34 78 72 18 84 55 43 36 23 65 12</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\ADICUP3029Port.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 72</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 17 27 61 82 41 70 26 77 56 24 67 40 13 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 74 76 62</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\pinmux_config.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 84</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 7 64 44 80 13 61 82 41 70 26 58 0</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18</file>
+                    <file> 38</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 40 61 82 41 70 26 24 115 64 44 80 13 58 0 11 2 5 53 37 25 96 29 71 79 14 74 76 62 17 27 77 56 67 88 86 110 81 52 73 22 16 51 49 35 15 98 83 75 97 59 32</file>
+                    <file> 72 91 84 50 105 41 44 104 90 48 101 116 73 34 2 28 31 39 37 68 89 52 99 80 111 96 94 97 0 54 85 69 82 19 109 10 81 67 79 76 115 66 65 64 107 25 86 98 14 78 77</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\AD5940Main.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\pwr\adi_pwr.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 45</file>
+                    <file> 93</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 17 27 61 82 41 70 26 77 56 24 67 40 13 28 106 33 68 86 110 81 76 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 74 52 73 22 16 51 49 48 19</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\AD5940lib\ad5940.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 93 27 61 82 41 70 26 77 56 24 67 40 13</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\adi_initialize.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 66</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 7 64 44 80 13 61 82 41 70 26 58 0 88</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\UARTCmd.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 36</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 13 61 82 41 70 26 56 24 67 40 106 33 17 27 77 28 86 110 81 76 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 74 52 73 22 16 51 49 68</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 31 60</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_radio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 46</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 30 22 13 61 82 41 70 26 76 52 110 81 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 74 24 15 98 83 73 75 97 59 16 51 32 56 67 49</file>
+                    <file> 103 91 84 50 105 41 44 36 67 116 15 25 107 86 96 79 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 94 98 14 63 33</file>
                 </tool>
             </inputs>
         </file>
@@ -271,48 +158,33 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 57</file>
+                    <file> 71</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 106 61 82 41 70 26 24 33 13 10 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 74 76 15 98 83 73 52 75 97 113 9 16 51 32</file>
+                    <file> 103 91 84 50 105 41 44 36 116 11 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 96 94 107 25 86 79 67 98 14 22 33 115 66 77</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\tmr\adi_tmr.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\dma\adi_dma.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 78</file>
+                    <file> 59</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62 115 64 44 80 13 61 82 41 70 26 58 0 11 2 5 53 37 25 96 29 71 79 14 74 24 76 112 98 15 83 73 52 75 97 81 4 106 33</file>
+                    <file> 97 104 90 48 101 116 91 84 50 105 41 73 34 2 28 31 39 37 68 89 52 99 80 111 96 44 94 45 67 107 25 86 79 98 14 43</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 55</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 50 15 98 83</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\framework\noos\adi_ble_noos.c</name>
+            <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -322,7 +194,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 110 81 13 61 82 41 70 26 76 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 74 24 52 22 16 51 49</file>
+                    <file> 116 91 84 50 105 41 111 96 44 94 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 67 107 25 86 79 98 14</file>
                 </tool>
             </inputs>
         </file>
@@ -331,13 +203,103 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 69</file>
+                    <file> 102</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 74 61 82 41 70 26 24 56 67 51 9 62 115 64 44 80 13 58 0 11 2 5 53 37 25 96 29 71 79 14 76 52 15 98 83 73 75 97 6</file>
+                    <file> 96 91 84 50 105 41 44 69 82 66 33 97 104 90 48 101 116 73 34 2 28 31 39 37 68 89 52 99 80 111 94 67 107 25 86 79 98 14 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\radio\adi_ble_radio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 76 116 91 84 50 105 41 94 67 10 81 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 96 44 107 25 86 79 98 14 78 115 66 77 69 82 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\tmr\adi_tmr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97 104 90 48 101 116 91 84 50 105 41 73 34 2 28 31 39 37 68 89 52 99 80 111 96 44 94 9 25 107 86 79 67 98 14 81 29 103 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\adi_initialize.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 90 48 101 116 91 84 50 105 41 73 34 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\Device\ADuCM3029\startup_ADuCM3029.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 58 107 25 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Source\communication\ble\framework\noos\adi_ble_noos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 81 116 91 84 50 105 41 94 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 96 44 67 76 115 66 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\pinmux_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 90 48 101 116 91 84 50 105 41 73 34</file>
                 </tool>
             </inputs>
         </file>
@@ -346,43 +308,13 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 34</file>
+                    <file> 62</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62 115 64 44 80 13 61 82 41 70 26 58 0 11 2 5 53 37 25 96 29 71 79 14 74 24 76 106 33 56 67 10 15 98 83 73 52 75 97 113 20 1 8 42</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\pwr\adi_pwr.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 63</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 106 61 82 41 70 26 24 33 52 13 100 98 15 83 74 73 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 14 76 75 97 39 9</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\RTE\Device\ADuCM3029\system_ADuCM3029.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 43</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 13 61 82 41 70 26 14 74 24 76 62 115 64 44 80 58 0 11 2 5 53 37 25 96 29 71 79 52 15 98 83 73 75 97</file>
+                    <file> 97 104 90 48 101 116 91 84 50 105 41 73 34 2 28 31 39 37 68 89 52 99 80 111 96 44 94 103 36 69 82 11 107 25 86 79 67 98 14 22 43 12 13 45</file>
                 </tool>
             </inputs>
         </file>
@@ -391,22 +323,91 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38</file>
+                    <file> 56</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\dma\adi_dma.c</name>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 40 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\DFT_BLE.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 51 24 42 56 49 74 71 59 102 92 93 62 95 83 38 88 60 47 46 61 87 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\AD5940Main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 54</file>
+                    <file> 42</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62 115 64 44 80 13 61 82 41 70 26 58 0 11 2 5 53 37 25 96 29 71 79 14 74 24 76 42 52 15 98 83 73 75 97 20</file>
+                    <file> 0 54 91 84 50 105 41 85 69 44 82 72 116 57 103 36 100 109 10 81 94 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 96 67 79 76 115 66 65 53 75</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\UARTCmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116 91 84 50 105 41 69 44 82 72 103 36 0 54 85 57 109 10 81 94 97 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 96 67 79 76 115 66 65 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ADICUP3029Port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 54 91 84 50 105 41 85 69 44 82 72 116 104 90 48 101 73 34 2 28 31 39 37 68 89 52 99 80 111 96 94 97</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\AD5940lib\ad5940.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114 54 91 84 50 105 41 85 69 44 82 72 116</file>
                 </tool>
             </inputs>
         </file>

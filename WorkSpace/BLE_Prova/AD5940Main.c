@@ -57,8 +57,10 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
   
   if(gbConnected == true) {
     adi_ble_GetConnectionInfo(&sConnInfo);
-      if (DataCount>0){
-      ph = pImp[0].Phase*180/MATH_PI;  
+      if (DataCount>0 &&  pImp[0].Magnitude!= 0){
+      ph = pImp[0].Phase*180/MATH_PI; 
+      if(ph>300)
+        ph=ph-360;
       memcpy((uint8_t*)&eDataPacket.aPayload[0],(uint8_t*)&freq,4);
       memcpy((uint8_t*)&eDataPacket.aPayload[4],(uint8_t*)&pImp[0].Magnitude,4);
       memcpy((uint8_t*)&eDataPacket.aPayload[8],(uint8_t*)&ph,4);
@@ -68,14 +70,18 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
         printf("Error sending the data.\r\n");
   
   }else{
-    if (DataCount>0){
+    if (DataCount>0 && pImp[0].Magnitude!= 0){
+    ph = pImp[0].Phase*180/MATH_PI; 
+      if(ph>300)
+        ph=ph-360;
     printf("%.2f ", freq);
+    printf("%f %f \r\n",pImp[0].Magnitude,ph);
     }
     /*Process data*/
-    for(int i=0;i<DataCount;i++)
-    {
-      printf("%f %f \r\n",pImp[i].Magnitude,pImp[i].Phase*180/MATH_PI);
-    }
+    //for(int i=0;i<DataCount;i++)
+    //{
+     
+    //}
   }
 
   return 0;
@@ -192,7 +198,7 @@ void AD5940_MainBLE(){
   
   while(1)
   {
-    eResult = adi_ble_DispatchEvents(100);
+    eResult = adi_ble_DispatchEvents(1);
     if(eResult==ADI_BLER_FAILURE){
       printf("Error dispatching events to the callback.\r\n");
     }

@@ -52,10 +52,10 @@
     </Jet>
     <PlDriver>
         <FirstRun>0</FirstRun>
-        <MemConfigValue />
+        <MemConfigValue>C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\debugger\AnalogDevices\ADuCM3029.ddf</MemConfigValue>
     </PlDriver>
     <DebugChecksum>
-        <Checksum>254731793</Checksum>
+        <Checksum>3503661736</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>

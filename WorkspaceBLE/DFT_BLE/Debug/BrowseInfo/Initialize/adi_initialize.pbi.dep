@@ -1,5 +1,5 @@
-C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseInfo\Initialize\adi_initialize.pbi: \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\adi_initialize.c \
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\Debug\BrowseInfo\Initialize\adi_initialize.pbi: \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\adi_initialize.c \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\platform.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_cdef.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029_def.h \
@@ -12,4 +12,4 @@ C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseIn
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\adi_cio_macros.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\sys\ADuCM302x_cdef.h \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\adi_initialize.h
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\adi_initialize.h

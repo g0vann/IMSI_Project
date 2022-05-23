@@ -1,101 +1,81 @@
 # ninja log v5
-2	31	6748336191528330	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
-759	978	6748336200913567	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
-238	469	6748336195813478	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
-1316	1447	6748336205626716	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
-7	390	6748336194958305	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
-413	730	6748336198403563	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
-492	778	6748336198683569	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
-1053	1293	6748336204058875	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
-1379	1575	6748336206896672	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
-13	213	6748336193228331	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
-16	1030	6748336201168862	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
-1181	1485	6748336205896669	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
-834	1184	6748336202748870	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
-1208	1356	6748336204258882	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
-546	809	6748336198913576	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
-1352	1788	6748336209006315	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
-805	1159	6748336202688871	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
-1001	1328	6748336204108869	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
-56	523	6748336196253479	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
-1810	1961	6748336210706329	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
-2	30	6748339329389739	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
-17	248	6748339331439745	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
-13	392	6748339332839756	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
-56	464	6748339333559738	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
-272	521	6748339334209741	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
-414	699	6748339335979734	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
-485	768	6748339336669740	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
-546	835	6748339337339723	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
-8	924	6748339338109737	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
-728	1021	6748339339209733	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
-857	1101	6748339340009724	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
-793	1143	6748339340219724	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
-945	1184	6748339340819734	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
-1126	1252	6748339341529755	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
-1167	1432	6748339343329729	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
-1275	1479	6748339343759742	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
-1046	1522	6748339344099738	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
-1460	1576	6748339344789728	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
-1211	1695	6748339345939728	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
-1719	1868	6748339347649393	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
-3	31	6748342097133917	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
-12	79	6748342097573932	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
-15	268	6748342099393934	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
-58	308	6748342099613957	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
-104	400	6748342100713922	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
-292	591	6748342102603919	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
-333	619	6748342102663934	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
-423	765	6748342104353936	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
-615	810	6748342104783940	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
-9	841	6748342104753923	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
-644	882	6748342105293923	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
-838	1119	6748342107903906	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
-907	1168	6748342108363932	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
-792	1202	6748342108373947	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
-867	1245	6748342109143932	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
-1198	1308	6748342109853012	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
-1227	1364	6748342110404242	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
-1271	1477	6748342111524236	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
-1148	1656	6748342113284227	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
-1678	1834	6748342115044251	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
-3	34	6748344078156455	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
-16	239	6748344080146427	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
-9	333	6748344081046438	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
-60	482	6748344082516439	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
-259	538	6748344083126457	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
-353	578	6748344083456422	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
-503	768	6748344085416443	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
-602	792	6748344085436464	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
-562	822	6748344085466452	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
-13	870	6748344086136450	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
-818	1042	6748344088186461	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
-890	1080	6748344088366430	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
-789	1110	6748344088496427	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
-844	1150	6748344089196432	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
-1065	1204	6748344089816437	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
-1133	1255	6748344090326437	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
-1108	1342	6748344091186429	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
-1224	1432	6748344092096431	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
-1172	1580	6748344093556425	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
-1601	1745	6748344095176460	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
-3	31	6748347840320626	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
-15	214	6748347842050607	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
-13	339	6748347843260613	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
-59	406	6748347843950619	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
-236	514	6748347845080603	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
-359	653	6748347846440636	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
-425	678	6748347846490653	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
-536	784	6748347847770624	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
-8	835	6748347847860618	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
-674	873	6748347848640633	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
-702	915	6748347849050640	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
-899	1098	6748347850880619	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
-857	1144	6748347851330638	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
-808	1188	6748347851630607	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
-1171	1270	6748347852630610	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
-937	1373	6748347853600626	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
-1290	1404	6748347853790625	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
-1123	1425	6748347853790625	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
-1209	1446	6748347853910613	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
-1466	1608	6748347855980609	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
+4	34	6750484133843000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
+1559	1765	6750484151062998	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
+445	738	6750484140722973	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
+398	515	6750484138562979	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
+17	299	6750484136362992	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
+21	369	6750484137043008	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
+326	644	6750484139852970	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
+993	1347	6750484146772990	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
+673	965	6750484143032985	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
+720	785	6750484141313000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
+11	1019	6750484143262978	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
+765	1061	6750484143752979	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
+1044	1562	6750484148313000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
+541	693	6750484139943004	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
+1091	1533	6750484148313000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
+813	1505	6750484148372995	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
+1529	1894	6750484152312976	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
+1372	1688	6750484150263014	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
+57	420	6750484137432983	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
+1919	2076	6750484154122962	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
+4	49	6750487668535236	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
+29	500	6750487672805566	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
+73	559	6750487673305563	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
+36	590	6750487673075573	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
+527	701	6750487674920734	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
+585	923	6750487677130731	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
+728	985	6750487677740724	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
+619	1039	6750487678028096	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
+1067	1201	6750487679930738	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
+24	1232	6750487679870732	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
+1228	1289	6750487680870745	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
+1016	1336	6750487681240730	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
+1317	1522	6750487683170716	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
+1257	1576	6750487683570715	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
+1367	1643	6750487684330724	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
+950	1730	6750487685210713	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
+1671	1944	6750487687370724	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
+1551	1989	6750487687690733	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
+1605	2016	6750487687750742	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
+2043	2222	6750487690080702	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
+2	31	6750493094548557	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
+13	387	6750493097968550	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
+56	498	6750493099058531	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
+17	559	6750493099628562	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
+582	689	6750493101038599	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
+415	741	6750493101488550	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
+768	827	6750493102468564	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
+718	873	6750493102608540	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
+522	921	6750493103098552	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
+8	1101	6750493104958537	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
+902	1150	6750493105528551	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
+947	1218	6750493106298568	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
+1127	1370	6750493107828561	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
+1180	1424	6750493108348561	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
+857	1495	6750493108988562	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
+1247	1620	6750493110308541	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
+1395	1681	6750493110948531	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
+1520	1784	6750493111988540	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
+1451	1840	6750493112548558	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
+1862	2023	6750493114288539	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c
+3	42	6750495051323515	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/startup_ADuCM3029.o	12391f2261d17c0
+25	265	6750495053463538	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ADICUP3029Port.o	3769d2b4c878de5b
+28	291	6750495053483532	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/BodyImpedance.o	364ab8294688d801
+69	350	6750495054273514	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/main.o	e7f8ca4a47d145b7
+373	466	6750495055483527	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/adi_initialize.o	39c8fe33d5b220ad
+286	560	6750495056413530	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/AD5940Main.o	702830287eab900f
+318	609	6750495056873518	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Application/UARTCmd.o	fe74bde7043e353
+637	692	6750495057793516	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.o	11dc7fc494cc0901
+21	799	6750495058773499	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/AD5940lib/ad5940.o	49a964c8caa12afc
+587	836	6750495059013492	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.o	4669c1a72c4468ae
+820	917	6750495059993526	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/Inizialize/pinmux_config.o	57dd6f4ad1e27547
+721	974	6750495060563514	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.o	f43b643f1defb212
+490	1029	6750495061063519	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.o	4aa9d6c0851c70da
+862	1098	6750495061793521	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device Startup/system_ADuCM3029.o	a74d81ded2b7ee35
+940	1179	6750495062603510	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers DMA/adi_dma.o	cae16e1e53f29979
+997	1225	6750495063033529	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.o	dc6dcee91917bd0c
+1120	1337	6750495064193500	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers TMR/adi_tmr.o	e0f5e0fdd22d6b70
+1051	1371	6750495064433500	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers Power/adi_pwr.o	3e76e9d85e3f2565
+1204	1474	6750495065563492	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Obj/CMSIS-Pack/Device.Drivers SPI/adi_spi.o	4b37395bcd9adb95
+1495	1635	6750495067143492	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/Exe/BLE_Prova.out	4c775da88fb1e37c

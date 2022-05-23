@@ -361,7 +361,7 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             break;
 
         case DATA_EXCHANGE_TX_COMPLETE:
-            //printf("Data sent!\r\n");
+            printf("Data sent!\r\n");
             break;
 
         case GAP_EVENT_MODE_CHANGE:

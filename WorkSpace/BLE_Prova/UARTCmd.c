@@ -92,7 +92,6 @@ uint32_t Cli_start2(float para1,float para2, float para3, float para4){
         Ncicli = (uint32_t)para4;
         }
         b=1;
-        printf("Eccomi amici\n");
 	AD5940BIAStructInit(); /* Configure your parameters in this function */
 	AppBIAInit(AppBuff, APPBUFF_SIZE); /* Initialize BIA application. Provide a buffer, which is used to store sequencer commands */
 	AppBIACtrl(BIACTRL_START, 0);		

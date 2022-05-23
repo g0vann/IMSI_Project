@@ -1,5 +1,5 @@
-C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseInfo\Application\AD5940Main.pbi: \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\AD5940Main.c \
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\Debug\BrowseInfo\Application\AD5940Main.pbi: \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\AD5940Main.c \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ad5940.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\math.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
@@ -14,12 +14,8 @@ C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseIn
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdio.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\AD5940.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ctype.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_stdlib.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdarg.h \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\ConfigurationBLE.h \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\RTE\BLE\adi_ble_config.h \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\ConfigurationBLE.h \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\RTE\BLE\adi_ble_config.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\drivers\tmr\adi_tmr.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\adi_processor.h \
@@ -46,6 +42,4 @@ C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseIn
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\\Include\communication\ble\radio\adi_ble_radio.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\\Include\communication\common\adi_error_handling.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\assert.h \
-  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\\Include\communication\ble\framework\noos\adi_ble_noos.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\time.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\time64.h
+  C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\\Include\communication\ble\framework\noos\adi_ble_noos.h

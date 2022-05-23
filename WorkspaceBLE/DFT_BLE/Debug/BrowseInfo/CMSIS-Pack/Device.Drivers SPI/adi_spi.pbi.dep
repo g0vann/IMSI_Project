@@ -1,4 +1,4 @@
-C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseInfo\CMSIS-Pack\Device.Drivers\ SPI\adi_spi.pbi: \
+C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\Debug\BrowseInfo\CMSIS-Pack\Device.Drivers\ SPI\adi_spi.pbi: \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi.c \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\adi_processor.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\ADuCM3029.h \
@@ -33,13 +33,13 @@ C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\Debug\BrowseIn
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_string.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\drivers\spi\adi_spi.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\rtos_map\adi_rtos_map.h \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\RTE\Device\ADuCM3029\adi_global_config.h \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\RTE\Device\ADuCM3029\adi_global_config.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\rtos_map\adi_rtos_map_noos.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\drivers\pwr\adi_pwr.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\adi_callback.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\adi_cyclecount.h \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\RTE\Device\ADuCM3029\adi_cycle_counting_config.h \
-  C:\Users\papuz\OneDrive\Desktop\IMSI\ Nostri\WorkspaceBLE\DFT_BLE\RTE\Device\ADuCM3029\adi_spi_config.h \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\RTE\Device\ADuCM3029\adi_cycle_counting_config.h \
+  C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkspaceBLE\DFT_BLE\RTE\Device\ADuCM3029\adi_spi_config.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\\Include\drivers\general\adi_drivers_general.h \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi_data.c \
   C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Source\drivers\spi\adi_spi_def.h \

@@ -9,4 +9,6 @@ clc
 
 ciao1 = [5 6 7 898 54 654 0 0 0 56 54];
 ciao2 = uint8(ciao1(2:5));
-Afloat = typecast( ciao2, 'single');
+Afloat = str2double(num2str(typecast( ciao2, 'single')));
+% Afloat = num2str(Afloat);
+% Afloat = str2double((Afloat));
