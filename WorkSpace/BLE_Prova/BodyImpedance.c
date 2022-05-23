@@ -48,7 +48,7 @@ AppBIACfg_Type AppBIACfg =
   .ADCSinc3Osr = ADCSINC3OSR_2,
   .ADCSinc2Osr = ADCSINC2OSR_22,
 
-  .DftNum = DFTNUM_16384,
+  .DftNum = DFTNUM_8192,
   .DftSrc = DFTSRC_SINC3,
   .HanWinEn = bTRUE,
 
