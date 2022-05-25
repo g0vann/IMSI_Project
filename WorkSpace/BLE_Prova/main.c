@@ -353,6 +353,7 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             printf("Disconnected!\r\n");
             geMode      = ADI_BLE_GAP_MODE_NOTCONNECTABLE;
             gbConnected = false;
+            NVIC_SystemReset();
             break;
 
         case DATA_EXCHANGE_RX_EVENT:

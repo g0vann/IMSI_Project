@@ -1,4 +1,0 @@
-Francesco:
-inion-nasion (|) = 30.0
-inion-nasion (°) = 55.0
-orecchie = 37.0
