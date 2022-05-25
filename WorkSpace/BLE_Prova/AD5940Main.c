@@ -57,7 +57,7 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
   
   if(gbConnected == true) {
     adi_ble_GetConnectionInfo(&sConnInfo);
-      if (DataCount>0 &&  pImp[0].Magnitude!= 0){
+      if (DataCount>0){
       ph = pImp[0].Phase*180/MATH_PI; 
       if(ph>300)
         ph=ph-360;
@@ -70,7 +70,7 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
         printf("Error sending the data.\r\n");
   
   }else{
-    if (DataCount>0 && pImp[0].Magnitude!= 0){
+    if (DataCount>0){
     ph = pImp[0].Phase*180/MATH_PI; 
       if(ph>300)
         ph=ph-360;
