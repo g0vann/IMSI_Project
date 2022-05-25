@@ -29,7 +29,7 @@ AppBIACfg_Type AppBIACfg =
   .ReDoRtiaCal = bFALSE,
   .SysClkFreq = 16000000.0,
   .WuptClkFreq = 32000.0,
-  .AdcClkFreq = 16000000.0,
+  .AdcClkFreq = 8000000.0,
   .BiaODR = 20.0, /* 20.0 Hz*/
   .NumOfData = -1,
   .RcalVal = 10000.0, /* 10kOhm */
@@ -48,7 +48,7 @@ AppBIACfg_Type AppBIACfg =
   .ADCSinc3Osr = ADCSINC3OSR_2,
   .ADCSinc2Osr = ADCSINC2OSR_22,
 
-  .DftNum = DFTNUM_16384,
+  .DftNum = DFTNUM_8192,
   .DftSrc = DFTSRC_SINC3,
   .HanWinEn = bTRUE,
 

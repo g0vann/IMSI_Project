@@ -415,7 +415,7 @@ void Received_Data(void){
     printf("\r\n");
   }
   
-  if(aStringReceive[0]!= 's'){
+  if(aStringReceive[0]!= 's' && aStringReceive[0]!= 'r'){
     
     for(int i = 7;i<26;i++){
       start2[i] = aStringReceive[i-7];
