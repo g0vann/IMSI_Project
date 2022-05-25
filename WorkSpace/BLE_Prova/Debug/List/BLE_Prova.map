@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  24/May/2022  00:51:46
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  24/May/2022  23:42:48
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -113,7 +113,7 @@ No sections matched the following patterns:
     CHECKSUM         uninit         0x7fc     0x4  <Block tail>
                                   - 0x800     0x4
 
-"P2":                                      0x9761
+"P2":                                      0x97bd
   .text              ro code        0x800  0x1c4c  ad5940.o [1]
   .text              ro code       0x244c    0xa6  ABImemcpy.o [13]
   .text              ro code       0x24f2    0x3a  packbits_init_single.o [13]
@@ -175,104 +175,86 @@ No sections matched the following patterns:
   .text              ro code       0x7f00   0x50c  main.o [2]
   .text              ro code       0x840c     0xe  adi_initialize.o [10]
   .text              ro code       0x841c   0x2bc  AD5940Main.o [2]
-  .text              ro code       0x86d8   0x388  UARTCmd.o [2]
-  .text              ro code       0x8a60    0x28  printf.o [11]
-  .text              ro code       0x8a88    0x10  pinmux_config.o [10]
-  .text              ro code       0x8a98    0x12  strcmp.o [13]
-  .text              ro code       0x8aac   0x27c  strto32.o [12]
-  .text              ro code       0x8d28    0x40  frexpf.o [12]
-  .text              ro code       0x8d68    0x8a  ldexpf.o [12]
-  .text              ro code       0x8df2   0x120  iar_Stopfx.o [11]
-  .text              ro code       0x8f14   0x1a8  iar_Stoflt.o [11]
-  .text              ro code       0x90bc   0x20c  iar_Stoxflt.o [11]
-  .rodata            const         0x92c8   0x420  pow64.o [12]
-  .rodata            const         0x96e8    0x70  ad5940.o [1]
-  .text              ro code       0x9758    0x6c  system_ADuCM3029.o [4]
-  .rodata            const         0x97c4    0x48  main.o [2]
-  .rodata            const         0x980c    0x34  ad5940.o [1]
-  .rodata            const         0x9840    0x40  iar_Atan64.o [12]
-  .text              ro code       0x9880    0x38  zero_init3.o [13]
-  .rodata            const         0x98b8    0x30  main.o [2]
-  .rodata            const         0x98e8    0x2c  AD5940Main.o [2]
-  .rodata            const         0x9914    0x2c  main.o [2]
-  .rodata            const         0x9940    0x2c  main.o [2]
-  .rodata            const         0x996c    0x2c  main.o [2]
-  .text              ro code       0x9998    0x28  data_init.o [13]
-  .rodata            const         0x99c0    0x24  ad5940.o [1]
-  .rodata            const         0x99e4    0x24  main.o [2]
-  .rodata            const         0x9a08    0x24  main.o [2]
-  .rodata            const         0x9a2c    0x24  main.o [2]
-  .iar.init_table    const         0x9a50    0x20  - Linker created -
-  .rodata            const         0x9a70    0x20  main.o [2]
-  .rodata            const         0x9a90    0x20  main.o [2]
-  .rodata            const         0x9ab0    0x20  main.o [2]
-  .rodata            const         0x9ad0    0x20  main.o [2]
-  .text              ro code       0x9af0    0x20  startup_ADuCM3029.o [4]
-  .text              ro code       0x9b10    0x1e  cmain.o [13]
-  .text              ro code       0x9b2e     0x4  low_level_init.o [11]
-  .text              ro code       0x9b32     0x4  exit.o [11]
-  .text              ro code       0x9b38     0xa  cexit.o [13]
-  .rodata            const         0x9b44    0x1c  AD5940Main.o [2]
-  .rodata            const         0x9b60    0x1c  main.o [2]
-  .rodata            const         0x9b7c    0x1c  main.o [2]
+  .text              ro code       0x86d8   0x3c0  UARTCmd.o [2]
+  .text              ro code       0x8a98    0x28  printf.o [11]
+  .text              ro code       0x8ac0    0x10  pinmux_config.o [10]
+  .text              ro code       0x8ad0    0x12  strcmp.o [13]
+  .text              ro code       0x8ae4   0x27c  strto32.o [12]
+  .text              ro code       0x8d60    0x40  frexpf.o [12]
+  .text              ro code       0x8da0    0x8a  ldexpf.o [12]
+  .text              ro code       0x8e2a   0x120  iar_Stopfx.o [11]
+  .text              ro code       0x8f4c   0x1a8  iar_Stoflt.o [11]
+  .text              ro code       0x90f4   0x20c  iar_Stoxflt.o [11]
+  .rodata            const         0x9300   0x420  pow64.o [12]
+  .rodata            const         0x9720    0x70  ad5940.o [1]
+  .text              ro code       0x9790    0x6c  system_ADuCM3029.o [4]
+  .rodata            const         0x97fc    0x48  main.o [2]
+  .rodata            const         0x9844    0x34  ad5940.o [1]
+  .rodata            const         0x9878    0x40  iar_Atan64.o [12]
+  .text              ro code       0x98b8    0x38  zero_init3.o [13]
+  .rodata            const         0x98f0    0x30  main.o [2]
+  .rodata            const         0x9920    0x2c  AD5940Main.o [2]
+  .rodata            const         0x994c    0x2c  main.o [2]
+  .rodata            const         0x9978    0x2c  main.o [2]
+  .rodata            const         0x99a4    0x2c  main.o [2]
+  .text              ro code       0x99d0    0x28  data_init.o [13]
+  .rodata            const         0x99f8    0x24  ad5940.o [1]
+  .rodata            const         0x9a1c    0x24  main.o [2]
+  .rodata            const         0x9a40    0x24  main.o [2]
+  .rodata            const         0x9a64    0x24  main.o [2]
+  .iar.init_table    const         0x9a88    0x20  - Linker created -
+  .rodata            const         0x9aa8    0x20  main.o [2]
+  .rodata            const         0x9ac8    0x20  main.o [2]
+  .rodata            const         0x9ae8    0x20  main.o [2]
+  .rodata            const         0x9b08    0x20  main.o [2]
+  .text              ro code       0x9b28    0x20  startup_ADuCM3029.o [4]
+  .text              ro code       0x9b48    0x1e  cmain.o [13]
+  .text              ro code       0x9b66     0x4  low_level_init.o [11]
+  .text              ro code       0x9b6a     0x4  exit.o [11]
+  .text              ro code       0x9b70     0xa  cexit.o [13]
+  .rodata            const         0x9b7c    0x1c  AD5940Main.o [2]
   .rodata            const         0x9b98    0x1c  main.o [2]
-  .rodata            const         0x9bb4    0x1c  UARTCmd.o [2]
-  .text              ro code       0x9bd0    0x1c  cstartup_M.o [13]
-  .rodata            const         0x9bec    0x18  main.o [2]
-  .text              ro code       0x9c04    0x16  xprout.o [11]
-  .rodata            const         0x9c1c    0x14  AD5940Main.o [2]
-  .rodata            const         0x9c30    0x14  main.o [2]
-  .rodata            const         0x9c44    0x14  main.o [2]
-  .rodata            const         0x9c58    0x14  main.o [2]
-  .rodata            const         0x9c6c    0x14  main.o [2]
-  .rodata            const         0x9c80    0x14  UARTCmd.o [2]
-  .rodata            const         0x9c94    0x14  UARTCmd.o [2]
-  .rodata            const         0x9ca8    0x10  ad5940.o [1]
-  .rodata            const         0x9cb8    0x10  ad5940.o [1]
-  .rodata            const         0x9cc8    0x10  main.o [2]
-  .rodata            const         0x9cd8    0x10  main.o [2]
-  .rodata            const         0x9ce8    0x10  main.o [2]
-  .rodata            const         0x9cf8    0x10  main.o [2]
-  .rodata            const         0x9d08    0x10  main.o [2]
-  .rodata            const         0x9d18    0x10  UARTCmd.o [2]
-  .rodata            const         0x9d28     0xc  AD5940Main.o [2]
-  .rodata            const         0x9d34     0xc  adi_spi.o [8]
-  .rodata            const         0x9d40     0x8  ad5940.o [1]
-  .rodata            const         0x9d48     0x8  ad5940.o [1]
-  .rodata            const         0x9d50     0x8  ad5940.o [1]
-  .rodata            const         0x9d58     0x8  ad5940.o [1]
-  .rodata            const         0x9d60     0x8  ad5940.o [1]
-  .rodata            const         0x9d68     0x8  ad5940.o [1]
-  .rodata            const         0x9d70     0x8  AD5940Main.o [2]
-  .rodata            const         0x9d78     0x8  main.o [2]
-  .rodata            const         0x9d80     0x8  UARTCmd.o [2]
-  .rodata            const         0x9d88     0x8  UARTCmd.o [2]
-  .rodata            const         0x9d90     0x8  UARTCmd.o [2]
-  .rodata            const         0x9d98     0x4  ad5940.o [1]
-  .rodata            const         0x9d9c     0x4  ad5940.o [1]
-  .rodata            const         0x9da0     0x4  adi_dma.o [5]
-  .rodata            const         0x9da4     0x4  adi_dma.o [5]
-  .rodata            const         0x9da8     0x4  adi_tmr.o [9]
-  .text              ro code       0x9dac     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9db0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9db4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9db8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dbc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dc0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dc4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dc8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dcc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dd0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dd4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dd8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9ddc     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9de0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9de4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9de8     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9dec     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9df0     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9df4     0x4  startup_ADuCM3029.o [4]
-  .text              ro code       0x9df8     0x4  startup_ADuCM3029.o [4]
+  .rodata            const         0x9bb4    0x1c  main.o [2]
+  .rodata            const         0x9bd0    0x1c  main.o [2]
+  .rodata            const         0x9bec    0x1c  UARTCmd.o [2]
+  .text              ro code       0x9c08    0x1c  cstartup_M.o [13]
+  .rodata            const         0x9c24    0x18  main.o [2]
+  .text              ro code       0x9c3c    0x16  xprout.o [11]
+  .rodata            const         0x9c54    0x14  AD5940Main.o [2]
+  .rodata            const         0x9c68    0x14  main.o [2]
+  .rodata            const         0x9c7c    0x14  main.o [2]
+  .rodata            const         0x9c90    0x14  main.o [2]
+  .rodata            const         0x9ca4    0x14  main.o [2]
+  .rodata            const         0x9cb8    0x14  UARTCmd.o [2]
+  .rodata            const         0x9ccc    0x14  UARTCmd.o [2]
+  .rodata            const         0x9ce0    0x14  UARTCmd.o [2]
+  .rodata            const         0x9cf4    0x10  ad5940.o [1]
+  .rodata            const         0x9d04    0x10  ad5940.o [1]
+  .rodata            const         0x9d14    0x10  main.o [2]
+  .rodata            const         0x9d24    0x10  main.o [2]
+  .rodata            const         0x9d34    0x10  main.o [2]
+  .rodata            const         0x9d44    0x10  main.o [2]
+  .rodata            const         0x9d54    0x10  main.o [2]
+  .rodata            const         0x9d64    0x10  UARTCmd.o [2]
+  .rodata            const         0x9d74     0xc  AD5940Main.o [2]
+  .rodata            const         0x9d80     0xc  adi_spi.o [8]
+  .rodata            const         0x9d8c     0x8  ad5940.o [1]
+  .rodata            const         0x9d94     0x8  ad5940.o [1]
+  .rodata            const         0x9d9c     0x8  ad5940.o [1]
+  .rodata            const         0x9da4     0x8  ad5940.o [1]
+  .rodata            const         0x9dac     0x8  ad5940.o [1]
+  .rodata            const         0x9db4     0x8  ad5940.o [1]
+  .rodata            const         0x9dbc     0x8  AD5940Main.o [2]
+  .rodata            const         0x9dc4     0x8  main.o [2]
+  .rodata            const         0x9dcc     0x8  UARTCmd.o [2]
+  .rodata            const         0x9dd4     0x8  UARTCmd.o [2]
+  .rodata            const         0x9ddc     0x8  UARTCmd.o [2]
+  .rodata            const         0x9de4     0x4  ad5940.o [1]
+  .rodata            const         0x9de8     0x4  ad5940.o [1]
+  .rodata            const         0x9dec     0x4  adi_dma.o [5]
+  .rodata            const         0x9df0     0x4  adi_dma.o [5]
+  .rodata            const         0x9df4     0x4  adi_tmr.o [9]
+  .rodata            const         0x9df8     0x4  UARTCmd.o [2]
   .text              ro code       0x9dfc     0x4  startup_ADuCM3029.o [4]
   .text              ro code       0x9e00     0x4  startup_ADuCM3029.o [4]
   .text              ro code       0x9e04     0x4  startup_ADuCM3029.o [4]
@@ -297,13 +279,33 @@ No sections matched the following patterns:
   .text              ro code       0x9e50     0x4  startup_ADuCM3029.o [4]
   .text              ro code       0x9e54     0x4  startup_ADuCM3029.o [4]
   .text              ro code       0x9e58     0x4  startup_ADuCM3029.o [4]
-  .rodata            const         0x9e5c     0x0  zero_init3.o [13]
-  .rodata            const         0x9e5c     0x0  packbits_init_single.o [13]
-  Initializer bytes  const         0x9e5c   0x105  <for P3-1>
-                                 - 0x9f61  0x9761
+  .text              ro code       0x9e5c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e60     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e64     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e68     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e6c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e70     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e74     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e78     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e7c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e80     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e84     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e88     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e8c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e90     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e94     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e98     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9e9c     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9ea0     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9ea4     0x4  startup_ADuCM3029.o [4]
+  .text              ro code       0x9ea8     0x4  startup_ADuCM3029.o [4]
+  .rodata            const         0x9eac     0x0  zero_init3.o [13]
+  .rodata            const         0x9eac     0x0  packbits_init_single.o [13]
+  Initializer bytes  const         0x9eac   0x111  <for P3-1>
+                                 - 0x9fbd  0x97bd
 
-"P3", part 1 of 2:                          0x4ec
-  P3-1                        0x2000'0000   0x4ec  <Init block>
+"P3", part 1 of 2:                          0x4f8
+  P3-1                        0x2000'0000   0x4f8  <Init block>
     .data            inited   0x2000'0000     0xc  adi_ble_noos.o [3]
     .data            inited   0x2000'000c     0x4  adi_ble_radio.o [3]
     .data            inited   0x2000'0010     0x4  adi_ble_transport.o [3]
@@ -318,11 +320,11 @@ No sections matched the following patterns:
     .data            inited   0x2000'0098     0xc  adi_tmr.o [9]
     .data            inited   0x2000'00a4   0x3f0  BodyImpedance.o [2]
     .data            inited   0x2000'0494    0x34  main.o [2]
-    .data            inited   0x2000'04c8    0x24  UARTCmd.o [2]
-                            - 0x2000'04ec   0x4ec
+    .data            inited   0x2000'04c8    0x30  UARTCmd.o [2]
+                            - 0x2000'04f8   0x4f8
 
-"P3", part 2 of 2:                         0x12ac
-  .bss               zero     0x2000'04ec   0x800  UARTCmd.o [2]
+"P3", part 2 of 2:                         0x12a0
+  .bss               zero     0x2000'04f8   0x800  UARTCmd.o [2]
   .bss               zero     0x2000'1000   0x400  adi_dma.o [5]
   .bss               zero     0x2000'1400   0x114  adi_ble_radio.o [3]
   .bss               zero     0x2000'1514    0xe0  adi_dma.o [5]
@@ -359,7 +361,7 @@ No sections matched the following patterns:
   .bss               zero     0x2000'1793     0x1  adi_ble_noos.o [3]
   .bss               zero     0x2000'1794     0x1  main.o [2]
   .bss               zero     0x2000'1795     0x1  main.o [2]
-                            - 0x2000'1796  0x12aa
+                            - 0x2000'1796  0x129e
 
 "A6":                                       0x400
   CSTACK                      0x2000'1c00   0x400  <Block>
@@ -370,7 +372,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x9f61     0x3'ffff  0x3'609f
+       0x9fbd     0x3'ffff  0x3'6043
   0x2000'1798  0x2000'1bff     0x468
 
 
@@ -381,14 +383,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x12aa:
-          0x2000'04ec  0x12aa
+    1 destination range, total size 0x129e:
+          0x2000'04f8  0x129e
 
 Copy/packbits (__iar_packbits_init_single3)
-    1 source range, total size 0x105 (20% of destination):
-               0x9e5c   0x105
-    1 destination range, total size 0x4ec:
-          0x2000'0000   0x4ec
+    1 source range, total size 0x111 (21% of destination):
+               0x9eac   0x111
+    1 destination range, total size 0x4f8:
+          0x2000'0000   0x4f8
 
 
 
@@ -410,11 +412,11 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\AD594
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\Application: [2]
     AD5940Main.o                700      112       37
-    BodyImpedance.o           2'388      209    1'008
-    UARTCmd.o                   904      116    2'248
+    BodyImpedance.o           2'388      216    1'008
+    UARTCmd.o                   960      143    2'260
     main.o                    1'292      775       54
     -------------------------------------------------
-    Total:                    5'284    1'212    3'347
+    Total:                    5'340    1'246    3'359
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy: [3]
     adi_ble_noos.o              406        2       22
@@ -435,9 +437,9 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS
     Total:                      360        8    1'248
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS-Pack\Device.Drivers GPIO: [6]
-    adi_gpio.o                  456        3       16
+    adi_gpio.o                  456        4       16
     -------------------------------------------------
-    Total:                      456        3       16
+    Total:                      456        4       16
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS-Pack\Device.Drivers Power: [7]
     adi_pwr.o                   488                12
@@ -450,9 +452,9 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS
     Total:                    1'824       25       60
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS-Pack\Device.Drivers TMR: [9]
-    adi_tmr.o                   650       14       76
+    adi_tmr.o                   650       15       76
     -------------------------------------------------
-    Total:                      650       14       76
+    Total:                      650       15       76
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\Inizialize: [10]
     adi_initialize.o             14
@@ -531,10 +533,10 @@ rt7M_tl.a: [13]
     -------------------------------------------------
     Total:                    1'280
 
-    Gaps                         42        4      788
+    Gaps                         42        4      776
     Linker created                        32    1'028
 -----------------------------------------------------
-    Grand Total:             36'352    2'753    7'066
+    Grand Total:             36'408    2'789    7'066
 
 
 *******************************************************************************
@@ -543,9 +545,9 @@ rt7M_tl.a: [13]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x9a50          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x9a70          --   Gb  - Linker created -
-?main                        0x9b11         Code  Gb  cmain.o [13]
+.iar.init_table$$Base        0x9a88          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x9aa8          --   Gb  - Linker created -
+?main                        0x9b49         Code  Gb  cmain.o [13]
 AD5940BIAStructInit          0x85b9   0x96  Code  Gb  AD5940Main.o [2]
 AD5940PlatformCfg            0x850f   0xaa  Code  Lc  AD5940Main.o [2]
 AD5940_ADCBaseCfgS           0x18c9   0x1c  Code  Gb  ad5940.o [1]
@@ -648,10 +650,10 @@ AppBIARegModify              0x7c53   0x5a  Code  Lc  BodyImpedance.o [2]
 AppBIARtiaCal                0x7a6d   0xb8  Code  Lc  BodyImpedance.o [2]
 AppBIASeqCfgGen              0x76a9  0x228  Code  Lc  BodyImpedance.o [2]
 AppBIASeqMeasureGen          0x78d1  0x19c  Code  Lc  BodyImpedance.o [2]
-AppBuff                 0x2000'04ec  0x800  Data  Gb  UARTCmd.o [2]
+AppBuff                 0x2000'04f8  0x800  Data  Gb  UARTCmd.o [2]
 ApplicationCallback          0x821d   0x8a  Code  Lc  main.o [2]
 BIAShowResult                0x841d   0xf2  Code  Gb  AD5940Main.o [2]
-BLECmd_Process               0x8983   0x66  Code  Gb  UARTCmd.o [2]
+BLECmd_Process               0x89b3   0x66  Code  Gb  UARTCmd.o [2]
 Battery_Voltage_Int_Handler
                              0x7451   0x26  Code  Gb  adi_pwr.o [7]
 BleCallback                  0x6659    0x8  Code  Lc  adi_ble_noos.o [3]
@@ -660,9 +662,10 @@ CHECKSUM$$Limit               0x800          --   Gb  - Linker created -
 CSTACK$$Base            0x2000'1c00          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'2000          --   Gb  - Linker created -
 ClearEventPending            0x6667    0x8  Code  Lc  adi_ble_noos.o [3]
-Cli_start                    0x8733   0x36  Code  Gb  UARTCmd.o [2]
-Cli_start2                   0x86d9   0x5a  Code  Gb  UARTCmd.o [2]
-Cli_stop                     0x8769   0x14  Code  Gb  UARTCmd.o [2]
+Cli_reset                    0x86f7   0x10  Code  Gb  UARTCmd.o [2]
+Cli_start                    0x8761   0x38  Code  Gb  UARTCmd.o [2]
+Cli_start2                   0x8707   0x5a  Code  Gb  UARTCmd.o [2]
+Cli_stop                     0x8799   0x14  Code  Gb  UARTCmd.o [2]
 CommonIntHandler             0x71af   0x62  Code  Lc  adi_tmr.o [9]
 CommonInterruptHandler       0x6831   0x5c  Code  Lc  adi_gpio.o [6]
 Crystal_osc_Int_Handler
@@ -681,11 +684,11 @@ DMA_SPI2_RX_Int_Handler
                              0x6f7d   0x24  Code  Gb  adi_spi.o [8]
 DMA_SPI2_TX_Int_Handler
                              0x6f73    0xa  Code  Gb  adi_spi.o [8]
-Dtentox                      0x8aad  0x15a  Code  Lc  strto32.o [12]
+Dtentox                      0x8ae5  0x15a  Code  Lc  strto32.o [12]
 Ext_Int0_Handler             0x3d23    0xe  Code  Gb  ADICUP3029Port.o [1]
 Freq1                   0x2000'1740    0x4  Data  Gb  AD5940Main.o [2]
 Freq2                   0x2000'1744    0x4  Data  Gb  AD5940Main.o [2]
-Function_BIA                 0x89e9   0x2a  Code  Gb  UARTCmd.o [2]
+Function_BIA                 0x8a19   0x2a  Code  Gb  UARTCmd.o [2]
 GPIO_A_Int_Handler           0x6899    0xc  Code  Gb  adi_gpio.o [6]
 GPIO_B_Int_Handler           0x68a5    0xc  Code  Gb  adi_gpio.o [6]
 GP_Tmr0_Int_Handler          0x723d    0xa  Code  Gb  adi_tmr.o [9]
@@ -700,8 +703,8 @@ Npunti                  0x2000'1748    0x4  Data  Gb  AD5940Main.o [2]
 PLL_Int_Handler              0x73c5   0x38  Code  Gb  adi_pwr.o [7]
 RadioTransaction             0x63d3  0x164  Code  Lc  adi_ble_transport.o [3]
 Received_Data                0x82a7   0x8e  Code  Gb  main.o [2]
-Region$$Table$$Base          0x9a50          --   Gb  - Linker created -
-Region$$Table$$Limit         0x9a70          --   Gb  - Linker created -
+Region$$Table$$Base          0x9a88          --   Gb  - Linker created -
+Region$$Table$$Limit         0x9aa8          --   Gb  - Linker created -
 RxDmaErrorCallback           0x6e65   0x46  Code  Lc  adi_spi.o [8]
 SET_CMDPKT_CMDCODE           0x5811    0x4  Code  Lc  adi_ble_radio.o [3]
 SET_CMDPKT_LEN               0x580d    0x4  Code  Lc  adi_ble_radio.o [3]
@@ -715,23 +718,23 @@ SetAdvertisingMode           0x8129   0x6a  Code  Lc  main.o [2]
 StartTimer                   0x667f   0x3e  Code  Lc  adi_ble_noos.o [3]
 StartTransaction             0x6ab3  0x28e  Code  Lc  adi_spi.o [8]
 StopTimer                    0x66d1   0x16  Code  Lc  adi_ble_noos.o [3]
-Str2Num                      0x8825   0x10  Code  Lc  UARTCmd.o [2]
+Str2Num                      0x8855   0x10  Code  Lc  UARTCmd.o [2]
 SweepON                 0x2000'1791    0x1  Data  Gb  AD5940Main.o [2]
-SystemInit                   0x9759   0x2c  Code  Gb  system_ADuCM3029.o [4]
+SystemInit                   0x9791   0x2c  Code  Gb  system_ADuCM3029.o [4]
 TimerCallback                0x6671    0x8  Code  Lc  adi_ble_noos.o [3]
 TransportCallback            0x63c5    0xe  Code  Gb  adi_ble_transport.o [3]
 TxDmaErrorCallback           0x6ead   0x46  Code  Lc  adi_spi.o [8]
-UARTCmd_MatchCommand         0x87d3   0x52  Code  Gb  UARTCmd.o [2]
-UARTCmd_Process              0x88f5   0x8e  Code  Gb  UARTCmd.o [2]
-UARTCmd_RemoveSpaces         0x877d   0x56  Code  Gb  UARTCmd.o [2]
-UARTCmd_TranslateParas       0x8835   0xc0  Code  Gb  UARTCmd.o [2]
+UARTCmd_MatchCommand         0x8803   0x52  Code  Gb  UARTCmd.o [2]
+UARTCmd_Process              0x8925   0x8e  Code  Gb  UARTCmd.o [2]
+UARTCmd_RemoveSpaces         0x87ad   0x56  Code  Gb  UARTCmd.o [2]
+UARTCmd_TranslateParas       0x8865   0xc0  Code  Gb  UARTCmd.o [2]
 UART_Int_Handler             0x80d5   0x54  Code  Gb  main.o [2]
 UrtCfg                       0x7f87  0x140  Code  Gb  main.o [2]
 Vreg_over_Int_Handler        0x7477   0x3a  Code  Gb  adi_pwr.o [7]
 WaitForStatusBit             0x7183   0x2c  Code  Lc  adi_tmr.o [9]
 _LitobFullNoMb               0x52ad  0x10c  Code  Lc  xprintffull_nomb.o [11]
 _PrintfFullNoMb              0x4595  0xce8  Code  Gb  xprintffull_nomb.o [11]
-_Prout                       0x9c05   0x16  Code  Gb  xprout.o [11]
+_Prout                       0x9c3d   0x16  Code  Gb  xprout.o [11]
 _PutcharFullNoMb             0x5411   0x20  Code  Lc  xprintffull_nomb.o [11]
 _PutcharsFullNoMb            0x5431   0x2e  Code  Lc  xprintffull_nomb.o [11]
 __AD5940_SetDExRTIA          0x14f9   0x5a  Code  Lc  ad5940.o [1]
@@ -746,6 +749,7 @@ __NVIC_EnableIRQ             0x68b1   0x1e  Code  Lc  adi_spi.o [8]
 __NVIC_EnableIRQ             0x6fd1   0x1c  Code  Lc  adi_tmr.o [9]
 __NVIC_EnableIRQ             0x3bb9   0x1c  Code  Lc  ADICUP3029Port.o [1]
 __NVIC_EnableIRQ             0x7f01   0x1e  Code  Lc  main.o [2]
+__NVIC_SystemReset           0x86d9   0x1e  Code  Lc  UARTCmd.o [2]
 __Vectors                       0x0          --   Gb  startup_ADuCM3029.o [4]
 __Vectors_End                 0x140         Data  Gb  startup_ADuCM3029.o [4]
 __Vectors_Size {Abs}          0x140          --   Gb  startup_ADuCM3029.o [4]
@@ -780,7 +784,7 @@ __aeabi_memset               0x3935         Code  Gb  ABImemset.o [13]
 __aeabi_ui2d                 0x2c05         Code  Gb  U32ToDbl.o [12]
 __aeabi_ui2f                 0x252d         Code  Gb  U32ToFlt.o [12]
 __aeabi_uldivmod             0x55b5         Code  Gb  I64DivMod.o [13]
-__cmain                      0x9b11         Code  Gb  cmain.o [13]
+__cmain                      0x9b49         Code  Gb  cmain.o [13]
 __exit                       0x57f1         Code  Gb  XXexit.o [13]
 __iar_Atan64                 0x4395  0x200  Code  Gb  iar_Atan64.o [12]
 __iar_Exp64                  0x40e9  0x258  Code  Gb  iar_Exp64.o [12]
@@ -789,21 +793,21 @@ __iar_Log64                  0x2931  0x248  Code  Lc  logx64.o [12]
 __iar_Memchr                 0x5539         Code  Gb  memchr.o [13]
 __iar_Memset                 0x3935         Code  Gb  ABImemset.o [13]
 __iar_Memset_word            0x393d         Code  Gb  ABImemset.o [13]
-__iar_Sto32                  0x8c07   0xf4  Code  Gb  strto32.o [12]
-__iar_Stoflt                 0x8f15  0x1a8  Code  Gb  iar_Stoflt.o [11]
-__iar_Stopfx                 0x8df3  0x120  Code  Gb  iar_Stopfx.o [11]
-__iar_Stoxflt                0x90bd  0x1d8  Code  Gb  iar_Stoxflt.o [11]
-__iar_Stoxflt::digits        0x9298   0x18  Data  Lc  iar_Stoxflt.o [11]
-__iar_Stoxflt::vals          0x92b0   0x18  Data  Lc  iar_Stoxflt.o [11]
+__iar_Sto32                  0x8c3f   0xf4  Code  Gb  strto32.o [12]
+__iar_Stoflt                 0x8f4d  0x1a8  Code  Gb  iar_Stoflt.o [11]
+__iar_Stopfx                 0x8e2b  0x120  Code  Gb  iar_Stopfx.o [11]
+__iar_Stoxflt                0x90f5  0x1d8  Code  Gb  iar_Stoxflt.o [11]
+__iar_Stoxflt::digits        0x92d0   0x18  Data  Lc  iar_Stoxflt.o [11]
+__iar_Stoxflt::vals          0x92e8   0x18  Data  Lc  iar_Stoxflt.o [11]
 __iar_Strchr                 0x54a9         Code  Gb  strchr.o [13]
 __iar_atan2_64               0x3ab5   0xf8  Code  Gb  atan2_64.o [12]
-__iar_data_init3             0x9999   0x28  Code  Gb  data_init.o [13]
+__iar_data_init3             0x99d1   0x28  Code  Gb  data_init.o [13]
 __iar_frexp                  0x3e65         Code  Gb  frexp.o [12]
-__iar_frexp32                0x8d29         Code  Gb  frexpf.o [12]
+__iar_frexp32                0x8d61         Code  Gb  frexpf.o [12]
 __iar_frexp64                0x3e59         Code  Gb  frexp.o [12]
-__iar_frexpf                 0x8d35         Code  Gb  frexpf.o [12]
+__iar_frexpf                 0x8d6d         Code  Gb  frexpf.o [12]
 __iar_frexpl                 0x3e65         Code  Gb  frexp.o [12]
-__iar_ldexp32                0x8d69         Code  Gb  ldexpf.o [12]
+__iar_ldexp32                0x8da1         Code  Gb  ldexpf.o [12]
 __iar_ldexp64                0x3ec9         Code  Gb  ldexp.o [12]
 __iar_log10_64               0x2c01    0x4  Code  Gb  logx64.o [12]
 __iar_log10_medium           0x2c01    0x4  Code  Gb  logx64.o [12]
@@ -815,20 +819,20 @@ __iar_pow64                  0x3015  0x5d8  Code  Gb  pow64.o [12]
 __iar_pow_medium             0x3015  0x5d8  Code  Gb  pow64.o [12]
 __iar_pow_medium64           0x3015  0x5d8  Code  Gb  pow64.o [12]
 __iar_pow_mediuml            0x3015  0x5d8  Code  Gb  pow64.o [12]
-__iar_program_start          0x9bd1         Code  Gb  cstartup_M.o [13]
-__iar_scalbln32              0x8d69         Code  Gb  ldexpf.o [12]
+__iar_program_start          0x9c09         Code  Gb  cstartup_M.o [13]
+__iar_scalbln32              0x8da1         Code  Gb  ldexpf.o [12]
 __iar_scalbln64              0x3ec9         Code  Gb  ldexp.o [12]
-__iar_scalbn32               0x8d69         Code  Gb  ldexpf.o [12]
+__iar_scalbn32               0x8da1         Code  Gb  ldexpf.o [12]
 __iar_scalbn64               0x3ec9         Code  Gb  ldexp.o [12]
 __iar_sqrt64                 0x39c1         Code  Gb  sqrt.o [12]
-__iar_zero_init3             0x9881   0x38  Code  Gb  zero_init3.o [13]
-__low_level_init             0x9b2f    0x4  Code  Gb  low_level_init.o [11]
+__iar_zero_init3             0x98b9   0x38  Code  Gb  zero_init3.o [13]
+__low_level_init             0x9b67    0x4  Code  Gb  low_level_init.o [11]
 __vector_table                  0x0         Data  Gb  startup_ADuCM3029.o [4]
 __vector_table_0x1c            0x1c         Data  Gb  startup_ADuCM3029.o [4]
-_call_main                   0x9b1d         Code  Gb  cmain.o [13]
-_exit                        0x9b39         Code  Gb  cexit.o [13]
+_call_main                   0x9b55         Code  Gb  cmain.o [13]
+_exit                        0x9b71         Code  Gb  cexit.o [13]
 _is_value_in_table            0xa0d   0x26  Code  Lc  ad5940.o [1]
-a                            0x9840   0x40  Data  Lc  iar_Atan64.o [12]
+a                            0x9878   0x40  Data  Lc  iar_Atan64.o [12]
 aTimerALoadConfig       0x2000'0080    0x8  Data  Lc  adi_tmr.o [9]
 aTimerCtlConfig         0x2000'0070    0x8  Data  Lc  adi_tmr.o [9]
 aTimerLoadConfig        0x2000'0078    0x8  Data  Lc  adi_tmr.o [9]
@@ -865,7 +869,7 @@ adi_gpio_SetGroupInterruptPolarity
 adi_gpio_SetHigh             0x67d3    0xe  Code  Gb  adi_gpio.o [6]
 adi_gpio_SetLow              0x67e1    0xe  Code  Gb  adi_gpio.o [6]
 adi_initComponents           0x840d    0xe  Code  Gb  adi_initialize.o [10]
-adi_initpinmux               0x8a89   0x10  Code  Gb  pinmux_config.o [10]
+adi_initpinmux               0x8ac1   0x10  Code  Gb  pinmux_config.o [10]
 adi_pwr_EnterLowPowerMode
                              0x74b1   0xae  Code  Gb  adi_pwr.o [7]
 adi_pwr_ExitLowPowerMode
@@ -888,7 +892,7 @@ adi_spi_MasterSubmitBuffer
 adi_spi_Open                 0x68f5   0x98  Code  Gb  adi_spi.o [8]
 adi_spi_SetChipSelect        0x698d    0x8  Code  Gb  adi_spi.o [8]
 adi_system_EnableRetention
-                             0x9785   0x28  Code  Gb  system_ADuCM3029.o [4]
+                             0x97bd   0x28  Code  Gb  system_ADuCM3029.o [4]
 adi_tal_Init                 0x625d  0x136  Code  Gb  adi_ble_transport.o [3]
 adi_tal_Read                 0x63b3   0x12  Code  Gb  adi_ble_transport.o [3]
 adi_tal_Write                0x6393   0x20  Code  Gb  adi_ble_transport.o [3]
@@ -896,7 +900,7 @@ adi_tmr_ConfigTimer          0x70b1   0x7e  Code  Gb  adi_tmr.o [9]
 adi_tmr_Enable               0x712f   0x54  Code  Gb  adi_tmr.o [9]
 adi_tmr_Init                 0x7011   0xa0  Code  Gb  adi_tmr.o [9]
 adi_tmr_callbacks       0x2000'1724    0xc  Data  Lc  adi_tmr.o [9]
-adi_tmr_interrupt            0x9da8    0x4  Data  Lc  adi_tmr.o [9]
+adi_tmr_interrupt            0x9df4    0x4  Data  Lc  adi_tmr.o [9]
 adi_tmr_parameters      0x2000'1730    0xc  Data  Lc  adi_tmr.o [9]
 adi_tmr_registers       0x2000'0098    0xc  Data  Lc  adi_tmr.o [9]
 atan2                        0x3ab5   0xf8  Code  Gb  atan2_64.o [12]
@@ -912,14 +916,14 @@ bler_parse_response          0x5b41   0x54  Code  Lc  adi_ble_radio.o [3]
 bler_process_cmd             0x5a61   0x86  Code  Lc  adi_ble_radio.o [3]
 common_SPI_Int_Handler       0x6d41  0x122  Code  Lc  adi_spi.o [8]
 eDataPacket             0x2000'1714   0x10  Data  Gb  AD5940Main.o [2]
-exit                         0x9b33    0x4  Code  Gb  exit.o [11]
+exit                         0x9b6b    0x4  Code  Gb  exit.o [11]
 frexp                        0x3e59         Code  Gb  frexp.o [12]
-frexpf                       0x8d29         Code  Gb  frexpf.o [12]
+frexpf                       0x8d61         Code  Gb  frexpf.o [12]
 frexpl                       0x3e59         Code  Gb  frexp.o [12]
 gBLERadio               0x2000'1400  0x114  Data  Gb  adi_ble_radio.o [3]
 gChannelControlDataArray
                         0x2000'1000  0x400  Data  Lc  adi_dma.o [5]
-gSPICfg                      0x9d34    0xc  Data  Lc  adi_spi.o [8]
+gSPICfg                      0x9d80    0xc  Data  Lc  adi_spi.o [8]
 gTransportData          0x2000'15f4   0x84  Data  Lc  adi_ble_transport.o [3]
 gbConnected             0x2000'1794    0x1  Data  Gb  main.o [2]
 gbEventHappened         0x2000'1793    0x1  Data  Lc  adi_ble_noos.o [3]
@@ -929,11 +933,11 @@ gnLowPowerIntOccFlag    0x2000'1760    0x4  Data  Lc  adi_pwr.o [7]
 gpPowcbParam            0x2000'175c    0x4  Data  Lc  adi_pwr.o [7]
 gpfCallbackFunction     0x2000'1758    0x4  Data  Lc  adi_pwr.o [7]
 ldexp                        0x3ec9         Code  Gb  ldexp.o [12]
-ldexpf                       0x8d69         Code  Gb  ldexpf.o [12]
+ldexpf                       0x8da1         Code  Gb  ldexpf.o [12]
 ldexpl                       0x3ec9         Code  Gb  ldexp.o [12]
 line_buffer             0x2000'1678   0x80  Data  Gb  UARTCmd.o [2]
 line_buffer_index       0x2000'1770    0x4  Data  Gb  UARTCmd.o [2]
-lnbias                       0x92c8  0x420  Data  Lc  pow64.o [12]
+lnbias                       0x9300  0x420  Data  Lc  pow64.o [12]
 log10                        0x2c01    0x4  Code  Gb  logx64.o [12]
 log10l                       0x2c01    0x4  Code  Gb  logx64.o [12]
 main                         0x7f1f   0x1e  Code  Gb  main.o [2]
@@ -941,9 +945,9 @@ memchr                       0x5539         Code  Gb  memchr.o [13]
 pApplicationCallback    0x2000'1750    0x4  Data  Lc  adi_ble_noos.o [3]
 pApplicationParameter   0x2000'1754    0x4  Data  Lc  adi_ble_noos.o [3]
 pBLERadio               0x2000'000c    0x4  Data  Gb  adi_ble_radio.o [3]
-pDMA_DevData                 0x9da4    0x4  Data  Lc  adi_dma.o [5]
+pDMA_DevData                 0x9df0    0x4  Data  Lc  adi_dma.o [5]
 pObjFound               0x2000'1778    0x4  Data  Gb  UARTCmd.o [2]
-pPrimaryCCD                  0x9da0    0x4  Data  Gb  adi_dma.o [5]
+pPrimaryCCD                  0x9dec    0x4  Data  Gb  adi_dma.o [5]
 pTransportData          0x2000'0010    0x4  Data  Lc  adi_ble_transport.o [3]
 parameter1              0x2000'177c    0x4  Data  Gb  UARTCmd.o [2]
 parameter2              0x2000'1780    0x4  Data  Gb  UARTCmd.o [2]
@@ -951,16 +955,16 @@ parameter3              0x2000'1784    0x4  Data  Gb  UARTCmd.o [2]
 parameter4              0x2000'1788    0x4  Data  Gb  UARTCmd.o [2]
 pow                          0x3015  0x5d8  Code  Gb  pow64.o [12]
 powl                         0x3015  0x5d8  Code  Gb  pow64.o [12]
-pows                         0x8d10   0x18  Data  Lc  strto32.o [12]
-printf                       0x8a61   0x28  Code  Gb  printf.o [11]
+pows                         0x8d48   0x18  Data  Lc  strto32.o [12]
+printf                       0x8a99   0x28  Code  Gb  printf.o [11]
 putchar                      0x80c7    0xe  Code  Gb  main.o [2]
 sTimer                  0x2000'0000    0xc  Data  Lc  adi_ble_noos.o [3]
 sTransceive             0x2000'0014   0x10  Data  Lc  adi_ble_transport.o [3]
 scalbln                      0x3ec9         Code  Gb  ldexp.o [12]
-scalblnf                     0x8d69         Code  Gb  ldexpf.o [12]
+scalblnf                     0x8da1         Code  Gb  ldexpf.o [12]
 scalblnl                     0x3ec9         Code  Gb  ldexp.o [12]
 scalbn                       0x3ec9         Code  Gb  ldexp.o [12]
-scalbnf                      0x8d69         Code  Gb  ldexpf.o [12]
+scalbnf                      0x8da1         Code  Gb  ldexpf.o [12]
 scalbnl                      0x3ec9         Code  Gb  ldexp.o [12]
 scale                        0x53b9   0x46  Code  Lc  xprintffull_nomb.o [11]
 scelta                  0x2000'173c    0x4  Data  Gb  AD5940Main.o [2]
@@ -970,12 +974,12 @@ sqrt                         0x39c1         Code  Gb  sqrt.o [12]
 sqrtl                        0x39c1         Code  Gb  sqrt.o [12]
 start2                  0x2000'0494   0x34  Data  Lc  main.o [2]
 strchr                       0x54a9         Code  Gb  strchr.o [13]
-strcmp                       0x8a99         Code  Gb  strcmp.o [13]
+strcmp                       0x8ad1         Code  Gb  strcmp.o [13]
 strlen                       0x5501         Code  Gb  strlen.o [13]
-strtof                       0x8d09    0x6  Code  Gb  strto32.o [12]
+strtof                       0x8d41    0x6  Code  Gb  strto32.o [12]
 temp                    0x2000'176c    0x4  Data  Gb  UARTCmd.o [2]
 token_count             0x2000'1774    0x4  Data  Gb  UARTCmd.o [2]
-uart_cmd_table          0x2000'04c8   0x24  Data  Gb  UARTCmd.o [2]
+uart_cmd_table          0x2000'04c8   0x30  Data  Gb  UARTCmd.o [2]
 ucInterrupted           0x2000'1764    0x4  Data  Lc  ADICUP3029Port.o [1]
 
 
@@ -993,8 +997,8 @@ ucInterrupted           0x2000'1764    0x4  Data  Lc  ADICUP3029Port.o [1]
 [12] = m7M_tl.a
 [13] = rt7M_tl.a
 
-  36'352 bytes of readonly  code memory
-   2'753 bytes of readonly  data memory
+  36'408 bytes of readonly  code memory
+   2'789 bytes of readonly  data memory
    7'066 bytes of readwrite data memory
 
 Errors: none

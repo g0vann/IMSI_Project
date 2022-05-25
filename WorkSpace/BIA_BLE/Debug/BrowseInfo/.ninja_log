@@ -1,0 +1,44 @@
+# ninja log v5
+1012	1271	6751199167050118	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	7a985c99f476ca0f
+522	674	6751199160000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	19a10eae87361fa0
+26	290	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	3454b679daa0aaff
+21	315	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	1138eff893427743
+1	341	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	5fcce69c4f012fd9
+9	166	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	c6e43d6a1a148554
+23	372	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	cbf873cb551c4e9b
+398	574	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	bb21496eda423a18
+312	550	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	2054c12616c29f8b
+548	609	6751199160230132	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	dcad5027190343fb
+338	524	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	91ad687c4da9dffa
+367	497	6751199150000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	3295e5e7cabe7e90
+602	725	6751199160000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	212db35c392a5508
+571	790	6751199162240122	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	2226b2ead7f6adcb
+614	846	6751199162800140	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	d61d0698dd6874e8
+701	950	6751199163840146	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	914f57d2f7c4f080
+3	198	6751298256307760	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	69e2e19c783d347b
+796	1017	6751199164510154	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	15ac78d6251e8006
+851	1073	6751199165070119	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	44f054ca1d0be30f
+636	707	6751202250495017	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	a10ecac8c019fa0a
+956	1176	6751199166100112	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	14ad3524fe529a03
+268	421	6751300796930404	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE_part0.pbi	a259dc8658297c3c
+6	259	6751300795300406	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/UARTCmd.pbi	ac9a7c26fd331a4e
+759	936	6751202252724996	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE_part3.pbi	a48ea2b42aac5c34
+4	136	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/AD5940lib/ad5940.xcl	dc0b376aa4eec00b
+1022	1291	6751199167240123	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	eecf3b0c4e75aed7
+243	365	6751302492474816	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE_part1.pbi	7a034998169bf546
+204	317	6751298257501094	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE_part2.pbi	dd6b2047211013a6
+371	591	6751302494734824	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE.pbd	ac929f5cf4f44a48
+597	2342	6751302511864939	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE.pbw	68a4f7434070e8f0
+12	191	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/AD5940Main.xcl	ab56d29ebdf0246d
+16	217	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	8ac9460098a8f48a
+159	339	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	e6af2bfa0f1fe69e
+213	368	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/UARTCmd.xcl	3a7c3870696e999c
+934	1018	6751202253614997	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/BIA_BLE_part4.pbi	407f229123587e4
+188	391	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/BodyImpedance.xcl	91d47e27e23accab
+243	416	6751202240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/main.xcl	462b45cfa7c9f5fe
+389	528	6751202248715007	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/AD5940lib/ad5940.pbi	ed5525e0a64687e3
+4	264	6751300795330402	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/AD5940Main.pbi	a67b9b80952c4a0b
+363	631	6751202249744992	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	f0b3a8d4736292df
+698	774	6751202251174997	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	aa61d4170f5d9669
+712	815	6751202251584999	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/BodyImpedance.pbi	a8afa10c61c9cca3
+4	240	6751302491224829	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BIA_BLE/Debug/BrowseInfo/Application/main.pbi	4307f95d630ea4e8

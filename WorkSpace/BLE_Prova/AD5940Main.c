@@ -147,7 +147,7 @@ void AD5940BIAStructInit(void)
   pBIACfg->MaxSeqLen = 512; /** @todo add checker in function */
   
   pBIACfg->RcalVal = 10000.0;
-  pBIACfg->DftNum = DFTNUM_8192;
+  pBIACfg->DftNum = DFTNUM_16384;
   //pBIACfg->NumOfData = -1;      /* Never stop until you stop it manually by AppBIACtrl() function */
   pBIACfg->BiaODR = 20;         /* ODR(Sample Rate) 20Hz */
   pBIACfg->FifoThresh = 4;      /* 4 */

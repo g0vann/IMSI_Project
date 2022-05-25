@@ -34,7 +34,7 @@ uint32_t AppBuff[APPBUFF_SIZE];
 
 #define  VERSION  "FrancOlino v2.0"
 #define LINEBUFF_SIZE 128
-#define CMDTABLE_SIZE 3
+#define CMDTABLE_SIZE 4
 #define PI 3.141592654
 
 int b = 0;
@@ -69,6 +69,7 @@ float parameter3,parameter4;
 uint32_t Cli_start(float para1,float para2, float para3, float para4);
 uint32_t Cli_stop(float para1,float para2, float para3, float para4);
 uint32_t Cli_start2(float para1,float para2, float para3, float para4);
+uint32_t Cli_reset(float para1,float para2, float para3, float para4);
 
 struct __uartcmd_table
 {
@@ -80,8 +81,14 @@ struct __uartcmd_table
   {(void*)Cli_start, "start", "Start Application"},
   {(void*)Cli_stop, "stop", "Stop Application"},
   {(void*)Cli_start2, "start2", "Start with frequency sweep"},
+  {(void*)Cli_reset, "rst", "Reset Application"},
 
 };
+
+uint32_t Cli_reset(float para1,float para2, float para3, float para4){
+        b=0;
+        NVIC_SystemReset();
+}
 
 uint32_t Cli_start2(float para1,float para2, float para3, float para4){
         if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
