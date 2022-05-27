@@ -41,9 +41,9 @@ extern void Function_BIA_BLE(void);
 
 extern void Function_BIA(void);
 extern int b;
-float scelta,Freq1,Freq2;
-uint32_t Npunti=0, Ncicli=0;
-BoolFlag SweepON; 
+extern float scelta,Freq1,Freq2;
+extern uint32_t Npunti, Ncicli;
+extern BoolFlag SweepON; 
 
 /* It's your choice here how to do with the data. Here is just an example to print them to UART */
 int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
@@ -151,11 +151,12 @@ void AD5940BIAStructInit(void)
   //pBIACfg->NumOfData = -1;      /* Never stop until you stop it manually by AppBIACtrl() function */
   pBIACfg->BiaODR = 20;         /* ODR(Sample Rate) 20Hz */
   pBIACfg->FifoThresh = 4;      /* 4 */
-  pBIACfg->ADCSinc3Osr = ADCSINC3OSR_2;
-  pBIACfg->SinFreq = scelta;
+  pBIACfg->ADCSinc3Osr = ADCSINC3OSR_4;
+  //pBIACfg->SinFreq = scelta;
   pBIACfg->SweepCfg.SweepLog = bTRUE;
   pBIACfg->SweepCfg.SweepEn = SweepON;
   if(SweepON == bFALSE){
+    pBIACfg->SinFreq = scelta;
     pBIACfg->SweepCfg.SweepStart = 10000;
     pBIACfg->SweepCfg.SweepStop = 150000.0;
     pBIACfg->SweepCfg.SweepPoints = 100;

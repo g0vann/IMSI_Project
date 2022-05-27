@@ -38,8 +38,8 @@ uint32_t AppBuff[APPBUFF_SIZE];
 #define PI 3.141592654
 
 int b = 0;
-extern float scelta, Freq1, Freq2;
-extern uint32_t Npunti, Ncicli;
+float scelta = 50000, Freq1, Freq2;
+uint32_t Npunti = 0, Ncicli = 0;
 
 /**********BLE*********************/
 extern bool gbConnected;
@@ -50,7 +50,7 @@ void Function_BIA(void);
 
 /*Variables for Function_BIA*/
 	uint32_t temp;
-        extern BoolFlag SweepON; 
+        BoolFlag SweepON; 
 
 /* Functions to Read/Write AD5940 Register*/
 extern uint32_t SPIReadReg(uint16_t RegAddr);
