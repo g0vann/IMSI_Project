@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.4.327/W64 for ARM                  26/May/2022  23:45:42
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  27/May/2022  21:23:42
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -113,7 +113,7 @@ No sections matched the following patterns:
     CHECKSUM         uninit         0x7fc     0x4  <Block tail>
                                   - 0x800     0x4
 
-"P2":                                      0x97e1
+"P2":                                      0x97e7
   .text              ro code        0x800  0x1c4c  ad5940.o [1]
   .text              ro code       0x244c    0xa6  ABImemcpy.o [13]
   .text              ro code       0x24f2    0x3a  packbits_init_single.o [13]
@@ -301,11 +301,11 @@ No sections matched the following patterns:
   .text              ro code       0x9ecc     0x4  startup_ADuCM3029.o [4]
   .rodata            const         0x9ed0     0x0  zero_init3.o [13]
   .rodata            const         0x9ed0     0x0  packbits_init_single.o [13]
-  Initializer bytes  const         0x9ed0   0x111  <for P3-1>
-                                 - 0x9fe1  0x97e1
+  Initializer bytes  const         0x9ed0   0x117  <for P3-1>
+                                 - 0x9fe7  0x97e7
 
-"P3", part 1 of 2:                          0x4f8
-  P3-1                        0x2000'0000   0x4f8  <Init block>
+"P3", part 1 of 2:                          0x4fc
+  P3-1                        0x2000'0000   0x4fc  <Init block>
     .data            inited   0x2000'0000     0xc  adi_ble_noos.o [3]
     .data            inited   0x2000'000c     0x4  adi_ble_radio.o [3]
     .data            inited   0x2000'0010     0x4  adi_ble_transport.o [3]
@@ -320,11 +320,12 @@ No sections matched the following patterns:
     .data            inited   0x2000'0098     0xc  adi_tmr.o [9]
     .data            inited   0x2000'00a4   0x3f0  BodyImpedance.o [2]
     .data            inited   0x2000'0494    0x34  main.o [2]
-    .data            inited   0x2000'04c8    0x30  UARTCmd.o [2]
-                            - 0x2000'04f8   0x4f8
+    .data            inited   0x2000'04c8     0x4  UARTCmd.o [2]
+    .data            inited   0x2000'04cc    0x30  UARTCmd.o [2]
+                            - 0x2000'04fc   0x4fc
 
-"P3", part 2 of 2:                         0x12a0
-  .bss               zero     0x2000'04f8   0x800  UARTCmd.o [2]
+"P3", part 2 of 2:                         0x1298
+  .bss               zero     0x2000'04fc   0x800  UARTCmd.o [2]
   .bss               zero     0x2000'1000   0x400  adi_dma.o [5]
   .bss               zero     0x2000'1400   0x114  adi_ble_radio.o [3]
   .bss               zero     0x2000'1514    0xe0  adi_dma.o [5]
@@ -334,17 +335,17 @@ No sections matched the following patterns:
   .bss               zero     0x2000'1714    0x10  AD5940Main.o [2]
   .bss               zero     0x2000'1724     0xc  adi_tmr.o [9]
   .bss               zero     0x2000'1730     0xc  adi_tmr.o [9]
-  .bss               zero     0x2000'173c     0x4  AD5940Main.o [2]
-  .bss               zero     0x2000'1740     0x4  AD5940Main.o [2]
-  .bss               zero     0x2000'1744     0x4  AD5940Main.o [2]
-  .bss               zero     0x2000'1748     0x4  AD5940Main.o [2]
-  .bss               zero     0x2000'174c     0x4  AD5940Main.o [2]
-  .bss               zero     0x2000'1750     0x4  adi_ble_noos.o [3]
-  .bss               zero     0x2000'1754     0x4  adi_ble_noos.o [3]
-  .bss               zero     0x2000'1758     0x4  adi_pwr.o [7]
-  .bss               zero     0x2000'175c     0x4  adi_pwr.o [7]
-  .bss               zero     0x2000'1760     0x4  adi_pwr.o [7]
-  .bss               zero     0x2000'1764     0x4  ADICUP3029Port.o [1]
+  .bss               zero     0x2000'173c     0x4  adi_ble_noos.o [3]
+  .bss               zero     0x2000'1740     0x4  adi_ble_noos.o [3]
+  .bss               zero     0x2000'1744     0x4  adi_pwr.o [7]
+  .bss               zero     0x2000'1748     0x4  adi_pwr.o [7]
+  .bss               zero     0x2000'174c     0x4  adi_pwr.o [7]
+  .bss               zero     0x2000'1750     0x4  ADICUP3029Port.o [1]
+  .bss               zero     0x2000'1754     0x4  UARTCmd.o [2]
+  .bss               zero     0x2000'1758     0x4  UARTCmd.o [2]
+  .bss               zero     0x2000'175c     0x4  UARTCmd.o [2]
+  .bss               zero     0x2000'1760     0x4  UARTCmd.o [2]
+  .bss               zero     0x2000'1764     0x4  UARTCmd.o [2]
   .bss               zero     0x2000'1768     0x4  UARTCmd.o [2]
   .bss               zero     0x2000'176c     0x4  UARTCmd.o [2]
   .bss               zero     0x2000'1770     0x4  UARTCmd.o [2]
@@ -353,15 +354,14 @@ No sections matched the following patterns:
   .bss               zero     0x2000'177c     0x4  UARTCmd.o [2]
   .bss               zero     0x2000'1780     0x4  UARTCmd.o [2]
   .bss               zero     0x2000'1784     0x4  UARTCmd.o [2]
-  .bss               zero     0x2000'1788     0x4  UARTCmd.o [2]
-  .bss               zero     0x2000'178c     0x4  xfail_s.o [11]
-  .bss               zero     0x2000'1790     0x1  ad5940.o [1]
-  .bss               zero     0x2000'1791     0x1  AD5940Main.o [2]
-  .bss               zero     0x2000'1792     0x1  adi_ble_noos.o [3]
-  .bss               zero     0x2000'1793     0x1  adi_ble_noos.o [3]
-  .bss               zero     0x2000'1794     0x1  main.o [2]
-  .bss               zero     0x2000'1795     0x1  main.o [2]
-                            - 0x2000'1796  0x129e
+  .bss               zero     0x2000'1788     0x4  xfail_s.o [11]
+  .bss               zero     0x2000'178c     0x1  ad5940.o [1]
+  .bss               zero     0x2000'178d     0x1  adi_ble_noos.o [3]
+  .bss               zero     0x2000'178e     0x1  adi_ble_noos.o [3]
+  .bss               zero     0x2000'178f     0x1  main.o [2]
+  .bss               zero     0x2000'1790     0x1  main.o [2]
+  .bss               zero     0x2000'1791     0x1  UARTCmd.o [2]
+                            - 0x2000'1792  0x1296
 
 "A6":                                       0x400
   CSTACK                      0x2000'1c00   0x400  <Block>
@@ -372,8 +372,8 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x9fe1     0x3'ffff  0x3'601f
-  0x2000'1798  0x2000'1bff     0x468
+       0x9fe7     0x3'ffff  0x3'6019
+  0x2000'1794  0x2000'1bff     0x46c
 
 
 *******************************************************************************
@@ -383,14 +383,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x129e:
-          0x2000'04f8  0x129e
+    1 destination range, total size 0x1296:
+          0x2000'04fc  0x1296
 
 Copy/packbits (__iar_packbits_init_single3)
-    1 source range, total size 0x111 (21% of destination):
-               0x9ed0   0x111
-    1 destination range, total size 0x4f8:
-          0x2000'0000   0x4f8
+    1 source range, total size 0x117 (21% of destination):
+               0x9ed0   0x117
+    1 destination range, total size 0x4fc:
+          0x2000'0000   0x4fc
 
 
 
@@ -411,12 +411,12 @@ C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\AD594
     Total:                    7'720      296       33
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\Application: [2]
-    AD5940Main.o                680      112       37
-    BodyImpedance.o           2'388      216    1'008
-    UARTCmd.o                   960      143    2'260
+    AD5940Main.o                680      112       16
+    BodyImpedance.o           2'388      221    1'008
+    UARTCmd.o                   960      144    2'281
     main.o                    1'348      775       54
     -------------------------------------------------
-    Total:                    5'376    1'246    3'359
+    Total:                    5'376    1'252    3'359
 
 C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\CMSIS-Pack\BLE Bluetooth low energy: [3]
     adi_ble_noos.o              406        2       22
@@ -533,10 +533,10 @@ rt7M_tl.a: [13]
     -------------------------------------------------
     Total:                    1'280
 
-    Gaps                         42        4      776
+    Gaps                         42        4      772
     Linker created                        32    1'028
 -----------------------------------------------------
-    Grand Total:             36'444    2'789    7'066
+    Grand Total:             36'444    2'795    7'062
 
 
 *******************************************************************************
@@ -650,7 +650,7 @@ AppBIARegModify              0x7c53   0x5a  Code  Lc  BodyImpedance.o [2]
 AppBIARtiaCal                0x7a6d   0xb8  Code  Lc  BodyImpedance.o [2]
 AppBIASeqCfgGen              0x76a9  0x228  Code  Lc  BodyImpedance.o [2]
 AppBIASeqMeasureGen          0x78d1  0x19c  Code  Lc  BodyImpedance.o [2]
-AppBuff                 0x2000'04f8  0x800  Data  Gb  UARTCmd.o [2]
+AppBuff                 0x2000'04fc  0x800  Data  Gb  UARTCmd.o [2]
 ApplicationCallback          0x8241   0x8e  Code  Lc  main.o [2]
 BIAShowResult                0x8455   0xde  Code  Gb  AD5940Main.o [2]
 BLECmd_Process               0x89d7   0x66  Code  Gb  UARTCmd.o [2]
@@ -686,8 +686,8 @@ DMA_SPI2_TX_Int_Handler
                              0x6f73    0xa  Code  Gb  adi_spi.o [8]
 Dtentox                      0x8b09  0x15a  Code  Lc  strto32.o [12]
 Ext_Int0_Handler             0x3d23    0xe  Code  Gb  ADICUP3029Port.o [1]
-Freq1                   0x2000'1740    0x4  Data  Gb  AD5940Main.o [2]
-Freq2                   0x2000'1744    0x4  Data  Gb  AD5940Main.o [2]
+Freq1                   0x2000'1758    0x4  Data  Gb  UARTCmd.o [2]
+Freq2                   0x2000'175c    0x4  Data  Gb  UARTCmd.o [2]
 Function_BIA                 0x8a3d   0x2a  Code  Gb  UARTCmd.o [2]
 GPIO_A_Int_Handler           0x6899    0xc  Code  Gb  adi_gpio.o [6]
 GPIO_B_Int_Handler           0x68a5    0xc  Code  Gb  adi_gpio.o [6]
@@ -698,8 +698,8 @@ InitBluetoothLowEnergy       0x81b7   0x88  Code  Lc  main.o [2]
 IsEventPending               0x6661    0x6  Code  Lc  adi_ble_noos.o [3]
 IsTimerDone                  0x6679    0x6  Code  Lc  adi_ble_noos.o [3]
 MCUPlatformInit              0x7f5b   0x4a  Code  Gb  main.o [2]
-Ncicli                  0x2000'174c    0x4  Data  Gb  AD5940Main.o [2]
-Npunti                  0x2000'1748    0x4  Data  Gb  AD5940Main.o [2]
+Ncicli                  0x2000'1764    0x4  Data  Gb  UARTCmd.o [2]
+Npunti                  0x2000'1760    0x4  Data  Gb  UARTCmd.o [2]
 PLL_Int_Handler              0x73c5   0x38  Code  Gb  adi_pwr.o [7]
 RadioTransaction             0x63d3  0x164  Code  Lc  adi_ble_transport.o [3]
 Received_Data                0x82cf   0x96  Code  Gb  main.o [2]
@@ -719,7 +719,7 @@ StartTimer                   0x667f   0x3e  Code  Lc  adi_ble_noos.o [3]
 StartTransaction             0x6ab3  0x28e  Code  Lc  adi_spi.o [8]
 StopTimer                    0x66d1   0x16  Code  Lc  adi_ble_noos.o [3]
 Str2Num                      0x8879   0x10  Code  Lc  UARTCmd.o [2]
-SweepON                 0x2000'1791    0x1  Data  Gb  AD5940Main.o [2]
+SweepON                 0x2000'1791    0x1  Data  Gb  UARTCmd.o [2]
 SystemInit                   0x97e9   0x2c  Code  Gb  system_ADuCM3029.o [4]
 TimerCallback                0x6671    0x8  Code  Lc  adi_ble_noos.o [3]
 TransportCallback            0x63c5    0xe  Code  Gb  adi_ble_transport.o [3]
@@ -906,8 +906,8 @@ adi_tmr_parameters      0x2000'1730    0xc  Data  Lc  adi_tmr.o [9]
 adi_tmr_registers       0x2000'0098    0xc  Data  Lc  adi_tmr.o [9]
 atan2                        0x3ab5   0xf8  Code  Gb  atan2_64.o [12]
 atan2l                       0x3ab5   0xf8  Code  Gb  atan2_64.o [12]
-b                       0x2000'1768    0x4  Data  Gb  UARTCmd.o [2]
-bIsS2silicon            0x2000'1790    0x1  Data  Lc  ad5940.o [1]
+b                       0x2000'1754    0x4  Data  Gb  UARTCmd.o [2]
+bIsS2silicon            0x2000'178c    0x1  Data  Lc  ad5940.o [1]
 bler_handle_event            0x5ddd  0x396  Code  Lc  adi_ble_radio.o [3]
 bler_handle_packet           0x5bdb   0x14  Code  Lc  adi_ble_radio.o [3]
 bler_handle_response         0x5bef  0x1ee  Code  Lc  adi_ble_radio.o [3]
@@ -926,34 +926,34 @@ gChannelControlDataArray
                         0x2000'1000  0x400  Data  Lc  adi_dma.o [5]
 gSPICfg                      0x9da4    0xc  Data  Lc  adi_spi.o [8]
 gTransportData          0x2000'15f4   0x84  Data  Lc  adi_ble_transport.o [3]
-gbConnected             0x2000'1794    0x1  Data  Gb  main.o [2]
-gbEventHappened         0x2000'1793    0x1  Data  Lc  adi_ble_noos.o [3]
-gbTimeoutHappened       0x2000'1792    0x1  Data  Lc  adi_ble_noos.o [3]
-geMode                  0x2000'1795    0x1  Data  Gb  main.o [2]
-gnLowPowerIntOccFlag    0x2000'1760    0x4  Data  Lc  adi_pwr.o [7]
-gpPowcbParam            0x2000'175c    0x4  Data  Lc  adi_pwr.o [7]
-gpfCallbackFunction     0x2000'1758    0x4  Data  Lc  adi_pwr.o [7]
+gbConnected             0x2000'178f    0x1  Data  Gb  main.o [2]
+gbEventHappened         0x2000'178e    0x1  Data  Lc  adi_ble_noos.o [3]
+gbTimeoutHappened       0x2000'178d    0x1  Data  Lc  adi_ble_noos.o [3]
+geMode                  0x2000'1790    0x1  Data  Gb  main.o [2]
+gnLowPowerIntOccFlag    0x2000'174c    0x4  Data  Lc  adi_pwr.o [7]
+gpPowcbParam            0x2000'1748    0x4  Data  Lc  adi_pwr.o [7]
+gpfCallbackFunction     0x2000'1744    0x4  Data  Lc  adi_pwr.o [7]
 ldexp                        0x3ec9         Code  Gb  ldexp.o [12]
 ldexpf                       0x8dc5         Code  Gb  ldexpf.o [12]
 ldexpl                       0x3ec9         Code  Gb  ldexp.o [12]
 line_buffer             0x2000'1678   0x80  Data  Gb  UARTCmd.o [2]
-line_buffer_index       0x2000'1770    0x4  Data  Gb  UARTCmd.o [2]
+line_buffer_index       0x2000'176c    0x4  Data  Gb  UARTCmd.o [2]
 lnbias                       0x9358  0x420  Data  Lc  pow64.o [12]
 log10                        0x2c01    0x4  Code  Gb  logx64.o [12]
 log10l                       0x2c01    0x4  Code  Gb  logx64.o [12]
 main                         0x7f3d   0x1e  Code  Gb  main.o [2]
 memchr                       0x5539         Code  Gb  memchr.o [13]
-pApplicationCallback    0x2000'1750    0x4  Data  Lc  adi_ble_noos.o [3]
-pApplicationParameter   0x2000'1754    0x4  Data  Lc  adi_ble_noos.o [3]
+pApplicationCallback    0x2000'173c    0x4  Data  Lc  adi_ble_noos.o [3]
+pApplicationParameter   0x2000'1740    0x4  Data  Lc  adi_ble_noos.o [3]
 pBLERadio               0x2000'000c    0x4  Data  Gb  adi_ble_radio.o [3]
 pDMA_DevData                 0x9e14    0x4  Data  Lc  adi_dma.o [5]
-pObjFound               0x2000'1778    0x4  Data  Gb  UARTCmd.o [2]
+pObjFound               0x2000'1774    0x4  Data  Gb  UARTCmd.o [2]
 pPrimaryCCD                  0x9e10    0x4  Data  Gb  adi_dma.o [5]
 pTransportData          0x2000'0010    0x4  Data  Lc  adi_ble_transport.o [3]
-parameter1              0x2000'177c    0x4  Data  Gb  UARTCmd.o [2]
-parameter2              0x2000'1780    0x4  Data  Gb  UARTCmd.o [2]
-parameter3              0x2000'1784    0x4  Data  Gb  UARTCmd.o [2]
-parameter4              0x2000'1788    0x4  Data  Gb  UARTCmd.o [2]
+parameter1              0x2000'1778    0x4  Data  Gb  UARTCmd.o [2]
+parameter2              0x2000'177c    0x4  Data  Gb  UARTCmd.o [2]
+parameter3              0x2000'1780    0x4  Data  Gb  UARTCmd.o [2]
+parameter4              0x2000'1784    0x4  Data  Gb  UARTCmd.o [2]
 pow                          0x3015  0x5d8  Code  Gb  pow64.o [12]
 powl                         0x3015  0x5d8  Code  Gb  pow64.o [12]
 pows                         0x8d6c   0x18  Data  Lc  strto32.o [12]
@@ -968,8 +968,8 @@ scalbn                       0x3ec9         Code  Gb  ldexp.o [12]
 scalbnf                      0x8dc5         Code  Gb  ldexpf.o [12]
 scalbnl                      0x3ec9         Code  Gb  ldexp.o [12]
 scale                        0x53b9   0x46  Code  Lc  xprintffull_nomb.o [11]
-scelta                  0x2000'173c    0x4  Data  Gb  AD5940Main.o [2]
-sec_hand                0x2000'178c    0x4  Data  Lc  xfail_s.o [11]
+scelta                  0x2000'04c8    0x4  Data  Gb  UARTCmd.o [2]
+sec_hand                0x2000'1788    0x4  Data  Lc  xfail_s.o [11]
 spi_device_info         0x2000'0034   0x3c  Data  Lc  adi_spi.o [8]
 sqrt                         0x39c1         Code  Gb  sqrt.o [12]
 sqrtl                        0x39c1         Code  Gb  sqrt.o [12]
@@ -978,10 +978,10 @@ strchr                       0x54a9         Code  Gb  strchr.o [13]
 strcmp                       0x8af5         Code  Gb  strcmp.o [13]
 strlen                       0x5501         Code  Gb  strlen.o [13]
 strtof                       0x8d65    0x6  Code  Gb  strto32.o [12]
-temp                    0x2000'176c    0x4  Data  Gb  UARTCmd.o [2]
-token_count             0x2000'1774    0x4  Data  Gb  UARTCmd.o [2]
-uart_cmd_table          0x2000'04c8   0x30  Data  Gb  UARTCmd.o [2]
-ucInterrupted           0x2000'1764    0x4  Data  Lc  ADICUP3029Port.o [1]
+temp                    0x2000'1768    0x4  Data  Gb  UARTCmd.o [2]
+token_count             0x2000'1770    0x4  Data  Gb  UARTCmd.o [2]
+uart_cmd_table          0x2000'04cc   0x30  Data  Gb  UARTCmd.o [2]
+ucInterrupted           0x2000'1750    0x4  Data  Lc  ADICUP3029Port.o [1]
 
 
 [1] = C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\Debug\Obj\AD5940lib
@@ -999,8 +999,8 @@ ucInterrupted           0x2000'1764    0x4  Data  Lc  ADICUP3029Port.o [1]
 [13] = rt7M_tl.a
 
   36'444 bytes of readonly  code memory
-   2'789 bytes of readonly  data memory
-   7'066 bytes of readwrite data memory
+   2'795 bytes of readonly  data memory
+   7'062 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
