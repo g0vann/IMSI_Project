@@ -151,7 +151,7 @@ void AD5940BIAStructInit(void)
   //pBIACfg->NumOfData = -1;      /* Never stop until you stop it manually by AppBIACtrl() function */
   pBIACfg->BiaODR = 20;         /* ODR(Sample Rate) 20Hz */
   pBIACfg->FifoThresh = 4;      /* 4 */
-  pBIACfg->ADCSinc3Osr = ADCSINC3OSR_4;
+  pBIACfg->ADCSinc3Osr = ADCSINC3OSR_2;
   //pBIACfg->SinFreq = scelta;
   pBIACfg->SweepCfg.SweepLog = bTRUE;
   pBIACfg->SweepCfg.SweepEn = SweepON;

@@ -46,7 +46,7 @@ AppBIACfg_Type AppBIACfg =
   .SinFreq = 50000, /* 50kHz */
 
   .ADCPgaGain = ADCPGA_1,
-  .ADCSinc3Osr = ADCSINC3OSR_4,
+  .ADCSinc3Osr = ADCSINC3OSR_2,
   .ADCSinc2Osr = ADCSINC2OSR_22,
 
   .DftNum = DFTNUM_8192,
