@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" --backend -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\papuz\OneDrive\Desktop\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
 
 @echo off 
 :end

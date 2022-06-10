@@ -11,6 +11,48 @@ C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\Debug\BrowseInf
 -I
 C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova
 -I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADI-BleSoftware/1.0.1/\Include\communication
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADI-BleSoftware/1.0.1/\Include\communication\ble
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE/BLE
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE/Device/ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE/Device/ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE/Device/ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE/Device/ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE/Device/ADuCM3029
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADI-BleSoftware/1.0.1/\Include\communication\ble
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADI-BleSoftware/1.0.1/\Include\communication
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/ARM/CMSIS/5.9.0/\CMSIS\Core\Include
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/ARM/CMSIS/5.9.0/\CMSIS\Core\Include
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include\drivers\dma
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include\drivers\gpio
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include\drivers\pwr
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include\drivers\spi
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include\drivers\tmr
+-I
+C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\Include
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include\
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
@@ -18,6 +60,48 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE\BLE
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE\Device\ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE\Device\ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE\Device\ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE\Device\ADuCM3029
+-I
+C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\RTE\Device\ADuCM3029
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication\ble
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADI-BleSoftware\1.0.1\Include\communication
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\dma
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\gpio
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\pwr
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\spi
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include\drivers\tmr
+-I
+C:\Users\papuz\IAR-CMSIS-Packs\AnalogDevices\ADuCM302x_DFP\3.2.0\Include
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -D__CHAR_BITS__=8
@@ -355,6 +439,7 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
+-D__ADUCM3029__=1
 -D_RTE_=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Config_Normal.h"
