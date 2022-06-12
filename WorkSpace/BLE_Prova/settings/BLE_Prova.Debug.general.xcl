@@ -2,11 +2,11 @@
 
 "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armJET.dll" 
 
-"C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\Debug\Exe\BLE_Prova.out" 
+"C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\BLE_Prova\Debug\Exe\BLE_Prova.out" 
 
 --plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
 
---flash_loader="C:/Users/papuz/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\flashloader\AnalogDevices\FlashADUCM3029.board" 
+--flash_loader="C:/Users/giann/IAR-CMSIS-Packs/AnalogDevices/ADuCM302x_DFP/3.2.0/\ARM\config\flashloader\AnalogDevices\FlashADUCM3029.board" 
 
 
 

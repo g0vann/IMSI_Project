@@ -2867,18 +2867,6 @@
         </file>
     </group>
     <group>
-        <name>Inizialize</name>
-        <file>
-            <name>$PROJ_DIR$\adi_initialize.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\adi_initialize.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\pinmux.c</name>
-        </file>
-    </group>
-    <group>
         <name>CMSIS-Pack</name>
         <group>
             <name>BLE Bluetooth low energy</name>
@@ -2981,6 +2969,18 @@
         </group>
         <file>
             <name>$PROJ_DIR$\RTE\RTE_Components.h</name>
+        </file>
+    </group>
+    <group>
+        <name>Inizialize</name>
+        <file>
+            <name>$PROJ_DIR$\adi_initialize.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\adi_initialize.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\pinmux.c</name>
         </file>
     </group>
 </project>

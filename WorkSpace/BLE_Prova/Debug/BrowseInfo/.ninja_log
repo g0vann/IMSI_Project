@@ -237,3 +237,71 @@
 218	344	6761283191139810	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
 331	439	6761283192077459	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
 445	658	6761283194264075	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
+83	264	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	7daa01e28e46b063
+56	295	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	db8440b189bd6b0f
+88	320	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.xcl	cf985e7df0f99e72
+106	346	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	c0d7e1c60262c611
+94	372	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.xcl	cca63e8c2db06b74
+99	396	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.xcl	589b2a3f672ad612
+285	472	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	f23122beb3e44747
+367	560	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	d2aa6b9039785e18
+342	586	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	68c6c64391a2f987
+393	614	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	e71d1d0671f7ee46
+316	636	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	3d1eed4c2dc1f5de
+416	660	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	e00f81497f6d44ab
+492	682	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.xcl	623fff197b6d74cf
+581	747	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	af32996e16958462
+609	798	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	df26da514a574628
+633	822	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	311eac5fa6bccb06
+656	847	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	c87b7f4fa86d655f
+679	870	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	69cd603286baf8fb
+819	1012	6765722096410247	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	94b32bf814647d61
+769	1145	6765722097746684	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	616c84c6ef7e7591
+703	1175	6765722098035900	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
+844	1208	6765722098365027	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	c6e6e01c5b66539a
+1179	1263	6765722098923874	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	ce0be6b82f6bc087
+868	1287	6765722099152917	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	42f6b3ee13a4298d
+1213	1306	6765722099362358	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	bb0565e4e79a4951
+891	1316	6765722099442145	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
+1016	1324	6765722099521931	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	aaf8d5bf7ed32956
+1312	1353	6765722099831108	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	4cee7765a0acfac4
+1150	1403	6765722100319815	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+1269	1572	6765722102005292	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	9ccdfeadced314a4
+1321	1599	6765722102284545	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	8cc92b2a9f9e8e1c
+1291	1644	6765722102733346	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	7772ef66805e5f3e
+1359	1653	6765722102793188	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	b780277026bbfcd0
+1329	1700	6765722103301837	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	e8d8fab99915373d
+1407	1765	6765722103950114	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+1577	1844	6765722104737990	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
+1658	1871	6765722105017260	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	6909058ed377fa2
+1604	1932	6765722105625614	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
+1705	1980	6765722106104335	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	de7fae9993af7604
+1649	2056	6765722106852680	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	d6b4e592410d741
+2062	2222	6765722108527856	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
+2228	2757	6765722113873592	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+5	4206	6765722239203806	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+12	475	6765722448381150	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
+481	648	6765722450116097	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
+655	1200	6765722455641325	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1211	5408	6765722496986581	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+6	304	6765722552531860	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
+309	478	6765722554287537	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
+485	1040	6765722559912119	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+5	4244	6765722688780834	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	348	6765722896843993	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
+354	635	6765722899716358	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+644	1203	6765722905400793	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1212	5660	6765722949234631	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+9	124	6765723003081404	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+6	355	6765723005395272	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
+362	641	6765723008257633	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+651	1205	6765723013902179	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1214	5429	6765723055394510	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+6	123	6765723108946047	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+128	409	6765723111818789	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+418	969	6765723117413810	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+978	5240	6765723159369088	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	372	6765723417929301	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
+377	619	6765723420402693	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
+626	1195	6765723426167632	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1203	5437	6765723467801808	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06

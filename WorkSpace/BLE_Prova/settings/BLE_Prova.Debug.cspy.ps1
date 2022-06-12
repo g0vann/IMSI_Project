@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" --backend -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\papuz\Desktop\Progetti\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\WorkSpace\BLE_Prova\settings\BLE_Prova.Debug.driver.xcl" 
 }
