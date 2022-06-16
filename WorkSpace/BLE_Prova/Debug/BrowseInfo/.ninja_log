@@ -1,251 +1,18 @@
 # ninja log v5
-28	295	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	78fc94626c837c19
-21	318	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	f81923de318da4b0
-1	363	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	20280f756cc52cb8
-24	341	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	98dcf0abdb81b3bc
-338	488	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	5c6b6c6f04e33333
-530	831	6739206591232358	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	1d901d5814d62d62
-361	511	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	9d6b0c21a5364967
-315	546	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	753f49fc7cc7de2c
-3	223	6748263398976602	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-382	567	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	4b9ee82e4bb886eb
-8	210	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	cf42a807e6afbad5
-586	629	6739206589277591	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	ecd94b29edc5bccc
-508	677	6739206580000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	26cc20bfbb1c0d2c
-696	810	6739206590000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	3a14141e7ab01e61
-633	895	6739206591930498	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	563197d6dc9544cf
-71	310	6747698804926015	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	2a5431cae147f10e
-69	258	6747698804405992	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	cdb4e53ce2b1859a
-316	435	6747698806186006	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	f0e7d0046ecea2d4
-829	1138	6739206594369050	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	18afd3f2ca1dc503
-920	1148	6739206594463877	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	3c043456b0c97ef8
-11	187	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	c453003831547422
-899	1177	6739206594633423	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	367dfbe424ca42c4
-226	364	6748263400396584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-240	402	6748238200791560	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-1070	1340	6739206596379005	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	ef2c362e73dda79c
-1142	1401	6739206597007250	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	218732480608d6a9
-179	380	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.xcl	84a0a067d921b18d
-618	730	6739208252491860	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	afc6923978b93208
-58	230	6739727489286494	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	fcbb3906aad9c47f
-370	570	6748263402456584	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-577	2313	6748263419456583	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	160	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.xcl	2f76ab117917a7a7
-14	232	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.xcl	92a508cafc0801b0
-206	355	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.xcl	4da40ea623b0f84
-229	401	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	6efe729c66b79215
-251	424	6739208240000000	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	7625d8b0b7b89106
-399	513	6739208250317680	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	23b3a5cbf0a5fc10
-4	69	6739213428672849	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	13f0b38fba22ff6
-443	615	6739208251344916	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	fd99741f8fcc7c2f
-421	738	6739208252561667	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	ea45e35c972140fb
-516	836	6739208253558996	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-6	236	6748238199120081	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
-80	122	6739727488194363	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ef942ff3ca56e8e0
-3	225	6748263675153326	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-229	367	6748263676573326	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-373	573	6748263678643325	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-579	2278	6748263695293322	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	224	6748264304567819	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-228	365	6748264305987809	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-371	569	6748264308027854	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-576	2289	6748264324827806	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	223	6748264883762953	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-228	368	6748264885222953	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-374	574	6748264887282950	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-580	2273	6748264903892944	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	223	6748265159576928	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-227	365	6748265160996936	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-370	572	6748265163076935	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-579	2281	6748265179767166	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	214	6748266648314318	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-218	383	6748266650014495	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-389	590	6748266652084490	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-596	2353	6748266669204750	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	239	6748266975405337	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-242	408	6748266977095341	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-417	623	6748266979255333	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-629	2400	6748266996625343	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	232	6748267656676245	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-236	398	6748267658346770	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-404	605	6748267660416772	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-4	1720	6748267730828631	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	232	6748267834671328	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
-236	414	6748267836501339	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-420	621	6748267838571329	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-628	2352	6748267855471333	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	370	6748268061882609	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-374	511	6748268063312609	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-518	720	6748268065392609	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-727	2470	6748268082502608	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	232	6748268843546872	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-236	395	6748268845186879	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-402	603	6748268847266876	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-610	2351	6748268864363009	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	236	6748269827010581	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
-239	398	6748269828650569	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-405	604	6748269830700564	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-610	2363	6748269847900580	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	227	6748270562846042	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-230	372	6748270564316049	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-378	580	6748270566396038	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-586	2353	6748270583606838	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	229	6748270738317697	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-233	372	6748270739747697	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-378	578	6748270741807692	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-584	2355	6748270759187694	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	227	6748271236798865	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-232	370	6748271238238867	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-376	578	6748271240318867	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-584	2352	6748271257648872	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	234	6748272524159288	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-237	398	6748272525799283	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-404	604	6748272527859297	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-610	2358	6748272544949281	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	235	6748275840095066	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-238	397	6748275841725066	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-404	616	6748275843915317	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-623	2390	6748275861265306	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	233	6748277986988131	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-237	396	6748277988628147	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-403	601	6748277990678135	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-608	2350	6748278007768129	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-3	241	6748279829520939	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-245	406	6748279831170962	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-413	612	6748279833230956	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-618	2361	6748279850211172	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-4	236	6748279960375723	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-240	402	6748279962035840	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-408	610	6748279964115920	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-617	2363	6748279981255930	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-8	254	6748282561133661	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	7e57547f9a6a4acb
-6	262	6748282561203663	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	21d7e0864b9aa882
-4	355	6748282562143686	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	4d05adf8ec6d684c
-266	437	6748282562963662	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	19451d16376cf50f
-359	500	6748282563603660	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	4530d15d8f011778
-506	715	6748282565743659	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	117df8c371301b4a
-4	1773	6748282638464908	C:/Users/papuz/OneDrive/Desktop/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	a1a150d86902f05c
-28	349	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.xcl	e4221d4b94b6ccc7
-54	361	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	9e51f4e96f21120e
-59	388	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.xcl	edd708fb10e12972
-48	401	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	6747b5b87dfae00
-358	503	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	62f1519560d7ae33
-397	535	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	48a5db9557b3a078
-407	547	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.xcl	4be0b8a0c1bbd759
-543	593	6750024405684625	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	a3d183132556bb4c
-370	607	6750024405814279	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	fa6c8ba74e17942
-510	633	6750024400000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.xcl	26c21a7a6c1271c5
-597	647	6750024406213212	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	b7af6cb2ddee4dc8
-554	655	6750024406223197	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-641	693	6750024406681964	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	effad690a69022ab
-611	715	6750024406701908	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-652	719	6750024406931308	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-696	729	6750024407060942	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	5390cf7940eec064
-722	764	6750024407410024	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	164c4d9bb098d32c
-659	813	6750024407888810	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e58914bc8c163d6c
-818	838	6750024408148388	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	d37a14a054ecdf86
-845	886	6750024408636823	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	988fb6da0332e116
-894	2476	6750024424218987	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-125	632	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	b974dc80f9655748
-120	668	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	769081131fc66fb9
-87	707	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.xcl	7874141b4a1f1262
-129	745	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	e1691a441b3f6fac
-664	911	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	7af496e2acce223
-702	969	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.xcl	cc3a537d3e4c46eb
-739	1005	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.xcl	7e05fbddbf2594e0
-780	1034	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.xcl	c1885564256c875
-947	1179	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	5f0717f6d4a2a24a
-1000	1276	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	90c3b0c563f83af5
-1030	1321	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	eca5ddd6e88448e8
-1062	1373	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	c8b28290a8a9e22c
-1221	1498	6761282490000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	e4a06fde06af71d1
-1358	1614	6761282500000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	4238a88f5f58f8a4
-1313	1654	6761282500000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	3dcf263e66864a68
-1407	1703	6761282500000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	b8492976ffe02dcf
-1740	1937	6761282500000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	6c8d77d0828bc419
-1528	1993	6761282504265879	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	fa6c8ba74e17942
-2000	2065	6761282504890748	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	253eb46b24acbb0d
-1689	2142	6761282505671798	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	b7af6cb2ddee4dc8
-1972	2158	6761282500000000	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	6d3badb56b819657
-1651	2280	6761282507077725	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-2193	2342	6761282507702573	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	a3d183132556bb4c
-2286	2407	6761282508442269	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-2072	2522	6761282509545742	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	f93e112bee974f85
-2413	2573	6761282510014402	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	effad690a69022ab
-2149	2631	6761282510639293	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e58914bc8c163d6c
-2348	2938	6761282513607285	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-2579	3018	6761282514544574	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	17fea8ed3692eb7
-2530	3065	6761282515013204	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	92be0fa679771446
-2638	3092	6761282515169421	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	8e8d69782202f196
-3099	3376	6761282518137489	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-2944	3446	6761282518762332	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	e94e61412002eb7a
-3071	3543	6761282519699613	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	eef7856465875dab
-3025	3574	6761282520012044	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	e7426e642d71b35e
-3551	3775	6761282522042811	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-3453	3789	6761282522042811	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	1ce4f783716b324c
-3386	3824	6761282522511453	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	ec78b7a08cd1edc8
-3581	3842	6761282522667669	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	d9551737ce0ae715
-3785	4283	6761282527198849	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	e1a7e03e43a1b6ff
-4290	4437	6761282528751255	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	6b3b5e700b2dc4ba
-4447	5012	6761282534489440	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-5024	9152	6761282575423791	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-10	95	6761282628101147	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-6	379	6761282630916980	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-12	407	6761282631229407	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-412	598	6761282633103974	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-385	610	6761282633103974	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-623	986	6761282637009911	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-999	3551	6761282662011993	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-12	96	6761282714988445	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-6	372	6761282717647322	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-10	382	6761282717803222	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-389	571	6761282719677798	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-379	583	6761282719834006	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-596	952	6761282723588815	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-963	3827	6761282751568995	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-12	109	6761282804899026	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-6	364	6761282807559506	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-10	393	6761282807871654	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-370	594	6761282809863754	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-399	605	6761282809863754	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-615	969	6761282813617283	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-980	3578	6761282839167298	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-12	99	6761282892076130	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-6	370	6761282894736745	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-10	385	6761282894893036	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-393	597	6761282897080006	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-377	618	6761282897236208	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-629	980	6761282900832756	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-993	3580	6761282926455006	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-12	102	6761282979323993	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-6	359	6761282981902619	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-9	369	6761282982058797	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-376	594	6761282984329107	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-366	607	6761282984329107	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-619	968	6761282988078241	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-982	2629	6761283004325187	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-8	65	6761283116096117	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-4	237	6761283117911757	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-6	245	6761283117981845	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-250	365	6761283119193312	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-241	372	6761283119211546	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-378	590	6761283121438197	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
-599	2116	6761283136258011	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	2fdfb00f8a2c6ff7
-8	61	6761283188325126	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	95a261ff88ef3e0d
-4	214	6761283189887590	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	75fc6b46287b2921
-6	327	6761283190983943	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	335d7eacf9e9275a
-218	344	6761283191139810	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	65d7b5b26eb0b99c
-331	439	6761283192077459	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	c18a569657fb50df
-445	658	6761283194264075	C:/Users/papuz/Desktop/Progetti/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	20d655fb9d2b2d32
+656	847	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	c87b7f4fa86d655f
+1329	1700	6765722103301837	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	e8d8fab99915373d
+1016	1324	6765722099521931	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	aaf8d5bf7ed32956
+5	431	6769474918628545	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
 83	264	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.xcl	7daa01e28e46b063
 56	295	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.xcl	db8440b189bd6b0f
+367	560	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	d2aa6b9039785e18
 88	320	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.xcl	cf985e7df0f99e72
 106	346	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.xcl	c0d7e1c60262c611
 94	372	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.xcl	cca63e8c2db06b74
 99	396	6765722080000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.xcl	589b2a3f672ad612
 285	472	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.xcl	f23122beb3e44747
-367	560	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.xcl	d2aa6b9039785e18
 342	586	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.xcl	68c6c64391a2f987
+1269	1572	6765722102005292	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	9ccdfeadced314a4
 393	614	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.xcl	e71d1d0671f7ee46
 316	636	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.xcl	3d1eed4c2dc1f5de
 416	660	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.xcl	e00f81497f6d44ab
@@ -253,116 +20,49 @@
 581	747	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.xcl	af32996e16958462
 609	798	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.xcl	df26da514a574628
 633	822	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.xcl	311eac5fa6bccb06
-656	847	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.xcl	c87b7f4fa86d655f
 679	870	6765722090000000	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.xcl	69cd603286baf8fb
 819	1012	6765722096410247	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ad5940.pbi	94b32bf814647d61
 769	1145	6765722097746684	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/AD5940lib/ADICUP3029Port.pbi	616c84c6ef7e7591
-703	1175	6765722098035900	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
 844	1208	6765722098365027	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers SPI/adi_spi.pbi	c6e6e01c5b66539a
 1179	1263	6765722098923874	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/adi_initialize.pbi	ce0be6b82f6bc087
-868	1287	6765722099152917	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	42f6b3ee13a4298d
+10	443	6769474918748226	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	42f6b3ee13a4298d
 1213	1306	6765722099362358	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Inizialize/pinmux_config.pbi	bb0565e4e79a4951
-891	1316	6765722099442145	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-1016	1324	6765722099521931	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers TMR/adi_tmr.pbi	aaf8d5bf7ed32956
+13	420	6769474918528824	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
 1312	1353	6765722099831108	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_logevent.pbi	4cee7765a0acfac4
-1150	1403	6765722100319815	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-1269	1572	6765722102005292	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers DMA/adi_dma.pbi	9ccdfeadced314a4
+5	123	6769475233161579	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
 1321	1599	6765722102284545	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device Startup/system_ADuCM3029.pbi	8cc92b2a9f9e8e1c
 1291	1644	6765722102733346	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers Power/adi_pwr.pbi	7772ef66805e5f3e
 1359	1653	6765722102793188	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_noos.pbi	b780277026bbfcd0
-1329	1700	6765722103301837	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/Device.Drivers GPIO/adi_gpio.pbi	e8d8fab99915373d
-1407	1765	6765722103950114	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-1577	1844	6765722104737990	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
+129	419	6769475236128885	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+447	724	6769474921571023	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
 1658	1871	6765722105017260	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part3.pbi	6909058ed377fa2
-1604	1932	6765722105625614	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
+15	356	6769474917880892	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
 1705	1980	6765722106104335	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part2.pbi	de7fae9993af7604
 1649	2056	6765722106852680	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_transport.pbi	d6b4e592410d741
-2062	2222	6765722108527856	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
-2228	2757	6765722113873592	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-5	4206	6765722239203806	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-12	475	6765722448381150	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
-481	648	6765722450116097	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
-655	1200	6765722455641325	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1211	5408	6765722496986581	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-6	304	6765722552531860	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
-309	478	6765722554287537	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
-485	1040	6765722559912119	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-5	4244	6765722688780834	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	348	6765722896843993	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
-354	635	6765722899716358	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-644	1203	6765722905400793	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1212	5660	6765722949234631	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-9	124	6765723003081404	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-6	355	6765723005395272	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
-362	641	6765723008257633	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-651	1205	6765723013902179	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1214	5429	6765723055394510	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-6	123	6765723108946047	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-128	409	6765723111818789	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-418	969	6765723117413810	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-978	5240	6765723159369088	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	372	6765723417929301	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-377	619	6765723420402693	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-626	1195	6765723426167632	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1203	5437	6765723467801808	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	800	6767344604380020	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-806	1087	6767344607272291	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-1095	1695	6767344613341266	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1705	7452	6767344670036060	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	393	6767344726848032	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
-399	706	6767344729991240	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-714	1328	6767344736213459	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1336	5838	6767344780465326	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-6	398	6767344887577222	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
-403	709	6767344890698883	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-718	1323	6767344896836300	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1332	5908	6767344941813629	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	129	6767539965837793	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-135	436	6767539968919923	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-447	1051	6767539975058726	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1062	5322	6767540016908355	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-6	128	6767540121534246	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-135	443	6767540124685740	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-453	1047	6767540130735518	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1059	5293	6767540172371225	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-8	133	6767540226092439	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-140	446	6767540229244415	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-456	1057	6767540235353248	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1067	5339	6767540277260398	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	407	6767562957606264	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-415	666	6767562960199338	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-676	1285	6767562966394386	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1295	5529	6767563007991685	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-6	402	6767564474919941	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-408	684	6767564477752330	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-693	1370	6767564484619162	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1381	5781	6767564527897669	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-6	392	6767564634509720	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-398	645	6767564637042586	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-654	1262	6767564643209360	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1272	5490	6767564684648502	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	405	6767568972586650	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-410	670	6767568975249657	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-680	1300	6767568981556960	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1311	5599	6767569023697575	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	393	6767569079977622	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-399	655	6767569082610646	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-664	1260	6767569088660655	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1271	5484	6767569130078789	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-5	393	6767569186318997	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-401	652	6767569188911806	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-661	1257	6767569194971037	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1267	5482	6767569236374931	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-113	257	6767726624169714	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
-262	616	6767726627760407	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-623	1254	6767726634143321	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1262	6793	6767726688671804	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
-14	326	6767726744492889	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/CMSIS-Pack/BLE Bluetooth low energy/adi_ble_radio.pbi	7e70a8501614c75e
-5	385	6767726745091278	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/AD5940Main.pbi	b36f87604719e062
-11	405	6767726745280777	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/main.pbi	e41cc5512db3da01
-9	411	6767726745340618	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/UARTCmd.pbi	42f6b3ee13a4298d
-330	524	6767726746487540	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
-415	673	6767726747963600	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part1.pbi	409ed717deeeb7a1
-390	688	6767726748123173	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
-695	1285	6767726754100697	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
-1297	5613	6767726796622215	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+363	568	6769474920014839	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part4.pbi	ee4a26b874d3e774
+428	1012	6769475242070218	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1023	5443	6769475285581405	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	122	6769475339496393	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+129	420	6769475342489024	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+430	1017	6769475348453080	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1026	5467	6769475392142192	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	125	6769475648585563	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+132	427	6769475651607946	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+436	1014	6769475657477710	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1024	5378	6769475700356617	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	122	6769475754184224	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+129	416	6769475757126773	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+425	1007	6769475763036093	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1017	5429	6769475806481997	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	121	6769475860144906	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+128	419	6769475863116601	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+429	1064	6769475869571059	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1073	5415	6769475912296403	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	123	6769475965946384	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+128	420	6769475968928740	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+429	1017	6769475974882475	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1028	5425	6769476018176902	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
+5	122	6769477893727623	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/Application/BodyImpedance.pbi	d50dc04c5799fc46
+127	423	6769477896749198	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova_part0.pbi	469ee32cf14ead94
+434	1014	6769477902659191	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbd	d1a6f56ef91e8cc7
+1025	5367	6769477945426361	C:/Users/giann/Desktop/Giovanni/01_Università/Magistrale/SecondoAnno/IMSI/IMSI_Project/WorkSpace/BLE_Prova/Debug/BrowseInfo/BLE_Prova.pbw	dd82e843b384b06
