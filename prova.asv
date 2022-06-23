@@ -20,19 +20,16 @@
 % 
 % writetable(ciao,'C:\Users\giann\Desktop\Giovanni\01_Università\Magistrale\SecondoAnno\IMSI\IMSI_Project\Ciao.xlsx','Sheet',1);
 
- ciao = struct('N',0,'Lable'," ",'Freq',0);
+% ciao = struct('N',0,'Lable'," ",'Freq',0);
 
-ciao(1).N = 1;
-ciao(1).Lable = "primo";
-ciao(1).Freq = 123.23;
+% ciao(1).N = 1;
+% ciao(1).Lable = "primo";
+% ciao(1).Freq = 123.23;
+% 
+% ciao(2).N = 2;
+% ciao(2).Lable = "secondo";
+% ciao(2).Freq = 123.23;
 
-ciao(2).N = 2;
-ciao(2).Lable = "secondo";
-ciao(2).Freq = 123.23;
-
-tb = struct2table(ciao);
-tb.Properties.VariableNames = ["Numero","CIAO","Aor"];
-
-% colonna1 = ["luigi"; "mario"];
-% colonna2 = [20; 30];
-% ciao=table(colonna1,colonna2,'VariableNames',{'Nome','Età'});
+colonna1 = ["luigi; mario];
+colonna2 = [20; 30];
+ciao=table(colonna1,colonna2);
