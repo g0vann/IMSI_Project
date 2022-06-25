@@ -45,7 +45,7 @@ extern float scelta,Freq1,Freq2;
 extern uint32_t Npunti, Ncicli;
 extern BoolFlag SweepON; 
 
-/* It's your choice here how to do with the data. Here is just an example to print them to UART */
+/* Sends BIA results */
 int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
 {
   ADI_BLER_RESULT eResult;
@@ -55,6 +55,7 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
   fImpPol_Type *pImp = (fImpPol_Type*)pData;
   AppBIACtrl(BIACTRL_GETFREQ, &freq);
   
+  /* if BLE connected */
   if(gbConnected == true) {
     adi_ble_GetConnectionInfo(&sConnInfo);
       if (DataCount>0){
@@ -69,7 +70,9 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
       if (eResult != ADI_BLER_SUCCESS) 
         printf("Error sending the data.\r\n");
   
-  }else{
+  }
+  /* if BLE disconnected */
+  else{
     if (DataCount>0){
     ph = pImp[0].Phase*180/MATH_PI; 
       if(ph>300)
@@ -77,11 +80,7 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
     printf("%.2f ", freq);
     printf("%f %f \r\n",pImp[0].Magnitude,ph);
     }
-    /*Process data*/
-    //for(int i=0;i<DataCount;i++)
-    //{
-     
-    //}
+ 
   }
 
   return 0;
@@ -136,7 +135,7 @@ static int32_t AD5940PlatformCfg(void)
   return 0;
 }
 
-/* !!Change the application parameters here if you want to change it to none-default value */
+/* Initialization of the BIA */
 void AD5940BIAStructInit(void)
 {
   AppBIACfg_Type *pBIACfg;
@@ -192,13 +191,10 @@ void AD5940_MainBLE(){
     }
     
      if (b==1){
+		/* Do Impedence calculation*/
         Function_BIA();
      }
   } 
 }
 
-/**
- * @}
- * @}
- * */
  

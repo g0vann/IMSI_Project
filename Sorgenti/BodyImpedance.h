@@ -23,10 +23,7 @@ Analog Devices Software License Agreement.
 
 #define MAXSWEEP_POINTS   100           /* Need to know how much buffer is needed to save RTIA calibration result */
 
-/* 
-  Note: this example will use SEQID_0 as measurement sequence, and use SEQID_1 as init sequence. 
-  SEQID_3 is used for calibration.
-*/
+
 
 typedef struct
 {

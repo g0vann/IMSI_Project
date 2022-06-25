@@ -1,19 +1,8 @@
-/*!
- *****************************************************************************
- @file:    UARTCmd.C
- @author:  $Author: nxu2 $
- @brief:   UART Command process
- @version: $Revision: 766 $
- @date:    $Date: 2017-08-21 14:09:35 +0100 (Mon, 21 Aug 2017) $
- -----------------------------------------------------------------------------
+/*****************************************************************************/
+/* UartCMD.c handles the recognition of commands and parameters */
+/* and sets the BIA application */
 
-Copyright (c) 2017-2019 Analog Devices, Inc. All Rights Reserved.
-
-This software is proprietary to Analog Devices, Inc. and its licensors.
-By using this software you agree to the terms of the associated
-Analog Devices Software License Agreement.
- 
-*****************************************************************************/
+/*****************************************************************************/
 #include "stdint.h"
 #include "string.h"
 #include "stdio.h"
@@ -33,11 +22,12 @@ extern float scelta;
 uint32_t AppBuff[APPBUFF_SIZE];
 
 #define  VERSION  "FrancOlino v2.0"
-#define LINEBUFF_SIZE 128
-#define CMDTABLE_SIZE 4
+#define LINEBUFF_SIZE 128 /* max input buffer size */
+#define CMDTABLE_SIZE 4  /* number of commands */
 #define PI 3.141592654
 
-int b = 0;
+/* Variables used to set BIA */
+int b = 0; /* semaphore to signal whether or not we are in measurement */
 float scelta = 50000, Freq1, Freq2;
 uint32_t Npunti = 0, Ncicli = 0;
 
@@ -50,9 +40,9 @@ void Function_BIA(void);
 
 /*Variables for Function_BIA*/
 	uint32_t temp;
-        BoolFlag SweepON; 
+    BoolFlag SweepON; 
 
-/* Functions to Read/Write AD5940 Register*/
+/* External Functions*/
 extern uint32_t SPIReadReg(uint16_t RegAddr);
 extern void SPIWriteReg(uint16_t RegAddr, uint32_t RegData);
 extern void AD5940BIAStructInit(void);
@@ -66,6 +56,7 @@ void *pObjFound = 0;
 float parameter1, parameter2;
 float parameter3,parameter4;
 
+/* Declaration of the four commands functions*/
 uint32_t Cli_start(float para1,float para2, float para3, float para4);
 uint32_t Cli_stop(float para1,float para2, float para3, float para4);
 uint32_t Cli_start2(float para1,float para2, float para3, float para4);
@@ -85,13 +76,17 @@ struct __uartcmd_table
 
 };
 
+
 uint32_t Cli_reset(float para1,float para2, float para3, float para4){
-        b=0;
+        /* resets semaphore and the board*/
+		b=0;  
         NVIC_SystemReset();
 }
 
+
+/* Start function for sweep measurement */
 uint32_t Cli_start2(float para1,float para2, float para3, float para4){
-        if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
+        if(b==0){  //checks if measurement already strated
         SweepON = bTRUE;
         Freq1 = para1;
         Freq2 = para2;
@@ -99,34 +94,35 @@ uint32_t Cli_start2(float para1,float para2, float para3, float para4){
         Ncicli = (uint32_t)para4;
         }
         b=1;
-	AD5940BIAStructInit(); /* Configure your parameters in this function */
+	AD5940BIAStructInit(); /* Configure our parameters in this function */
 	AppBIAInit(AppBuff, APPBUFF_SIZE); /* Initialize BIA application. Provide a buffer, which is used to store sequencer commands */
 	AppBIACtrl(BIACTRL_START, 0);		
 	return 0;
 }
 
+/* Start function for single measurement */
 uint32_t Cli_start(float para1,float para2, float para3, float para4){
-        if(b==0){  //mettere un if che controlla che la misurazione non sia ancora avviata
+        if(b==0){  //checks if measurement already strated
           SweepON = bFALSE;
           scelta  = para1;
         }
         b=1;
-	AD5940BIAStructInit(); /* Configure your parameters in this function */
+	AD5940BIAStructInit(); /* Configure our parameters in this function */
 	AppBIAInit(AppBuff, APPBUFF_SIZE); /* Initialize BIA application. Provide a buffer, which is used to store sequencer commands */
 	AppBIACtrl(BIACTRL_START, 0);		
 	return 0;
 }
 
 uint32_t Cli_stop(float para1,float para2, float para3, float para4){
-      b=0;
-      // AD5940_WriteReg(REG_AFE_ADCCON, REG_AFE_ADCCON_RESET);
-      
+	  /* resets semaphore and stop the BIA measurement*/
+      b=0;      
       AppBIACtrl(BIACTRL_SHUTDOWN, 0);
-      //NVIC_SystemReset();
       return 0;
 }
 
 
+
+/* Recognize and remove all the spaces in the received buffer */
 void UARTCmd_RemoveSpaces(void)
 {
   int i = 0;
@@ -158,6 +154,7 @@ void UARTCmd_RemoveSpaces(void)
   }
 }
 
+/* Search for keywords corresponding to commands */
 void UARTCmd_MatchCommand(void)
 {
   char *pcmd;
@@ -183,15 +180,8 @@ void UARTCmd_MatchCommand(void)
   }
 }
 
-/* Translate string 'p' to number, store results in 'Res', return error code */
-/*static uint32_t Str2Num(char *s, uint32_t *Res)
-{
-   
-  *Res = strtol((const char*)s, NULL, 16);
 
-  return 0;
-}*/
-
+/* Convert strings to double */
 static uint32_t Str2Num(char *s, float *Res)
 {
    
@@ -200,15 +190,8 @@ static uint32_t Str2Num(char *s, float *Res)
   return 0;
 }
 
-/* Translate string 'p' to number, store results in 'Res', return error code */
-/*static uint32_t Str2Int(char *s, uint32_t *Res)
-{
-   
-  *Res = strtol((const char*)s, NULL, 16);
 
-  return 0;
-}*/
-
+/* Search for parameters */
 void UARTCmd_TranslateParas(void)
 {
   char *p = line_buffer;
@@ -224,16 +207,19 @@ void UARTCmd_TranslateParas(void)
   while(*p != '\0') p++;    /* skip first command. */
   while(*p == '\0') p++;    /* goto second parameter */
   if(Str2Num(p, &parameter2) != 0) return; 
-  if(token_count == 3) return; 	/* Non c'è il terzo parameter */
+  if(token_count == 3) return; 	/* Only two parameters */
   while(*p != '\0') p++;    /* skip first command. */
   while(*p == '\0') p++;	/* goto third parameter */
   if(Str2Num(p, &parameter3) != 0) return; /* Terzo parametro sicuro è un intero */
-  if(token_count == 4) return; 	/* Non c'è il terzo parameter */
+  if(token_count == 4) return; 	/* Only three parameters */
   while(*p != '\0') p++;    /* skip first command. */
   while(*p == '\0') p++;	/* goto third parameter */
   Str2Num(p, &parameter4); /* Terzo parametro sicuro è un intero */
 }
 
+
+/* Function called by UART handler:  */
+/* take received buffer and process it  */
 void UARTCmd_Process(char c)
 {
   if(line_buffer_index >= LINEBUFF_SIZE-1)
@@ -268,9 +254,8 @@ void UARTCmd_Process(char c)
       UARTCmd_TranslateParas();
     }
     /* Step3, call function */
-    //res = ((uint32_t (*)(uint32_t, uint32_t))(pObjFound))(parameter1, parameter2);
     res = ((uint32_t (*)(float, float,float,float))(pObjFound))(parameter1, parameter2,parameter3,parameter4);
-    //printf("res:0x%08x\n", res);
+    
     line_buffer_index = 0;  /* Reset buffer */
   }
   else
@@ -282,6 +267,9 @@ void UARTCmd_Process(char c)
 /****************************************************************************
 ------------------------------------BLE--------------------------------------
 ****************************************************************************/
+
+/* Function called by BLE handler:  */
+/* take received buffer and process it  */
 void BLECmd_Process(char c[],int a){
   
   uint32_t res;
@@ -305,24 +293,26 @@ void BLECmd_Process(char c[],int a){
       printf("Unknow command\n");
       return;   /* Command not support */
   }
-  if(token_count > 1)           /* There is parameters */
+  if(token_count > 1)           /* There are parameters */
   {
     UARTCmd_TranslateParas();
   }
   /* Step3, call function */
   res = ((uint32_t (*)(float, float,float,float))(pObjFound))(parameter1, parameter2,parameter3,parameter4);
-  //printf("res:0x%08x\n", res);
   line_buffer_index = 0;  /* Reset buffer */
   
 }
 
+
+
+/* Every time is interrupted call the BIA ISR to process data  */
 void Function_BIA(void){
-    /* Check if interrupt flag which will be set when interrupt occurred. */
+    /* Checks if interrupt flag is up, which will be set when interrupt occurred. */
     if(AD5940_GetMCUIntFlag())
     {
       AD5940_ClrMCUIntFlag(); /* Clear this flag */
       temp = APPBUFF_SIZE;
       AppBIAISR(AppBuff, &temp); /* Deal with it and provide a buffer to store data we got */
-      BIAShowResult(AppBuff, temp); /* Show the results to UART */
+      BIAShowResult(AppBuff, temp); /* Show the results to UART or BLE */
     } 
 }

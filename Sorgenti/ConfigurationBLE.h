@@ -26,69 +26,27 @@
 /* Peripheral advertisement mode */
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
-/**
- * @enum ADI_PACKET_TYPE
- * @brief Packet type IDs
- *
- * @note These correlate with the Android application. So any
- *       changes here must be reflected in SharedDefines.java
- */
-typedef enum {
-    ADI_REGISTRATION_PACKET     = 0x00u,
-    ADI_SENSOR_PACKET           = 0x01u,
-} ADI_PACKET_TYPE;
 
-/**
- * @enum ADI_SENSOR_TYPE
- * @brief Senor type IDs for the various types of sensors.
- *
- * @note These correlate with the Android application. So any
- *       changes here must be reflected in SharedDefines.java
- */
-  
-  typedef enum {
-      ADI_GENERIC_TYPE              = 0x00u,
-      ADI_ACCELEROMETER_2G_TYPE     = 0x01u,  
-      ADI_CO_TYPE                   = 0x02u,
-      ADI_TEMPERATURE_TYPE          = 0x03u,
-      ADI_VISIBLELIGHT_TYPE         = 0x04u,
-      ADI_PRINTSTRING_TYPE          = 0x05u,
-      ADI_ACCELEROMETER_4G_TYPE     = 0x0Bu,
-      ADI_ACCELEROMETER_8G_TYPE     = 0x0Cu,
-}ADI_SENSOR_TYPE;
 
-/**
- *  @struct ADI_STRING_DATA
- *
- *  @brief  data structure for the #ADI_PRINTSTRING_TYPE
- *
- */
-#pragma pack(push)
-#pragma pack(1)
 
-typedef struct
-{
-  uint8_t           nStringSize;      /*< Size of the string to send. Must not be larger than 13 bytes. */
-  uint8_t           aStringData[13];  /*< String to send.                                               */
-
-}ADI_STRING_DATA;
 
 #pragma pack(pop)
 
 /**
  *  @struct ADI_DATA_PACKET
  *
- *  @brief  packet structure to send data to the Android application
+ *  @brief  packet structure to send data to Matlab Application
  *
  */
 #pragma pack(push)
 #pragma pack(1)
+
+/* */
 typedef struct
 {
   uint8_t                     nPacketHeader;      /*< Packet header has the first bit set to 0x1u to indicated this is a */
   
   uint8_t                     aPayload[15];
-  //ADI_STRING_DATA             eStringData;        /*< String data  */
 } ADI_DATA_PACKET;
 #pragma pack(pop)
 

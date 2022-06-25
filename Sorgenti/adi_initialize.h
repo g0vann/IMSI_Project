@@ -7,6 +7,12 @@
 ** as your changes will be lost if this source file is re-generated.
 */
 
+
+/****************************************************************************/
+/*                       Part CMSIS Pack library                            */
+/****************************************************************************/
+
+
 #ifndef __ADI_COMPONENT_INIT_H__
 #define __ADI_COMPONENT_INIT_H__
 #include <stdint.h>

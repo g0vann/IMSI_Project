@@ -1,13 +1,3 @@
-/*
-
-Copyright (c) 2017-2019 Analog Devices, Inc. All Rights Reserved.
-
-This software is proprietary to Analog Devices, Inc. and its licensors.
-By using this software you agree to the terms of the associated
-Analog Devices Software License Agreement.
-
-*/
-
 #include "stdio.h"
 #include "ADuCM3029.h"
 #include "AD5940.h"
@@ -18,7 +8,7 @@ Analog Devices Software License Agreement.
 
 extern ADI_BLE_RADIO_Device *pBLERadio;
 
-/* Functions that used to initialize MCU platform */
+/* Functions used to initialize MCU platform */
 uint32_t MCUPlatformInit(void *pCfg);
 extern int32_t adi_initComponents(void);
 void Received_Data(void);
@@ -33,7 +23,7 @@ void Received_Data(void);
 
 
 **********************************************************/
-/* Peripheral advertisement mode */
+/* Peripheral BLE advertisement mode */
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
 /* Global Data */
@@ -88,7 +78,7 @@ uint32_t MCUPlatformInit(void *pCfg)
   pADI_CLKG0_CLK->CTL1 = 0;                   // ACLK,PCLK,HCLK divided by 1
   pADI_CLKG0_CLK->CTL5 = 0x00;                 // Enable clock to all peripherals - no clock gating
 
-  UrtCfg(230400);/*Baud rate: 230400*/
+  UrtCfg(230400); /*Baud rate: 230400*/
   return 1;
 }
 
@@ -128,6 +118,8 @@ int UrtCfg(int iBaud)
     iDiv = 1;
   iRtC = (pADI_CLKG0_CLK->CTL0& BITM_CLKG_CLK_CTL0_CLKMUX); // Check what is the root clock
 
+
+  /* Our case is 1 due to the MCUPlatformInit settings: HFXTAL clock source*/	
   switch (iRtC)
   {
   case 0:                                               // HFOSC selected
@@ -157,7 +149,6 @@ int UrtCfg(int iBaud)
 
   pADI_UART0->COMLCR2 = 0x3;
   iOSR = 32;
-  //i1 = (ullRtClk/(iOSR*iDiv))/iBaud;	              // UART baud rate clock source is PCLK divided by OSR
   i1 = (ullRtClk/(iOSR*iDiv))/iBaud-1;   //for bigger M and N value
   pADI_UART0->COMDIV = i1;
 
@@ -226,8 +217,9 @@ void UART_Int_Handler(void)
 
 
 
-/**********************************************************************
-***********************************************************************/
+/**********************************************************************/
+/* BLE CONFIG */
+/***********************************************************************/
 
 /*!
  * @brief      Trap function
@@ -255,7 +247,7 @@ static void SetAdvertisingMode(void)
       printf("Error setting the mode.\r\n");
     }
     
-    eResult = adi_ble_WaitForEventWithTimeout(GAP_EVENT_MODE_CHANGE, 5000u);
+    eResult = adi_ble_WaitForEventWithTimeout(GAP_EVENT_MODE_CHANGE, 5000u); /* checks what event occourd */ 
     if(eResult!=ADI_BLER_SUCCESS){
       printf("Error waiting for GAP_EVENT_MODE_CHANGE.\r\n");
     }   
@@ -305,8 +297,7 @@ static void InitBluetoothLowEnergy(void)
       printf("Error registering data exchange server.\r\n");
     }    
 
-    /* Now enter infinite loop waiting for connection and then data exchange events */
-    //printf("Waiting for connection. Initiate connection on central device please.\r\n");
+   
 }
 
 /*!
@@ -328,6 +319,7 @@ static void InitBluetoothLowEnergy(void)
  */
 static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
 {
+	/* All the possible events, useful for debugging */
     switch(Event) {
         case GAP_EVENT_CONNECTED:
             printf("Connected!\r\n");
@@ -342,8 +334,9 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             break;
 
         case DATA_EXCHANGE_RX_EVENT:
-            printf("Data received!\r\n");
-            Received_Data();
+            //printf("Data received!\r\n");
+			/* Calls the function to handle received data packets */
+            Received_Data();  
             break;
 
         case DATA_EXCHANGE_TX_COMPLETE:
@@ -359,13 +352,7 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
             break;
 
         case BLE_RADIO_ERROR_READING:
-            /* If you want to enable this print statement, please be aware that the first
-             * packet sent from the radio on startup will cause this error. It is a known bug
-             * and will not have any adverse effects on the application.
-             *
-             *DEBUG_MESSAGE("Failed to read a packet from the radio.\r\n");
-             *
-             */
+ 
             break;
 
         case BLE_RADIO_ERROR_PARSING:
@@ -382,6 +369,8 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
     }
 }
 
+
+/* Same as UART_Int_Handler*/
 void Received_Data(void){
   void BLECmd_Process(char [],int);
   char aStringReceive[20];
@@ -391,16 +380,20 @@ void Received_Data(void){
     aTemp[i] = pBLERadio->rxDataPkt.rxPkt[i];
   }
   
+  /* invert the order of the char */
   for (int i = 0;i<20;i++){
     aStringReceive[i] = aTemp [19-i];  
   }
   
+  /* prints received command */
   for(int i = 0;i<20;i++){  
   printf("%c ",aStringReceive[i]);
   if(i==19)
     printf("\r\n");
   }
   
+  /* due to the lack of space for sending commands and all parameters, */
+  /* for the sweep we send only parameters to distinguish the two different measurement modes*/
   if(aStringReceive[0]!= 's' && aStringReceive[0]!= 'r'){
     
     for(int i = 7;i<26;i++){
@@ -408,7 +401,7 @@ void Received_Data(void){
     }
     
     printf("%s \n",start2);
-    BLECmd_Process(start2,27);
+    BLECmd_Process(start2,27); 
   }
   else
   BLECmd_Process(aStringReceive,20);
