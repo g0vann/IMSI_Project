@@ -2,12 +2,10 @@
 ******************************************************************************
  @file:    Main.C
  @author:  $ Author: FrancOlino $
- @brief:   Firmware components
+ @brief:   Firmware component: main
  @version: $ Revision: 1.0 $
  @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------
-
-Copyright (c) 2022 FrancOlino, Inc. All Rights Reserved.
 
 The code is designed to be part of a firmware executable on the 
 AD5940-Bioz board of the Analog Device.

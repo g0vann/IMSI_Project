@@ -1,8 +1,10 @@
 /*!
- *****************************************************************************
+******************************************************************************
  @file:    BodyImpedance.C
- @author:  Neo Xu & FrancOlino
- @brief:   BIA measurement sequences.
+ @author:  $ Author: FrancOlino $
+ @brief:   Firmware component: BIA Applicationm
+ @version: $ Revision: 2.0 $
+ @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------
 Copyright (c) 2017-2019 Analog Devices, Inc. All Rights Reserved.
 This software is proprietary to Analog Devices, Inc. and its licensors.
@@ -10,8 +12,6 @@ By using this software you agree to the terms of the associated
 Analog Devices Software License Agreement.
  
 *****************************************************************************
-
-
 
 The code is designed to be part of a firmware executable on the 
 AD5940-Bioz board of the Analog Device.
@@ -168,7 +168,7 @@ AD5940Err AppBIACtrl(int32_t BcmCtrl, void *pPara)
 }
 
 /**
-   @brief Generate init sequence
+   @brief Generate init sequencea, all the components needed to execute an impedence measurement
 		  
    @return Returns the result and errors
 */
@@ -344,6 +344,8 @@ static AD5940Err AppBIASeqMeasureGen(void)
   sw_cfg.Tswitch = SWT_AIN1|SWT_TRTIA;
   AD5940_SWMatrixCfgS(&sw_cfg);
   
+  
+  /* Sends measured body current from HTIA to the ADC processing*/   
   AD5940_ADCMuxCfgS(ADCMUXP_HSTIA_P, ADCMUXN_HSTIA_N);
   AD5940_AFECtrlS(AFECTRL_WG|AFECTRL_ADCPWR, bTRUE);  /* Enable Waveform generator, ADC power */
   AD5940_SEQGenInsert(SEQ_WAIT(16*50));
@@ -351,6 +353,8 @@ static AD5940Err AppBIASeqMeasureGen(void)
   AD5940_SEQGenInsert(SEQ_WAIT(WaitClks));  /* wait for first data ready */  
   AD5940_AFECtrlS(AFECTRL_ADCCNV|AFECTRL_DFT|AFECTRL_WG|AFECTRL_ADCPWR, bFALSE);  /* Stop ADC convert and DFT */
 
+  
+  /* Sends measured voltage to the ADC processing*/
   AD5940_ADCMuxCfgS(ADCMUXP_AIN3, ADCMUXN_AIN2);
   AD5940_AFECtrlS(AFECTRL_WG|AFECTRL_ADCPWR, bTRUE);  /* Enable Waveform generator, ADC power */
   AD5940_SEQGenInsert(SEQ_WAIT(16*50));  //delay for signal settling DFT_WAIT
@@ -358,7 +362,6 @@ static AD5940Err AppBIASeqMeasureGen(void)
   AD5940_SEQGenInsert(SEQ_WAIT(WaitClks));  /* wait for first data ready */
   AD5940_AFECtrlS(AFECTRL_ADCCNV|AFECTRL_DFT|AFECTRL_WG|AFECTRL_ADCPWR, bFALSE);  /* Stop ADC convert and DFT */
   
-  //AD5940_Delay10us(10000);
   
   sw_cfg.Dswitch = SWD_OPEN;
   sw_cfg.Pswitch = SWP_PL|SWP_PL2;

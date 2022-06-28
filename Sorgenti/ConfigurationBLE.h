@@ -1,3 +1,13 @@
+/*
+******************************************************************************
+ @file:    ConfigurationBLE.h
+ @author:  $ Author: FrancOlino $
+ @brief:   Firmware component: BLE configuration
+ @version: $ Revision: 1.0 $
+ @date:    $ Date: 2022-06-27 $
+ -----------------------------------------------------------------------------
+ */
+
 #ifndef CONFIGURATIONBLE_H
 #define CONFIGURATIONBLE_H
 

@@ -2,7 +2,7 @@
 ******************************************************************************
  @file:    Pinmux_config.C
  @author:  $ Author: FrancOlino $
- @brief:   Firmware components
+ @brief:   Firmware component for pin multiplexing
  @version: $ Revision: 1.0 $
  @date:    $ Date: 2022-04-27 $
  -----------------------------------------------------------------------------

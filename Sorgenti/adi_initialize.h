@@ -2,7 +2,7 @@
 ******************************************************************************
  @file:    Adi_initialize.h
  @author:  $ Author: FrancOlino $
- @brief:   Pins configuration
+ @brief:   Firmware component: pin initialize
  @version: $ Revision: 2.0 $
  @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------

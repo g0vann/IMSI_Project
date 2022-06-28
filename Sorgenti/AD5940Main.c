@@ -1,14 +1,11 @@
 /*!
- *****************************************************************************
- 
- @file:    AD5940Main.c
- @author:  $ Author: Neo Xu & FrancOlino $
- @brief:   Used to control specific application and process data.
+******************************************************************************
+ @file:    AD5940Main.C
+ @author:  $ Author: FrancOlino $
+ @brief:   Firmware component: Application Main
  @version: $ Revision: 2.0 $
  @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------
-
-Copyright (c) 2022 FrancOlino, Inc. All Rights Reserved.
 
 The code is designed to be part of a firmware executable on the 
 AD5940-Bioz board of the Analog Device.

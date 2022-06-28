@@ -2,9 +2,9 @@
 ******************************************************************************
  @file:    Adi_initialize.C
  @author:  $ Author: FrancOlino $
- @brief:   Firmware components
- @version: $ Revision: 1.0 $
- @date:    $ Date: 2022-04-27 $
+ @brief:   Firmware component: pin initialize
+ @version: $ Revision: 2.0 $
+ @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------
 ** adi_initialize.c source file generated on maggio 10, 2022 at 19:55:12.
 **
