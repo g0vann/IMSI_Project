@@ -1,4 +1,11 @@
 /*
+******************************************************************************
+ @file:    Pinmux_config.C
+ @author:  $ Author: FrancOlino $
+ @brief:   Firmware components
+ @version: $ Revision: 1.0 $
+ @date:    $ Date: 2022-04-27 $
+ -----------------------------------------------------------------------------
  **
  ** Source file generated on maggio 10, 2022 at 23:10:16.	
  **

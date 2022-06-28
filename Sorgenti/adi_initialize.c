@@ -1,4 +1,11 @@
 /*
+******************************************************************************
+ @file:    Adi_initialize.C
+ @author:  $ Author: FrancOlino $
+ @brief:   Firmware components
+ @version: $ Revision: 1.0 $
+ @date:    $ Date: 2022-04-27 $
+ -----------------------------------------------------------------------------
 ** adi_initialize.c source file generated on maggio 10, 2022 at 19:55:12.
 **
 ** Copyright (C) 2000-2022 Analog Devices Inc., All Rights Reserved.

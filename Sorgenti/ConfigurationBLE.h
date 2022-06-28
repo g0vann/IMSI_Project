@@ -26,10 +26,6 @@
 /* Peripheral advertisement mode */
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
-
-
-
-
 #pragma pack(pop)
 
 /**

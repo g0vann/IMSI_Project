@@ -1,5 +1,5 @@
 /*!
- @file:    ImpSeqs.h
+ @file:    BodyImpedance.h
  @author:  $Author: nxu2 $
  @brief:   4-wire BIA measurement header file.
  @version: $Revision: 766 $

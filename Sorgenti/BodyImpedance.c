@@ -1,7 +1,7 @@
 /*!
  *****************************************************************************
- @file:    BodyComposition.c
- @author:  Neo Xu
+ @file:    BodyImpedance.C
+ @author:  Neo Xu & FrancOlino
  @brief:   BIA measurement sequences.
  -----------------------------------------------------------------------------
 Copyright (c) 2017-2019 Analog Devices, Inc. All Rights Reserved.
@@ -10,14 +10,21 @@ By using this software you agree to the terms of the associated
 Analog Devices Software License Agreement.
  
 *****************************************************************************/
+
 #include "BodyImpedance.h"
 extern int b;
 extern float scelta;
+
 /* 
   Application configuration structure. Specified by user from template.
   The variables are usable in this whole application.
   It includes basic configuration for sequencer generator and application related parameters
 */
+/**
+   @brief   Application configuration structure. Specified by user from template.
+			The variables are usable in this whole application.
+			It includes basic configuration for sequencer generator and application related parameters
+**/
 AppBIACfg_Type AppBIACfg = 
 {
   .bParaChanged = bFALSE,
@@ -67,8 +74,10 @@ AppBIACfg_Type AppBIACfg =
 };
 
 /**
-   This function is provided for upper controllers that want to change 
-   application parameters specially for user defined parameters.
+   @brief This function is provided for upper controllers that want to change 
+		  application parameters specially for user defined parameters.
+		  
+   @return Returns the result and errors
 */
 AD5940Err AppBIAGetCfg(void *pCfg)
 {
@@ -79,11 +88,16 @@ AD5940Err AppBIAGetCfg(void *pCfg)
   return AD5940ERR_PARA;
 }
 
+/**
+   @brief This function controls the application through a switch-case
+   
+   @return Returns the result and errors
+*/
 AD5940Err AppBIACtrl(int32_t BcmCtrl, void *pPara)
 {
   switch (BcmCtrl)
   {
-    case BIACTRL_START:
+    case BIACTRL_START: /* Start the Application */ 
     {
       WUPTCfg_Type wupt_cfg;
       if(AD5940_WakeUp(10) > 10)  /* Wakeup AFE by read register, read 10 times at most */
@@ -101,7 +115,7 @@ AD5940Err AppBIACtrl(int32_t BcmCtrl, void *pPara)
       AppBIACfg.FifoDataCount = 0;  /* restart */
       break;
     }
-    case BIACTRL_STOPNOW:
+    case BIACTRL_STOPNOW: /* Stop the Application */ 
     {
       if(AD5940_WakeUp(10) > 10)  /* Wakeup AFE by read register, read 10 times at most */
         return AD5940ERR_WAKEUP;  /* Wakeup Failed */
@@ -117,7 +131,7 @@ AD5940Err AppBIACtrl(int32_t BcmCtrl, void *pPara)
       AppBIACfg.StopRequired = bTRUE;
       break;
     }
-    case BIACTRL_GETFREQ:
+    case BIACTRL_GETFREQ: /* Return the frequency */
     if(pPara)
     {
       if(AppBIACfg.SweepCfg.SweepEn == bTRUE)
@@ -126,7 +140,7 @@ AD5940Err AppBIACtrl(int32_t BcmCtrl, void *pPara)
         *(float*)pPara = AppBIACfg.SinFreq;
     }
     break;
-    case BIACTRL_SHUTDOWN:
+    case BIACTRL_SHUTDOWN:  /* Stop the Application & Enter Hibernate */
     {
       AppBIACtrl(BIACTRL_STOPNOW, 0);  /* Stop the measurement if it's running. */
       /* Turn off LPloop related blocks which are not controlled automatically by sleep operation */
@@ -145,7 +159,11 @@ AD5940Err AppBIACtrl(int32_t BcmCtrl, void *pPara)
   return AD5940ERR_OK;
 }
 
-/* Generate init sequence */
+/**
+   @brief Generate init sequence
+		  
+   @return Returns the result and errors
+*/
 static AD5940Err AppBIASeqCfgGen(void)
 {
   AD5940Err error = AD5940ERR_OK;
@@ -282,6 +300,11 @@ static AD5940Err AppBIASeqCfgGen(void)
   return AD5940ERR_OK;
 }
 
+/**
+   @brief Generate the Measurement Sequence
+		  
+   @return Returns the result and errors
+*/
 static AD5940Err AppBIASeqMeasureGen(void)
 {
   AD5940Err error = AD5940ERR_OK;
@@ -365,6 +388,11 @@ static AD5940Err AppBIASeqMeasureGen(void)
   return AD5940ERR_OK;
 }
 
+/**
+   @brief Function that calibrates Rtia
+		  
+   @return Returns the result and errors
+*/
 static AD5940Err AppBIARtiaCal(void)
 {
   HSRTIACal_Type hsrtia_cal;
@@ -411,7 +439,11 @@ static AD5940Err AppBIARtiaCal(void)
   return AD5940ERR_OK;
 }
 
-/* This function provide application initialize.   */
+/**
+   @brief This function provide application initialize.
+		  
+   @return Returns the result and errors
+*/
 AD5940Err AppBIAInit(uint32_t *pBuffer, uint32_t BufferSize)
 {
   AD5940Err error = AD5940ERR_OK;
@@ -491,12 +523,16 @@ AD5940Err AppBIAInit(uint32_t *pBuffer, uint32_t BufferSize)
   return AD5940ERR_OK;
 }
 
-/* Modify registers when AFE wakeup */
+/**
+   @brief  Modify registers when AFE wakeup.
+		  
+   @return Returns the result and errors
+*/
 static AD5940Err AppBIARegModify(int32_t * const pData, uint32_t *pDataCount)
 {
   if(AppBIACfg.NumOfData > 0)
   {
-    AppBIACfg.FifoDataCount += *pDataCount/4;
+    AppBIACfg.FifoDataCount += *pDataCount/4; /* 2 (Real and Immaginary Part) for Current & 2 (Real and Immaginary Part) for Voltage */
     if(AppBIACfg.FifoDataCount >= AppBIACfg.NumOfData)
     {
       AD5940_WUPTCtrl(bFALSE);
@@ -516,7 +552,11 @@ static AD5940Err AppBIARegModify(int32_t * const pData, uint32_t *pDataCount)
   return AD5940ERR_OK;
 }
 
-/* Depending on the data type, do appropriate data pre-process before return back to controller */
+/**
+   @brief  Depending on the data type, do appropriate data pre-process before return back to controller
+		  
+   @return Returns the result and errors
+*/
 static AD5940Err AppBIADataProcess(int32_t * const pData, uint32_t *pDataCount)
 {
   uint32_t DataCount = *pDataCount;
@@ -547,6 +587,7 @@ static AD5940Err AppBIADataProcess(int32_t * const pData, uint32_t *pDataCount)
     float VoltMag,VoltPhase;
     float CurrMag, CurrPhase;
 
+	/* Impedance calculation */
     VoltMag = sqrt((float)pDftVolt->Real*pDftVolt->Real+(float)pDftVolt->Image*pDftVolt->Image);
     VoltPhase = atan2(-pDftVolt->Image,pDftVolt->Real);
     CurrMag = sqrt((float)pDftCurr->Real*pDftCurr->Real+(float)pDftCurr->Image*pDftCurr->Image);
@@ -555,14 +596,10 @@ static AD5940Err AppBIADataProcess(int32_t * const pData, uint32_t *pDataCount)
     VoltMag = VoltMag/CurrMag*AppBIACfg.RtiaCurrValue[0];
     VoltPhase = VoltPhase - CurrPhase + AppBIACfg.RtiaCurrValue[1];
     
-    
-    pOut[i].Magnitude = VoltMag; /* Commentando stampo direttamente i valori senza salvarli*/
+    /* Save the values (Magnitude & Phase) ​​in the output struct */
+    pOut[i].Magnitude = VoltMag; 
     pOut[i].Phase = VoltPhase;
    
-    
-    /*float freq;
-    AppBIACtrl(BIACTRL_GETFREQ, &freq);
-    printf("%.2f %f %f\n", freq,VoltMag,VoltPhase*180/MATH_PI);*/
   }
   *pDataCount = ImpResCount; 
   /* Calculate next frequency point */
@@ -578,6 +615,12 @@ static AD5940Err AppBIADataProcess(int32_t * const pData, uint32_t *pDataCount)
 }
 
 /**
+*/
+
+/**
+   @brief  Function that performs the complete measurement and printing cycle
+		  
+   @return 0 if correct
 */
 AD5940Err AppBIAISR(void *pBuff, uint32_t *pCount)
 {

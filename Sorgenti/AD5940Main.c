@@ -1,11 +1,12 @@
 /*!
  *****************************************************************************
+ 
  @file:    AD5940Main.c
- @author:  Neo Xu
+ @author:  $ Author: Neo Xu & FrancOlino $
  @brief:   Used to control specific application and process data.
+ @version: $ Revision: 2.0 $
+ @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------
-
-Copyright (c) 2017-2019 Analog Devices, Inc. All Rights Reserved.
 
 This software is proprietary to Analog Devices, Inc. and its licensors.
 By using this software you agree to the terms of the associated
@@ -18,6 +19,8 @@ Analog Devices Software License Agreement.
  *  @defgroup BioElec_Example
  *  @{
   */
+  
+/***************************** Include Files ********************************/
 #include "ad5940.h"
 #include "AD5940.h"
 #include <stdio.h>
@@ -25,6 +28,8 @@ Analog Devices Software License Agreement.
 #include "math.h"
 #include "BodyImpedance.h"
 #include "ConfigurationBLE.h"
+
+/************************* Functions Definitions ****************************/
 
 /*****************************************************************************
 ---------------------------BLE Function--------------------------------------
@@ -38,7 +43,7 @@ extern void Function_BIA_BLE(void);
 /****************************************************************************
 ****************************************************************************/
 
-
+/************************* Variable Definitions ****************************/
 extern void Function_BIA(void);
 extern int b;
 extern float scelta,Freq1,Freq2;
@@ -46,6 +51,14 @@ extern uint32_t Npunti, Ncicli;
 extern BoolFlag SweepON; 
 
 /* Sends BIA results */
+/** 
+	@brief	Sends BIA results
+	
+	@var	pData - pointer to the data
+			DataCount - number of stored data
+	
+	@return 0 if correct
+**/
 int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
 {
   ADI_BLER_RESULT eResult;
@@ -86,8 +99,11 @@ int32_t BIAShowResult(uint32_t *pData, uint32_t DataCount)
   return 0;
 }
 
-
-/* Initialize AD5940 basic blocks like clock */
+/** 
+	@brief	Initialize AD5940 basic blocks like clock
+		
+	@return 0 if correct
+**/
 static int32_t AD5940PlatformCfg(void)
 {
   CLKCfg_Type clk_cfg;
@@ -135,7 +151,9 @@ static int32_t AD5940PlatformCfg(void)
   return 0;
 }
 
-/* Initialization of the BIA */
+/** 
+	@brief	Initialization of the BIA Application
+**/
 void AD5940BIAStructInit(void)
 {
   AppBIACfg_Type *pBIACfg;
@@ -170,19 +188,21 @@ void AD5940BIAStructInit(void)
 
 
 /****************************************************************************
-----------------------------------BLE---------------------------------------
+----------------------------------MAIN---------------------------------------
 ****************************************************************************/
+
+/** 
+	@brief	Msin of Firmware, it calls the function Function_BIA() cyclically
+**/
 void AD5940_MainBLE(){
   
-  AD5940PlatformCfg(); // Board configuration
+  AD5940PlatformCfg(); /* Board configuration */
 
   ADI_BLER_RESULT eResult;  
 
-  // Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID 
+  /* Bit:0 Sensor Data Packet Bits:1-7 : Sensor ID */
   eDataPacket.nPacketHeader = ADI_SET_HEADER(ADI_SENSOR_PACKET, BIA_ID);
 
-
-  
   while(1)
   {
     eResult = adi_ble_DispatchEvents(1);

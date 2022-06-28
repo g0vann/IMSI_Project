@@ -22,7 +22,7 @@ Analog Devices Software License Agreement.
 #include <AD5940.h>
 #include "ADuCM3029.h"
 
-#define SYSTICK_MAXCOUNT ((1L<<24)-1) /* we use Systick to complete function Delay10uS(). This value only applies to ADICUP3029 board. */
+#define SYSTICK_MAXCOUNT ((1L<<24)-1) /* We use Systick to complete function Delay10uS(). This value only applies to ADICUP3029 board. */
 #define SYSTICK_CLKFREQ   26000000L   /* Systick clock frequency in Hz. This only appies to ADICUP3029 board */
 volatile static uint32_t ucInterrupted = 0;       /* Flag to indicate interrupt occurred */
 

@@ -1,3 +1,38 @@
+/*
+******************************************************************************
+ @file:    Main.C
+ @author:  $ Author: FrancOlino $
+ @brief:   Firmware components
+ @version: $ Revision: 1.0 $
+ @date:    $ Date: 2022-06-27 $
+ -----------------------------------------------------------------------------
+
+Copyright (c) 2022 FrancOlino, Inc. All Rights Reserved.
+
+The code is designed to be part of a firmware executable on the 
+AD5940-Bioz board of the Analog Device.
+This script contains pieces of code that with a lot of probability
+will become part of the Insulinmeter 2.0 final firmware. The examples
+and Data Sheet provided by Analog Device were taken into consideration 
+to write the code.
+
+*****************************************************************************
+*/
+
+
+/*
+*****************************************************************************
+
+-----------------------------------------------------------------------------
+
+------------------------------- main.C --------------------------------------
+
+-----------------------------------------------------------------------------
+
+*****************************************************************************
+*/
+
+/***************************** Include Files ********************************/
 #include "stdio.h"
 #include "ADuCM3029.h"
 #include "AD5940.h"
@@ -13,21 +48,16 @@ uint32_t MCUPlatformInit(void *pCfg);
 extern int32_t adi_initComponents(void);
 void Received_Data(void);
 
-/**********************************************************
+/**************************************************************************
 
+------------------------------- BLE ---------------------------------------
 
-
-----------------------BLE---------------------------------
-
-
-
-
-**********************************************************/
+***************************************************************************/
 /* Peripheral BLE advertisement mode */
 #define PERIPHERAL_ADV_MODE      ((ADI_BLE_GAP_MODE)(ADI_BLE_GAP_MODE_CONNECTABLE | ADI_BLE_GAP_MODE_DISCOVERABLE))
 
 /* Global Data */
-bool               gbConnected;
+bool gbConnected;
 ADI_BLE_GAP_MODE   geMode;
 static char start2[50]="start2 ";
 
@@ -41,21 +71,20 @@ static void SetAdvertisingMode(void);
 
 /* Local Functions */
 static void Trap(void);
-/**********************************************************
-**********************************************************/
+/*************************************************************************
+**************************************************************************/
 
 int main(void)
 {
   
   void AD5940_MainBLE(void);
+  
   MCUPlatformInit(0);
   adi_initComponents();
   AD5940_MCUResourceInit(0);
   
   InitBluetoothLowEnergy();
-  
-  
-  
+
   AD5940_MainBLE();
 }
 
@@ -67,16 +96,16 @@ uint32_t MCUPlatformInit(void *pCfg)
   /*Stop watch dog timer(ADuCM3029)*/
   pADI_WDT0->CTL = 0xC9;
   /* Clock Configure */
-  pADI_CLKG0_OSC->KEY = 0xCB14;               // Select HFOSC as system clock.
-  pADI_CLKG0_OSC->CTL =                       // Int 32khz LFOSC selected in LFMUX
-    BITM_CLKG_OSC_CTL_HFOSCEN|BITM_CLKG_OSC_CTL_HFXTALEN;
+  pADI_CLKG0_OSC->KEY = 0xCB14; /* Access key to modify CLK0_OSC */
+  pADI_CLKG0_OSC->CTL =
+    BITM_CLKG_OSC_CTL_HFOSCEN|BITM_CLKG_OSC_CTL_HFXTALEN;  /* HFOSC selected */
 
-  while((pADI_CLKG0_OSC->CTL&BITM_CLKG_OSC_CTL_HFXTALOK) == 0);
+  while((pADI_CLKG0_OSC->CTL&BITM_CLKG_OSC_CTL_HFXTALOK) == 0); /* Waiting for the configuration */
 
-  pADI_CLKG0_OSC->KEY = 0xCB14; 
-  pADI_CLKG0_CLK->CTL0 = 0x201;                   /* Select XTAL as system clock */
-  pADI_CLKG0_CLK->CTL1 = 0;                   // ACLK,PCLK,HCLK divided by 1
-  pADI_CLKG0_CLK->CTL5 = 0x00;                 // Enable clock to all peripherals - no clock gating
+  pADI_CLKG0_OSC->KEY = 0xCB14; /* Access key to modify CLK0_OSC */
+  pADI_CLKG0_CLK->CTL0 = 0x201; /* Select XTAL as system clock */
+  pADI_CLKG0_CLK->CTL1 = 0; /* ACLK,PCLK,HCLK divided by 1 */
+  pADI_CLKG0_CLK->CTL5 = 0x00; /* Enable clock to all peripherals - no clock gating */
 
   UrtCfg(230400); /*Baud rate: 230400*/
   return 1;
@@ -99,49 +128,49 @@ uint32_t MCUPlatformInit(void *pCfg)
 
 int UrtCfg(int iBaud)
 {
-  int iBits = 3;//8bits, 
-  int iFormat = 0;//, int iBits, int iFormat
+  int iBits = 3; /*8bits*/ 
+  int iFormat = 0; /*int iBits, int iFormat */
   int i1;
   int iDiv;
   int iRtC;
   int iOSR;
   int iPllMulValue;
-  unsigned long long ullRtClk = 16000000;                // The root clock speed
+  unsigned long long ullRtClk = 16000000; /* The root clock speed* /
 
 
   /*Setup P0[11:10] as UART pins*/
   pADI_GPIO0->CFG = (1<<22)|(1<<20)|(pADI_GPIO0->CFG&(~((3<<22)|(3<<20))));
 
-  iDiv = (pADI_CLKG0_CLK->CTL1& BITM_CLKG_CLK_CTL1_PCLKDIVCNT);                 // Read UART clock as set by CLKCON1[10:8]
+  iDiv = (pADI_CLKG0_CLK->CTL1& BITM_CLKG_CLK_CTL1_PCLKDIVCNT); /*Read UART clock as set by CLKCON1[10:8] */
   iDiv = iDiv>>8;
   if (iDiv == 0)
     iDiv = 1;
-  iRtC = (pADI_CLKG0_CLK->CTL0& BITM_CLKG_CLK_CTL0_CLKMUX); // Check what is the root clock
+  iRtC = (pADI_CLKG0_CLK->CTL0& BITM_CLKG_CLK_CTL0_CLKMUX); /*Check what is the root clock */
 
 
   /* Our case is 1 due to the MCUPlatformInit settings: HFXTAL clock source*/	
   switch (iRtC)
   {
-  case 0:                                               // HFOSC selected
+  case 0:                                               /* HFOSC selected */
     ullRtClk = 26000000;
     break;
 
-  case 1:                                               // HFXTAL selected
-    if ((pADI_CLKG0_CLK->CTL0 & 0x200)==0x200)           // 26Mhz XTAL used
+  case 1:                                               /* HFXTAL selected */
+    if ((pADI_CLKG0_CLK->CTL0 & 0x200)==0x200)          /* 26Mhz XTAL used */
         ullRtClk = 26000000;
     else
-        ullRtClk = 16000000;                              // Assume 16MHz XTAL
+        ullRtClk = 16000000;                            /* Assume 16MHz XTAL */
     break;
 
-  case 2:                                               // SPLL output
-    iPllMulValue = (pADI_CLKG0_CLK->CTL3 &             // Check muliplication factor in PLL settings
-                    BITM_CLKG_CLK_CTL3_SPLLNSEL);      // bits[4:0]. Assume div value of 0xD in bits [14:11]
-    ullRtClk = (iPllMulValue *1000000);                // Assume straight multiplication by pADI_CLKG0_CLK->CTL3[4:0]
+  case 2:                                               /* SPLL output */
+    iPllMulValue = (pADI_CLKG0_CLK->CTL3 &              /* Check muliplication factor in PLL settings */
+                    BITM_CLKG_CLK_CTL3_SPLLNSEL);       /* bits[4:0]. Assume div value of 0xD in bits [14:11] */
+    ullRtClk = (iPllMulValue *1000000);                 /* Assume straight multiplication by pADI_CLKG0_CLK->CTL3[4:0] */
     break;
 
   case 3:
-    ullRtClk = 26000000;                                //External clock is assumed to be 26MhZ, if different
-    break;                                             //clock speed is used, this should be changed
+    ullRtClk = 26000000;                                /* External clock is assumed to be 26MhZ, if different */
+    break;                                              /* Clock speed is used, this should be changed */
 
   default:
     break;
@@ -149,7 +178,8 @@ int UrtCfg(int iBaud)
 
   pADI_UART0->COMLCR2 = 0x3;
   iOSR = 32;
-  i1 = (ullRtClk/(iOSR*iDiv))/iBaud-1;   //for bigger M and N value
+										 /* UART baud rate clock source is PCLK divided by OSR */	
+  i1 = (ullRtClk/(iOSR*iDiv))/iBaud-1;   /* For bigger M and N value */
   pADI_UART0->COMDIV = i1;
 
   pADI_UART0->COMFBR = 0x8800|(((((2048/(iOSR*iDiv))*ullRtClk)/i1)/iBaud)-2048);
@@ -158,10 +188,10 @@ int UrtCfg(int iBaud)
 
 
   pADI_UART0->COMFCR = (BITM_UART_COMFCR_RFTRIG & 0/*RX_FIFO_1BYTE*/ ) |BITM_UART_COMFCR_FIFOEN;
-  pADI_UART0->COMFCR |= BITM_UART_COMFCR_RFCLR|BITM_UART_COMFCR_TFCLR;                                   // Clear the UART FIFOs
-  pADI_UART0->COMFCR &= ~(BITM_UART_COMFCR_RFCLR|BITM_UART_COMFCR_TFCLR);                                // Disable clearing mechanism
+  pADI_UART0->COMFCR |= BITM_UART_COMFCR_RFCLR|BITM_UART_COMFCR_TFCLR; /* Clear the UART FIFOs */
+  pADI_UART0->COMFCR &= ~(BITM_UART_COMFCR_RFCLR|BITM_UART_COMFCR_TFCLR); /* Disable clearing mechanism */
 
-  NVIC_EnableIRQ(UART_EVT_IRQn);              // Enable UART interrupt source in NVIC
+  NVIC_EnableIRQ(UART_EVT_IRQn); /* Enable UART interrupt source in NVIC */
   pADI_UART0->COMIEN = BITM_UART_COMIEN_ERBFI|BITM_UART_COMIEN_ELSI; /* Rx Interrupt */
   return pADI_UART0->COMLSR;
 }
@@ -173,21 +203,25 @@ int fputc(int c, FILE *f)
 #endif
 {
   pADI_UART0->COMTX = c;
-  while((pADI_UART0->COMLSR&0x20) == 0);// tx fifo empty
+  while((pADI_UART0->COMLSR&0x20) == 0); /* tx fifo empty */
   return c;
 }
 
-
+/**
+   @brief External interrupt handler of the UART
+	
+   @note for each character calls UARTCmd_Process()
+**/
 void UART_Int_Handler(void)
 {
   void UARTCmd_Process(char);
   uint32_t flag;
-  flag = pADI_UART0->LSR; //Line Status Register 16bit register (it indicates if there have been transmission errors)
-  flag = pADI_UART0->IIR; //Interrupt ID register 16bit register
+  flag = pADI_UART0->LSR; /* Line Status Register 16bit register (it indicates if there have been transmission errors)*/
+  flag = pADI_UART0->IIR; /* Interrupt ID register 16bit register */
   
-  // Now flag has 32 bit and give information about rx
+  /* Now flag has 32 bit and give information about rx */
   
-  // First case: all bytes are recieved
+  /* First case: all bytes are recieved */
   if((flag & 0x0e) == 0x04)  /* Receive Byte */
   {
     uint32_t count;
@@ -195,12 +229,12 @@ void UART_Int_Handler(void)
     for(int i=0;i < count; i++)
     {
       char c;
-      c = pADI_UART0->COMRX&0xff; //COMRX contains the received character
-      UARTCmd_Process(c); // this function recognizes received data
+      c = pADI_UART0->COMRX&0xff; /* COMRX contains the received character */
+      UARTCmd_Process(c); /* This function recognizes received data */
     }
   }
   
-  // Second case: trasmission timeout, processing only what we have had
+  /* Second case: trasmission timeout, processing only what we have had */
   if((flag & 0x0e) == 0xc)  /* Time-out */
   {
     uint32_t count;
@@ -217,9 +251,9 @@ void UART_Int_Handler(void)
 
 
 
-/**********************************************************************/
-/* BLE CONFIG */
-/***********************************************************************/
+/**********************************************************************
+* --------------------------BLE CONFIG --------------------------------*
+***********************************************************************/
 
 /*!
  * @brief      Trap function
@@ -370,6 +404,11 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
 }
 
 
+/**
+   @brief External handler of the BLE
+	
+   @note for each rxDataPkt calls BLECmd_Process()
+**/
 /* Same as UART_Int_Handler*/
 void Received_Data(void){
   void BLECmd_Process(char [],int);
@@ -380,20 +419,20 @@ void Received_Data(void){
     aTemp[i] = pBLERadio->rxDataPkt.rxPkt[i];
   }
   
-  /* invert the order of the char */
+  /* Invert the order of the char */
   for (int i = 0;i<20;i++){
     aStringReceive[i] = aTemp [19-i];  
   }
   
-  /* prints received command */
+  /* Prints received command */
   for(int i = 0;i<20;i++){  
   printf("%c ",aStringReceive[i]);
   if(i==19)
     printf("\r\n");
   }
   
-  /* due to the lack of space for sending commands and all parameters, */
-  /* for the sweep we send only parameters to distinguish the two different measurement modes*/
+  /* Due to the lack of space for sending commands and all parameters, */
+  /* For the sweep we send only parameters to distinguish the two different measurement modes*/
   if(aStringReceive[0]!= 's' && aStringReceive[0]!= 'r'){
     
     for(int i = 7;i<26;i++){

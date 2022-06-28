@@ -1,8 +1,27 @@
-/*****************************************************************************/
-/* UartCMD.c handles the recognition of commands and parameters */
-/* and sets the BIA application */
+/*
+******************************************************************************
+ @file:    UartCMD.c
+ @author:  $ Author: FrancOlino $
+ @brief:   handles the recognition of commands and parameters 
+		   and sets the BIA application 
+ @version: $ Revision: 2.0 $
+ @date:    $ Date: 2022-06-27 $
 
-/*****************************************************************************/
+*****************************************************************************/
+
+/*
+*****************************************************************************
+
+-----------------------------------------------------------------------------
+
+------------------------------- UARTCmd.C -----------------------------------
+
+-----------------------------------------------------------------------------
+
+*****************************************************************************
+*/
+
+/***************************** Include Files ********************************/
 #include "stdint.h"
 #include "string.h"
 #include "stdio.h"
@@ -17,21 +36,22 @@
 #include "BodyImpedance.h"
 #include "ADuCM3029.h"
 
+/************************* Variable Definitions ****************************/
 extern float scelta;
 #define APPBUFF_SIZE 512
 uint32_t AppBuff[APPBUFF_SIZE];
 
 #define  VERSION  "FrancOlino v2.0"
-#define LINEBUFF_SIZE 128 /* max input buffer size */
-#define CMDTABLE_SIZE 4  /* number of commands */
+#define LINEBUFF_SIZE 128 /* Max input buffer size */
+#define CMDTABLE_SIZE 4  /* Number of commands */
 #define PI 3.141592654
 
 /* Variables used to set BIA */
-int b = 0; /* semaphore to signal whether or not we are in measurement */
+int b = 0; /* Semaphore to signal whether or not we are in measurement */
 float scelta = 50000, Freq1, Freq2;
 uint32_t Npunti = 0, Ncicli = 0;
 
-/**********BLE*********************/
+/*********************************BLE*************************************/
 extern bool gbConnected;
 extern ADI_DATA_PACKET eDataPacket;
  
@@ -62,6 +82,13 @@ uint32_t Cli_stop(float para1,float para2, float para3, float para4);
 uint32_t Cli_start2(float para1,float para2, float para3, float para4);
 uint32_t Cli_reset(float para1,float para2, float para3, float para4);
 
+/** 
+	@brief	Struct which describes functions that can be called 
+		    by external commands.
+	@var	pObj - pointer to the function prototype
+			cmd_name - function name
+			pDesc - function description
+**/
 struct __uartcmd_table
 {
   void *pObj;
@@ -76,15 +103,22 @@ struct __uartcmd_table
 
 };
 
-
+/**
+   @brief Reset the device
+**/
 uint32_t Cli_reset(float para1,float para2, float para3, float para4){
         /* resets semaphore and the board*/
 		b=0;  
         NVIC_SystemReset();
 }
 
+/**
+   @brief Start function for sweep measurement
+   
+   @param para1, para2, para3, para4 - arguments on the command line.
 
-/* Start function for sweep measurement */
+   @return 0 if correct.
+**/
 uint32_t Cli_start2(float para1,float para2, float para3, float para4){
         if(b==0){  //checks if measurement already strated
         SweepON = bTRUE;
@@ -100,7 +134,13 @@ uint32_t Cli_start2(float para1,float para2, float para3, float para4){
 	return 0;
 }
 
-/* Start function for single measurement */
+/**
+   @brief Start function for single measurement
+   
+   @param para1 & para2 - arguments on the command line.
+
+   @return 0 if correct.
+**/
 uint32_t Cli_start(float para1,float para2, float para3, float para4){
         if(b==0){  //checks if measurement already strated
           SweepON = bFALSE;
@@ -113,6 +153,11 @@ uint32_t Cli_start(float para1,float para2, float para3, float para4){
 	return 0;
 }
 
+/**
+   @brief Stop the Application
+   
+   @return 0 if correct.
+**/
 uint32_t Cli_stop(float para1,float para2, float para3, float para4){
 	  /* resets semaphore and stop the BIA measurement*/
       b=0;      
@@ -120,9 +165,11 @@ uint32_t Cli_stop(float para1,float para2, float para3, float para4){
       return 0;
 }
 
-
-
-/* Recognize and remove all the spaces in the received buffer */
+/**
+   @brief Recognize and remove all the spaces in the received buffer
+   
+   @return Received buffer without spaces
+**/
 void UARTCmd_RemoveSpaces(void)
 {
   int i = 0;
@@ -154,7 +201,13 @@ void UARTCmd_RemoveSpaces(void)
   }
 }
 
-/* Search for keywords corresponding to commands */
+/**
+   @brief Search for keywords corresponding to commands
+   
+   @param line_buffer(command line received)
+   
+   @return pObjFound - pointer to command function
+**/
 void UARTCmd_MatchCommand(void)
 {
   char *pcmd;
@@ -180,8 +233,14 @@ void UARTCmd_MatchCommand(void)
   }
 }
 
+/**
+   @brief Translate string 'p' to number, store results in 'Res' 
+   
+   @param s - string in input 
+		  Res - pointer to number in output
 
-/* Convert strings to double */
+   @return return error code or 0 if correct
+**/
 static uint32_t Str2Num(char *s, float *Res)
 {
    
@@ -190,8 +249,13 @@ static uint32_t Str2Num(char *s, float *Res)
   return 0;
 }
 
+/**
+   @brief Interprets the buffer to capture parameters
+   
+   @param p - pointer to linebuffer
 
-/* Search for parameters */
+   @return the first and the second, the third and the fourth parameters
+**/
 void UARTCmd_TranslateParas(void)
 {
   char *p = line_buffer;
@@ -217,9 +281,11 @@ void UARTCmd_TranslateParas(void)
   Str2Num(p, &parameter4); /* Terzo parametro sicuro è un intero */
 }
 
-
-/* Function called by UART handler:  */
-/* take received buffer and process it  */
+/**
+   @brief Command line interpreter process function called by UART external interrupt handler
+   
+   @param char c - byte form UART
+**/
 void UARTCmd_Process(char c)
 {
   if(line_buffer_index >= LINEBUFF_SIZE-1)
@@ -268,8 +334,11 @@ void UARTCmd_Process(char c)
 ------------------------------------BLE--------------------------------------
 ****************************************************************************/
 
-/* Function called by BLE handler:  */
-/* take received buffer and process it  */
+/**
+   @brief Command line interpreter process function called by BLE handler
+   
+   @param char c [] - string from BLE
+**/
 void BLECmd_Process(char c[],int a){
   
   uint32_t res;
@@ -303,9 +372,10 @@ void BLECmd_Process(char c[],int a){
   
 }
 
-
-
-/* Every time is interrupted call the BIA ISR to process data  */
+/**
+   @brief  Every time is interrupted call the BIA ISR to process data
+   
+**/
 void Function_BIA(void){
     /* Checks if interrupt flag is up, which will be set when interrupt occurred. */
     if(AD5940_GetMCUIntFlag())
