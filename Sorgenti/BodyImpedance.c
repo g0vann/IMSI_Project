@@ -9,17 +9,25 @@ This software is proprietary to Analog Devices, Inc. and its licensors.
 By using this software you agree to the terms of the associated
 Analog Devices Software License Agreement.
  
+*****************************************************************************
+
+
+
+The code is designed to be part of a firmware executable on the 
+AD5940-Bioz board of the Analog Device.
+This script contains pieces of code that with a lot of probability
+will become part of the Insulinmeter 2.0 final firmware. The examples
+and Data Sheet provided by Analog Device were taken into consideration 
+to write the code
+ 
 *****************************************************************************/
+
 
 #include "BodyImpedance.h"
 extern int b;
 extern float scelta;
 
-/* 
-  Application configuration structure. Specified by user from template.
-  The variables are usable in this whole application.
-  It includes basic configuration for sequencer generator and application related parameters
-*/
+
 /**
    @brief   Application configuration structure. Specified by user from template.
 			The variables are usable in this whole application.

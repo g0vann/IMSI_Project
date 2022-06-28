@@ -40,7 +40,7 @@
 int32_t adi_initpinmux(void);
 
 /*
- * Initialize the Port Control MUX Registers
+ * Initialize Port Control MUX Registers
  */
  
  

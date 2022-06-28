@@ -115,7 +115,7 @@ uint32_t Cli_reset(float para1,float para2, float para3, float para4){
 /**
    @brief Start function for sweep measurement
    
-   @param para1, para2, para3, para4 - arguments on the command line.
+   @param para1, para2, para3, para4 - arguments from command line.
 
    @return 0 if correct.
 **/
@@ -137,12 +137,12 @@ uint32_t Cli_start2(float para1,float para2, float para3, float para4){
 /**
    @brief Start function for single measurement
    
-   @param para1 & para2 - arguments on the command line.
+   @param para1 & para2 - arguments from command line.
 
    @return 0 if correct.
 **/
 uint32_t Cli_start(float para1,float para2, float para3, float para4){
-        if(b==0){  //checks if measurement already strated
+        if(b==0){  /* checks if measurement already strated */
           SweepON = bFALSE;
           scelta  = para1;
         }
@@ -284,7 +284,7 @@ void UARTCmd_TranslateParas(void)
 /**
    @brief Command line interpreter process function called by UART external interrupt handler
    
-   @param char c - byte form UART
+   @param char c - byte from UART
 **/
 void UARTCmd_Process(char c)
 {
@@ -373,7 +373,7 @@ void BLECmd_Process(char c[],int a){
 }
 
 /**
-   @brief  Every time is interrupted call the BIA ISR to process data
+   @brief  Every time an interrupt accours calls the BIA ISR to process data
    
 **/
 void Function_BIA(void){

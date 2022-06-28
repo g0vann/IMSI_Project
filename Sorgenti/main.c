@@ -369,6 +369,7 @@ static void ApplicationCallback(void * pCBParam, uint32_t Event, void * pArg)
 
         case DATA_EXCHANGE_RX_EVENT:
             //printf("Data received!\r\n");
+			
 			/* Calls the function to handle received data packets */
             Received_Data();  
             break;

@@ -8,17 +8,17 @@
  @date:    $ Date: 2022-06-27 $
  -----------------------------------------------------------------------------
 
-This software is proprietary to Analog Devices, Inc. and its licensors.
-By using this software you agree to the terms of the associated
-Analog Devices Software License Agreement.
+Copyright (c) 2022 FrancOlino, Inc. All Rights Reserved.
+
+The code is designed to be part of a firmware executable on the 
+AD5940-Bioz board of the Analog Device.
+This script contains pieces of code that with a lot of probability
+will become part of the Insulinmeter 2.0 final firmware. The examples
+and Data Sheet provided by Analog Device were taken into consideration 
+to write the code
  
 *****************************************************************************/
-/** 
- * @addtogroup AD5940_System_Examples
- * @{
- *  @defgroup BioElec_Example
- *  @{
-  */
+
   
 /***************************** Include Files ********************************/
 #include "ad5940.h"
